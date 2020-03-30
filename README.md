@@ -29,7 +29,7 @@ The program is modeled on an IETF working group and uses its mailing list to dev
 
 One or more design teams may be set up during the course of the program, but their output must be considered and validated according to the usual consensus process.  Design team output has no special standing.
 
-Participants may appeal consensus calls to the IAB[RFC7282](https://www.rfc-editor.org/rfc/rfc7282.html).
+Participants may appeal consensus calls to the IAB[(see RFC7282)](https://www.rfc-editor.org/rfc/rfc7282.html).
 
 In addition to a chair, the program has two IAB program leads.  Those leads will act as liaisons between the chair and the IAB for logistical and other formal matters. All members of the IAB, including the liaisons, may also participate in the group as ordinary members.
 Members
