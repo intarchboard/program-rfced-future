@@ -25,11 +25,11 @@ This program has no predetermined constraints on the decisions of the group.  Up
 
 ## Working Methods
 
-The program is modeled on an IETF working group and uses its mailing list to develop and validate consensus among the participants.  Participants must adhere to the IETF participation policies set out in the Note Well [Note Well](https://www.ietf.org/about/note-well/).   Decisions are made using rough consensus as determined by the chairs.
+The program is modeled on an IETF working group and uses its mailing list to develop and validate consensus among the participants.  Participants must adhere to the IETF participation policies set out in the [Note Well](https://www.ietf.org/about/note-well/).   Decisions are made using rough consensus as determined by the chairs.
 
 One or more design teams may be set up during the course of the program, but their output must be considered and validated according to the usual consensus process.  Design team output has no special standing.
 
-Participants may appeal consensus calls to the IAB[(see RFC7282)](https://www.rfc-editor.org/rfc/rfc7282.html).
+Participants may appeal consensus calls to the IAB [(see RFC7282)](https://www.rfc-editor.org/rfc/rfc7282.html).
 
 In addition to a chair, the program has two IAB program leads.  Those leads will act as liaisons between the chair and the IAB for logistical and other formal matters. All members of the IAB, including the liaisons, may also participate in the group as ordinary members.
 Members
