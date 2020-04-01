@@ -1,7 +1,7 @@
 # Suggested Reading Material
 
-- All the minutes of the interims from last year
-- draft-flanagan-rseme-03
+- All the minutes of the interims from last year (mostly summarized in the next link)
+- [draft-flanagan-rseme-03](https://datatracker.ietf.org/doc/draft-flanagan-rseme/)
 - RFCs [8700](https://www.rfc-editor.org/rfc/rfc8700.html), [5540](https://www.rfc-editor.org/rfc/rfc5540.html), and [2555](https://www.rfc-editor.org/rfc/rfc2555.html) on the series history
 - [RFC 8728 RFC Editor Model (Version 2.0)](https://www.rfc-editor.org/rfc/rfc8728.html)
 - [RFC 8729 The RFC Series and RFC Editor](https://www.rfc-editor.org/rfc/rfc8729.html)
