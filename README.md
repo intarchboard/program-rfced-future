@@ -34,4 +34,12 @@ Participants may appeal consensus calls to the IAB [(see RFC7282)](https://www.r
 In addition to a chair, the program has two IAB program leads.  Those leads will act as liaisons between the chair and the IAB for logistical and other formal matters. All members of the IAB, including the liaisons, may also participate in the group as ordinary members.
 Members
 
+### Github and the issue tracker
+
+The chair intends to use the Github repositor and the issue tracker for management of the program.  However, issues **M
+UST NOT** be opened without discussion occurring on the mailing list, and discussion about the issues themselves should occur on list, which is where consensus will be judged.
+
+# Who can participate?
+
 This program is open to participation by anyone.
+
