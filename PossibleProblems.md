@@ -3,8 +3,8 @@
 This file contains notes from the rfced-future list that various people have stated are things they would
 like to see the group focus on as we consider the evolution of the RFC Editor function.  This file is simply
 notes, has **no normative value**, and should not be added to without a reference to the mailing list archive.
-Duplicates are not necessary.  The group will not agree to all of these points.  A great many
-may be left untouched, and some of them may have been understood by the person writing this file.  When in doubt,
+Duplicates are not necessary.  The group will not agree to all of these points, and some may not even be at all in scope.
+A great many may be left untouched, and some of them may have been understood by the person writing this file.  When in doubt,
 [Go read the mail archive](https://mailarchive.ietf.org/arch/browse/rfced-future/?so=frm).
 
 ## Points made
