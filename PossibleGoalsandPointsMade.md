@@ -27,4 +27,5 @@ A great many may be left untouched, and some of them may have been understood by
 - [AUTH48 changes can be substantive after IESG approval.](https://mailarchive.ietf.org/arch/msg/rfced-future/pdEYwz-zk9b0Iqp-LReFIBkyKY8/)
   - [Expectations between the community and the RFC Editor need to be correct](https://mailarchive.ietf.org/arch/msg/rfced-future/4DZsoSreKLN6WJSOLV-IQgR2Ics/)
   - [AUTH48 and flow is for the RFC Editor to define, not this group](https://mailarchive.ietf.org/arch/msg/rfced-future/jh4Zh63_dV3mN0CWkDmkST2rcg8/)
+  - [There's existing process to handle significant changes in AUTH48](https://mailarchive.ietf.org/arch/msg/rfced-future/meXj7jaRSCKQil3nkom-uIchMZM/)
 - [What happens to the series if the IETF disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/QVqoZ6xQ4V63yP7xv8eC8iCPIqw/)
