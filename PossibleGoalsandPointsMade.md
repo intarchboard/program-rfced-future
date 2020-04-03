@@ -25,6 +25,6 @@ A great many may be left untouched, and some of them may have been understood by
 - [Lines of responsibility - multiple posts](https://mailarchive.ietf.org/arch/msg/rfced-future/nAJlr9e7_ROZqPN1NomTb43iAWc/)
 
 - [AUTH48 changes can be substantive after IESG approval.](https://mailarchive.ietf.org/arch/msg/rfced-future/pdEYwz-zk9b0Iqp-LReFIBkyKY8/)
-  - Expectations between the community and the RFC Editor need to be correct](https://mailarchive.ietf.org/arch/msg/rfced-future/4DZsoSreKLN6WJSOLV-IQgR2Ics/)
+  - [Expectations between the community and the RFC Editor need to be correct](https://mailarchive.ietf.org/arch/msg/rfced-future/4DZsoSreKLN6WJSOLV-IQgR2Ics/)
   - [AUTH48 and flow is for the RFC Editor to define, not this group](https://mailarchive.ietf.org/arch/msg/rfced-future/jh4Zh63_dV3mN0CWkDmkST2rcg8/)
 - [What happens to the series if the IETF disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/QVqoZ6xQ4V63yP7xv8eC8iCPIqw/)
