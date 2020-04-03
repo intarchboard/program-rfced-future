@@ -20,7 +20,11 @@ A great many may be left untouched, and some of them may have been understood by
 - [Focus on relationships and lines of responsibility](https://mailarchive.ietf.org/arch/msg/rfced-future/mACM0l8ASnbJkkhPxDfRSytPkww/)
 - [Worry about 50 years and legacy](https://mailarchive.ietf.org/arch/msg/rfced-future/EX5J94A0OYLfUyy3FSny7jk033s/)
   - [Having an understanding of archival tools is important for the role](https://mailarchive.ietf.org/arch/msg/rfced-future/KekoguNjTxLCNHdZ8O2U17G0SX0/)
+  - [Separating process from personnel?](https://mailarchive.ietf.org/arch/msg/rfced-future/DsLv7VtVt-5d8LF4NtsZngeW_Gg/)
+  - [We need to set a vision of where we want to be and then work to get there](https://mailarchive.ietf.org/arch/msg/rfced-future/aOr9Hc5QnT7wQNUVV_prds8babw/)
 - [Lines of responsibility - multiple posts](https://mailarchive.ietf.org/arch/msg/rfced-future/nAJlr9e7_ROZqPN1NomTb43iAWc/)
-- [Separating process from personnel?](https://mailarchive.ietf.org/arch/msg/rfced-future/DsLv7VtVt-5d8LF4NtsZngeW_Gg/)
+
 - [AUTH48 changes can be substantive after IESG approval.](https://mailarchive.ietf.org/arch/msg/rfced-future/pdEYwz-zk9b0Iqp-LReFIBkyKY8/)
+  - Expectations between the community and the RFC Editor need to be correct](https://mailarchive.ietf.org/arch/msg/rfced-future/4DZsoSreKLN6WJSOLV-IQgR2Ics/)
+  - [AUTH48 and flow is for the RFC Editor to define, not this group](https://mailarchive.ietf.org/arch/msg/rfced-future/jh4Zh63_dV3mN0CWkDmkST2rcg8/)
 - [What happens to the series if the IETF disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/QVqoZ6xQ4V63yP7xv8eC8iCPIqw/)
