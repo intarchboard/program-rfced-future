@@ -29,3 +29,4 @@ A great many may be left untouched, and some of them may have been understood by
   - [AUTH48 and flow is for the RFC Editor to define, not this group](https://mailarchive.ietf.org/arch/msg/rfced-future/jh4Zh63_dV3mN0CWkDmkST2rcg8/)
   - [There's existing process to handle significant changes in AUTH48](https://mailarchive.ietf.org/arch/msg/rfced-future/meXj7jaRSCKQil3nkom-uIchMZM/)
 - [What happens to the series if the IETF disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/QVqoZ6xQ4V63yP7xv8eC8iCPIqw/)
+- [What happens to the IETF if the series disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/nEik-2zK7KKDnFbc_7qSyIdgR3Q/)
