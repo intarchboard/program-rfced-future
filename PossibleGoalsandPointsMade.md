@@ -13,7 +13,7 @@ A great many may be left untouched, and some of them may have been understood by
 - [**Do** focus on what we want the series to be](https://mailarchive.ietf.org/arch/msg/rfced-future/U6LNEOu3ZfEmfULFKuw74D4dpOw/)
   - Record agreements
   - Timely publication
-    - Copy editing can slow that process
+   - Copy editing can slow that process
   - Role should fit existing organizational structure
   - Bespoke tooling is a bug not a feature
   - Worry less about legacy
@@ -30,3 +30,16 @@ A great many may be left untouched, and some of them may have been understood by
   - [There's existing process to handle significant changes in AUTH48](https://mailarchive.ietf.org/arch/msg/rfced-future/meXj7jaRSCKQil3nkom-uIchMZM/)
 - [What happens to the series if the IETF disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/QVqoZ6xQ4V63yP7xv8eC8iCPIqw/)
 - [What happens to the IETF if the series disappears](https://mailarchive.ietf.org/arch/msg/rfced-future/nEik-2zK7KKDnFbc_7qSyIdgR3Q/)
+- [What technical capabilities should the RFC Editor be expected to have?](https://mailarchive.ietf.org/arch/msg/rfced-future/nliHb9t7uM9MbEL8OTDw1b5bifg/)
+  - proficiency in ontologies and RDF?   XML schemas and translators?  Graphics standards such as SVG?
+- Tooling versus standards
+  - [Standards from tooling or tooling from standards?](https://mailarchive.ietf.org/arch/msg/rfced-future/mw7IIVqxI1ml-lDyvtFobtF1YFs/)
+  - [Who governs compliance?](https://mailarchive.ietf.org/arch/msg/rfced-future/nliHb9t7uM9MbEL8OTDw1b5bifg/)
+   - RFC Editor?
+   - Some sort of committee?
+- [Who owns the overall strategy for the series?](https://mailarchive.ietf.org/arch/msg/rfced-future/nliHb9t7uM9MbEL8OTDw1b5bifg/)
+- [Ability to locate all related documents necessary to implement a standard](https://mailarchive.ietf.org/arch/msg/rfced-future/nliHb9t7uM9MbEL8OTDw1b5bifg/)
+  - [What part of the problem is for the RFC Editor and what part for others?](https://mailarchive.ietf.org/arch/msg/rfced-future/IVTccPo3KDuyZCfEzWKJOgMT9EU/)
+- [Who owns the series (multiple posts)](https://mailarchive.ietf.org/arch/msg/rfced-future/FmxgwqmkmU3tAFtDW9QqIDa31Gc/)
+  - Is the RFC Editor owner, consultant, or servant?
+   - [All of the Above at different times](https://mailarchive.ietf.org/arch/msg/rfced-future/VstPblRzMLGeUbFNPFYvYXfMc1w/)
