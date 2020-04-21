@@ -7,10 +7,9 @@ Duplicates are not necessary.  The group will not agree to all of these points, 
 A great many may be left untouched, and some of them may have been understood by the person writing this file.  When in doubt,
 [Go read the mail archive](https://mailarchive.ietf.org/arch/browse/rfced-future/?so=frm).
 
-An attempt at a summary of below.
+## An attempt at a summary of below.
 
-
-# The role(s)
+### The role(s)
 * Sets strategy?
 * Having an understanding of archival tools is important for the role
 * What technical capabilities should the RFC Editor be expected to have
@@ -20,9 +19,9 @@ An attempt at a summary of below.
 * Responsibility to set publishing standards?
 * Compliance with publication standards?
 
-Relationships and lines of responsibility, and transparency
+### Relationships and lines of responsibility, and transparency
 
-What we want from the series
+### What we want from the series
 * Record agreements
 * Timely publication
 * Copy editing can slow that process
