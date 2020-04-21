@@ -7,6 +7,32 @@ Duplicates are not necessary.  The group will not agree to all of these points, 
 A great many may be left untouched, and some of them may have been understood by the person writing this file.  When in doubt,
 [Go read the mail archive](https://mailarchive.ietf.org/arch/browse/rfced-future/?so=frm).
 
+An attempt at a summary of below.
+
+
+# The role(s)
+* Sets strategy?
+* Having an understanding of archival tools is important for the role
+* What technical capabilities should the RFC Editor be expected to have
+* Responsibility for the RPC and its budget?
+* Authority to impose minimum standards for editing of docs
+* Tooling responsibility?
+* Responsibility to set publishing standards?
+* Compliance with publication standards?
+
+Relationships and lines of responsibility, and transparency
+
+What we want from the series
+* Record agreements
+* Timely publication
+* Copy editing can slow that process
+* Role should fit existing organizational structure
+* Bespoke tooling is a bug not a feature
+* Should we worry about legacy?
+* What happens to the series if the IETF disappears
+* What happens to the IETF if the series disappears
+* Ease of navigation?
+
 ## Points made
 
 - [Focus on the role; **Don't** focus on what we want the series to be - a great many people](https://mailarchive.ietf.org/arch/msg/rfced-future/x1OMhYw7Rm0fag_LGfCTdKUNpus/)
