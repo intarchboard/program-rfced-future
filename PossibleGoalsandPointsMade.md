@@ -23,6 +23,8 @@ A great many may be left untouched, and some of them may have been understood by
 
 
 ### Relationships and lines of responsibility, and transparency
+* Where does the role fit in?
+* What are the roles?
 
 ### What we want from the series
 * Record agreements
@@ -39,10 +41,11 @@ A great many may be left untouched, and some of them may have been understood by
 
 - [Focus on the role; **Don't** focus on what we want the series to be - a great many people](https://mailarchive.ietf.org/arch/msg/rfced-future/x1OMhYw7Rm0fag_LGfCTdKUNpus/)
 - [**Do** focus on what we want the series to be](https://mailarchive.ietf.org/arch/msg/rfced-future/U6LNEOu3ZfEmfULFKuw74D4dpOw/)
-  - Record agreements
+  - [Record agreements (see also this message)](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
   - Timely publication
    - Copy editing can slow that process
   - Role should fit existing organizational structure
+   - [Where does the role fit in?](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
   - Bespoke tooling is a bug not a feature
   - Worry less about legacy
 - [Focus on relationships and lines of responsibility](https://mailarchive.ietf.org/arch/msg/rfced-future/mACM0l8ASnbJkkhPxDfRSytPkww/)
@@ -89,4 +92,6 @@ A great many may be left untouched, and some of them may have been understood by
    - The user experience even for searching and retrieving RFCs is inconsistent.
    - 3d matrix of streams/maturity levels/routes to publication is lost on others.
 - [The series lacks a sound technology management process](https://mailarchive.ietf.org/arch/msg/rfced-future/2PpDfGNyICpimKbpaLIsBQwYbrc/)
+- [Stream managers meetings provide a valuable forum for discussion](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
+- [Should RSE have a separate stream?](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
 
