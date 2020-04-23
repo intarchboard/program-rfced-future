@@ -18,6 +18,9 @@ A great many may be left untouched, and some of them may have been understood by
 * Tooling responsibility?
 * Responsibility to set publishing standards?
 * Compliance with publication standards?
+* Establishing/overseeing formal processes to determine the value of RFCs to societies?
+    * Provides recommendations to make series more accessible to the various audiences?
+
 
 ### Relationships and lines of responsibility, and transparency
 
@@ -77,3 +80,13 @@ A great many may be left untouched, and some of them may have been understood by
 - [Different audiences have different needs](https://mailarchive.ietf.org/arch/msg/rfced-future/TQlqs8cxWJtu_cVHqINZHH-KlDI/)
 - [Not in scope for this group: the form of RFCS](https://mailarchive.ietf.org/arch/msg/rfced-future/TQlqs8cxWJtu_cVHqINZHH-KlDI/)
 - [Stature of the role elsewhere is lower](https://mailarchive.ietf.org/arch/msg/rfced-future/TQlqs8cxWJtu_cVHqINZHH-KlDI/)
+- [No process to determine how well the RFC series is serving the various audiences](https://mailarchive.ietf.org/arch/msg/rfced-future/2PpDfGNyICpimKbpaLIsBQwYbrc/)
+   - No body of knowledge as to how those audiences are using RFCs
+   - No rigorous method for understanding the role of RFCs in the world
+   - Having a whollistic picture isn't possible.
+   - Difficult to make decisions absent this information.
+- [The structure/contours of the series are opaque to people outside the process](https://mailarchive.ietf.org/arch/msg/rfced-future/2PpDfGNyICpimKbpaLIsBQwYbrc/)
+   - The user experience even for searching and retrieving RFCs is inconsistent.
+   - 3d matrix of streams/maturity levels/routes to publication is lost on others.
+- [The series lacks a sound technology management process](https://mailarchive.ietf.org/arch/msg/rfced-future/2PpDfGNyICpimKbpaLIsBQwYbrc/)
+
