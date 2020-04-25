@@ -25,6 +25,8 @@ A great many may be left untouched, and some of them may have been understood by
 ### Relationships and lines of responsibility, and transparency
 * Where does the role fit in?
 * What are the roles?
+* To whom is each accountable?
+* How is that accountability expressed?
 
 ### What we want from the series
 * Record agreements
