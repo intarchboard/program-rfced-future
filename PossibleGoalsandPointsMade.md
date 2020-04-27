@@ -13,11 +13,12 @@ A great many may be left untouched, and some of them may have been understood by
 * Sets strategy?
 * Having an understanding of archival tools is important for the role
 * What technical capabilities should the RFC Editor be expected to have
+* What publishing experience is the RSE expected to have?
 * Responsibility for the RPC and its budget?
 * Authority to impose minimum standards for editing of docs
 * Tooling responsibility?
 * Responsibility to set publishing standards?
-* Compliance with publication standards?
+* Insuring compliance with publication standards?
 * Establishing/overseeing formal processes to determine the value of RFCs to societies?
     * Provides recommendations to make series more accessible to the various audiences?
 
@@ -27,6 +28,7 @@ A great many may be left untouched, and some of them may have been understood by
 * What are the roles?
 * To whom is each accountable?
 * How is that accountability expressed?
+* What happens when there are conflicting requirements between the streams?
 
 ### What we want from the series
 * Record agreements
@@ -96,4 +98,9 @@ A great many may be left untouched, and some of them may have been understood by
 - [The series lacks a sound technology management process](https://mailarchive.ietf.org/arch/msg/rfced-future/2PpDfGNyICpimKbpaLIsBQwYbrc/)
 - [Stream managers meetings provide a valuable forum for discussion](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
 - [Should RSE have a separate stream?](https://mailarchive.ietf.org/arch/msg/rfced-future/BVMr_Mo7618VcdTBkx2T3im-SzA/)
-
+- [Does the RFC Editor require publishing experience](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
+- [How do we get feedback from users of the RFC Series](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
+- [Independence of the RSE](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
+   - How to keep the requirements of one stream from impacting others?
+- [How should change control over the series be handled?](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
+- [Management of Development of tools](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
