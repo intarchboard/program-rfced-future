@@ -21,11 +21,12 @@ A great many may be left untouched, and some of them may have been understood by
 * Insuring compliance with publication standards?
 * Establishing/overseeing formal processes to determine the value of RFCs to societies?
     * Provides recommendations to make series more accessible to the various audiences?
+* What level of effort should we expect to accomplish all of this?
 
 
 ### Relationships and lines of responsibility, and transparency
-* Where does the role fit in?
-* What are the roles?
+* What roles are defined and is their relationship to one another?
+   * RSE, RSOC, IAB, IESG, Stream managers, LLC, ED, others?
 * To whom is each accountable?
 * How is that accountability expressed?
 * What happens when there are conflicting requirements between the streams?
@@ -104,3 +105,9 @@ A great many may be left untouched, and some of them may have been understood by
    - How to keep the requirements of one stream from impacting others?
 - [How should change control over the series be handled?](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
 - [Management of Development of tools](https://mailarchive.ietf.org/arch/msg/rfced-future/BNYoO4_LLj5oHiF6-nD2jt9OuLc/)
+- [Conflict of Interest Requirements](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+- [Level of Effort to do the job](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+- [Would a different home for the RSE be a good thing?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+   - Could the publication be subsumed by another association?
+- [Do the IAB/IESG have the right skill sets to oversee the RSE?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+- [Consensus directed or Community Driven?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
