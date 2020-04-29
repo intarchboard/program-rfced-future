@@ -109,5 +109,5 @@ A great many may be left untouched, and some of them may have been understood by
 - [Level of Effort to do the job](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
 - [Would a different home for the RSE be a good thing?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
    - Could the publication be subsumed by another association?
-- [Do the IAB/IESG have the right skill sets to oversee the RSE?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+- [The IAB/IESG do not have the right skill sets to oversee the RSE?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
 - [Consensus directed or Community Driven?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
