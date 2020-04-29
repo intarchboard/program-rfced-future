@@ -25,7 +25,7 @@ A great many may be left untouched, and some of them may have been understood by
 
 
 ### Relationships and lines of responsibility, and transparency
-* What roles are defined and is their relationship to one another?
+* What roles are defined and what is their relationship to one another?
    * RSE, RSOC, IAB, IESG, Stream managers, LLC, ED, others?
    * To whom is each accountable?
    * How is that accountability expressed?
