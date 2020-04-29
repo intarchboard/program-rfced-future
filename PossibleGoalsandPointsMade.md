@@ -11,8 +11,8 @@ A great many may be left untouched, and some of them may have been understood by
 
 ### The role(s)
 * Sets strategy?
-* Having an understanding of archival tools is important for the role
-* What technical capabilities should the RFC Editor be expected to have
+* What technical capabilities should the RSE be expected to have
+   * Is an understanding of archival tools important for the RSE role?
 * What publishing experience is the RSE expected to have?
 * Responsibility for the RPC and its budget?
 * Authority to impose minimum standards for editing of docs
@@ -27,8 +27,8 @@ A great many may be left untouched, and some of them may have been understood by
 ### Relationships and lines of responsibility, and transparency
 * What roles are defined and is their relationship to one another?
    * RSE, RSOC, IAB, IESG, Stream managers, LLC, ED, others?
-* To whom is each accountable?
-* How is that accountability expressed?
+   * To whom is each accountable?
+   * How is that accountability expressed?
 * What happens when there are conflicting requirements between the streams?
 
 ### What we want from the series
