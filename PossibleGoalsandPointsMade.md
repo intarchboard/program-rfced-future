@@ -15,6 +15,7 @@ A great many may be left untouched, and some of them may have been understood by
    * Is an understanding of archival tools important for the RSE role?
 * What publishing experience is the RSE expected to have?
 * Responsibility for the RPC and its budget?
+* Who owns the series?
 * Authority to impose minimum standards for editing of docs
 * Tooling responsibility?
 * Responsibility to set publishing standards?
@@ -22,7 +23,6 @@ A great many may be left untouched, and some of them may have been understood by
 * Establishing/overseeing formal processes to determine the value of RFCs to societies?
     * Provides recommendations to make series more accessible to the various audiences?
 * What level of effort should we expect to accomplish all of this?
-
 
 ### Relationships and lines of responsibility, and transparency
 * What roles are defined and what is their relationship to one another?
@@ -111,3 +111,4 @@ A great many may be left untouched, and some of them may have been understood by
    - Could the publication be subsumed by another association?
 - [The IAB/IESG do not have the right skill sets to oversee the RSE?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
 - [Consensus directed or Community Driven?](https://mailarchive.ietf.org/arch/msg/rfced-future/DAVhuWBw9M9ptH1VQgiglqmR2AQ/)
+- [Could the series be used by another SDO?](https://mailarchive.ietf.org/arch/msg/rfced-future/SBkvqnSmkswnYnMa4xsZEHhZWII/)
