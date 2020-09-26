@@ -36,8 +36,7 @@ Members
 
 ### Github and the issue tracker
 
-The chair intends to use the Github repositor and the issue tracker for management of the program.  However, issues **M
-UST NOT** be opened without discussion occurring on the mailing list, and discussion about the issues themselves should occur on list, which is where consensus will be judged.
+The chair intends to use the Github repositor and the issue tracker for management of the program.  However, issues **MUST NOT** be opened without discussion occurring on the mailing list, and discussion about the issues themselves should occur on list, which is where consensus will be judged.
 
 # Who can participate?
 
