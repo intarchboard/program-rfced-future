@@ -32,7 +32,7 @@ One or more design teams may be set up during the course of the program, but the
 Participants may appeal consensus calls to the IAB [(see RFC7282)](https://www.rfc-editor.org/rfc/rfc7282.html).
 
 In addition to a chair, the program has two IAB program leads.  Those leads will act as liaisons between the chair and the IAB for logistical and other formal matters. All members of the IAB, including the liaisons, may also participate in the group as ordinary members.
-Members
+
 
 ### Github and the issue tracker
 
