@@ -1,0 +1,25 @@
+An RFC Stream Manager Committee (RSMC) would be formed, consisting
+solely of the four Stream Managers. They would need to approve each
+process change, but objections need to be limited to the question of
+whether a specific change would cause harm to their own Stream.  The
+specific voting rules are TBD, but the obvious choices are unanimity
+or 3/4 supermajority. If we require unanimity, that creates the
+concern of allowing one manager to stonewall, which seems suboptimal.
+
+The IAB would be responsible for ensuring that the process was
+followed. I think the easiest way to do this is not for them to
+formally approve documents coming out of the WG but rather for them to
+be an appeals body. However, the appeal grounds should be limited to
+process issues, not substantive objections. I hear that there are
+concerns that the WG won’t listen to expert advice. In my opinion, the
+right balance here is that the expert gets an opportunity to speak and
+the process requires they be heard and the WG explicitly decide not to
+take their opinion, but the WG is the final decision maker. Then “WG
+did not fully consider and decide on whether to take expert advice”
+can become an appeal ground, but it’s not an opportunity for the IAB
+to substitute their own judgement for the WG’s.
+
+In short, the WG would be responsible for the strategic work, but would
+be subject to two forms of narrowly scoped review: the stream
+managers for "this will break my stream" and the IAB for "the
+process wasn't followed".
