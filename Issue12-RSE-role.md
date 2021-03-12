@@ -1,5 +1,5 @@
 # Role of the RFC Series Editor
-## Draft!  Please submit PRs, but discuss on list.
+
 
 This person will be a senior professional with deep knowledge of technical publishing.
 
