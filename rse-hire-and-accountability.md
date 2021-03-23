@@ -1,3 +1,5 @@
+# DRAFT DRAFT DRAFT
+
 ## RS[EA] Selection
 
 The RS[EA] will be searched for and vetted by a committee formed by the ED, taking into account the [role definition](https://github.com/intarchboard/program-rfced-future/blob/master/Issue12-RSE-role.md) and any detailed job description that we further develop.  The search committee may ask others to take part in the selection process in confidence.  The initial length of service shall be for one year, but then further extensions will be for three to five years.
