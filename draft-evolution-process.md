@@ -9,7 +9,7 @@ This procedure is applicable to the evolution processes relating to the manageme
 The RFC evolution process is governed as follows:
 
  * The RFC Working Group, whose job it is to develop proposed changes, and establish community consensus of those changes.
- * The The RFC Approval Board, whose job it is to provide final review of proposals.
+ * The RFC Approval Board, whose job it is to provide final review of proposals.
 
 Each group is described below.
 
@@ -21,7 +21,7 @@ IETF chair and the Independent Submissions Editor shall each appoint and oversee
 
 ### The RFC Approval Board (RFCAB)
 
-The RFC Approval Board consists of representatives from each RFC stream (at the time of this writing, the IAB, the IETF, the IRTF, and the Indepenent Series), as well as the RS[EA].  The sole function of this group is to review draft proposals approvedby the RFCWG.  The RFCAB may choose its chair as it sees fit.  The group is primarily expected to operate via email and through any necessary tooling.  A record of all proceedings (no matter the form) will be kept.
+The RFC Approval Board consists of representatives from each RFC stream (at the time of this writing, the IAB, the IETF, the IRTF, and the Indepenent Series), as well as the RS[EA].  The sole function of this group is to review draft proposals approved by the RFCWG.  The RFCAB may choose its chair as it sees fit.  The group is primarily expected to operate via email and through any necessary tooling.  A record of all proceedings (no matter the form) will be kept.
 
 ## Update Process
 
@@ -32,7 +32,7 @@ The following procedure is used to update the RFC process:
 3. The RFCWG will then further develop the proposal.  All members of the RFCAB are expected to participate in discussion relating to all proposals.
 4. At some point, if the chairs believe there may be rough consensus exists for the proposal to advance, they will issue a working group last call.
 5. After a suitable period of time, the chairs will determine whether rough consensus for the proposal exists.  If comments have been received and substantial changes have been made, it is expected that additional last calls may be made.
-6. Once working group consensus is established, a community call for comments will be issued.  Should substantial comments be received, the working group will again consider those comments and make revisions as they see fit.  At this same time, the RFCAB will consider the proposal.
+6. Once working group consensus is established, a community call for comments will be issued.  Should substantial comments be received, the working group will again consider those comments and make revisions as they see fit.
 7. Should substantial changes be made, additional community calls for comment should be issued, and again comments considered.
 8. Once all comments have been been addressed, the working group chairs will transmit the latest proposal to the RFCAB.
 9. Within a reasonable period of time, the RFCAB will then poll on the proposal.  Positions may be as follows:
