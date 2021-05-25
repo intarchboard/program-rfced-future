@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model v3"
-docname: draft-saintandre-rfced-model-00
+docname: draft-saintandre-rfced-model-latest
 category: info
 obsoletes: RFC8728
 ipr: trust200902
