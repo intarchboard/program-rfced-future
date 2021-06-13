@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model v3"
-docname: draft-saintandre-rfced-model-00
+docname: draft-saintandre-rfced-model-01
 category: info
 obsoletes: RFC8728
 ipr: trust200902
@@ -28,9 +28,12 @@ informative:
   RFC6635:
   RFC7154:
   RFC7282:
+  RFC7322:
   RFC7776:
+  RFC7991:
   RFC8179:
   RFC8700:
+  RFC8716:
   RFC8728:
   RFC8729:
   RFC8730:
@@ -100,33 +103,6 @@ RFC Series Working Group (RSWG), which shall submit its policy proposals
 to a new RFC Series Approval Board (RSAB).
 
 
-# Ongoing Operation
-
-Continuing publication of RFCs shall be handled by the RFC Production
-Center (RPC) function in accordance with current policies in force or
-future policies defined as specified in the next section of this
-document.
-
-This document does not specify the exact relationship between the IETF LLC 
-and the RPC function; for example, the RPC function could be provided 
-by a separate corporate entity under contract to the IETF LLC, it could 
-be performed by employees of the IETF LLC, or the IETF LLC could work with 
-independent contractors for some or all aspects of the RPC function. The
-exact relationship is a matter for the IETF LLC and its Executive Director 
-to determine.
-
-The IETF LLC has authority over negotiating performance targets for the 
-RPC and also has responsibility for ensuring that those targets are 
-adhered to. The IETF LLC is empowered to appoint a manager or to convene 
-a committee that is responsible for this oversight function.
-
-Community members who have concerns about the performance of the RPC
-can request that the IETF LLC look into the matter. If the IETF
-LLC opts to delegate the oversight function, concerns can be raised
-with the IETF LLC. The IETF LLC is ultimately responsible to the
-community via the mechanisms outlined in its charter.
-
-
 # Policy Definition
 
 Policies governing the RFC series as a whole shall be defined in the
@@ -145,7 +121,7 @@ series.
 ### RFC Series Working Group (RSWG)
 
 The RFC Series Working Group (RSWG) shall
-formulate proposals regarding policies governing the RFC series. The
+formulate proposals regarding policies that govern the RFC series. The
 intent is that the RSWG operate in a way similar to working groups 
 in the IETF and research groups in the IRTF. Therefore, all RSWG 
 meetings shall be open to any participant, subject to intellectual 
@@ -153,13 +129,12 @@ property policies which must be consistent with those of the IETF
 {{RFC8179}}. At the initial formation of the RSWG, all discussions 
 shall take place on an open mailing list, and anyone is welcome to 
 participate in discussions on that list. The RSWG may decide by 
-rough consensus to use additional forms of communication (e.g., 
-GitHub as specified in {{RFC8874}}) that are consistent with 
-{{RFC2418}}. The RSWG shall conform itself to an anti-harassment 
-policy consistent with {{RFC7154}} and {{RFC7776}}.
+rough consensus to use additional tooling or forms of communication 
+(e.g., GitHub as specified in {{RFC8874}}) that are consistent with 
+{{RFC2418}}. 
 
-The IETF Chair and the Independent Submissions Editor shall each 
-appoint and oversee a co-chair of the RSWG. 
+The Chairs of the IESG and of the IAB shall each appoint one co-chair 
+of the RSWG. 
 
 All interested parties are welcome to participate in the RSWG. This
 includes participants in the IETF and IRTF, IAB and IESG members, RFC 
@@ -169,6 +144,8 @@ invited to participate as community members in the RSWG to the extent
 permitted by any relevant IETF LLC policies. Members of the RSAB are
 also expected to participate actively in the RSWG so that they are
 fully aware of proposals early in the policy definition process.
+
+NOTE: Part of this section address [ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14).
 
 
 ### RFC Series Approval Board (RSAB)
@@ -195,11 +172,22 @@ the individuals who are voting members (e.g., IETF Chair or someone
 appointed by the IETF Chair, the RFC Series Editor/Advisor, etc.). 
 
 The RSAB shall choose a chair from among its members using a method to
-be determined by the RSAB. The RSAB is expected to operate via email 
-and through any necessary tooling. THE RSAB shall keep a public record of 
-its proceedings, including minutes of all meetings and a record of all
-decisions.
+be determined by the RSAB. The RSAB is expected to operate via email,
+teleconferencing systems, and any necessary tooling. 
 
+The RSAB shall keep a public record of its proceedings, including minutes 
+of all meetings and a record of all decisions.
+
+The RSAB SHALL announce plans and agendas for their meetings on the 
+RFC Editor website and by email to the RSWG at least a week before 
+such meetings. The meetings SHALL be open for public attendance and 
+the RSAB MAY consider allowing open participation. If the RSAB needs 
+to discuss a confidential matter in Executive Session, that part of 
+the meeting SHALL be private to the RSAB, but MUST be noted on the 
+agenda, and MUST be documented in the minutes with as much detail as 
+the confidentiality requirements permit.
+
+NOTE: Parts of this section address [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9) 
 
 ## Process
 
@@ -272,10 +260,10 @@ A CONCERN may be made for two reasons:
 No CONCERN should ever come as a surprise to the RSWG.
 
 10. If a CONCERN exists, discussion will take place within the RSWG. 
-Again, all RSAB members MUST participate.
-11. If all CONCERN positions are addressed, then the proposal is approved. 
-Again, if substantial changes have been made, an additional call for 
-community input should be made.
+Again, all RSAB members are expected to participate.
+11. A proposal without any CONCERN positions is approved. 
+If substantial changes have been made in order to address CONCERN positions, 
+an additional call for community input might be necessary.
 12. If, after a suitable period of time, any CONCERN positions remain, 
 a formal vote of the RSAB is taken. If a majority of RSAB members 
 vote to approve, the proposal is approved. Otherwise, it is returned to 
@@ -283,16 +271,36 @@ the RSWG. In the case of a tie, the proposal is approved.
 13. When a proposal is approved, a notification is sent to the community, 
 and the document enters the queue for publication as an RFC.
 
-OPEN ISSUE: In which stream {{RFC8729}} are these documents published?
+[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22): 
+In which stream {{RFC8729}} are these documents published?
 Is a new stream (e.g., the "Editorial Stream") needed?
 
-### Appeals of RSAB Decisions
+### Appeals
 
-Appeals of RSAB decisions may only be made based on process failures, 
-and not on the substance of a proposal. These appeals SHALL be made to 
-the ISOC Board of Trustees within thirty days of the RSAB decision. The 
-ISOC Board of Trusteers MAY decide only whether a process failure occurred, 
-and what if any corrective action should take place.
+Appeals of RSWG decisions shall be made to the RSAB and should be made 
+within thirty (30) days of public notice of the relevant RSWG decision. 
+The RSAB shall decide whether a process failure occurred and what if any 
+corrective action should take place.
+
+Appeals of RSAB decisions shall be made to an entity yet to be 
+determined and should be made within thirty (30) days of public notice 
+of the relevant RSAB decision (typically, when minutes are posted). 
+The appeals body shall decide whether a process failure 
+occurred and what if any corrective action should take place.
+
+[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16): 
+Which body provides oversight and appeals for the RSAB? Discussions in
+the RFCED-Future Program have ruled out the ISOC Board of Trustees. One possibility 
+still under discussion is the IAB.
+
+### Anti-Harassment Policy
+
+The [IETF anti-harassment policy](https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/) also applies to the RSWG and RSAB, 
+which strive to create and maintain an environment in which people 
+of many different backgrounds are treated with dignity, decency, 
+and respect. Participants are expected to behave according to 
+professional standards and demonstrate appropriate workplace 
+behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 
 # RFC Series Editor/Advisor (RSEA)
@@ -328,7 +336,7 @@ committee may ask others to take part in the selection process in
 confidence. The initial length of service shall be for one year, but 
 then further extensions will be for three to five years.
 
-## RSEA Ongoing Performance Evaluation
+## RSEA Performance Evaluation
 
 Periodically, the Executive Director will send out to the community a 
 call for input on the performance of the RSEA. The evaluation will be 
@@ -347,6 +355,78 @@ Executive Director's recommendation.
 
 Whether the RSEA role is structured as a contractual or employee relationship 
 is a matter for the IETF LLC and its Executive Director to determine.
+
+
+# Document Preparation and Publication
+
+## Roles and Processes
+
+Publication of RFCs shall be continue to be handled by the RFC Production
+Center (RPC) function in accordance with high-level policies currently in 
+force or yet to be defined as specified in the foregoing sections of this
+document.
+
+This document does not specify the exact relationship between the IETF LLC 
+and the RPC function; for example, the RPC function could be provided 
+by a separate corporate entity under contract to the IETF LLC, it could 
+be performed by employees of the IETF LLC, or the IETF LLC could work with 
+independent contractors for some or all aspects of the RPC function. The
+exact relationship is a matter for the IETF LLC and its Executive Director 
+to determine.
+
+The IETF LLC has authority over negotiating performance targets for the 
+RPC and also has responsibility for ensuring that those targets are 
+adhered to. The IETF LLC is empowered to appoint a manager or to convene 
+a committee that is responsible for this oversight function.
+
+Community members who have concerns about the performance of the RPC
+can request that the IETF LLC look into the matter. If the IETF
+LLC opts to delegate the oversight function, concerns can be raised
+with the IETF LLC. The IETF LLC is ultimately responsible to the
+community via the mechanisms outlined in its charter.
+
+## Editorial and Publication Policies
+
+Under and consistent with the high-level policies defined for the RFC 
+Series in general or particular streams, the RPC shall define more 
+particular policies regarding matters related to the editorial preparation
+and final publication and dissemination of RFCs. Examples include:
+
+* Maintenance of a styleguide that defines editorial standards to which 
+RFCs must adhere (see {{RFC7282}} and related updates).
+
+* Policies regarding the file formats that are accepted as input to the 
+editing and publication process.
+
+* Policies regarding the final structure and layout of published documents; 
+in the context of the XML vocabulary ({{RFC7991}}), such policies could
+include matters such as the exact XML elements and attributes used to
+capture the semantic content of RFCs.
+
+## Resolution of Disagreements between Authors and the RPC
+
+NOTE: This section is intended to address [ISSUE #6: Streams have content control](https://github.com/intarchboard/program-rfced-future/issues/6).
+
+During the process of editorial preparation and publication, disagreements 
+can arise between the authors of an RFC-to-be and the RPC. Where an existing
+policy clearly applies, such disagreements are handled quickly through direct 
+consultation between the parties; however, on occasion it is necessary for 
+another individual or body (e.g., document shepherd, working group chair, 
+research group chair, IETF Area Director, IESG, or IRSG) to help achieve a 
+resolution.  In extremis (or where such mediating individuals or bodies are 
+not involved, as with the Independent Stream), the relevant stream manager 
+should intercede to reach agreement.
+
+If it is unclear whether an existing policy applies or if the interpretation 
+of an existing policy is unclear, the RPC should consult with the RSAB to 
+clarify the matter.
+
+If the disagreement raises a new issue that is not covered by an existing
+policy or that cannot be resolved through consultation between the RPC and 
+the RSAB (and any other relevant parties as described above), the issue 
+should be brought to the RSWG in order to formulate a new policy. However,
+in the interest of time the disagreement may be resolved as the parties 
+best see fit while the RSWG formulates a more general policy.
 
 
 # Changes from Version 2 of the RFC Editor Model
