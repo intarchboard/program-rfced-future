@@ -24,6 +24,7 @@ normative:
 
 informative:
   RFC2418:
+  RFC4844:
   RFC5620:
   RFC6635:
   RFC7154:
@@ -111,9 +112,9 @@ Series Working Group (RSWG) and then approved by the RFC Series Approval
 Board (RSAB).
 
 Policies under the purview of the RSWG and RSAB might include but
-are not necessarily limited to document formats, tooling, processes for 
-publication and dissemination of RFCs, and overall management of the RFC 
-series.
+are not necessarily limited to document formats, processes for 
+publication and dissemination of RFCs, and overall management of 
+the RFC series.
 
 
 ## Structure and Roles
@@ -128,7 +129,8 @@ meetings shall be open to any participant, subject to intellectual
 property policies which must be consistent with those of the IETF
 {{RFC8179}}. At the initial formation of the RSWG, all discussions 
 shall take place on an open mailing list, and anyone is welcome to 
-participate in discussions on that list. The RSWG may decide by 
+participate in discussions on that list (subject to anti-harassment
+policies as described below). The RSWG may decide by 
 rough consensus to use additional tooling or forms of communication 
 (e.g., GitHub as specified in {{RFC8874}}) that are consistent with 
 {{RFC2418}}. 
@@ -145,7 +147,7 @@ permitted by any relevant IETF LLC policies. Members of the RSAB are
 also expected to participate actively in the RSWG so that they are
 fully aware of proposals early in the policy definition process.
 
-NOTE: Part of this section address [ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14).
+NOTE: Parts of this section address [ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14) and [ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), as well as [ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44).
 
 
 ### RFC Series Approval Board (RSAB)
@@ -158,18 +160,16 @@ its own.
 
 The voting members of the RSAB shall be as follows:
 
-* The IETF Chair, representing the IETF stream
-* The IAB Chair, representing the IAB stream
+* One delegate representing the IETF stream, appointed by the IESG
+* One delegate representing the IAB stream, appointed by the IAB
 * The IRTF Chair, representing the IRTF stream
 * The Independent Submissions Editor {{RFC8730}}
 * The RFC Series Editor/Advisor
 
-OPEN ISSUE: Discussion continues within the RFCED-Future Program
-regarding the number of members on the RSAB (e.g., whether each stream
-shall have one representative, whether streams that generate more
-RFCs such as the IETF stream shall have more member, etc.) as well as
-the individuals who are voting members (e.g., IETF Chair or someone 
-appointed by the IETF Chair, the RFC Series Editor/Advisor, etc.). 
+Whenever a new stream is created {{RFC4844}}, a voting member
+representing that stream shall also be added to the RSAB, either
+an appointed delegate or a direct representative in accordance with
+the document that creates the stream.
 
 The RSAB shall choose a chair from among its members using a method to
 be determined by the RSAB. The RSAB is expected to operate via email,
@@ -187,7 +187,7 @@ the meeting SHALL be private to the RSAB, but MUST be noted on the
 agenda, and MUST be documented in the minutes with as much detail as 
 the confidentiality requirements permit.
 
-NOTE: Parts of this section address [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9) 
+NOTE: Parts of this section address [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), [ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), [ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), and [ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53).
 
 ## Process
 
@@ -238,8 +238,8 @@ may be necessary.
 6. Once consensus is established in the RSWG, the chairs shall issue a 
 community call for comments. Should substantial comments be received,
 the RSWG will again consider those comments and make revisions as they see 
-fit. At this same time, the RSAB will consider the proposal. OPEN
-ISSUE: specify what counts as a "community call for consensus".
+fit. At this same time, the RSAB will consider the proposal. 
+[ISSUE #67](https://github.com/intarchboard/program-rfced-future/issues/67)
 7. Should substantial changes be made, additional community calls for comment 
 should be issued, and again comments considered.
 8. Once all comments have been been addressed, the RSWG chairs will
@@ -305,12 +305,12 @@ behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 # RFC Series Editor/Advisor (RSEA)
 
-OPEN ISSUE: Discussion continues within the RFCED-Future Program
+NOTE: Discussion continues within the RFCED-Future Program
 regarding the roles and responsibilities of an expert in technical
 publication processes. To retain flexibility (e.g., as to whether this
 individual plays more of an advisory role or more of a singular 
 leadership role), this document temporarily refers to the individual 
-as the "RFC Series Editor/Advisor" ("RSEA").
+as the "RFC Series Editor/Advisor" ("RSEA"), see also [ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24).
 
 The RFC Series Editor/Advisor (RSEA) shall be a senior professional 
 with deep knowledge of technical publishing.
@@ -318,7 +318,7 @@ with deep knowledge of technical publishing.
 The primary responsibilities of the RSEA are as follows:
 
 * Provide expert advice regarding policy proposals within the RSWG.
-* Serve as a voting member on the RSAB (see OPEN ISSUE above).
+* Serve as a voting member on the RSAB.
 * If requested, provide expert advice to the RPC and IETF LLC.
 
 Matters on which the RSEA might be consulted could include proposed 
@@ -405,7 +405,7 @@ capture the semantic content of RFCs.
 
 ## Resolution of Disagreements between Authors and the RPC
 
-NOTE: This section is intended to address [ISSUE #6: Streams have content control](https://github.com/intarchboard/program-rfced-future/issues/6).
+NOTE: This section is intended to address [ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59) and parts of [ISSUE #6: Streams have content control](https://github.com/intarchboard/program-rfced-future/issues/6).
 
 During the process of editorial preparation and publication, disagreements 
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
