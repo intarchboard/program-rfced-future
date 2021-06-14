@@ -409,21 +409,29 @@ NOTE: This section is intended to address [ISSUE #6: Streams have content contro
 
 During the process of editorial preparation and publication, disagreements 
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
-policy clearly applies, such disagreements are handled quickly through direct 
-consultation between the parties; however, on occasion it is necessary for 
-another individual or body (e.g., document shepherd, working group chair, 
-research group chair, IETF Area Director, IESG, or IRSG) to help achieve a 
-resolution.  In extremis (or where such mediating individuals or bodies are 
-not involved, as with the Independent Stream), the relevant stream manager 
-should intercede to reach agreement.
+policy clearly applies, typically such disagreements are handled in a 
+straightforward manner through direct consultation between the authors and 
+the RPC, sometimes in collaboration with other individuals such as a document 
+shepherd, IETF working group chair, IRSG research group chair, or IETF Area 
+Director.
 
-If it is unclear whether an existing policy applies or if the interpretation 
-of an existing policy is unclear, the RPC should consult with the RSAB to 
-clarify the matter.
+However, if it is unclear whether an existing policy applies, or if the 
+interpretation of an existing policy is unclear, the parties may need to 
+consult with additional individuals or bodies (e.g., RSAB, IESG, IRSG, or 
+stream manager) to help achieve a resolution. The following points are 
+intended to provide more particular guidance.
 
-If the disagreement raises a new issue that is not covered by an existing
+* If there is a conflict with a policy for a particular stream, the 
+RPC should consult with the relevant stream manager to help achieve a 
+resolution, if needed also conferring with a per-stream body such as the 
+IESG or IRSG.
+
+* If there is a conflict with a cross-stream policy, the RPC should consult 
+with the RSAB to achieve a resolution.
+
+* If the disagreement raises a new issue that is not covered by an existing
 policy or that cannot be resolved through consultation between the RPC and 
-the RSAB (and any other relevant parties as described above), the issue 
+other relevant individuals and bodies as described above), the issue 
 should be brought to the RSWG in order to formulate a new policy. However,
 in the interest of time the disagreement may be resolved as the parties 
 best see fit while the RSWG formulates a more general policy.
