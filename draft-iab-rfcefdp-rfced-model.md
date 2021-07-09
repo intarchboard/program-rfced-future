@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model v3"
-docname: draft-iab-rfcefdp-rfced-model-latest
+docname: draft-iab-rfcefdp-rfced-model-00
 category: info
 obsoletes: RFC8728
 ipr: trust200902
