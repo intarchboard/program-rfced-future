@@ -121,7 +121,7 @@ Group (RSWG), which produces policy proposals that are subject to
 approval by the RFC Series Approval Board (RSAB), after which such 
 policies are formally established. The RSWG is an open 
 working group (as described below) that seeks input and participation 
-from a wide range of persons who are have an interest in the RFC Series. 
+from a wide range of persons who have an interest in the RFC Series. 
 The RSAB consists of appointed members who represent the various RFC 
 streams {{RFC8728}} as well as an expert in technical publishing, the
 RFC Series Editor/Advisor (RSEA).
@@ -205,7 +205,7 @@ body shall have the power to remove its appointed chair at its
 discretion.
 
 It is the responsibility of the chairs to encourage rough consensus 
-within the RSWG and to follow that consensus in their decision making,
+within the RSWG and to follow that consensus in their decision-making,
 for instance regarding advancement of proposals to the RSAB.
 
 NOTE: This section is intended to address 
@@ -293,7 +293,7 @@ positions as described below.
 
 Because policy issues can be difficult and contentious, RSWG
 participants and RSAB members are strongly encouraged to work together 
-in a spirit of good faith and mutual understanding to achieve rough 
+in a spirit of good faith and mutual understanding to achieving rough 
 consensus (see {{RFC7282}}). In particular, RSWG members are 
 encouraged to take RSAB concerns seriously, and RSAB members are 
 encouraged to clearly express their concerns early in the process and 
@@ -337,7 +337,7 @@ the RSWG will again consider those comments and make revisions as they see
 fit. At this same time, the RSAB will consider the proposal. 
 7. Should substantial changes be made, additional community calls for comment 
 should be issued by the RSAB, and again comments considered by the RSWG.
-8. Once all comments have been been addressed, the RSWG chairs will
+8. Once all comments have been addressed, the RSWG chairs will
 submit the proposal to the RSAB for its consideration.
 9. Within a reasonable period of time, the RSAB will then poll on the 
 proposal. Positions may be as follows:
@@ -386,11 +386,11 @@ Notices will always be sent to the rfc-interest mailing list. The RSAB and
 RSWG should also send notices to other communities that may be interested 
 in or impacted by a proposal as they see fit, following policies for those 
 fora as appropriate. Notices are also to be made available and archived on 
-the rfc-editor.org web site, and other communication channels can be 
+the rfc-editor.org website, and other communication channels can be 
 established for notices (e.g., using an RSS feed, social media).
 
 A comment period will not last less than two weeks. Comments will be publicly 
-archived on the rfc-editor.org web site.
+archived on the rfc-editor.org website.
 
 NOTE: This section is intended to address 
 [ISSUE #67](https://github.com/intarchboard/program-rfced-future/issues/67).
@@ -472,7 +472,7 @@ include matters such as the following:
 
 * Was the RSEA an active participant in RSWG/RSAB discussions and meetings?
 * Did the RSEA provide useful advice to the RSWG and RPC?  
-* Did the RSEA exercise good judgment in RSAB decision making?
+* Did the RSEA exercise good judgment in RSAB decision-making?
 * Was the RSEA effective in advising the community on policy direction?
 
 The IETF Executive Director will review the feedback, consulting with stream 
@@ -488,7 +488,7 @@ is a matter for the IETF LLC and the IETF Executive Director to determine.
 
 ## Roles and Processes
 
-Publication of RFCs shall be continue to be handled by the RFC Production
+Publication of RFCs shall continue to be handled by the RFC Production
 Center (RPC) function in accordance with high-level policies currently in 
 force or yet to be defined following the processes specified in the foregoing 
 sections of this document.
@@ -666,7 +666,7 @@ prevent these published documents from being changed by external
 parties. The archive of RFC documents, any source documents needed
 to recreate the RFC documents, and any associated original documents
 (such as lists of errata, tools, and, for some early items, originals
-that are not machine readable) need to be secured against any kind of
+that are not machine-readable) need to be secured against any kind of
 data storage failure.
 
 The IETF LLC should take these security considerations into account
