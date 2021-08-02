@@ -121,10 +121,10 @@ Group (RSWG), which produces policy proposals that are subject to
 approval by the RFC Series Approval Board (RSAB), after which such 
 policies are formally established. The RSWG is an open 
 working group (as described below) that seeks input and participation 
-from a wide range of persons who are have an interest in the RFC Series. 
+from a wide range of persons who have an interest in the RFC Series. 
 The RSAB consists of appointed members who represent the various RFC 
 streams {{RFC8728}} as well as an expert in technical publishing, the
-RFC Series Editor/Advisor (RSEA).
+RFC Series Consulting Editor (RSCE).
 
 The policy implementation function is performed by the RFC Production 
 Center (RPC), under the ultimate authority of the IETF Administration 
@@ -133,11 +133,11 @@ Limited Liability Company (IETF LLC).
 In short:
 
 * The RSWG establishes policy, with input from the community, the RSAB, and 
-  the RSEA.
+  the RSCE.
 * The RSAB considers those proposals and approves or returns as appropriate.
 * The RPC periodically reports to the RSAB on how it is implementing established 
   policies.
-* The RSEA provides expert advice to the RPC and RSAB on how to implement 
+* The RSCE provides expert advice to the RPC and RSAB on how to implement 
   established policies on an ongoing and operational basis, which can include
   raising issues or initiating proposed policy changes within the RSWG.
 * If issues arise with the implementation of particular policies, the RPC brings 
@@ -231,9 +231,15 @@ The voting members of the RSAB shall be as follows:
 
 * One delegate representing the IETF stream, appointed by the IESG
 * One delegate representing the IAB stream, appointed by the IAB
-* The IRTF Chair, representing the IRTF stream
+* One delegate representing the IRTF stream, appointed by the IRTF Chair
 * The Independent Submissions Editor {{RFC8730}}
-* The RFC Series Editor/Advisor
+* The RFC Series Consulting Editor
+
+The appointing bodies shall determine their own processes for appointing 
+delegates, such as provision for an open nominations period. If it becomes 
+necessary to replace such a delegate for any reason, then for the sake of 
+continuity the appointing body should name a new delegate to complete the 
+former delegate's term.
 
 To ensure the smooth functioning of the RFC Series, the RSAB shall 
 include the IETF Executive Director as a non-voting member since 
@@ -241,14 +247,7 @@ the IETF LLC is ultimately responsible for the operation of the
 policy implementation function. The RSAB may at its discretion include 
 additional non-voting members, for instance a liaison from the RPC.
 
-The IAB and IESG delegates must be selected by the Nominating
-Committee {{RFC3777}} to their respective bodies (i.e., they 
-must not be liaison or ex-officio members). These delegates shall 
-serve for one-year renewable terms. If it becomes necessary to 
-replace such a delegate for any reason, then for the sake of continuity 
-the IAB or IESG should name a new delegate to complete the term.
-
-Whenever a new stream is created (see below), the document that
+Whenever a new stream is created, the document that
 creates the stream shall specify if a voting member representing 
 that stream shall also be added to the RSAB, along with any rules
 and processes related to that representative (e.g., whether the
@@ -337,7 +336,7 @@ the RSWG will again consider those comments and make revisions as they see
 fit. At this same time, the RSAB will consider the proposal. 
 7. Should substantial changes be made, additional community calls for comment 
 should be issued by the RSAB, and again comments considered by the RSWG.
-8. Once all comments have been been addressed, the RSWG chairs will
+8. Once all comments have been addressed, the RSWG chairs will
 submit the proposal to the RSAB for its consideration.
 9. Within a reasonable period of time, the RSAB will then poll on the 
 proposal. Positions may be as follows:
@@ -365,10 +364,6 @@ vote to approve, the proposal is approved. Otherwise, it is returned to
 the RSWG. In the case of a tie, the proposal is approved.
 13. When a proposal is approved, a notification is sent to the community, 
 and the document enters the queue for publication as an RFC.
-
-[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22): 
-In which stream {{RFC8729}} are these documents published?
-Is a new stream (e.g., the "Editorial Stream") needed?
 
 ### Community Calls for Comment
 
@@ -424,71 +419,60 @@ professional standards and demonstrate appropriate workplace
 behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 
-# RFC Series Editor/Advisor (RSEA)
+# RFC Series Consulting Editor (RSCE)
 
 NOTE: Discussion continues within the RFCED-Future Program
 regarding the roles and responsibilities of an expert in technical
 publication processes. To retain flexibility (e.g., as to whether this
 individual plays more of an advisory role or more of a singular 
 leadership role), this document temporarily refers to the individual 
-as the "RFC Series Editor/Advisor" ("RSEA"). 
+as the "RFC Series Consulting Editor" ("RSCE"). 
 
-The RFC Series Editor/Advisor (RSEA) is a senior technical 
+The RFC Series Consulting Editor (RSCE) is a senior technical 
 publishing professional who will apply their deep knowledge of 
 technical publishing processes to the RFC series. 
 
-The primary responsibilities of the RSEA are as follows:
+The primary responsibilities of the RSCE are as follows:
 
 * Serve as a voting member on the RSAB.
 * Identify problems with the RFC publication process and opportunities for improvement.
 * Provide expert advice regarding policy proposals within the RSWG.
 * If requested, provide expert advice to the RPC and IETF LLC.
 
-Matters on which the RSEA might be consulted could include proposed 
+Matters on which the RSCE might be consulted could include proposed 
 changes to the RFC style guide {{RFC7322}}, RFC formatting in general, 
 web presence, copyright matters, archiving policy, and dissemination 
 and cataloguing of RFCs.
+
+Whether the RSCE role is structured as a contractual or employee relationship 
+is a matter for the IETF LLC and the IETF Executive Director to determine.
 
 NOTE: This section is intended to address 
 [ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12) and
 [ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24).
 
 
-## RSEA Selection
+## RSCE Selection
 
-The RSEA will be selected by a search committee formed by the IETF 
-Executive Director, taking into account the 
+The IETF LLC will form a selection committee, including members from the 
+community, that will be responsible for making a recommendation to the 
+IETF LLC for the RSCE role. The selection committee will take into account the 
 [role definition](https://github.com/intarchboard/program-rfced-future/blob/master/Issue12-RSE-role.md) 
-as well as other information that the committee
+as well as any other information that the committee
 deems necessary or helpful in making its decision.
 
 
-## RSEA Performance Evaluation
+## RSCE Performance Evaluation
 
-Periodically, the IETF Executive Director will send out to the community a 
-call for input on the performance of the RSEA. The evaluation will be 
-based on criteria specified in the role definition. Criteria could
-include matters such as the following:
-
-* Was the RSEA an active participant in RSWG/RSAB discussions and meetings?
-* Did the RSEA provide useful advice to the RSWG and RPC?  
-* Did the RSEA exercise good judgment in RSAB decision making?
-* Was the RSEA effective in advising the community on policy direction?
-
-The IETF Executive Director will review the feedback, consulting with stream 
-manager representatives, and then produce a recommendation to the IETF LLC 
-Board. The LLC will then make a decision, taking into account the
-IETF Executive Director's recommendation.
-
-Whether the RSEA role is structured as a contractual or employee relationship 
-is a matter for the IETF LLC and the IETF Executive Director to determine.
+Periodically, the IETF LLC will evaluate the performance of the RSCE, 
+including a call for confidential input from the community.
 
 
 # Policy Implementation Function
 
 ## Roles and Processes
 
-Publication of RFCs shall be continue to be handled by the RFC Production
+Publication of RFCs shall continue to be handled by the RFC Production
 Center (RPC) function in accordance with high-level policies currently in 
 force or yet to be defined following the processes specified in the foregoing 
 sections of this document.
@@ -518,11 +502,11 @@ RPC and also has responsibility for ensuring that those targets are
 adhered to. The IETF LLC is empowered to appoint a manager or to convene 
 a committee to complete these activities.
 
-Community members who have concerns about the performance of the RPC
-can request that the IETF LLC look into the matter. Even if the IETF
-LLC opts to delegate this activity, concerns should be raised 
-with the IETF LLC. The IETF LLC is ultimately responsible to the 
-community via the mechanisms outlined in its charter.
+If individuals or groups within the community have concerns about the 
+performance of the RPC, they can request that the IETF LLC look into 
+the matter. Even if the IETF LLC opts to delegate this activity, concerns 
+should be raised with the IETF LLC. The IETF LLC is ultimately responsible 
+to the community via the mechanisms outlined in its charter.
 
 
 ## Editorial and Publication Policies
@@ -532,8 +516,9 @@ Series in general or particular streams, the RPC shall define more
 particular policies regarding matters related to the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
-* Maintenance of a styleguide that defines editorial standards to which 
-RFCs must adhere (see {{RFC7322}} and related updates).
+* Maintenance of a style guide that defines editorial standards to which 
+RFCs must adhere (see {{RFC7322}} and the 
+[style guide web page](https://www.rfc-editor.org/styleguide/)).
 
 * Policies regarding the file formats that are accepted as input to the 
 editing and publication process.
@@ -544,10 +529,6 @@ include matters such as the exact XML elements and attributes used to
 capture the semantic content of RFCs.
 
 ## Resolution of Disagreements between Authors and the RPC
-
-NOTE: This section is intended to address 
-[ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59) and 
-[ISSUE #6](https://github.com/intarchboard/program-rfced-future/issues/6).
 
 During the process of editorial preparation and publication, disagreements 
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
@@ -577,6 +558,11 @@ other relevant individuals and bodies as described above), the issue
 should be brought to the RSWG in order to formulate a new policy. However,
 in the interest of time the disagreement may be resolved as the parties 
 best see fit while the RSWG formulates a more general policy.
+
+NOTE: This section is intended to address 
+[ISSUE #6](https://github.com/intarchboard/program-rfced-future/issues/6) and
+[ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59).
+
 
 ## Administrative Implementation
 
@@ -611,6 +597,9 @@ and other RFC-related services, is as follows:
    the event that a contract cannot be reached, the matter shall be
    referred to the Selection Committee for further action.
 
+NOTE: This section is intended to address
+[ISSUE #25](https://github.com/intarchboard/program-rfced-future/issues/25). 
+
 ### Budget
 
 The expenses discussed in this document are not new expenses. They
@@ -626,23 +615,16 @@ within the IETF LLC budgetary process.
 
 # Streams
 
-NOTE: This section is intended to address
-[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22). 
-
-## Editorial Stream
-
-This document creates the Editorial Stream.
-
-Any and all future documents produced by the RSWG and approved by 
-the RSAB shall be published in the Editorial Stream.
-
-## Creating and Deleting Streams
-
-Creation and deletion of streams within the RFC Series shall be 
-accomplished within the Editorial Stream: proposals for such
-changes shall be made in the RSWG and, if approved by the RSAB,
-such changes shall be documented in RFCs published within the 
+This document creates the Editorial Stream. Any and all future documents 
+produced by the RSWG and approved by the RSAB shall be published in the 
 Editorial Stream.
+
+The requirements and process for creating any additional RFC streams are
+out of scope in this document.
+
+NOTE: This section is intended to address
+[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22) and
+[ISSUE #73](https://github.com/intarchboard/program-rfced-future/issues/73). 
 
 
 # IANA Considerations
@@ -666,7 +648,7 @@ prevent these published documents from being changed by external
 parties. The archive of RFC documents, any source documents needed
 to recreate the RFC documents, and any associated original documents
 (such as lists of errata, tools, and, for some early items, originals
-that are not machine readable) need to be secured against any kind of
+that are not machine-readable) need to be secured against any kind of
 data storage failure.
 
 The IETF LLC should take these security considerations into account
@@ -725,6 +707,7 @@ Wes Hardaker,
 Bob Hinden,
 Russ Housley,
 Christian Huitema,
+Ole Jacobsen,
 John Klensin,
 Mirja Kuehlewind,
 Ted Lemon,
