@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-08-08T00:14:43.871665+00:00",
+  "timestamp": "2021-08-15T00:14:53.413134+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -64,12 +64,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "From the mailing list:\r\n\r\nFor work plan, here is the proposal:\r\n\r\n1. Open up \u201cthe floor\u201d for short problem statements that people think we need to address. We should be clear on what we see as problems and their scope.\r\n2. See if we can get agreement on those.\r\n3. Open up \u201cthe floor\u201d for proposals on how to solve those problems.\r\n4. See if we can get agreement on those.\r\n\r\nFor (1) and (3) we can provide some structure to facilitate comparison and discussion, if that is the wish of the group.\r\n\r\n",
       "createdAt": "2020-04-01T09:28:24Z",
-      "updatedAt": "2020-04-21T12:41:58Z",
+      "updatedAt": "2021-08-14T10:29:45Z",
       "closedAt": "2020-04-21T12:41:49Z",
       "comments": [
         {
@@ -90,12 +88,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "From the mailing list:\r\n\r\n - Should the program worry about the structure of the series or should the program worry about putting in place someone who could lead the community in worrying about the structure of the series (among other things)?  \r\n\r\nA related question:\r\n\r\n - Should we establish a process that addresses series evolution over time or should we leave that for later?\r\n",
       "createdAt": "2020-04-01T09:31:00Z",
-      "updatedAt": "2020-09-26T08:18:45Z",
+      "updatedAt": "2021-08-14T10:29:24Z",
       "closedAt": "2020-09-26T08:18:45Z",
       "comments": []
     },
@@ -167,12 +163,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "Candidate Text: Consensus call started"
-      ],
+      "labels": [],
       "body": "This is generally agreed. We may need specific text in a draft to note this.",
       "createdAt": "2020-09-26T08:28:40Z",
-      "updatedAt": "2021-06-21T08:24:18Z",
+      "updatedAt": "2021-08-14T10:29:08Z",
       "closedAt": "2021-06-21T08:24:18Z",
       "comments": [
         {
@@ -313,12 +307,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "",
       "createdAt": "2020-09-26T08:36:07Z",
-      "updatedAt": "2021-05-25T10:31:43Z",
+      "updatedAt": "2021-08-14T10:31:32Z",
       "closedAt": "2021-05-18T08:31:12Z",
       "comments": [
         {
@@ -367,13 +359,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion",
-        "Propose to close"
-      ],
+      "labels": [],
       "body": "",
       "createdAt": "2020-09-26T08:36:48Z",
-      "updatedAt": "2021-07-07T16:59:27Z",
+      "updatedAt": "2021-08-14T10:31:11Z",
       "closedAt": "2021-07-07T16:59:27Z",
       "comments": []
     },
@@ -560,12 +549,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "Is it the strategic body or the RSE?",
       "createdAt": "2020-09-26T08:40:12Z",
-      "updatedAt": "2021-06-21T18:51:06Z",
+      "updatedAt": "2021-08-14T10:30:47Z",
       "closedAt": "2021-06-21T18:51:06Z",
       "comments": [
         {
@@ -715,11 +702,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Defer"
+        "In Discussion"
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:48Z",
-      "updatedAt": "2020-11-04T17:53:20Z",
+      "updatedAt": "2021-08-14T10:18:02Z",
       "closedAt": null,
       "comments": []
     },
@@ -732,12 +719,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "Discussion Pending"
-      ],
+      "labels": [],
       "body": "Only necessary to resolve if there is an RSEB model, but may be linked to deciding that.",
       "createdAt": "2020-09-26T08:42:41Z",
-      "updatedAt": "2021-06-21T18:54:01Z",
+      "updatedAt": "2021-08-14T10:30:35Z",
       "closedAt": "2021-06-21T18:54:01Z",
       "comments": [
         {
@@ -836,17 +821,17 @@
       "id": "MDU6SXNzdWU3MDk0ODA0MDU=",
       "title": "Is there a new, separate Editorial Stream?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/22",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "In Discussion"
+        "Consensus"
       ],
       "body": "",
       "createdAt": "2020-09-26T08:44:10Z",
-      "updatedAt": "2021-08-02T21:23:06Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-12T20:45:49Z",
+      "closedAt": "2021-08-12T20:45:49Z",
       "comments": [
         {
           "author": "larseggert",
@@ -889,6 +874,13 @@
           "body": "Fine by me. :-) ",
           "createdAt": "2021-08-02T21:23:06Z",
           "updatedAt": "2021-08-02T21:23:06Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Chairs see that the consensus is for a new stream.",
+          "createdAt": "2021-08-12T20:45:49Z",
+          "updatedAt": "2021-08-12T20:45:49Z"
         }
       ]
     },
@@ -947,17 +939,15 @@
       "id": "MDU6SXNzdWU3ODQyMjM5NDc=",
       "title": "Who writes the SOW?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/25",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "Candidate Text: Consensus call started"
-      ],
+      "labels": [],
       "body": "",
       "createdAt": "2021-01-12T13:14:14Z",
-      "updatedAt": "2021-08-02T21:26:23Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-14T08:12:11Z",
+      "closedAt": "2021-08-14T08:12:01Z",
       "comments": [
         {
           "author": "elear",
@@ -1294,15 +1284,16 @@
       "state": "OPEN",
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [
-        "Candidate Text: Consensus call started",
-        "In Discussion",
+        "Consensus",
         "Text needed"
       ],
       "body": "The current document specifically names the chairs of the IETF, IAB, and IRTF as members of the board.  This is unnecessary and goes against efforts to distribute  critical functions in these bodies, for the IESG and IAB in particular.  The board should instead be composed of a delegate from each stream, who is empowered to act for that stream.  This might be the chair, but it does not need to be.\r\n\r\nHowever, it would be reasonable for the group to insist that the appointment is made from the IESG or IAB, excluding any ex officio positions in those bodies (which would rule out the IAB chair as representative from the IESG).  That would be done on the basis that appointees to these roles are answerable to the community via the NomCom in addition to any accountability they have to their stream management.  That would mean that the ISE and IRTF chair are stuck with the RSAB position, having no pool to draw on.",
       "createdAt": "2021-04-06T21:03:08Z",
-      "updatedAt": "2021-07-29T23:04:47Z",
+      "updatedAt": "2021-08-14T08:10:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -1332,6 +1323,13 @@
           "body": "Leave it up to the bodies about how and who we delegate to.... \r\n\r\nSome concerns about what happens if people are removed at critical moments. ",
           "createdAt": "2021-07-29T22:55:57Z",
           "updatedAt": "2021-07-29T22:55:57Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "please form text around the following:\r\n\r\n> Leave it up to the bodies about how and who we delegate to\r\n",
+          "createdAt": "2021-08-14T08:10:32Z",
+          "updatedAt": "2021-08-14T08:10:32Z"
         }
       ]
     },
@@ -1361,14 +1359,15 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [
-        "Candidate Text: Consensus call started",
-        "In Discussion"
+        "Consensus"
       ],
       "body": "The draft currently says that the committee will be formed by the Executive Director. I think we should discuss this further.",
       "createdAt": "2021-04-16T12:36:50Z",
-      "updatedAt": "2021-07-29T23:15:28Z",
+      "updatedAt": "2021-08-14T08:08:19Z",
       "closedAt": null,
       "comments": [
         {
@@ -1384,6 +1383,13 @@
           "body": "Suggestion:\r\n>  The LLC will form a selection committee, including members from the community, that will be responsible for making a recommendation to the LLC for the RSEA. The selection committee will take into account the role definition [CITE] and any other information that the community deems necessary or helpful in making its recommendation. The LLC is responsible for contracting or employment of the RSEA.",
           "createdAt": "2021-07-29T22:16:18Z",
           "updatedAt": "2021-07-29T22:17:32Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Please use above text.",
+          "createdAt": "2021-08-14T08:08:19Z",
+          "updatedAt": "2021-08-14T08:08:19Z"
         }
       ]
     },
@@ -1502,12 +1508,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "Propose to close"
-      ],
+      "labels": [],
       "body": "(From Joel Halpern - JMH1)\r\n\r\nAs discussed earlier, to confirm, the paragraph that states that the LLC provides the structure for defining policies for the RFC Series seems to not be grounded in prior discussion, and be wrong.  In terms of formal current authority, the authority for this activity comes from the IAB, via the earlier RFCs.  In terms of who beyond the WG-to-be should have such authority, or how that WG could be changed, is an interesting one that has not been discussed.",
       "createdAt": "2021-04-26T06:42:04Z",
-      "updatedAt": "2021-08-03T15:24:55Z",
+      "updatedAt": "2021-08-14T10:30:19Z",
       "closedAt": "2021-08-03T15:24:55Z",
       "comments": [
         {
@@ -1559,10 +1563,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "In Discussion"
+      ],
       "body": "Joel Halpern issue JMH5\r\nReading the process, I was struck by a minor gap in the process items.  specifically in item 4 on issueing the last call.  I think the text should include that the WG Chairs consider the proposal to be sufficiently developed and refined.  We sometimes have situations where there is rough consensus for something, but it really needs a little more work before it is sent out.  Obviously, we do not want to require perfection. But we do want to give the chairs room to say \"this needs more work\".",
       "createdAt": "2021-04-26T07:08:22Z",
-      "updatedAt": "2021-04-26T07:08:22Z",
+      "updatedAt": "2021-08-14T09:11:19Z",
       "closedAt": null,
       "comments": []
     },
@@ -1575,10 +1581,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "In Discussion"
+      ],
       "body": "We can break these out if these is controversy.\r\n\r\nHi,\r\n\r\nOn 2021-4-5, at 22:19, Peter Saint-Andre <stpeter@mozilla.com> wrote:\r\nhttps://datatracker.ietf.org/doc/draft-saintandre-rfced-model/\r\n\r\nI gave this a quick read, below are some initial thoughts.\r\n\r\nThanks,\r\nLars\r\n\r\nSection 4, paragraph 2, comment:\r\n  Continuing publication of RFCs shall be handled by the RFC Production\r\n  Center (RPC) function in accordance with current policies in force or\r\n  future policies defined as specified in the next section of this\r\n  document.\r\n\r\nI'm not quite sure what \"Continuing publication\" is meant to express - can\r\n\"continuing\" be removed, or else, what does it signify? (Or was the intent to\r\nsay \"Publication ... shall continue to be handled\"?)\r\n\r\nSection 5.1.1, paragraph 1, comment:\r\n5.1.1.  RFC Series Working Group (RSWG)\r\n\r\nCalling this group a Working Group will likely be a constant source of confusion\r\nfor IETF participants that do not pay much attention to organizational\r\ndiscussions, because this group will be significantly different from \"real\" IETF\r\nWGs. I'm wondering if calling it a \"Policy Group\" or by some other name may reduce\r\nthat possibility for confusion.\r\n\r\nSection 5.1.1, paragraph 2, comment:\r\n  The IETF Chair and the Independent Submissions Editor shall each\r\n  appoint and oversee a co-chair of the RSWG.\r\n\r\nI can understand why each separately appoints one chair, but why would each then\r\ncontinue to oversee only the one chair they appointed?\r\n\r\nSection 5.1.2, paragraph 4, comment:\r\n  The voting members of the RSAB shall be as follows:\r\n\r\nAre there members other than voting members on the RSAB? If not, just call them\r\nmembers? If yes, who are they?\r\n\r\nSection 5.1.2, paragraph 7, comment:\r\nIs there an intention for the RSAB to gain additional (voting) members\r\nif new RFC streams are created in the future?\r\n\r\nSection 5.2.2, paragraph 18, comment:\r\n  1.  If a CONCERN exists, discussion will take place within the RSWG.\r\n      Again, all RSAB members MUST participate.\r\n\r\nThis is an unenforceable MUST.\r\n\r\nSection 5.2.2, paragraph 18, comment:\r\n  2.  If all CONCERN positions are addressed, then the proposal is\r\n      approved.  Again, if substantial changes have been made, an\r\n      additional call for community input should be made.\r\n\r\nIt's not quite clear what \"addressed\" means. It would be clearer to say \"A\r\nproposal without any CONCERN positions is approved.\"\r\n\r\nSection 6.1, paragraph 2, comment:\r\n  process in confidence.  The initial length of service shall be for\r\n  one year, but then further extensions will be for three to five\r\n  years.\r\n\r\nIt will IMO be difficult to hire the desired senior professional on a one-year\r\ncontract.\r\n\r\n",
       "createdAt": "2021-04-26T07:09:32Z",
-      "updatedAt": "2021-08-02T21:36:17Z",
+      "updatedAt": "2021-08-14T09:10:24Z",
       "closedAt": null,
       "comments": [
         {
@@ -1587,6 +1595,13 @@
           "body": "I believe that we've addressed this feedback via versions -00 and -01 of the program draft, but if not perhaps @larseggert could let us know. :-) ",
           "createdAt": "2021-08-02T21:36:16Z",
           "updatedAt": "2021-08-02T21:36:16Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I've sent a note to the list",
+          "createdAt": "2021-08-14T09:10:10Z",
+          "updatedAt": "2021-08-14T09:10:10Z"
         }
       ]
     },
@@ -1836,15 +1851,16 @@
       "state": "OPEN",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [
-        "Candidate Text: Consensus call started",
-        "In Discussion",
+        "Consensus",
         "Text needed"
       ],
       "body": "Jay Daley:\r\n\r\n> I\u2019ve reviewed 6.2 \"RSEA Ongoing Performance Evaluation\" of draft-saintandre-rfced-model and I wonder if it is possible for a draft recommendation from the IETF Executive Director to be presented to the RSAB, excluding the RSEA, and an official view of the RSAB to be included in the final recommendation to the LLC Board?\r\n\r\n> My concern here is that community feedback, while often of high quality, may potentially be biased or incomplete and the RSAB is probably best placed to take a view on that.\r\n\r\n> Also, I think it would be useful to note why this recommendation has to go to the LLC Board rather than just being handled by the IETF Executive Director, otherwise this document may inadvertently set a precedent for other contracts.\r\n\r\n> Finally, I assume the feedback, summary of feedback and the recommendation are confidential?  If not then that should be clearly stated.\r\n\r\nJay\r\n",
       "createdAt": "2021-05-05T09:27:13Z",
-      "updatedAt": "2021-07-29T23:07:53Z",
+      "updatedAt": "2021-08-14T08:07:10Z",
       "closedAt": null,
       "comments": [
         {
@@ -1853,6 +1869,13 @@
           "body": "1. Community feedback to the LLC\r\n2. LLC produces a draft performance evaluation for the RSAB (excluding the RSEA)\r\n3. RSAB (excluding RSEA) provides feedback back to the LLC on that evaluation.",
           "createdAt": "2021-07-29T22:44:34Z",
           "updatedAt": "2021-07-29T22:44:34Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Peter, s/ED/LLC/ and add steps 2 and 3 above.",
+          "createdAt": "2021-08-14T08:07:10Z",
+          "updatedAt": "2021-08-14T08:07:10Z"
         }
       ]
     },
@@ -1929,7 +1952,7 @@
       "labels": [],
       "body": "Will the RPC be able to continue to make smaller updates to the online portion of the style guide and various lists as they do now?",
       "createdAt": "2021-05-06T00:32:58Z",
-      "updatedAt": "2021-08-02T21:02:37Z",
+      "updatedAt": "2021-08-14T09:13:04Z",
       "closedAt": null,
       "comments": [
         {
@@ -1938,6 +1961,13 @@
           "body": "Version -01 of the draft says that the following is in scope for the RPC:\r\n\r\n>   o  Maintenance of a styleguide that defines editorial standards to\r\n>      which RFCs must adhere (see [RFC7322] and related updates).",
           "createdAt": "2021-08-02T21:02:37Z",
           "updatedAt": "2021-08-02T21:02:37Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Issue #79 is a duplicate of this issue, and these two will be handled together, given that discussion is going on with the other issue.",
+          "createdAt": "2021-08-14T09:13:04Z",
+          "updatedAt": "2021-08-14T09:13:04Z"
         }
       ]
     },
@@ -2303,10 +2333,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "Discussion Pending"
+      ],
       "body": "This was raised in discussion in our June meeting.  Do people want term limits?  If so for how long?",
       "createdAt": "2021-06-22T14:23:33Z",
-      "updatedAt": "2021-06-22T14:24:09Z",
+      "updatedAt": "2021-08-14T09:30:08Z",
       "closedAt": null,
       "comments": []
     },
@@ -2319,10 +2351,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "Propose to close"
+      ],
       "body": "Do the appointing bodies retain the ability to remove chairs at their discretion?",
       "createdAt": "2021-06-22T14:26:39Z",
-      "updatedAt": "2021-08-02T20:55:25Z",
+      "updatedAt": "2021-08-14T09:15:37Z",
       "closedAt": null,
       "comments": [
         {
@@ -2445,6 +2479,24 @@
       "body": "",
       "createdAt": "2021-08-06T18:58:30Z",
       "updatedAt": "2021-08-06T18:58:30Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 79,
+      "id": "MDU6SXNzdWU5Njk1NjY5Mzk=",
+      "title": "Style guide handling",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/79",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "In Discussion"
+      ],
+      "body": "Right now the text in Section 6.1 states:\r\n\r\n>   This document creates the Editorial Stream.\r\n>\r\n>   Any and all future documents produced by the RSWG and approved by the\r\n   RSAB shall be published in the Editorial Stream.\r\n\r\nWith regard to the style guide, that is currently partly RFCs and partly managed separately.   The text in the draft doesn't quite cover that.  The RFCs in question are RFC 7322, RFC7997, and  RFC 7841 (boiler plate).  They are currently in the IAB stream.  We need to explicitly decide to redirect some or all of these to the Editorial Stream.  With regard to the things that are **not** RFCs (abbreviations list, terms, and a few other things), the model we have seems to indicate that these documents would go to the RPC unless and until the RSWG and RSAB say otherwise in a new policy RFC. \r\n\r\nIs my understanding correct or is there some proposal that someone else wants to make to address this?",
+      "createdAt": "2021-08-12T21:04:44Z",
+      "updatedAt": "2021-08-12T21:08:44Z",
       "closedAt": null,
       "comments": []
     }
