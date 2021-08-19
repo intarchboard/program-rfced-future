@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-08-15T00:14:53.413134+00:00",
+  "timestamp": "2021-08-19T00:12:27.753955+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -611,7 +611,7 @@
       "id": "MDU6SXNzdWU3MDk0Nzg2NDQ=",
       "title": "Who handles oversight/appeals?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/16",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -620,8 +620,8 @@
       ],
       "body": "Oversight/appeals remains with the IAB vs moves to ISOC vs moves to RSEB",
       "createdAt": "2020-09-26T08:41:07Z",
-      "updatedAt": "2021-08-03T08:31:00Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-18T09:34:35Z",
+      "closedAt": "2021-08-18T09:34:35Z",
       "comments": [
         {
           "author": "elear",
@@ -1338,7 +1338,7 @@
       "id": "MDU6SXNzdWU4NTE4MTYyNzM=",
       "title": "LLC structure for new policies regarding RFC issues",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/39",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -1347,9 +1347,17 @@
       ],
       "body": "As far as I can tell, the following:\r\n  The IETF LLC shall also provide a structure for defining policies\r\n  regarding the RFC series.  This document specifies such a structure\r\n  through a new RFC Series Working Group (RSWG), which shall submit its\r\n  policy proposals to a new RFC Series Approval Board (RSAB).\r\nis an interesting idea which has not been discussed on the list.  It has multiple implications, including technically giving the LLC the authority to change this structure.\r\nI expect you put it in as a first cut for \"what does it mean to get this adopted?\" which is indeed important.\r\n\r\nI realize that everything is open for discussion.  I do note and appreciate that some things are marked as \"Open Issue\" as they appear to have less agreement.",
       "createdAt": "2021-04-06T21:15:43Z",
-      "updatedAt": "2021-04-06T21:15:43Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-08-18T11:59:00Z",
+      "closedAt": "2021-08-18T11:59:00Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The LLC text about structure is no longer present.",
+          "createdAt": "2021-08-18T11:58:59Z",
+          "updatedAt": "2021-08-18T11:58:59Z"
+        }
+      ]
     },
     {
       "number": 40,
