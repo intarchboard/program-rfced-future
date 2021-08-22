@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-08-19T00:12:27.753955+00:00",
+  "timestamp": "2021-08-22T00:14:57.721950+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -1585,17 +1585,15 @@
       "id": "MDU6SXNzdWU4NjczNDY0NzM=",
       "title": "Lars Eggert comments",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/46",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "We can break these out if these is controversy.\r\n\r\nHi,\r\n\r\nOn 2021-4-5, at 22:19, Peter Saint-Andre <stpeter@mozilla.com> wrote:\r\nhttps://datatracker.ietf.org/doc/draft-saintandre-rfced-model/\r\n\r\nI gave this a quick read, below are some initial thoughts.\r\n\r\nThanks,\r\nLars\r\n\r\nSection 4, paragraph 2, comment:\r\n  Continuing publication of RFCs shall be handled by the RFC Production\r\n  Center (RPC) function in accordance with current policies in force or\r\n  future policies defined as specified in the next section of this\r\n  document.\r\n\r\nI'm not quite sure what \"Continuing publication\" is meant to express - can\r\n\"continuing\" be removed, or else, what does it signify? (Or was the intent to\r\nsay \"Publication ... shall continue to be handled\"?)\r\n\r\nSection 5.1.1, paragraph 1, comment:\r\n5.1.1.  RFC Series Working Group (RSWG)\r\n\r\nCalling this group a Working Group will likely be a constant source of confusion\r\nfor IETF participants that do not pay much attention to organizational\r\ndiscussions, because this group will be significantly different from \"real\" IETF\r\nWGs. I'm wondering if calling it a \"Policy Group\" or by some other name may reduce\r\nthat possibility for confusion.\r\n\r\nSection 5.1.1, paragraph 2, comment:\r\n  The IETF Chair and the Independent Submissions Editor shall each\r\n  appoint and oversee a co-chair of the RSWG.\r\n\r\nI can understand why each separately appoints one chair, but why would each then\r\ncontinue to oversee only the one chair they appointed?\r\n\r\nSection 5.1.2, paragraph 4, comment:\r\n  The voting members of the RSAB shall be as follows:\r\n\r\nAre there members other than voting members on the RSAB? If not, just call them\r\nmembers? If yes, who are they?\r\n\r\nSection 5.1.2, paragraph 7, comment:\r\nIs there an intention for the RSAB to gain additional (voting) members\r\nif new RFC streams are created in the future?\r\n\r\nSection 5.2.2, paragraph 18, comment:\r\n  1.  If a CONCERN exists, discussion will take place within the RSWG.\r\n      Again, all RSAB members MUST participate.\r\n\r\nThis is an unenforceable MUST.\r\n\r\nSection 5.2.2, paragraph 18, comment:\r\n  2.  If all CONCERN positions are addressed, then the proposal is\r\n      approved.  Again, if substantial changes have been made, an\r\n      additional call for community input should be made.\r\n\r\nIt's not quite clear what \"addressed\" means. It would be clearer to say \"A\r\nproposal without any CONCERN positions is approved.\"\r\n\r\nSection 6.1, paragraph 2, comment:\r\n  process in confidence.  The initial length of service shall be for\r\n  one year, but then further extensions will be for three to five\r\n  years.\r\n\r\nIt will IMO be difficult to hire the desired senior professional on a one-year\r\ncontract.\r\n\r\n",
       "createdAt": "2021-04-26T07:09:32Z",
-      "updatedAt": "2021-08-14T09:10:24Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-19T10:00:26Z",
+      "closedAt": "2021-08-19T09:59:21Z",
       "comments": [
         {
           "author": "stpeter",
@@ -1610,6 +1608,13 @@
           "body": "I've sent a note to the list",
           "createdAt": "2021-08-14T09:10:10Z",
           "updatedAt": "2021-08-14T09:10:10Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closing this, but have opened Issue #80 as discussed.",
+          "createdAt": "2021-08-19T09:59:21Z",
+          "updatedAt": "2021-08-19T09:59:21Z"
         }
       ]
     },
@@ -2505,6 +2510,22 @@
       "body": "Right now the text in Section 6.1 states:\r\n\r\n>   This document creates the Editorial Stream.\r\n>\r\n>   Any and all future documents produced by the RSWG and approved by the\r\n   RSAB shall be published in the Editorial Stream.\r\n\r\nWith regard to the style guide, that is currently partly RFCs and partly managed separately.   The text in the draft doesn't quite cover that.  The RFCs in question are RFC 7322, RFC7997, and  RFC 7841 (boiler plate).  They are currently in the IAB stream.  We need to explicitly decide to redirect some or all of these to the Editorial Stream.  With regard to the things that are **not** RFCs (abbreviations list, terms, and a few other things), the model we have seems to indicate that these documents would go to the RPC unless and until the RSWG and RSAB say otherwise in a new policy RFC. \r\n\r\nIs my understanding correct or is there some proposal that someone else wants to make to address this?",
       "createdAt": "2021-08-12T21:04:44Z",
       "updatedAt": "2021-08-12T21:08:44Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 80,
+      "id": "MDU6SXNzdWU5NzQ0ODgyMTM=",
+      "title": "RSWG name",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/80",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From earlier Lars comments: there may be some confusion that this is an IETF working group if we use WG.  Do we want to consider some other term?",
+      "createdAt": "2021-08-19T09:58:53Z",
+      "updatedAt": "2021-08-19T09:58:53Z",
       "closedAt": null,
       "comments": []
     }
