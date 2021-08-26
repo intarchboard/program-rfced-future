@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-08-22T00:14:57.721950+00:00",
+  "timestamp": "2021-08-26T00:13:59.668538+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -1828,17 +1828,17 @@
       "id": "MDU6SXNzdWU4NzYxNzc3Njc=",
       "title": "When does the RSAB start its formal review?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/54",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Propose to close"
+        "Consensus"
       ],
       "body": "Should this occur during community last call or directly afterward?  I think it probably **can't** occur until after, and therefore, EKR's  change in PR #37 seems correct.",
       "createdAt": "2021-05-05T08:03:13Z",
-      "updatedAt": "2021-08-06T19:18:15Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-24T06:21:10Z",
+      "closedAt": "2021-08-24T06:21:10Z",
       "comments": [
         {
           "author": "stpeter",
@@ -2363,13 +2363,16 @@
       "state": "OPEN",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [
-        "Propose to close"
+        "Consensus",
+        "Text needed"
       ],
       "body": "Do the appointing bodies retain the ability to remove chairs at their discretion?",
       "createdAt": "2021-06-22T14:26:39Z",
-      "updatedAt": "2021-08-14T09:15:37Z",
+      "updatedAt": "2021-08-24T06:20:22Z",
       "closedAt": null,
       "comments": [
         {
@@ -2385,6 +2388,13 @@
           "body": "The -01 draft says:\r\n\r\n> Each appointing body shall have the power\r\n>  to remove its appointed chair at its discretion.",
           "createdAt": "2021-08-02T20:55:24Z",
           "updatedAt": "2021-08-02T20:55:24Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Slight tweak needed based on Russ Housley's comment \"at any time\".",
+          "createdAt": "2021-08-24T06:20:10Z",
+          "updatedAt": "2021-08-24T06:20:10Z"
         }
       ]
     },
@@ -2393,17 +2403,17 @@
       "id": "MDU6SXNzdWU5Mjc1MjA0MjU=",
       "title": "Who is responsible for creating new streams?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/73",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Candidate Text: Consensus call started"
+        "Consensus"
       ],
       "body": "I think this is actually an open question.  What is the process for creating a new stream?  Which body does that?  A stream usually itself represents an organization.  The RSAB wouldn't create orgs, tho perhaps they might recognize an org.",
       "createdAt": "2021-06-22T18:26:16Z",
-      "updatedAt": "2021-08-06T19:05:20Z",
-      "closedAt": null,
+      "updatedAt": "2021-08-24T06:19:08Z",
+      "closedAt": "2021-08-24T06:19:08Z",
       "comments": [
         {
           "author": "stpeter",
@@ -2418,6 +2428,13 @@
           "body": "On list, Brian Carpenter suggested:\r\n\r\n> The requirements and process for creating any additional RFC streams are \r\nout of scope in this document.",
           "createdAt": "2021-08-02T20:56:19Z",
           "updatedAt": "2021-08-02T20:56:19Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Text is in Editor's copy.",
+          "createdAt": "2021-08-24T06:19:07Z",
+          "updatedAt": "2021-08-24T06:19:07Z"
         }
       ]
     },
