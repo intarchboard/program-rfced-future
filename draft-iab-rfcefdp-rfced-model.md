@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model v3"
-docname: draft-iab-rfcefdp-rfced-model-00
+docname: draft-iab-rfcefdp-rfced-model-01
 category: info
 obsoletes: RFC8728
 ipr: trust200902
@@ -124,7 +124,7 @@ working group (as described below) that seeks input and participation
 from a wide range of persons who have an interest in the RFC Series. 
 The RSAB consists of appointed members who represent the various RFC 
 streams {{RFC8728}} as well as an expert in technical publishing, the
-RFC Series Consulting Editor (RSCE).
+RFC Series Editor/Advisor (RSEA).
 
 The policy implementation function is performed by the RFC Production 
 Center (RPC), under the ultimate authority of the IETF Administration 
@@ -133,11 +133,11 @@ Limited Liability Company (IETF LLC).
 In short:
 
 * The RSWG establishes policy, with input from the community, the RSAB, and 
-  the RSCE.
+  the RSEA.
 * The RSAB considers those proposals and approves or returns as appropriate.
 * The RPC periodically reports to the RSAB on how it is implementing established 
   policies.
-* The RSCE provides expert advice to the RPC and RSAB on how to implement 
+* The RSEA provides expert advice to the RPC and RSAB on how to implement 
   established policies on an ongoing and operational basis, which can include
   raising issues or initiating proposed policy changes within the RSWG.
 * If issues arise with the implementation of particular policies, the RPC brings 
@@ -201,8 +201,9 @@ determine their own processes for making these appointments, such
 as provision for an open nominations period. Community members who 
 have concerns about the performance of an RSWG chair should direct
 their feedback to the relevant appointing body. Each appointing 
-body shall have the power to remove its appointed chair at its 
-discretion.
+body shall have the power to replace its appointed chair at its 
+discretion at any time, with the replacement serving the remainder
+of the original chair'soriginal chair's  term.
 
 It is the responsibility of the chairs to encourage rough consensus 
 within the RSWG and to follow that consensus in their decision making,
@@ -233,7 +234,7 @@ The voting members of the RSAB shall be as follows:
 * One delegate representing the IAB stream, appointed by the IAB
 * One delegate representing the IRTF stream, appointed by the IRTF Chair
 * The Independent Submissions Editor {{RFC8730}}
-* The RFC Series Consulting Editor
+* The RFC Series Editor/Advisor
 
 The appointing bodies shall determine their own processes for appointing 
 delegates, such as provision for an open nominations period. If it becomes 
@@ -254,8 +255,8 @@ and processes related to that representative (e.g., whether the
 representative is a member of the body responsible for the stream 
 or an appointed delegate thereof.
 
-The RSAB shall choose a chair from among its members using a method to
-be determined by the RSAB. 
+The RSAB shall annually choose a chair from among its members using 
+a method to be determined by the RSAB. 
 
 The RSAB is expected to operate via email, in-person meetings, 
 teleconferencing systems, and any additional tooling it deems
@@ -276,8 +277,9 @@ the confidentiality requirements permit.
 NOTE: This section is intended to address 
 [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
 [ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
-[ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), and 
-[ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53).
+[ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), 
+[ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53), and
+[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71).
 
 
 ## Process
@@ -419,32 +421,32 @@ professional standards and demonstrate appropriate workplace
 behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 
-# RFC Series Consulting Editor (RSCE)
+# RFC Series Editor/Advisor (RSEA)
 
 NOTE: Discussion continues within the RFCED-Future Program
 regarding the roles and responsibilities of an expert in technical
 publication processes. To retain flexibility (e.g., as to whether this
 individual plays more of an advisory role or more of a singular 
 leadership role), this document temporarily refers to the individual 
-as the "RFC Series Consulting Editor" ("RSCE"). 
+as the "RFC Series Editor/Advisor" ("RSEA"). 
 
-The RFC Series Consulting Editor (RSCE) is a senior technical 
+The RFC Series Editor/Advisor (RSEA) is a senior technical 
 publishing professional who will apply their deep knowledge of 
 technical publishing processes to the RFC series. 
 
-The primary responsibilities of the RSCE are as follows:
+The primary responsibilities of the RSEA are as follows:
 
 * Serve as a voting member on the RSAB.
 * Identify problems with the RFC publication process and opportunities for improvement.
 * Provide expert advice regarding policy proposals within the RSWG.
 * If requested, provide expert advice to the RPC and IETF LLC.
 
-Matters on which the RSCE might be consulted could include proposed 
+Matters on which the RSEA might be consulted could include proposed 
 changes to the RFC style guide {{RFC7322}}, RFC formatting in general, 
 web presence, copyright matters, archiving policy, and dissemination 
 and cataloguing of RFCs.
 
-Whether the RSCE role is structured as a contractual or employee relationship 
+Whether the RSEA role is structured as a contractual or employee relationship 
 is a matter for the IETF LLC and the IETF Executive Director to determine.
 
 NOTE: This section is intended to address 
@@ -452,20 +454,23 @@ NOTE: This section is intended to address
 [ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24).
 
 
-## RSCE Selection
+## RSEA Selection
 
 The IETF LLC will form a selection committee, including members from the 
 community, that will be responsible for making a recommendation to the 
-IETF LLC for the RSCE role. The selection committee will take into account the 
+IETF LLC for the RSEA role. The selection committee will take into account the 
 [role definition](https://github.com/intarchboard/program-rfced-future/blob/master/Issue12-RSE-role.md) 
 as well as any other information that the committee
-deems necessary or helpful in making its decision.
+deems necessary or helpful in making its decision. The IETF LLC is responsible 
+for contracting or employment of the RSEA.
 
 
-## RSCE Performance Evaluation
+## RSEA Performance Evaluation
 
-Periodically, the IETF LLC will evaluate the performance of the RSCE, 
-including a call for confidential input from the community.
+Periodically, the IETF LLC will evaluate the performance of the RSEA, 
+including a call for confidential input from the community. The IETF LLC
+will produce a draft performance evaluation for the RSAB (not including
+the RSEA), which will provide feedback to the IETF LLC.
 
 
 # Policy Implementation Function
