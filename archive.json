@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-08-29T00:15:29.708718+00:00",
+  "timestamp": "2021-09-07T00:14:47.881958+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -684,11 +684,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Defer"
+        "In Discussion"
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:34Z",
-      "updatedAt": "2020-11-13T16:09:50Z",
+      "updatedAt": "2021-09-06T07:33:06Z",
       "closedAt": null,
       "comments": []
     },
@@ -1035,11 +1035,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "From John:\r\n\r\nIntellectual Property Rights in IETF Technology (RFC8179/BCP79)\r\n(while IETF-specific, also adopted by the IRTF\r\n(https://irtf.org/policies/ipr)\r\n\r\n  Summary: This document/BCP is essentially about patents\r\n  which, as far as I can tell, have not in the past and\r\n  should not in the future impact the RFC Editor.\r\n\r\n  Action required: Probably not, but requiring conformance\r\n  along the lines of the IRTF policy would not be harmful.",
       "createdAt": "2021-01-26T07:40:47Z",
-      "updatedAt": "2021-05-20T22:20:02Z",
+      "updatedAt": "2021-09-06T07:17:47Z",
       "closedAt": null,
       "comments": [
         {
@@ -1061,11 +1061,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "From John: \r\n\r\nRights Contributors Provide to the IETF Trust (RFC5378/BCP78)\r\nAnd Rights in documentation more generally\r\n  (RFC 5744 - Independent Stream; RFC 5745 - IAB Stream; RFC\r\n  8721 (and predecessor 5377)- Advice to Trustees)\r\n\r\n  Summary: RFC 5738, Section 1, points to RFC 2028 for a\r\n  definition of \"RFC Editor\". See rant above. Section 3.6 (and\r\n  the somewhat redundant Section 5.9) implies that the IETF\r\n  Trust need not (and perhaps does not or should not) own the\r\n  copyrights to Informational RFCs and \"RFCs submitted as RFC\r\n  Editor Contributions\" (not our problem, but, I believe,\r\n  inconsistent with contemporary practice) and suggests (in\r\n  terminology of today's structure) that the authority of the\r\n  Trust is limited to documents \"in the RFC format used by the\r\n  IETF\". Probably not our problem either, but, in the current\r\n  \"only the XML is the canonical/ archival form\" model, it is\r\n  not clear what \"the format used by the IETF\" means. RFC\r\n  8721 sheds no light on this other than noting the\r\n  long-standing tradition of allowing translations and\r\n  suggesting it continue. Terms such as \"published by the RFC\r\n  Editor\" appear in other places, such as Section 4 of RFC\r\n  5378, and points to the \"RFC Editor web page\" for more\r\n  information, where there is no sign of any such information\r\n  (see \"Job Description\" below).\r\n\r\n  Action required: Probably none unless we need the new entity\r\n  to endorse the BCP 78 policies either as an entity\r\n  independent of other IETF-related bodies or as part of an\r\n  RFC Editor Stream should we decide to create one, probably\r\n  following the IAB model outlined in Section 11. Note,\r\n  however, that the other streams have been much more careful\r\n  to apply BCP 79 than they have been about BCP 78 (e.g., as\r\n  I read the IRTF summary cited above, it is entirely about\r\n  BCP 79 and disclosures -- BCP 78 is not cited or\r\n  mentioned), a problem that is further complicated by the\r\n  slightly convoluted language in RFC 5378 about non-IETF\r\n  documents. In addition, if one were to endorse/ require\r\n  conformance along the lines of BCP 78, it is not clear that\r\n  its definition of \"Contribution\" would work for the sort of\r\n  discussions I think we are assuming would occur in the\r\n  working group or oversight body.",
       "createdAt": "2021-01-26T07:41:29Z",
-      "updatedAt": "2021-05-20T22:23:53Z",
+      "updatedAt": "2021-09-06T07:17:34Z",
       "closedAt": null,
       "comments": [
         {
@@ -1080,18 +1080,18 @@
     {
       "number": 30,
       "id": "MDU6SXNzdWU3OTQwMTA0MDA=",
-      "title": "Do we need to update BCP 39?",
+      "title": "Do we need to update BCP 39? (IAB Charter)",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/30",
       "state": "OPEN",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "From John:\r\n\r\nCharter of the Internet Architecture Board (IAB) (RFC\r\n2850/BCP0039)\r\n\r\n  Summary: Mentions responsibility for the RFC Editor. It also\r\n  specifies that the RFC Editor is an liaison member of the\r\n  IAB. Depending on what other decisions we make, that may no\r\n  longer be appropriate and we may need to sort out whether\r\n  the RSE/A, RPC, or both, should have liaisons to the IESG.\r\n  It also occurs to me that having the RSE/A be an ex-officio\r\n  member of the LLC Board might improve communications,\r\n  facilitate discussion of tradeoffs about possibly courses of\r\n  action that would require money or other resources, and\r\n  provide a barrier against treating the RSE/A and/or the\r\n  entire RFC Editor Function as \"just contractors\".\r\n\r\n  Action required: If we continue on what I think is our\r\n  current path, the IAB responsibility for the RFC Editor\r\n  will need to come out.   And we need to sort the liaison\r\n  issues out.",
       "createdAt": "2021-01-26T07:42:21Z",
-      "updatedAt": "2021-05-20T22:27:14Z",
+      "updatedAt": "2021-09-06T07:01:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -1157,11 +1157,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "Independent Submission Editor Model (RFC 8730 and the earlier\r\nRFC 5620 and 6548)\r\n\r\n  Summary: Mentions interactions with the RSE and appointment\r\n  by the IAB.  If we create a new oversight mechanism,\r\n  decouple the RSE/A function, and/or RSE/A appointment from\r\n  the IAB, we may want to review whether having the IAB\r\n  appoint the ISE is still appropriate.  The text does\r\n  mention the RSOC in section 2, so, if we are eliminating\r\n  that body (and possibly replacing it with something else),\r\n  that sentence would need adjustment.\r\n\r\n  Action: Probably remove comment about the RSE in Section 2.\r\n  Depending on what else we decide, possibly adjust text about\r\n  appointment by the IAB and/or being responsible to the IAB.\r\n",
       "createdAt": "2021-01-26T07:44:54Z",
-      "updatedAt": "2021-08-28T08:43:40Z",
+      "updatedAt": "2021-09-06T06:12:38Z",
       "closedAt": null,
       "comments": [
         {
@@ -1230,12 +1230,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Defer",
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "From John:\r\n\r\nIESG Procedures for Handling of Independent and IRTF Stream\r\nSubmissions (RFC 5742)\r\n\r\n  Summary: This document discusses the relationship between\r\n  the IESG and documents from the Independent and IRTF\r\n  Streams.  If we are going to create a separate \"RFC Editor\"\r\n  Stream (under some name), we need to address whether the\r\n  IESG and/or the IAB should be requested to perform reviews\r\n  similar to these, a question that is probably independent\r\n  of ones about representation from the Streams in any\r\n  oversight body or process.\r\n\r\n  Action required: Once we determine whether there will be a\r\n  separate stream and how it is managed, come back to the\r\n  question of whether there should be formal documents reviews\r\n  by the IESG, IAB, and/or some other body or bodies.",
       "createdAt": "2021-01-26T07:47:22Z",
-      "updatedAt": "2021-05-11T21:07:44Z",
+      "updatedAt": "2021-09-06T07:39:07Z",
       "closedAt": null,
       "comments": [
         {
@@ -1772,11 +1771,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "At the high level, I think the draft is about right in terms of level\r\nof detail and description of what is more or less agreed so far. Of\r\ncourse there are gaps and open issues, but I assume we will cover\r\nthem on the list.\r\n\r\nI agree with Adrian's review. One job that needs to be done is to check\r\nthat everything in RFC 8728 is taken care of. That could mean one of at\r\nleast three things for each item:\r\na) abolished (e.g. the RSOC; already covered)\r\nb) replaced (e.g. whatever the RSE/A ends up as)\r\nc) intentionally unspecified (because we should not micro-manage by RFC)\r\n\r\nThe third category might be the hardest, since we all love bikeshedding so\r\nmuch. Maybe there should be an opening statement that details have been\r\navoided wherever possible, to avoid micro-management. So while I agree\r\nwith Adrian that there is valuable material in RFC 8728, I think we\r\nshould prune it wherever it looks like micro-management.\r\n\r\nAgreeing on the RSE/A role appears to be the main gap in the -00 version,\r\nwhich I assume we will discuss here soon enough. I have some concerns\r\nabout \"6.1.  RSEA Selection\" but I think those should be discussed\r\nafter the role is clarified.\r\n\r\nOne specific phrase needs fixing IMHO:\r\n\r\n\"Specifically, this document defines a structure in which ultimate\r\n  authority lies with the IETF LLC...\"\r\n\r\nEr, no. Ultimate authority lies with the community. Try:\r\n\r\nSpecifically, this document defines a structure in which contractual\r\nauthority lies with the IETF LLC...",
       "createdAt": "2021-04-27T08:45:39Z",
-      "updatedAt": "2021-08-27T17:01:39Z",
+      "updatedAt": "2021-09-06T06:11:22Z",
       "closedAt": null,
       "comments": [
         {
@@ -2432,11 +2431,12 @@
         "stpeter"
       ],
       "labels": [
+        "Consensus",
         "Text needed"
       ],
       "body": "This was raised in discussion in our June meeting.  Do people want term limits?  If so for how long?",
       "createdAt": "2021-06-22T14:23:33Z",
-      "updatedAt": "2021-08-27T16:59:09Z",
+      "updatedAt": "2021-09-06T06:06:12Z",
       "closedAt": null,
       "comments": [
         {
@@ -2647,10 +2647,12 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "In Discussion"
+      ],
       "body": "From earlier Lars comments: there may be some confusion that this is an IETF working group if we use WG.  Do we want to consider some other term?",
       "createdAt": "2021-08-19T09:58:53Z",
-      "updatedAt": "2021-08-19T09:58:53Z",
+      "updatedAt": "2021-09-06T06:10:55Z",
       "closedAt": null,
       "comments": []
     },
