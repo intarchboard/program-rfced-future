@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>RFC Editor Model (Version 3)</title>
+<title>RFC Series Policy Definition and Implementation</title>
 <meta content="Peter Saint-Andre" name="author">
 <meta content="
        This document describes Version 3 of the RFC Editor model. As
@@ -25,7 +25,7 @@ as specified in RFC 6635 and RFC 8728.
     " name="description">
 <meta content="xml2rfc 3.9.1" name="generator">
 <meta content="Internet-Draft" name="keyword">
-<meta content="draft-iab-rfcefdp-rfced-model-01" name="ietf.draft">
+<meta content="draft-iab-rfcefdp-rfced-model-02" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.9.1
     Python 3.9.5
@@ -283,10 +283,15 @@ h4, h5, h6 {
 .author {
   padding-bottom: 0.3em;
 }
-#abstract+p, #abstract+p code, #abstract+p samp, #abstract+p tt {
+#abstract+p {
   font-size: 18px;
   line-height: 24px;
 }
+#abstract+p code, #abstract+p samp, #abstract+p tt {
+  font-size: 16px;
+  line-height: 0;
+}
+
 p {
   padding: 0;
   margin: 0.5em 0;
@@ -418,6 +423,12 @@ a.xref {
 tt, code, pre {
   background-color: var(--highlight-color);
   font: 14px/22px 'Oxygen Mono', monospace;
+}
+tt, code {
+  /* changing the font for inline elements leads to different ascender
+     and descender heights; as we want to retain baseline alignment,
+     remove leading to avoid altering the final height of lines */
+  line-height: 0;
 }
 pre {
   border: 1px solid var(--line-color);
@@ -1019,12 +1030,12 @@ address div.right {
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
-<td class="center">RFC Editor Model v3</td>
+<td class="center">RFC Series Policy</td>
 <td class="right">September 2021</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Saint-Andre</td>
-<td class="center">Expires 5 March 2022</td>
+<td class="center">Expires 17 March 2022</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1034,18 +1045,21 @@ address div.right {
 <dt class="label-workgroup">Workgroup:</dt>
 <dd class="workgroup">Network Working Group</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-iab-rfcefdp-rfced-model-01</dd>
+<dd class="internet-draft">draft-iab-rfcefdp-rfced-model-02</dd>
 <dt class="label-obsoletes">Obsoletes:</dt>
 <dd class="obsoletes">
 <a href="https://datatracker.ietf.org/doc/html/rfcRFC8728" class="eref">RFC8728</a> (if approved)</dd>
+<dt class="label-updates">Updates:</dt>
+<dd class="updates">
+<a href="https://datatracker.ietf.org/doc/html/rfcRFC8729" class="eref">RFC8729</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2021-09-01" class="published">1 September 2021</time>
+<time datetime="2021-09-13" class="published">13 September 2021</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2022-03-05">5 March 2022</time></dd>
+<dd class="expires"><time datetime="2022-03-17">17 March 2022</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1056,7 +1070,7 @@ address div.right {
 </dd>
 </dl>
 </div>
-<h1 id="title">RFC Editor Model (Version 3)</h1>
+<h1 id="title">RFC Series Policy Definition and Implementation</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">This document describes Version 3 of the RFC Editor model. As
@@ -1105,7 +1119,7 @@ as specified in RFC 6635 and RFC 8728.<a href="#section-abstract-2" class="pilcr
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 5 March 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 17 March 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1133,115 +1147,115 @@ as specified in RFC 6635 and RFC 8728.<a href="#section-abstract-2" class="pilcr
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="ulBare compact toc ulEmpty">
-<li class="ulBare compact toc ulEmpty" id="section-toc.1-1.1">
+<nav class="toc"><ul class="ulBare toc compact ulEmpty">
+<li class="ulBare toc compact ulEmpty" id="section-toc.1-1.1">
             <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.2">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.2">
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-overview-of-the-model" class="xref">Overview of the Model</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.3">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.3">
             <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-policy-definition-function" class="xref">Policy Definition Function</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.1">
                 <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-structure-and-roles" class="xref">Structure and Roles</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.1.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.1.2.1">
                     <p id="section-toc.1-1.3.2.1.2.1.1" class="keepWithNext"><a href="#section-3.1.1" class="xref">3.1.1</a>.  <a href="#name-rfc-series-working-group-rs" class="xref">RFC Series Working Group (RSWG)</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.1.2.2">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.1.2.2">
                     <p id="section-toc.1-1.3.2.1.2.2.1"><a href="#section-3.1.2" class="xref">3.1.2</a>.  <a href="#name-rfc-series-approval-board-r" class="xref">RFC Series Approval Board (RSAB)</a></p>
 </li>
                 </ul>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2">
                 <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-process" class="xref">Process</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2.2.1">
                     <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="xref">3.2.1</a>.  <a href="#name-intent" class="xref">Intent</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2.2.2">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2.2.2">
                     <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="xref">3.2.2</a>.  <a href="#name-specifics" class="xref">Specifics</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2.2.3">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2.2.3">
                     <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="xref">3.2.3</a>.  <a href="#name-community-calls-for-comment" class="xref">Community Calls for Comment</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2.2.4">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2.2.4">
                     <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="xref">3.2.4</a>.  <a href="#name-appeals" class="xref">Appeals</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.3.2.2.2.5">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.3.2.2.2.5">
                     <p id="section-toc.1-1.3.2.2.2.5.1"><a href="#section-3.2.5" class="xref">3.2.5</a>.  <a href="#name-anti-harassment-policy" class="xref">Anti-Harassment Policy</a></p>
 </li>
                 </ul>
 </li>
             </ul>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.4">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.4">
             <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-rfc-series-editor-advisor-r" class="xref">RFC Series Editor/Advisor (RSEA)</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.4.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.4.2.1">
                 <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="xref">4.1</a>.  <a href="#name-rsea-selection" class="xref">RSEA Selection</a></p>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.4.2.2">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.4.2.2">
                 <p id="section-toc.1-1.4.2.2.1"><a href="#section-4.2" class="xref">4.2</a>.  <a href="#name-rsea-performance-evaluation" class="xref">RSEA Performance Evaluation</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.5">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.5">
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-policy-implementation-funct" class="xref">Policy Implementation Function</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.1">
                 <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="xref">5.1</a>.  <a href="#name-roles-and-processes" class="xref">Roles and Processes</a></p>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.2">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.2">
                 <p id="section-toc.1-1.5.2.2.1"><a href="#section-5.2" class="xref">5.2</a>.  <a href="#name-editorial-and-publication-p" class="xref">Editorial and Publication Policies</a></p>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.3">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.3">
                 <p id="section-toc.1-1.5.2.3.1"><a href="#section-5.3" class="xref">5.3</a>.  <a href="#name-resolution-of-disagreements" class="xref">Resolution of Disagreements between Authors and the RPC</a></p>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.4">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.4">
                 <p id="section-toc.1-1.5.2.4.1"><a href="#section-5.4" class="xref">5.4</a>.  <a href="#name-administrative-implementati" class="xref">Administrative Implementation</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.4.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.4.2.1">
                     <p id="section-toc.1-1.5.2.4.2.1.1"><a href="#section-5.4.1" class="xref">5.4.1</a>.  <a href="#name-vendor-selection-for-the-rf" class="xref">Vendor Selection for the RFC Production Center</a></p>
 </li>
-                  <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.5.2.4.2.2">
+                  <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.5.2.4.2.2">
                     <p id="section-toc.1-1.5.2.4.2.2.1"><a href="#section-5.4.2" class="xref">5.4.2</a>.  <a href="#name-budget" class="xref">Budget</a></p>
 </li>
                 </ul>
 </li>
             </ul>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.6">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.6">
             <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-streams" class="xref">Streams</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.7">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.7">
             <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.8">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.8">
             <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.9">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.9">
             <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-changes-from-version-2-of-t" class="xref">Changes from Version 2 of the RFC Editor Model</a></p>
-<ul class="ulEmpty ulBare compact toc">
-<li class="ulEmpty ulBare compact toc" id="section-toc.1-1.9.2.1">
+<ul class="compact ulEmpty ulBare toc">
+<li class="compact ulEmpty ulBare toc" id="section-toc.1-1.9.2.1">
                 <p id="section-toc.1-1.9.2.1.1"><a href="#section-9.1" class="xref">9.1</a>.  <a href="#name-rfc-series-editor" class="xref">RFC Series Editor</a></p>
 </li>
-              <li class="ulEmpty ulBare compact toc" id="section-toc.1-1.9.2.2">
+              <li class="compact ulEmpty ulBare toc" id="section-toc.1-1.9.2.2">
                 <p id="section-toc.1-1.9.2.2.1"><a href="#section-9.2" class="xref">9.2</a>.  <a href="#name-rfc-series-oversight-commit" class="xref">RFC Series Oversight Committee (RSOC)</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.10">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.10">
             <p id="section-toc.1-1.10.1"><a href="#section-10" class="xref">10</a>. <a href="#name-iana-considerations-2" class="xref">IANA Considerations</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.11">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.11">
             <p id="section-toc.1-1.11.1"><a href="#section-11" class="xref">11</a>. <a href="#name-informative-references" class="xref">Informative References</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.12">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.12">
             <p id="section-toc.1-1.12.1"><a href="#appendix-A" class="xref"></a><a href="#name-acknowledgments" class="xref">Acknowledgments</a></p>
 </li>
-          <li class="ulBare compact toc ulEmpty" id="section-toc.1-1.13">
+          <li class="ulBare toc compact ulEmpty" id="section-toc.1-1.13">
             <p id="section-toc.1-1.13.1"><a href="#appendix-B" class="xref"></a><a href="#name-authors-address" class="xref">Author's Address</a></p>
 </li>
         </ul>
@@ -1512,33 +1526,38 @@ processes they deem appropriate to facilitate this goal.<a href="#section-3.2.1-
 to the RFC series:<a href="#section-3.2.2-1" class="pilcrow">¶</a></p>
 <ol start="1" type="1" class="normal type-1" id="section-3.2.2-2">
 <li id="section-3.2.2-2.1">An individual participant in the RSWG generates a proposal in the form of 
-an Internet-Draft.<a href="#section-3.2.2-2.1" class="pilcrow">¶</a>
+an Internet-Draft, which is submitted in full conformance with the provisions
+of BCP 78 and BCP 79.<a href="#section-3.2.2-2.1" class="pilcrow">¶</a>
 </li>
             <li id="section-3.2.2-2.2">If there is sufficient interest in the proposal, RSWG may adopt the proposal 
-as a draft proposal of the RSWG, much the same way a working group of
-the IETF or IRTF would (see <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>).<a href="#section-3.2.2-2.2" class="pilcrow">¶</a>
+as a draft proposal of the RSWG, much the same way a working group or research
+group of the IETF or IRTF would (see <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>).<a href="#section-3.2.2-2.2" class="pilcrow">¶</a>
 </li>
             <li id="section-3.2.2-2.3">The RSWG shall then further develop the proposal. Members of the
 RSAB are expected to participate in discussion relating to such proposals
 so that they are fully aware of proposals early in the policy definition 
 process and so that any issues or concerns that they have will be raised
 during the development of the proposals and will not be left until
-the RSAB review period.<a href="#section-3.2.2-2.3" class="pilcrow">¶</a>
+the RSAB review period. The RWSG chairs are also expected to participate
+as individuals.<a href="#section-3.2.2-2.3" class="pilcrow">¶</a>
 </li>
             <li id="section-3.2.2-2.4">At some point, if the RSWG chairs believe there may be rough consensus 
-for the proposal to advance, they will issue a working group last call.<a href="#section-3.2.2-2.4" class="pilcrow">¶</a>
+for the proposal to advance, they will issue a last call for comment within
+the working group.<a href="#section-3.2.2-2.4" class="pilcrow">¶</a>
 </li>
-            <li id="section-3.2.2-2.5">After a suitable period of time, the RSWG chairs will determine whether 
-rough consensus for the proposal exists. If comments have been received and 
-substantial changes have been made, it is expected that additional last calls 
-may be necessary.<a href="#section-3.2.2-2.5" class="pilcrow">¶</a>
+            <li id="section-3.2.2-2.5">After a comment period of suitable length, the RSWG chairs will determine 
+whether rough consensus for the proposal exists (taking their own feedback 
+as individuals into account along with feedback from other participants). 
+If comments have been received and substantial changes have been made, 
+it is expected that additional last calls may be necessary.<a href="#section-3.2.2-2.5" class="pilcrow">¶</a>
 </li>
             <li id="section-3.2.2-2.6">Once consensus is established in the RSWG, the RSAB shall issue a 
-community call for comments as further described below. Should substantial comments be received,
-the RSWG will again consider those comments and make revisions as they see 
-fit. At this same time, the RSAB will consider the proposal.<a href="#section-3.2.2-2.6" class="pilcrow">¶</a>
+community call for comments as further described below. If substantial 
+comments have been received, the RSWG will again consider those comments and make 
+revisions as they see fit. At this same time, the RSAB will consider the 
+proposal.<a href="#section-3.2.2-2.6" class="pilcrow">¶</a>
 </li>
-            <li id="section-3.2.2-2.7">Should substantial changes be made, additional community calls for comment 
+            <li id="section-3.2.2-2.7">If substantial changes have been made, additional community calls for comment 
 should be issued by the RSAB, and again comments considered by the RSWG.<a href="#section-3.2.2-2.7" class="pilcrow">¶</a>
 </li>
             <li id="section-3.2.2-2.8">Once all comments have been addressed, the RSWG chairs will
@@ -1577,6 +1596,8 @@ the RSWG. In the case of a tie, the proposal is approved.<a href="#section-3.2.2
 and the document enters the queue for publication as an RFC.<a href="#section-3.2.2-7.4" class="pilcrow">¶</a>
 </li>
           </ol>
+<p id="section-3.2.2-8">NOTE: This section is intended to address 
+<a href="https://github.com/intarchboard/program-rfced-future/issues/45">ISSUE #45</a>.<a href="#section-3.2.2-8" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="community-calls-for-comment">
@@ -1624,10 +1645,10 @@ the case of failure to act, of notice having been given to the RSWG.
 The RSAB will then decide if the process was followed and will direct 
 RSWG chairs as to what procedural actions are required.<a href="#section-3.2.4-1" class="pilcrow">¶</a></p>
 <p id="section-3.2.4-2">Appeals of RSAB decisions shall be made to the IAB and should be made 
-within thirty (30) days of public notice 
-of the relevant RSAB decision (typically, when minutes are posted). 
-The appeals body shall decide whether a process failure 
-occurred and what if any corrective action should take place.<a href="#section-3.2.4-2" class="pilcrow">¶</a></p>
+within thirty (30) days of public notice of the relevant RSAB decision 
+(typically, when minutes are posted). The IAB shall decide whether a 
+process failure occurred and what if any corrective action should take 
+place.<a href="#section-3.2.4-2" class="pilcrow">¶</a></p>
 <p id="section-3.2.4-3">NOTE: This section is intended to address 
 <a href="https://github.com/intarchboard/program-rfced-future/issues/16">ISSUE #16</a> and 
 <a href="https://github.com/intarchboard/program-rfced-future/issues/36">ISSUE #36</a>.<a href="#section-3.2.4-3" class="pilcrow">¶</a></p>
@@ -2101,7 +2122,7 @@ and Nico Williams.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
 <div dir="auto" class="left"><span class="org">Mozilla</span></div>
 <div class="email">
 <span>Email:</span>
-<a href="mailto:stpeter@jabber.org" class="email">stpeter@jabber.org</a>
+<a href="mailto:stpeter@stpeter.im" class="email">stpeter@stpeter.im</a>
 </div>
 </address>
 </section>

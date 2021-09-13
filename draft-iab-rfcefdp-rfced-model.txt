@@ -4,13 +4,14 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                        1 September 2021
+Obsoletes: RFC8728 (if approved)                       13 September 2021
+Updates: RFC8729 (if approved)                                          
 Intended status: Informational                                          
-Expires: 5 March 2022
+Expires: 17 March 2022
 
 
-                      RFC Editor Model (Version 3)
-                    draft-iab-rfcefdp-rfced-model-01
+            RFC Series Policy Definition and Implementation
+                    draft-iab-rfcefdp-rfced-model-02
 
 Abstract
 
@@ -58,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 March 2022.
+   This Internet-Draft will expire on 17 March 2022.
 
 Copyright Notice
 
@@ -371,35 +372,40 @@ Table of Contents
    related to the RFC series:
 
    1.  An individual participant in the RSWG generates a proposal in the
-       form of an Internet-Draft.
+       form of an Internet-Draft, which is submitted in full conformance
+       with the provisions of BCP 78 and BCP 79.
 
    2.  If there is sufficient interest in the proposal, RSWG may adopt
        the proposal as a draft proposal of the RSWG, much the same way a
-       working group of the IETF or IRTF would (see [RFC2418]).
+       working group or research group of the IETF or IRTF would (see
+       [RFC2418]).
 
    3.  The RSWG shall then further develop the proposal.  Members of the
        RSAB are expected to participate in discussion relating to such
        proposals so that they are fully aware of proposals early in the
        policy definition process and so that any issues or concerns that
        they have will be raised during the development of the proposals
-       and will not be left until the RSAB review period.
+       and will not be left until the RSAB review period.  The RWSG
+       chairs are also expected to participate as individuals.
 
    4.  At some point, if the RSWG chairs believe there may be rough
-       consensus for the proposal to advance, they will issue a working
-       group last call.
+       consensus for the proposal to advance, they will issue a last
+       call for comment within the working group.
 
-   5.  After a suitable period of time, the RSWG chairs will determine
-       whether rough consensus for the proposal exists.  If comments
-       have been received and substantial changes have been made, it is
-       expected that additional last calls may be necessary.
+   5.  After a comment period of suitable length, the RSWG chairs will
+       determine whether rough consensus for the proposal exists (taking
+       their own feedback as individuals into account along with
+       feedback from other participants).  If comments have been
+       received and substantial changes have been made, it is expected
+       that additional last calls may be necessary.
 
    6.  Once consensus is established in the RSWG, the RSAB shall issue a
-       community call for comments as further described below.  Should
-       substantial comments be received, the RSWG will again consider
-       those comments and make revisions as they see fit.  At this same
-       time, the RSAB will consider the proposal.
+       community call for comments as further described below.  If
+       substantial comments have been received, the RSWG will again
+       consider those comments and make revisions as they see fit.  At
+       this same time, the RSAB will consider the proposal.
 
-   7.  Should substantial changes be made, additional community calls
+   7.  If substantial changes have been made, additional community calls
        for comment should be issued by the RSAB, and again comments
        considered by the RSWG.
 
@@ -443,6 +449,9 @@ Table of Contents
    4.  When a proposal is approved, a notification is sent to the
        community, and the document enters the queue for publication as
        an RFC.
+
+   NOTE: This section is intended to address ISSUE #45
+   (https://github.com/intarchboard/program-rfced-future/issues/45).
 
 3.2.3.  Community Calls for Comment
 
@@ -488,9 +497,9 @@ Table of Contents
 
    Appeals of RSAB decisions shall be made to the IAB and should be made
    within thirty (30) days of public notice of the relevant RSAB
-   decision (typically, when minutes are posted).  The appeals body
-   shall decide whether a process failure occurred and what if any
-   corrective action should take place.
+   decision (typically, when minutes are posted).  The IAB shall decide
+   whether a process failure occurred and what if any corrective action
+   should take place.
 
    NOTE: This section is intended to address ISSUE #16
    (https://github.com/intarchboard/program-rfced-future/issues/16) and
@@ -879,4 +888,4 @@ Author's Address
    Peter Saint-Andre (editor)
    Mozilla
 
-   Email: stpeter@jabber.org
+   Email: stpeter@stpeter.im
