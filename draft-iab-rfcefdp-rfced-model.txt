@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                       13 September 2021
+Obsoletes: RFC8728 (if approved)                       14 September 2021
 Updates: RFC8729 (if approved)                                          
 Intended status: Informational                                          
-Expires: 17 March 2022
+Expires: 18 March 2022
 
 
             RFC Series Policy Definition and Implementation
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 March 2022.
+   This Internet-Draft will expire on 18 March 2022.
 
 Copyright Notice
 
@@ -216,6 +216,11 @@ Table of Contents
 3.1.  Structure and Roles
 
 3.1.1.  RFC Series Working Group (RSWG)
+
+   NOTE: There is discussion within the RFCED-Future Program regarding
+   the appropriate name for this entity; provisionally "RFC Series
+   Working Group" (RSWG) is used here, but the name might change in
+   future versions of this document.
 
    The RFC Series Working Group (RSWG) shall formulate proposals
    regarding policies that govern the RFC series.  The intent is that
@@ -725,6 +730,14 @@ Table of Contents
    section provides general guidance regarding several aspects of such
    activities.
 
+   NOTE: This section is intended to address ISSUE #25
+   (https://github.com/intarchboard/program-rfced-future/issues/25),
+   ISSUE #57 (https://github.com/intarchboard/program-rfced-future/
+   issues/57), ISSUE #61 (https://github.com/intarchboard/program-rfced-
+   future/issues/61), ISSUE #62 (https://github.com/intarchboard/
+   program-rfced-future/issues/62), and ISSUE #63
+   (https://github.com/intarchboard/program-rfced-future/issues/63),
+
 5.4.1.  Vendor Selection for the RFC Production Center
 
    Vendor selection is done in cooperation with the streams and under
@@ -751,9 +764,6 @@ Table of Contents
       successful negotiation of a contract approved by the IETF LLC.  In
       the event that a contract cannot be reached, the matter shall be
       referred to the selection committee for further action.
-
-   NOTE: This section is intended to address ISSUE #25
-   (https://github.com/intarchboard/program-rfced-future/issues/25).
 
 5.4.2.  Budget
 
