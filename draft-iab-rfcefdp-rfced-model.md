@@ -166,6 +166,11 @@ the RFC series.
 
 ### RFC Series Working Group (RSWG)
 
+NOTE: There is discussion within the RFCED-Future Program 
+regarding the appropriate name for this entity; provisionally
+"RFC Series Working Group" (RSWG) is used here, but the name
+might change in future versions of this document.
+
 The RFC Series Working Group (RSWG) shall formulate proposals 
 regarding policies that govern the RFC series. The intent is 
 that the RSWG operate in a way similar to working groups in the 
@@ -647,6 +652,13 @@ activities described here are a responsibility of the IETF LLC. This
 section provides general guidance regarding several aspects of such
 activities.
 
+NOTE: This section is intended to address
+[ISSUE #25](https://github.com/intarchboard/program-rfced-future/issues/25),
+[ISSUE #57](https://github.com/intarchboard/program-rfced-future/issues/57),
+[ISSUE #61](https://github.com/intarchboard/program-rfced-future/issues/61), 
+[ISSUE #62](https://github.com/intarchboard/program-rfced-future/issues/62), and
+[ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63),
+
 ### Vendor Selection for the RFC Production Center
 
 Vendor selection is done in cooperation with the streams and 
@@ -674,9 +686,6 @@ and other RFC-related services is as follows:
    successful negotiation of a contract approved by the IETF LLC.  In
    the event that a contract cannot be reached, the matter shall be
    referred to the selection committee for further action.
-
-NOTE: This section is intended to address
-[ISSUE #25](https://github.com/intarchboard/program-rfced-future/issues/25). 
 
 ### Budget
 
