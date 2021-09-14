@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-09-12T00:16:56.647281+00:00",
+  "timestamp": "2021-09-14T00:15:31.372074+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -1647,7 +1647,7 @@
       ],
       "body": "Joel Halpern issue JMH5\r\nReading the process, I was struck by a minor gap in the process items.  specifically in item 4 on issueing the last call.  I think the text should include that the WG Chairs consider the proposal to be sufficiently developed and refined.  We sometimes have situations where there is rough consensus for something, but it really needs a little more work before it is sent out.  Obviously, we do not want to require perfection. But we do want to give the chairs room to say \"this needs more work\".",
       "createdAt": "2021-04-26T07:08:22Z",
-      "updatedAt": "2021-09-08T13:53:51Z",
+      "updatedAt": "2021-09-13T18:23:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -1656,6 +1656,13 @@
           "body": "o chairs call consensus\r\no chairs do their best to judge the actual rough consensus of the WG\r\no chairs are also expected to participate as individuals in the work of the WG\r\no chairs are expected to consider their own input as individuals along with all other input in judging rough consensus.\r\n\r\nThis language needs to be in the draft.",
           "createdAt": "2021-09-08T13:53:43Z",
           "updatedAt": "2021-09-08T13:53:43Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'll have text on this in the next version. I checked in a few changes to address this and can share it on list:\r\n\r\n3. The RSWG shall then further develop the proposal. Members of the RSAB are expected to participate in discussion relating to such proposals so that they are fully aware of proposals early in the policy definition process and so that any issues or concerns that they have will be raised during the development of the proposals and will not be left until the RSAB review period. The RWSG chairs are also expected to participate as individuals.\r\n5. At some point, if the RSWG chairs believe there may be rough consensus for the proposal to advance, they will issue a last call for comment within the working group.\r\n5. After a comment period of suitable length, the RSWG chairs will determine whether rough consensus for the proposal exists (taking their own feedback as individuals into account along with feedback from other participants). If comments have been received and substantial changes have been made, it is expected that additional last calls may be necessary.",
+          "createdAt": "2021-09-13T18:23:21Z",
+          "updatedAt": "2021-09-13T18:23:21Z"
         }
       ]
     },
@@ -2375,7 +2382,7 @@
       ],
       "body": "The draft current says:\r\n\r\n> Once consensus is established in the RSWG, the chairs shall issue a community call for comments. Should substantial comments be received, the RSWG will again consider those comments and make revisions as they see fit. At this same time, the RSAB will consider the proposal.\r\n\r\nHowever, it's not clear what the \"community\" is here. Discussion is needed within the Program to clarify this.\r\n",
       "createdAt": "2021-06-14T22:00:12Z",
-      "updatedAt": "2021-08-27T16:55:54Z",
+      "updatedAt": "2021-09-13T18:23:38Z",
       "closedAt": null,
       "comments": [
         {
@@ -2384,6 +2391,27 @@
           "body": "See Issue #45 ",
           "createdAt": "2021-08-27T16:55:53Z",
           "updatedAt": "2021-08-27T16:55:53Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think this is covered by Section 3.2.3: https://datatracker.ietf.org/doc/html/draft-iab-rfcefdp-rfced-model-01#section-3.2.3",
+          "createdAt": "2021-09-13T16:43:28Z",
+          "updatedAt": "2021-09-13T16:43:28Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The specific thing that needs to be addressed is the behavior and expectations of the chairs.  Again, see issue #45.",
+          "createdAt": "2021-09-13T17:42:02Z",
+          "updatedAt": "2021-09-13T17:42:02Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Right, see comment there.",
+          "createdAt": "2021-09-13T18:23:37Z",
+          "updatedAt": "2021-09-13T18:23:37Z"
         }
       ]
     },
