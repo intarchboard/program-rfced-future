@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                       14 September 2021
+Obsoletes: RFC8728 (if approved)                       16 September 2021
 Updates: RFC8729 (if approved)                                          
 Intended status: Informational                                          
-Expires: 18 March 2022
+Expires: 20 March 2022
 
 
             RFC Series Policy Definition and Implementation
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 March 2022.
+   This Internet-Draft will expire on 20 March 2022.
 
 Copyright Notice
 
@@ -282,9 +282,11 @@ Table of Contents
    (https://github.com/intarchboard/program-rfced-future/issues/29),
    ISSUE #41 (https://github.com/intarchboard/program-rfced-future/
    issues/41), ISSUE #44 (https://github.com/intarchboard/program-rfced-
-   future/issues/44), ISSUE #68 (https://github.com/intarchboard/
-   program-rfced-future/issues/68), and ISSUE #72
-   (https://github.com/intarchboard/program-rfced-future/issues/72).
+   future/issues/44), ISSUE #55 (https://github.com/intarchboard/
+   program-rfced-future/issues/55), ISSUE #68
+   (https://github.com/intarchboard/program-rfced-future/issues/68), and
+   ISSUE #72 (https://github.com/intarchboard/program-rfced-future/
+   issues/72).
 
 3.1.2.  RFC Series Approval Board (RSAB)
 
@@ -577,12 +579,13 @@ Table of Contents
    The IETF LLC is responsible for the method of and management of the
    engagement of the RSEA.  Therefore, whether the RSEA role is
    structured as a contractual or employee relationship is a matter for
-   the IETF LLC and the IETF Executive Director to determine.
+   the IETF LLC to determine.
 
    NOTE: This section is intended to address ISSUE #12
-   (https://github.com/intarchboard/program-rfced-future/issues/12) and
+   (https://github.com/intarchboard/program-rfced-future/issues/12),
    ISSUE #24 (https://github.com/intarchboard/program-rfced-future/
-   issues/24).
+   issues/24), and ISSUE #55 (https://github.com/intarchboard/program-
+   rfced-future/issues/55).
 
 4.1.  RSEA Selection
 
@@ -646,8 +649,8 @@ Table of Contents
    performed by a separate corporate entity under contract to the IETF
    LLC, it could be performed by employees of the IETF LLC, or the IETF
    LLC could engage with independent contractors for some or all aspects
-   of such work.  The exact relationship is a matter for the IETF LLC
-   and the IETF Executive Director to determine.
+   of such work.  The exact relationship is a matter for the IETF LLC to
+   determine.
 
    The IETF LLC is responsible for the method of and management of the
    engagement of the RPC.  Therefore, the IETF LLC has authority over
