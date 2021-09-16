@@ -231,6 +231,7 @@ NOTE: This section is intended to address
 [ISSUE #29](https://github.com/intarchboard/program-rfced-future/issues/29), 
 [ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), 
 [ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44),
+[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55),
 [ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), and
 [ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72).
 
@@ -504,11 +505,12 @@ and dissemination and cataloguing of RFCs.
 The IETF LLC is responsible for the method of and management of the
 engagement of the RSEA. Therefore, whether the RSEA role is structured 
 as a contractual or employee relationship is a matter for the IETF LLC 
-and the IETF Executive Director to determine.  
+to determine.  
 
 NOTE: This section is intended to address 
-[ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12) and
-[ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24).
+[ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12),
+[ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24), and
+[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55).
 
 
 ## RSEA Selection
@@ -572,7 +574,7 @@ performed by a separate corporate entity under contract to the
 IETF LLC, it could be performed by employees of the IETF LLC, or 
 the IETF LLC could engage with independent contractors for some or 
 all aspects of such work. The exact relationship is a matter for 
-the IETF LLC and the IETF Executive Director to determine.
+the IETF LLC to determine.
 
 The IETF LLC is responsible for the method of and management of the
 engagement of the RPC.  Therefore, the IETF LLC has authority over 
