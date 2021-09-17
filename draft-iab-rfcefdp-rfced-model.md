@@ -45,21 +45,18 @@ informative:
 --- abstract
 
 This document describes updated processes for defining and 
-implementing policies regarding the RFC Series. As
-specified here, the model divides the responsibilities for the 
-RFC Series into two high-level functions: policy definition 
-governing the RFC Series as a whole, and policy implementation
-for publication of documents in the RFC Series. The policy
-definition function is the responsibility of the RFC Series
-Working Group (RSWG), which produces policy proposals that
-are subject to approval by the RFC Series Approval Board (RSAB).
-The policy implementation function is primarily the responsibility
-of the RFC Production Center (RPC), under the ultimate authority
-of the IETF Administration Limited Liability Company (IETF LLC).
-
-This document reflects experience gained with version 1 of the 
-RFC Editor Model as specified in RFC 5620 and with version 2
-as specified in RFC 6635 and RFC 8728. 
+implementing policies regarding the RFC Series and thus 
+specifies version 3 of RFC Editor Model. As specified here, 
+the model divides the responsibilities for the RFC Series into 
+two high-level tasks: policy definition governing the RFC 
+Series as a whole, and policy implementation for publication 
+of documents in the RFC Series. Policy definition is the 
+responsibility of the RFC Series Working Group (RSWG), 
+which produces policy proposals that are subject to approval 
+by the RFC Series Approval Board (RSAB). Policy implementation 
+is primarily the responsibility of the RFC Production Center 
+(RPC), under the ultimate authority of the IETF Administration 
+Limited Liability Company (IETF LLC).
 
 This document obsoletes RFC 8728.
 
@@ -68,35 +65,37 @@ This document obsoletes RFC 8728.
 
 # Introduction
 
-As described in {{RFC8729}}, the Request for Comments (RFC) Series
-is the archival series dedicated to documenting Internet technical 
-specifications, including general contributions from the Internet 
-research and engineering community as well as standards documents.  
-RFCs have been published continually since 1969 {{RFC8700}}. 
+The Request for Comments (RFC) Series is the archival series 
+dedicated to documenting Internet technical specifications,
+including general contributions from the Internet research and
+engineering community as well as standards documents. As described
+in [RFC8700], RFCs have been published continually since 1969.
+The overall framework for the RFC Series and the RFC Editor 
+function are described in {{RFC8729}} and updated here.
 
 The processes and organizational models for publication of RFCs
 have changed significantly over the years. Most recently, in 2009 
 {{RFC5620}} defined the RFC Editor Model (Version 1) and in 2012 
 {{RFC6635}} defined the RFC Editor Model (Version 2), since 
-modified slightly in 2020 by {{RFC8728}}.  Following historical
-precedent, these documents used the term "RFC Editor function" or 
-"RFC Editor" to identify the collective set of responsibilities 
-for publishing documents in the RFC series.
+modified slightly in 2020 by {{RFC8728}}. 
 
-In order to provide a sustainable basis for ongoing publication of 
-the RFC series, this document divides the responsibilities for the 
-RFC Series into two high-level functions: policy definition governing 
-the Series as a whole, and policy implementation through publication 
-of documents in the Series. The policy definition function is the 
-responsibility of the RFC Series Working Group (RSWG), which produces 
-policy proposals that are subject to approval by the RFC Series 
-Approval Board (RSAB). The policy implementation function is 
-primarily the responsibility of the RFC Production Center (RPC), 
-under the ultimate authority of the IETF Administration Limited 
-Liability Company (LLC) {{RFC8711}}.  Therefore this document 
-introduces new functions and in some cases makes significant changes 
-to the responsibilities of existing bodies and functions (see 
-Section 7 of this document for a summary of the changes).
+This document reflects experience gained with version 1 and 
+version 2 of the Model, and therefore describes version 3 of 
+the Model (see Section 7 for a summary of the changes).
+
+More specifically, in order to provide a sustainable basis for 
+ongoing publication of the RFC series, this document divides the 
+responsibilities for the RFC Series into two high-level tasks: 
+
+1. Policy definition governing the Series as a whole. This is 
+the responsibility of the RFC Series Working Group (RSWG), which 
+produces policy proposals that are subject to approval by the 
+RFC Series Approval Board (RSAB). 
+
+2. Policy implementation through publication of documents in the 
+Series. This is primarily the responsibility of the RFC Production 
+Center (RPC), under the ultimate authority of the IETF 
+Administration Limited Liability Company (LLC) {{RFC8711}}.  
 
 This document obsoletes RFC 8728. 
 
@@ -232,8 +231,9 @@ NOTE: This section is intended to address
 [ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), 
 [ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44),
 [ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55),
-[ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), and
-[ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72).
+[ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), 
+[ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72), and
+[ISSUE #80](https://github.com/intarchboard/program-rfced-future/issues/80).
 
 
 ### RFC Series Approval Board (RSAB)
@@ -350,7 +350,7 @@ related to the RFC series:
    proposals so that they are fully aware of proposals early in the 
    policy definition process and so that any issues or concerns that 
    they have will be raised during the development of the proposal
-   (not be left until the RSAB review period). The RWSG chairs 
+   (not be left until the RSAB review period). The RSWG chairs 
    are also expected to participate as individuals.
 
 4. At some point, if the RSWG chairs believe there may be rough 
@@ -498,14 +498,14 @@ The primary responsibilities of the RSEA are as follows:
 * If requested, provide expert advice to the RPC and IETF LLC
 
 Matters on which the RSEA might be consulted could include proposed 
-changes to the RFC style guide {{RFC7322}}, RFC formatting in general, 
-web presence for the RFC Series, copyright matters, archiving policy, 
+changes to the RFC style guide, RFC formatting in general, web 
+presence for the RFC Series, copyright matters, archiving policy, 
 and dissemination and cataloguing of RFCs.
 
 The IETF LLC is responsible for the method of and management of the
 engagement of the RSEA. Therefore, whether the RSEA role is structured 
 as a contractual or employee relationship is a matter for the IETF LLC 
-to determine.  
+to determine.
 
 NOTE: This section is intended to address 
 [ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12),
@@ -540,23 +540,30 @@ the RSEA), which will provide feedback to the IETF LLC.
 Publication of RFCs shall is handled by the RFC Production Center 
 (RPC).
 
-In general, the RPC is instructed by RFCs published in the Editorial 
-Stream (i.e., not directly by the RSWG, RSAB, or RSEA), is advised 
-by the RSAB and has a duty to ask for that advice under specific 
-circumstances, and is contractually overseen by the IETF LLC to 
-ensure that it performs in accordance with contracts in place.
+A few general considerations apply: 
 
-Within these parameters, at a high level the RPC is tasked with the 
-following activities:
+* The general roles and responsibilities of the RPC are defined by 
+RFCs published in the Editorial Stream (i.e., not directly by the 
+RSWG, RSAB, or RSEA).
+
+* The RPC is advised by the RSEA and RSAB, and has a duty to 
+consult with them under specific circumstances, such as those 
+relating to disagreements between authors and the RPC.
+
+* The RPC is contractually overseen by the IETF LLC to ensure that 
+it performs in accordance with contracts in place.
+
+Within the scope of these considerations, at a high level the RPC is 
+tasked with the following activities:
 
 * Editing documents from the streams and publishing them as RFCs.
 * Participating in the creation of new Editorial Stream RFCs that 
   impact the RPC, at least in an advisory capacity.
 * Providing reports to the community on its performance and plans.
 * Consulting with the community on its plans.
-* Negotiating its resources with the IETF LLC.
+* Negotiating its specific plans and resources with the IETF LLC.
 
-All matters of budget, timetable and impact on its performance 
+All matters of budget, timetable, and impact on its performance 
 targets, are between the RPC and IETF LLC.
 
 The RPC shall report regularly to the IETF LLC, RSAB, RSWG, and 
