@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-09-16T00:15:25.569505+00:00",
+  "timestamp": "2021-09-19T00:16:29.123550+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -707,9 +707,24 @@
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:48Z",
-      "updatedAt": "2021-08-14T10:18:02Z",
+      "updatedAt": "2021-09-18T07:56:08Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Version -02 of the I-D has text addressing this point; shall we issue a consensus call?",
+          "createdAt": "2021-09-17T23:19:27Z",
+          "updatedAt": "2021-09-17T23:19:27Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Can you point me at the text?",
+          "createdAt": "2021-09-18T07:56:08Z",
+          "updatedAt": "2021-09-18T07:56:08Z"
+        }
+      ]
     },
     {
       "number": 19,
@@ -1107,7 +1122,7 @@
       ],
       "body": "From John:\r\n\r\nCharter of the Internet Architecture Board (IAB) (RFC\r\n2850/BCP0039)\r\n\r\n  Summary: Mentions responsibility for the RFC Editor. It also\r\n  specifies that the RFC Editor is an liaison member of the\r\n  IAB. Depending on what other decisions we make, that may no\r\n  longer be appropriate and we may need to sort out whether\r\n  the RSE/A, RPC, or both, should have liaisons to the IESG.\r\n  It also occurs to me that having the RSE/A be an ex-officio\r\n  member of the LLC Board might improve communications,\r\n  facilitate discussion of tradeoffs about possibly courses of\r\n  action that would require money or other resources, and\r\n  provide a barrier against treating the RSE/A and/or the\r\n  entire RFC Editor Function as \"just contractors\".\r\n\r\n  Action required: If we continue on what I think is our\r\n  current path, the IAB responsibility for the RFC Editor\r\n  will need to come out.   And we need to sort the liaison\r\n  issues out.",
       "createdAt": "2021-01-26T07:42:21Z",
-      "updatedAt": "2021-09-06T07:01:52Z",
+      "updatedAt": "2021-09-18T10:23:47Z",
       "closedAt": null,
       "comments": [
         {
@@ -1116,6 +1131,13 @@
           "body": "My initial take is that, while the IAB might want to consider updating BCP 39 (and we might want to suggest to the IAB that one reason for doing so could be publication of the RFC Editor Model Version 3), the latter document does not need to formally update RFC 2850 / BCP 39.",
           "createdAt": "2021-05-20T22:27:14Z",
           "updatedAt": "2021-05-20T22:27:14Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "There is now a draft that needs to be dispatched.\r\n",
+          "createdAt": "2021-09-18T10:23:46Z",
+          "updatedAt": "2021-09-18T10:23:46Z"
         }
       ]
     },
@@ -1166,9 +1188,24 @@
       ],
       "body": "From John:\r\n\r\nRFC Streams, Headers, and Boilerplates (RFC 7841 and the\r\nearlier 5741)\r\n\r\n  Summary: The document does not appear to need modification\r\n  as a side-effect of our work.  Of course the question of who\r\n  would have the authority to modify it is key to many of our\r\n  conversations.\r\n\r\n  Action required: Probably none.",
       "createdAt": "2021-01-26T07:44:02Z",
-      "updatedAt": "2021-01-26T07:44:02Z",
+      "updatedAt": "2021-09-18T07:55:32Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We certainly need to modify (i.e., create) boilerplate for the Editorial Stream. Should we lodge a separate issue for that?",
+          "createdAt": "2021-09-17T20:34:22Z",
+          "updatedAt": "2021-09-17T20:34:22Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes please",
+          "createdAt": "2021-09-18T07:55:31Z",
+          "updatedAt": "2021-09-18T07:55:31Z"
+        }
+      ]
     },
     {
       "number": 33,
@@ -1715,7 +1752,7 @@
       ],
       "body": "From Mike St John:\r\nAs a general comment on the document and its structure:  The document does a reasonable job of describing the control process, but fails at describing how to achieve \"success\" of the RFC Editor process or even describing what \"success\" looks like.  While I know we have not yet come to an agreement (and may not) about what success is, there ought to be a structured place in this document that describes it, and the meta process for achieving it.\r\n\r\n\r\nI.e., the fact that the RSWG can originate various proposals may be of interest, but having an overarching agreed upon skeleton on which the proposals may be laid and against which the RSAB can evaluate said proposals seems to be critical preventing a failure of the process.",
       "createdAt": "2021-04-27T07:41:55Z",
-      "updatedAt": "2021-09-08T13:59:04Z",
+      "updatedAt": "2021-09-17T20:17:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -1738,6 +1775,13 @@
           "body": "@elear to post 8729 mission statement, as well as what do we have to do next?",
           "createdAt": "2021-09-08T13:58:55Z",
           "updatedAt": "2021-09-08T13:58:55Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Based on comments from Brian Carpenter, I'm not sure we need to keep this one open: https://mailarchive.ietf.org/arch/msg/rfced-future/h0TOz6z5a4ET2qUGWh6YgWG1jYY/ - he suggests that this issue might be covered by https://github.com/intarchboard/program-rfced-future/issues/31",
+          "createdAt": "2021-09-17T20:17:07Z",
+          "updatedAt": "2021-09-17T20:17:07Z"
         }
       ]
     },
@@ -1981,7 +2025,7 @@
       "id": "MDU6SXNzdWU4NzYyNTQ3ODk=",
       "title": "Suggestions for ongoing RS[EA] evaluation (Jay Daley)",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/55",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -1993,8 +2037,8 @@
       ],
       "body": "Jay Daley:\r\n\r\n> I\u2019ve reviewed 6.2 \"RSEA Ongoing Performance Evaluation\" of draft-saintandre-rfced-model and I wonder if it is possible for a draft recommendation from the IETF Executive Director to be presented to the RSAB, excluding the RSEA, and an official view of the RSAB to be included in the final recommendation to the LLC Board?\r\n\r\n> My concern here is that community feedback, while often of high quality, may potentially be biased or incomplete and the RSAB is probably best placed to take a view on that.\r\n\r\n> Also, I think it would be useful to note why this recommendation has to go to the LLC Board rather than just being handled by the IETF Executive Director, otherwise this document may inadvertently set a precedent for other contracts.\r\n\r\n> Finally, I assume the feedback, summary of feedback and the recommendation are confidential?  If not then that should be clearly stated.\r\n\r\nJay\r\n",
       "createdAt": "2021-05-05T09:27:13Z",
-      "updatedAt": "2021-09-15T14:59:42Z",
-      "closedAt": null,
+      "updatedAt": "2021-09-16T17:04:45Z",
+      "closedAt": "2021-09-16T17:04:45Z",
       "comments": [
         {
           "author": "elear",
@@ -2016,6 +2060,27 @@
           "body": "I think this one still needs one slight tweak in Section 4 (before 4.1):\r\n\r\ns/and the IETF Executive Director//",
           "createdAt": "2021-09-15T14:59:42Z",
           "updatedAt": "2021-09-15T14:59:42Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "ACK\r\n\r\nNote that we have the same text in \u00a75.1:\r\n\r\n> The exact relationship is a matter for the IETF LLC and the IETF Executive Director to determine.\r\n\r\nPresumably we should make that change in both places?\r\n",
+          "createdAt": "2021-09-16T16:55:23Z",
+          "updatedAt": "2021-09-16T16:55:23Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "yes please",
+          "createdAt": "2021-09-16T16:59:37Z",
+          "updatedAt": "2021-09-16T16:59:37Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Done.",
+          "createdAt": "2021-09-16T17:00:34Z",
+          "updatedAt": "2021-09-16T17:00:34Z"
         }
       ]
     },
@@ -2766,11 +2831,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "Propose to close",
         "In Discussion"
       ],
       "body": "From earlier Lars comments: there may be some confusion that this is an IETF working group if we use WG.  Do we want to consider some other term?",
       "createdAt": "2021-08-19T09:58:53Z",
-      "updatedAt": "2021-09-06T06:10:55Z",
+      "updatedAt": "2021-09-16T16:45:07Z",
       "closedAt": null,
       "comments": []
     },
