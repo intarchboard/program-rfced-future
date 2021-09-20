@@ -4,7 +4,7 @@ abbrev: "RFC Series Policy"
 docname: draft-iab-rfcefdp-rfced-model-02
 category: info
 obsoletes: RFC8728
-updates: RFC8729
+updates: RFC7841, RFC8729
 ipr: trust200902
 area: Internet
 keyword: Internet-Draft
@@ -31,6 +31,7 @@ informative:
   RFC7282:
   RFC7322:
   RFC7776:
+  RFC7841:
   RFC7991:
   RFC8179:
   RFC8700:
@@ -176,8 +177,8 @@ that the RSWG operate in a way similar to working groups in the
 IETF and research groups in the IRTF. Therefore, all RSWG meetings 
 shall be open to any participant, and all RSWG contributions 
 shall be subject to intellectual property policies, which must be 
-consistent with those of the IETF as specified in BCP 78 {{RFC5378}} 
-and BCP 79 {{RFC8179}}. 
+consistent with those of the IETF as specified in {{BCP 78}}
+and {{BCP 79}}.
 
 The RSWG shall operate by rough consensus, a mode of operation
 informally described in {{RFC7282}}. 
@@ -337,7 +338,7 @@ related to the RFC series:
 
 1. An individual participant in the RSWG generates a proposal in the 
    form of an Internet-Draft, which is submitted in full conformance 
-   with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}}. 
+   with the provisions of {{BCP78}} and {{BCP79}}.
 
 2. If (following procedures for rough consensus) the chairs determine 
    that there is sufficient interest in the proposal, the RSWG may 
@@ -762,6 +763,35 @@ data storage failure.
 The IETF LLC should take these security considerations into account
 during the implementation and enforcement of any relevant contracts.
 
+# IANA Considerations
+
+This document has no actions for IANA.
+
+# Updates to RFC 7841
+
+This document specifies the following text for the "Status of This Memo"
+section of RFCs published in the Editorial Stream.
+
+## First Paragraph
+
+Because all Editorial Stream RFCs have a status of Informational, 
+the first paragraph of the "Status of This Memo" section shall be 
+as specified in Appendix A.2.1 of {{RFC7841}}.
+
+## Second Paragraph
+
+The second paragraph of the "Status of This Memo" section shall be 
+as follows:
+
+"This document is a product of the RFC Series Policy Definition process.
+It represents the consensus of the RFC Series Working Group approved by 
+the RFC Series Approval Board. Such documents are not candidates for any 
+level of Internet Standard; see Section 2 of RFC 7841.
+
+## Third Paragraph
+
+The third paragraph of the "Status of This Memo" section shall be 
+as specified in Section 3.5 of RFC 7841.
 
 # Changes from RFC 8728
 
@@ -799,12 +829,9 @@ makes the following updates:
   modified to accord with the new framework defined in this document.
 
 
-# IANA Considerations
-
-This document has no actions for IANA.
-
-
 --- back
+
+# Editorial Stream Boilerplate
 
 # Acknowledgments
 {:numbered="false"}
