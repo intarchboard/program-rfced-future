@@ -1,7 +1,7 @@
 ---
 title: "RFC Series Policy Definition and Implementation"
 abbrev: "RFC Series Policy"
-docname: draft-iab-rfcefdp-rfced-model-02
+docname: draft-iab-rfcefdp-rfced-model-03
 category: info
 obsoletes: RFC8728
 updates: RFC7841, RFC8729
@@ -337,7 +337,7 @@ basis, so that when the time comes to consider a proposal, there should
 be no surprises. Appointing bodies are expected to establish whatever 
 processes they deem appropriate to facilitate this goal.
 
-### Specifics
+### Workflow
 
 The following process shall be used to formulate or modify processes 
 related to the RFC series:
@@ -481,13 +481,6 @@ of many different backgrounds are treated with dignity, decency,
 and respect. Participants are expected to behave according to 
 professional standards and to demonstrate appropriate workplace 
 behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
-
-## RSCE Performance Evaluation
-
-Periodically, the IETF LLC will evaluate the performance of the RSCE, 
-including a call for confidential input from the community. The IETF LLC
-will produce a draft performance evaluation for the RSAB (not including
-the RSCE), which will provide feedback to the IETF LLC.
 
 # Policy Implementation 
 
@@ -760,6 +753,13 @@ as well as any other information that the committee deems
 necessary or helpful in making its decision. The IETF LLC is 
 responsible for contracting or employment of the RSCE.
 
+## RSCE Performance Evaluation
+
+Periodically, the IETF LLC will evaluate the performance of the RSCE, 
+including a call for confidential input from the community. The IETF LLC
+will produce a draft performance evaluation for the RSAB (not including
+the RSCE), which will provide feedback to the IETF LLC.
+
 # Editorial Stream
 
 This document creates the Editorial Stream as separate space for
@@ -788,15 +788,6 @@ NOTE: This section is intended to address
 [ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63), and
 [ISSUE #73](https://github.com/intarchboard/program-rfced-future/issues/73). 
 
-# IANA Considerations
-
-This document places responsibility for coordination of registry 
-value assignments with the RPC. The IETF LLC facilitates management 
-of the relationship between the RPC and IANA.
-
-This document does not create a new registry nor does it register any
-values in existing registries, and no IANA action is required.
-
 # Security Considerations
 
 The same security considerations as those in {{RFC8729}} apply. 
@@ -815,7 +806,12 @@ during the implementation and enforcement of any relevant contracts.
 
 # IANA Considerations
 
-This document has no actions for IANA.
+This document places responsibility for coordination of registry 
+value assignments with the RPC. The IETF LLC facilitates management 
+of the relationship between the RPC and IANA.
+
+This document does not create a new registry nor does it register any
+values in existing registries, and no IANA action is required.
 
 --- back
 
