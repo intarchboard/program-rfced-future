@@ -16,14 +16,12 @@ Expires: 25 March 2022
 Abstract
 
    This document describes updated processes for defining and
-   implementing policies regarding the RFC Series and thus specifies
-   version 3 of RFC Editor Model.  As specified here, the model divides
-   the responsibilities for the RFC Series into two high-level tasks:
-   policy definition governing the RFC Series as a whole, and policy
-   implementation for publication of documents in the RFC Series.
-   Policy definition is the responsibility of the RFC Series Working
-   Group (RSWG), which produces policy proposals that are subject to
-   approval by the RFC Series Approval Board (RSAB).  Policy
+   implementing policies regarding the RFC Series as a whole and thus
+   specifies version 3 of RFC Editor Model.  As specified here, the
+   model divides the responsibilities for the RFC Series into two high-
+   level tasks.  Policy definition is the responsibility of the RFC
+   Series Working Group (RSWG), which produces policy proposals that are
+   subject to approval by the RFC Series Approval Board (RSAB).  Policy
    implementation is primarily the responsibility of the RFC Production
    Center (RPC), under the ultimate authority of the IETF Administration
    Limited Liability Company (IETF LLC).
@@ -76,7 +74,7 @@ Table of Contents
 
    1.  Introduction
    2.  Overview of the Model
-   3.  Policy Definition Function
+   3.  Policy Definition
      3.1.  Structure and Roles
        3.1.1.  RFC Series Working Group (RSWG)
        3.1.2.  RFC Series Approval Board (RSAB)
@@ -89,7 +87,7 @@ Table of Contents
    4.  RFC Series Consulting Editor (RSCE)
      4.1.  RSCE Selection
      4.2.  RSCE Performance Evaluation
-   5.  Policy Implementation Function
+   5.  Policy Implementation
      5.1.  Roles and Processes
      5.2.  Editorial and Publication Policies
      5.3.  Resolution of Disagreements between Authors and the RPC
@@ -107,7 +105,8 @@ Table of Contents
      A.3.  Third Paragraph
    Appendix B.  Changes from RFC 8728
      B.1.  RFC Series Editor
-     B.2.  RFC Series Oversight Committee (RSOC)
+     B.2.  RFC Publisher
+     B.3.  RFC Series Oversight Committee (RSOC)
    Appendix C.  Updates to RFC 8729
    Acknowledgments
    Author's Address
@@ -132,9 +131,11 @@ Table of Contents
    of the Model, and therefore describes version 3 of the Model (see
    Section 7 for a summary of the changes).
 
-   More specifically, in order to provide a sustainable basis for
-   ongoing publication of the RFC series, this document divides the
-   responsibilities for the RFC Series into two high-level tasks:
+   More specifically, in order to ensure sustainable maintenance and
+   support of the RFC series based on the principles of expert
+   implementation, clear management and direction, and appropriate
+   community input [RFC8729], this document divides the responsibilities
+   for the RFC Series into two high-level tasks:
 
    1.  Policy definition governing the Series as a whole.  This is the
        responsibility of the RFC Series Working Group (RSWG), which
@@ -157,23 +158,23 @@ Table of Contents
    Board (IAB).
 
    Discussion within the RFCED-Future Program has led in the direction
-   of a more consensus-oriented structure (similar in some respects to
+   of a more consensus-oriented framework (similar in some respects to
    the structure of technical work within the IETF or IRTF) that retains
    roles for specialized expertise in document editing and publication.
 
-   The policy definition function is performed by the RFC Series Working
-   Group (RSWG), which produces policy proposals that are subject to
-   approval by the RFC Series Approval Board (RSAB), after which such
-   policies are formally established through publication in the
-   Editorial Stream within the RFC Series.  The RSWG is an open working
-   group (as described below) that seeks input and participation from a
-   wide range of persons who have an interest in the RFC Series.  The
-   RSAB consists of appointed members who represent the various RFC
-   streams [RFC8728] as well as an expert in technical publishing, the
-   RFC Series Consulting Editor (RSCE).
+   Policy definition happens within the RFC Series Working Group (RSWG),
+   which produces policy proposals that are subject to approval by the
+   RFC Series Approval Board (RSAB), after which such policies are
+   formally established through publication in the Editorial Stream
+   within the RFC Series.  The RSWG is an open working group (as
+   described below) that seeks input and participation through a public
+   process from a wide range of persons who have an interest in the RFC
+   Series.  The RSAB consists of appointed members who represent the
+   various RFC streams [RFC8728] as well as an expert in technical
+   publishing, the RFC Series Consulting Editor (RSCE).
 
-   The policy implementation function is performed by the RFC Production
-   Center (RPC), under the ultimate authority of the IETF Administration
+   Policy implementation is performed by the RFC Production Center
+   (RPC), under the ultimate authority of the IETF Administration
    Limited Liability Company (IETF LLC).
 
    In short:
@@ -202,9 +203,15 @@ Table of Contents
       policies and provides interim guidance to the RPC, informing the
       RSWG of those interpretations.
 
+   This model is designed to ensure public processes and definition
+   documents, clear responsibilities and mechanisms for updates and
+   changes to policies governing the RFC Series as a whole, and
+   operational implementation of the RFC Series, thus meeting the
+   requirements specified in Section 4 of [RFC8729].
+
    The remainder of this document describes the model in greater detail.
 
-3.  Policy Definition Function
+3.  Policy Definition
 
    Policies governing the RFC series as a whole are defined in the open
    through proposals that are generated by and discussed within the RFC
@@ -295,11 +302,11 @@ Table of Contents
 3.1.2.  RFC Series Approval Board (RSAB)
 
    The RFC Series Approval Board (RSAB) shall act as the approving body
-   for proposals generated within the RSWG.  The sole function of the
-   RSAB is to review policy proposals generated by the RSWG; it shall
-   have no independent authority to formulate policy on its own.  It is
-   expected that the RSAB will respect the rough consensus of the RSWG
-   wherever possible, without ceding its review function.
+   for proposals generated within the RSWG.  The only policy-making role
+   of the RSAB is to review policy proposals generated by the RSWG; it
+   shall have no independent authority to formulate policy on its own.
+   It is expected that the RSAB will respect the rough consensus of the
+   RSWG wherever possible, without ceding its review function.
 
    The voting members of the RSAB shall be as follows:
 
@@ -314,9 +321,9 @@ Table of Contents
 
    *  The RFC Series Consulting Editor
 
-   For the avoidance of doubt, the RSAB shall continue to function in
-   the case of any vacancies; however, such vacancies should be filled
-   with all due speed.
+   For the avoidance of doubt, the RSAB shall continue to operate in the
+   case of any vacancies; however, such vacancies should be filled with
+   all due speed.
 
    The appointing bodies shall determine their own processes for
    appointing delegates, such as provision for an open nominations
@@ -326,8 +333,8 @@ Table of Contents
 
    To ensure the smooth functioning of the RFC Series, the RSAB shall
    include the IETF Executive Director as a non-voting member since the
-   IETF LLC is ultimately responsible for the operation of the policy
-   implementation function.  The RSAB may at its discretion include
+   IETF LLC is ultimately responsible for implementation of policies
+   governing the RFC Series.  The RSAB may at its discretion include
    additional non-voting members, for instance a liaison from the RPC.
 
    Whenever a new stream is created, the document that creates the
@@ -364,8 +371,10 @@ Table of Contents
    ISSUE #38 (https://github.com/intarchboard/program-rfced-future/
    issues/38), ISSUE #50 (https://github.com/intarchboard/program-rfced-
    future/issues/50), ISSUE #53 (https://github.com/intarchboard/
-   program-rfced-future/issues/53), and ISSUE #71
-   (https://github.com/intarchboard/program-rfced-future/issues/71).
+   program-rfced-future/issues/53), ISSUE #71
+   (https://github.com/intarchboard/program-rfced-future/issues/71), and
+   ISSUE #82 (https://github.com/intarchboard/program-rfced-future/
+   issues/82).
 
 3.2.  Process
 
@@ -579,10 +588,22 @@ Table of Contents
 
    *  If requested, provide expert advice to the RPC and IETF LLC
 
-   Matters on which the RSCE might be consulted could include proposed
-   changes to the RFC style guide, RFC formatting in general, web
-   presence for the RFC Series, copyright matters, archiving policy, and
-   dissemination and cataloguing of RFCs.
+   Matters on which the RSCE might be consulted could include the
+   following (see also Section 4 of [RFC8729]):
+
+   *  Editing, processing, and publication of RFCs
+
+   *  Publication formats for the RFC Series
+
+   *  Changes to the RFC style guide
+
+   *  Series-wide guidelines regarding document content
+
+   *  Web presence for the RFC Series
+
+   *  Copyright matters related to the RFC Series
+
+   *  Archiving, indexing, and accessibility of RFCs
 
    The IETF LLC is responsible for the method of and management of the
    engagement of the RSCE, including selection, evaluation, and the
@@ -614,7 +635,7 @@ Table of Contents
    LLC will produce a draft performance evaluation for the RSAB (not
    including the RSCE), which will provide feedback to the IETF LLC.
 
-5.  Policy Implementation Function
+5.  Policy Implementation
 
 5.1.  Roles and Processes
 
@@ -799,19 +820,23 @@ Table of Contents
 
 6.  Streams
 
-   This document creates the Editorial Stream.  Any and all future
-   documents produced by the RSWG and approved by the RSAB shall be
-   published in the Editorial Stream.  Documents pubished in the
-   Editorial Stream shall have a status of Informational.  The Editorial
-   Stream is not authorized to publish RFCs that are Standards Track or
-   Best Current Practice, since such RFCs are reserved to the IETF
-   Stream [RFC8729].
+   This document creates the Editorial Stream as separate space for
+   publication of policies, procedures, guidelines, rules, and related
+   information regarding the RFC Series as a whole.
 
-   The Editorial Stream will be used only to specify and update the
-   strategy, policy, and procedures of the RFC Series itself; no other
-   use of the Editorial Stream is authorized by this memo and no other
-   streams are so authorized.  This policy may be changed only by
-   agreement of the IAB, IESG, and IETF LLC.
+   Any and all future documents produced by the RSWG and approved by the
+   RSAB shall be published in the Editorial Stream.  Documents pubished
+   in the Editorial Stream shall have a status of Informational.  The
+   Editorial Stream is not authorized to publish RFCs that are Standards
+   Track or Best Current Practice, since such RFCs are reserved to the
+   IETF Stream [RFC8729].
+
+   The Editorial Stream will be used only to specify and update
+   policies, procedures, guidelies, rules, and related information
+   regarding the RFC Series as a whole; no other use of the Editorial
+   Stream is authorized by this memo and no other streams are so
+   authorized.  This policy may be changed only by agreement of the IAB,
+   IESG, and IETF LLC.
 
    The requirements and process for creating any additional RFC streams
    are outside the scope of this document.
@@ -825,10 +850,9 @@ Table of Contents
 
 7.  IANA Considerations
 
-   This document defines several functions related to the RFC Series and
-   places the responsibility for coordination of registry value
-   assignments with the RPC.  The IETF LLC facilitates management of the
-   relationship between the RPC and IANA.
+   This document places responsibility for coordination of registry
+   value assignments with the RPC.  The IETF LLC facilitates management
+   of the relationship between the RPC and IANA.
 
    This document does not create a new registry nor does it register any
    values in existing registries, and no IANA action is required.
@@ -984,7 +1008,14 @@ B.1.  RFC Series Editor
    will therefore cover some of the responsibilities of the RFC Series
    Editor function as defined by RFC 8728.
 
-B.2.  RFC Series Oversight Committee (RSOC)
+B.2.  RFC Publisher
+
+   In practice the RFC Production Center (RPC) and RFC Publisher roles
+   have been performed by the same entity and are expected to continue
+   in this fashion; therefore this document dispenses with the
+   distinction and refers only to the RPC.
+
+B.3.  RFC Series Oversight Committee (RSOC)
 
    In practice, the relationships and lines of authority and
    responsibility between the IAB, RSOC, and RSE have proved unwieldy
