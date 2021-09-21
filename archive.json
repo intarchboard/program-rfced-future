@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-09-19T00:16:29.123550+00:00",
+  "timestamp": "2021-09-21T00:14:12.678937+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -707,7 +707,7 @@
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:48Z",
-      "updatedAt": "2021-09-18T07:56:08Z",
+      "updatedAt": "2021-09-20T23:51:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -723,6 +723,13 @@
           "body": "Can you point me at the text?",
           "createdAt": "2021-09-18T07:56:08Z",
           "updatedAt": "2021-09-18T07:56:08Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Section 4.2 reads:\r\n\r\n>  Periodically, the IETF LLC will evaluate the performance of the RSEA,\r\n>   including a call for confidential input from the community.  The IETF\r\n>   LLC will produce a draft performance evaluation for the RSAB (not\r\n>   including the RSEA), which will provide feedback to the IETF LLC.\r\n\r\nOn list, Joel wrote \"If we remove the various text directing that the LLC do x, y and z for evaluations, this can be removed.\" Since we've removed the various text, I think we're good.",
+          "createdAt": "2021-09-20T23:51:21Z",
+          "updatedAt": "2021-09-20T23:51:21Z"
         }
       ]
     },
@@ -1022,11 +1029,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "Discussion Pending"
+        "In Discussion"
       ],
       "body": "From John:\r\n\r\nBCP 9/ RFC 2026\r\n\r\n   Summary: RFC 2026 Section 2.1 describes the RFC Series. It\r\n   is one of the places were \"archival\" appears (i.e., if we\r\n   intend to change that, further work will be required). If\r\n   we are doing a cleanup, the sentence explaining how to\r\n   obtain RFCs is probably in need of updating, probably to\r\n   point to an RFC Editor-maintained document. The sentence\r\n   \"RFC publication is the direct responsibility of the RFC\r\n   Editor, under the general direction of the IAB.\" will\r\n   almost certainly require modification depending on what we\r\n   decide to do. A number of references, including those to\r\n   what is now the style guide, the assertion that the ASCII\r\n   form is definitive for standards-track documents, and the\r\n   pointers to documents we are no longer maintaining\r\n   (\"Internet Official Protocol Standards\" was dealt with in\r\n   RFC 7100), are probably in need of explicit updating.\r\n\r\n   Action required: If things continue on their current path,\r\n   remove or update the comment about general direction by the\r\n   IAB.  As with 2028 above and several other documents\r\n   described below, some general cleaning-up should be\r\n   performed by someone.  See the \"Job Description\" comments\r\n   at the end.",
       "createdAt": "2021-01-26T07:39:29Z",
-      "updatedAt": "2021-05-20T22:19:03Z",
+      "updatedAt": "2021-09-20T08:34:42Z",
       "closedAt": null,
       "comments": [
         {
@@ -1188,7 +1195,7 @@
       ],
       "body": "From John:\r\n\r\nRFC Streams, Headers, and Boilerplates (RFC 7841 and the\r\nearlier 5741)\r\n\r\n  Summary: The document does not appear to need modification\r\n  as a side-effect of our work.  Of course the question of who\r\n  would have the authority to modify it is key to many of our\r\n  conversations.\r\n\r\n  Action required: Probably none.",
       "createdAt": "2021-01-26T07:44:02Z",
-      "updatedAt": "2021-09-18T07:55:32Z",
+      "updatedAt": "2021-09-20T08:35:53Z",
       "closedAt": null,
       "comments": [
         {
@@ -1197,13 +1204,6 @@
           "body": "We certainly need to modify (i.e., create) boilerplate for the Editorial Stream. Should we lodge a separate issue for that?",
           "createdAt": "2021-09-17T20:34:22Z",
           "updatedAt": "2021-09-17T20:34:22Z"
-        },
-        {
-          "author": "elear",
-          "authorAssociation": "COLLABORATOR",
-          "body": "Yes please",
-          "createdAt": "2021-09-18T07:55:31Z",
-          "updatedAt": "2021-09-18T07:55:31Z"
         }
       ]
     },
@@ -2845,15 +2845,15 @@
       "id": "MDU6SXNzdWU5ODE0MzgzMzQ=",
       "title": "Check who owns boilerplate",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/81",
-      "state": "CLOSED",
+      "state": "OPEN",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This is a tracking issue.  Let's be clear on who owns that particular piece, and that we like who owns that particular piece. ",
       "createdAt": "2021-08-27T17:11:09Z",
-      "updatedAt": "2021-09-11T11:30:56Z",
-      "closedAt": "2021-09-11T11:30:56Z",
+      "updatedAt": "2021-09-20T08:38:54Z",
+      "closedAt": null,
       "comments": [
         {
           "author": "elear",
