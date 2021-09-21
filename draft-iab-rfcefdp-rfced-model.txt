@@ -84,17 +84,18 @@ Table of Contents
        3.2.3.  Community Calls for Comment
        3.2.4.  Appeals
        3.2.5.  Anti-Harassment Policy
-   4.  RFC Series Consulting Editor (RSCE)
-     4.1.  RSCE Selection
-     4.2.  RSCE Performance Evaluation
-   5.  Policy Implementation
-     5.1.  Roles and Processes
-     5.2.  Editorial and Publication Policies
-     5.3.  Resolution of Disagreements between Authors and the RPC
-     5.4.  Administrative Implementation
-       5.4.1.  Vendor Selection for the RFC Production Center
-       5.4.2.  Budget
-   6.  Streams
+     3.3.  RSCE Performance Evaluation
+   4.  Policy Implementation
+     4.1.  Roles and Processes
+     4.2.  Implementation-Specific Policies
+     4.3.  RPC Responsibilities
+     4.4.  Resolution of Disagreements between Authors and the RPC
+     4.5.  Administrative Implementation
+       4.5.1.  Vendor Selection for the RFC Production Center
+       4.5.2.  Budget
+   5.  RFC Series Consulting Editor (RSCE)
+     5.1.  RSCE Selection
+   6.  Editorial Stream
    7.  IANA Considerations
    8.  Security Considerations
    9.  IANA Considerations
@@ -129,7 +130,8 @@ Table of Contents
 
    This document reflects experience gained with version 1 and version 2
    of the Model, and therefore describes version 3 of the Model (see
-   Section 7 for a summary of the changes).
+   Section 7 for a summary of the changes) while remaining consistent
+   with [RFC8729].
 
    More specifically, in order to ensure sustainable maintenance and
    support of the RFC series based on the principles of expert
@@ -566,78 +568,16 @@ Table of Contents
    standards and to demonstrate appropriate workplace behavior.  See
    also [RFC7154], [RFC7776], and [RFC8716].
 
-4.  RFC Series Consulting Editor (RSCE)
-
-   NOTE: Discussion continues within the RFCED-Future Program regarding
-   the appropriate title for an expert in technical publication
-   processes.  Reflecting provisional agreement, this document refers to
-   the individual as the "RFC Series Consulting Editor" ("RSCE").
-
-   The RFC Series Consulting Editor (RSCE) is a senior technical
-   publishing professional who will apply their deep knowledge of
-   technical publishing processes to the RFC series.
-
-   The primary responsibilities of the RSCE are as follows:
-
-   *  Serve as a voting member on the RSAB
-
-   *  Identify problems with the RFC publication process and
-      opportunities for improvement
-
-   *  Provide expert advice regarding policy proposals within the RSWG
-
-   *  If requested, provide expert advice to the RPC and IETF LLC
-
-   Matters on which the RSCE might be consulted could include the
-   following (see also Section 4 of [RFC8729]):
-
-   *  Editing, processing, and publication of RFCs
-
-   *  Publication formats for the RFC Series
-
-   *  Changes to the RFC style guide
-
-   *  Series-wide guidelines regarding document content
-
-   *  Web presence for the RFC Series
-
-   *  Copyright matters related to the RFC Series
-
-   *  Archiving, indexing, and accessibility of RFCs
-
-   The IETF LLC is responsible for the method of and management of the
-   engagement of the RSCE, including selection, evaluation, and the
-   timely filling of any vacancy.  Therefore, whether the RSCE role is
-   structured as a contractual or employee relationship is a matter for
-   the IETF LLC to determine.
-
-   NOTE: This section is intended to address ISSUE #12
-   (https://github.com/intarchboard/program-rfced-future/issues/12),
-   ISSUE #24 (https://github.com/intarchboard/program-rfced-future/
-   issues/24), and ISSUE #55 (https://github.com/intarchboard/program-
-   rfced-future/issues/55).
-
-4.1.  RSCE Selection
-
-   The IETF LLC will form a selection committee, including members from
-   the community, that will be responsible for making a recommendation
-   to the IETF LLC for the RSCE role.  The selection committee will take
-   into account the role definition (https://github.com/intarchboard/
-   program-rfced-future/blob/master/Issue12-RSE-role.md) as well as any
-   other information that the committee deems necessary or helpful in
-   making its decision.  The IETF LLC is responsible for contracting or
-   employment of the RSCE.
-
-4.2.  RSCE Performance Evaluation
+3.3.  RSCE Performance Evaluation
 
    Periodically, the IETF LLC will evaluate the performance of the RSCE,
    including a call for confidential input from the community.  The IETF
    LLC will produce a draft performance evaluation for the RSAB (not
    including the RSCE), which will provide feedback to the IETF LLC.
 
-5.  Policy Implementation
+4.  Policy Implementation
 
-5.1.  Roles and Processes
+4.1.  Roles and Processes
 
    Publication of RFCs shall is handled by the RFC Production Center
    (RPC).
@@ -654,20 +594,6 @@ Table of Contents
 
    *  The RPC is contractually overseen by the IETF LLC to ensure that
       it performs in accordance with contracts in place.
-
-   Within the scope of these considerations, at a high level the RPC is
-   tasked with the following activities:
-
-   *  Editing documents from the streams and publishing them as RFCs.
-
-   *  Participating in the creation of new Editorial Stream RFCs that
-      impact the RPC, at least in an advisory capacity.
-
-   *  Providing reports to the community on its performance and plans.
-
-   *  Consulting with the community on its plans.
-
-   *  Negotiating its specific plans and resources with the IETF LLC.
 
    All matters of budget, timetable, and impact on its performance
    targets, are between the RPC and IETF LLC.
@@ -703,7 +629,7 @@ Table of Contents
    ultimately responsible to the community via the mechanisms outlined
    in its charter.
 
-5.2.  Editorial and Publication Policies
+4.2.  Implementation-Specific Policies
 
    Under and consistent with the high-level policies defined for the RFC
    Series in general or particular streams, the RPC shall define more
@@ -725,7 +651,66 @@ Table of Contents
       generally, such policies could address the readability and
       presentation of information in RFCs.
 
-5.3.  Resolution of Disagreements between Authors and the RPC
+4.3.  RPC Responsibilities
+
+   RPC responsibilities include the following:
+
+   1.   Editing inputs from all RFC streams to comply with the RFC Style
+        Guide.
+
+   2.   Creating and preserving records of edits performed on documents.
+
+   3.   Identifying where editorial changes might have technical impact
+        and seeking necessary clarification.
+
+   4.   Engaging in dialogue with authors, document shepherds, IANA, or
+        stream-specific contacts when clarification is needed.
+
+   5.   Creating and preserving records of dialogue with document
+        authors.
+
+   6.   Requesting advice from the RSAB and RSCE as needed.
+
+   7.   Providing suggestions to the RSAB and RSCE as needed.
+
+   8.   Participating in the creation of new Editorial Stream RFCs that
+        impact the RPC, at least in an advisory capacity.
+
+   9.   Providing reports to the community on its performance and plans.
+
+   10.  Consulting with the community on its plans.
+
+   11.  Negotiating its specific plans and resources with the IETF LLC.
+
+   12.  Providing sufficient resources to support reviews of RPC
+        performance by the IETF LLC.
+
+   13.  Coordinating with IANA to ensure correct documentation of IANA-
+        performed protocol registry actions.
+
+   14.  Assigning RFC numbers.
+
+   15.  Establishing publication readiness of each document through
+        communication with the authors, document shepherds, IANA, or
+        stream-specific contacts, and, if needed, with the RSAB and
+        RSCE.
+
+   16.  Liaising with stream managers and other representatives of the
+        streams as needed.
+
+   17.  Announcing and providing on-line access to RFCs.
+
+   18.  Providing an on-line system to submit RFC Errata.
+
+   19.  Providing on-line access to approved RFC Errata.
+
+   20.  Providing backups.
+
+   21.  Providing storage and preservation of records.
+
+   22.  Authenticating RFCs for legal proceedings.
+
+4.4.  Resolution of Disagreements between Authors and the RPC
 
    During the process of editorial preparation and publication,
    disagreements can arise between the authors of an RFC-to-be and the
@@ -763,7 +748,7 @@ Table of Contents
    ISSUE #59 (https://github.com/intarchboard/program-rfced-future/
    issues/59).
 
-5.4.  Administrative Implementation
+4.5.  Administrative Implementation
 
    The exact implementation of the administrative and contractual
    activities described here are a responsibility of the IETF LLC.  This
@@ -778,7 +763,7 @@ Table of Contents
    program-rfced-future/issues/62), and ISSUE #63
    (https://github.com/intarchboard/program-rfced-future/issues/63),
 
-5.4.1.  Vendor Selection for the RFC Production Center
+4.5.1.  Vendor Selection for the RFC Production Center
 
    Vendor selection is done in cooperation with the streams and under
    the final authority of the IETF LLC.
@@ -805,7 +790,7 @@ Table of Contents
       the event that a contract cannot be reached, the matter shall be
       referred to the selection committee for further action.
 
-5.4.2.  Budget
+4.5.2.  Budget
 
    The expenses discussed in this document are not new expenses.  They
    have been and remain part of the IETF LLC budget.
@@ -818,7 +803,69 @@ Table of Contents
    budget (and the authority to deny it).  All relevant parties must
    work within the IETF LLC budgetary process.
 
-6.  Streams
+5.  RFC Series Consulting Editor (RSCE)
+
+   NOTE: Discussion continues within the RFCED-Future Program regarding
+   the appropriate title for an expert in technical publication
+   processes.  Reflecting provisional agreement, this document refers to
+   the individual as the "RFC Series Consulting Editor" ("RSCE").
+
+   The RFC Series Consulting Editor (RSCE) is a senior technical
+   publishing professional who will apply their deep knowledge of
+   technical publishing processes to the RFC series.
+
+   The primary responsibilities of the RSCE are as follows:
+
+   *  Serve as a voting member on the RSAB
+
+   *  Identify problems with the RFC publication process and
+      opportunities for improvement
+
+   *  Provide expert advice regarding policy proposals within the RSWG
+
+   *  If requested, provide expert advice to the RPC and IETF LLC
+
+   Matters on which the RSCE might be consulted could include the
+   following (see also Section 4 of [RFC8729]):
+
+   *  Editing, processing, and publication of RFCs
+
+   *  Publication formats for the RFC Series
+
+   *  Changes to the RFC style guide
+
+   *  Series-wide guidelines regarding document content and quality
+
+   *  Web presence for the RFC Series
+
+   *  Copyright matters related to the RFC Series
+
+   *  Archiving, indexing, and accessibility of RFCs
+
+   The IETF LLC is responsible for the method of and management of the
+   engagement of the RSCE, including selection, evaluation, and the
+   timely filling of any vacancy.  Therefore, whether the RSCE role is
+   structured as a contractual or employee relationship is a matter for
+   the IETF LLC to determine.
+
+   NOTE: This section is intended to address ISSUE #12
+   (https://github.com/intarchboard/program-rfced-future/issues/12),
+   ISSUE #24 (https://github.com/intarchboard/program-rfced-future/
+   issues/24), and ISSUE #55 (https://github.com/intarchboard/program-
+   rfced-future/issues/55).
+
+5.1.  RSCE Selection
+
+   The IETF LLC will form a selection committee, including members from
+   the community, that will be responsible for making a recommendation
+   to the IETF LLC for the RSCE role.  The selection committee will take
+   into account the role definition (https://github.com/intarchboard/
+   program-rfced-future/blob/master/Issue12-RSE-role.md) as well as any
+   other information that the committee deems necessary or helpful in
+   making its decision.  The IETF LLC is responsible for contracting or
+   employment of the RSCE.
+
+6.  Editorial Stream
 
    This document creates the Editorial Stream as separate space for
    publication of policies, procedures, guidelines, rules, and related
@@ -1005,15 +1052,19 @@ B.1.  RFC Series Editor
 
    The RSWG and RSAB together provide a public process by which policies
    for the RFC Series can be defined.  It is expected that these bodies
-   will therefore cover some of the responsibilities of the RFC Series
-   Editor function as defined by RFC 8728.
+   will therefore cover many of the responsibilities of the RFC Series
+   Editor function as defined by [RFC8728].  For example, representation
+   to the IETF (Section 2.1.2.1 of [RFC8728] is no longer necessary
+   because IETF participants can get involved in the RSWG, because the
+   IETF has a delegate on the RSAB, and because the RPC provides reports
+   directly to the community.
 
 B.2.  RFC Publisher
 
    In practice the RFC Production Center (RPC) and RFC Publisher roles
-   have been performed by the same entity and are expected to continue
-   in this fashion; therefore this document dispenses with the
-   distinction and refers only to the RPC.
+   have been performed by the same entity and this practice is expected
+   to continue; therefore this document dispenses with the distinction
+   and refers only to the RPC.
 
 B.3.  RFC Series Oversight Committee (RSOC)
 
@@ -1030,8 +1081,8 @@ Appendix C.  Updates to RFC 8729
    *  This document creates the Editorial Stream.
 
    *  Future changes to policies governing the RFC Series as a whole now
-      occur through documents defined by the RSWG and approved by the
-      RSAB.
+      occur through documents defined by the RSWG, approved by the RSAB,
+      and published in the Editorial Stream.
 
    *  As described above, several responsibilities previously assigned
       to the "RFC Editor function" are now performed by the RSWG, RSAB,
