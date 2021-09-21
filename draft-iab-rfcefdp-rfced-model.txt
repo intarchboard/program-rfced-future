@@ -11,7 +11,7 @@ Expires: 25 March 2022
 
 
             RFC Series Policy Definition and Implementation
-                    draft-iab-rfcefdp-rfced-model-02
+                    draft-iab-rfcefdp-rfced-model-03
 
 Abstract
 
@@ -80,11 +80,10 @@ Table of Contents
        3.1.2.  RFC Series Approval Board (RSAB)
      3.2.  Process
        3.2.1.  Intent
-       3.2.2.  Specifics
+       3.2.2.  Workflow
        3.2.3.  Community Calls for Comment
        3.2.4.  Appeals
        3.2.5.  Anti-Harassment Policy
-     3.3.  RSCE Performance Evaluation
    4.  Policy Implementation
      4.1.  Roles and Processes
      4.2.  Implementation-Specific Policies
@@ -95,11 +94,11 @@ Table of Contents
        4.5.2.  Budget
    5.  RFC Series Consulting Editor (RSCE)
      5.1.  RSCE Selection
+     5.2.  RSCE Performance Evaluation
    6.  Editorial Stream
-   7.  IANA Considerations
-   8.  Security Considerations
-   9.  IANA Considerations
-   10. Informative References
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  Informative References
    Appendix A.  Updates to RFC 7841
      A.1.  First Paragraph
      A.2.  Second Paragraph
@@ -406,7 +405,7 @@ Table of Contents
    establish whatever processes they deem appropriate to facilitate this
    goal.
 
-3.2.2.  Specifics
+3.2.2.  Workflow
 
    The following process shall be used to formulate or modify processes
    related to the RFC series:
@@ -567,13 +566,6 @@ Table of Contents
    Participants are expected to behave according to professional
    standards and to demonstrate appropriate workplace behavior.  See
    also [RFC7154], [RFC7776], and [RFC8716].
-
-3.3.  RSCE Performance Evaluation
-
-   Periodically, the IETF LLC will evaluate the performance of the RSCE,
-   including a call for confidential input from the community.  The IETF
-   LLC will produce a draft performance evaluation for the RSAB (not
-   including the RSCE), which will provide feedback to the IETF LLC.
 
 4.  Policy Implementation
 
@@ -865,6 +857,13 @@ Table of Contents
    making its decision.  The IETF LLC is responsible for contracting or
    employment of the RSCE.
 
+5.2.  RSCE Performance Evaluation
+
+   Periodically, the IETF LLC will evaluate the performance of the RSCE,
+   including a call for confidential input from the community.  The IETF
+   LLC will produce a draft performance evaluation for the RSAB (not
+   including the RSCE), which will provide feedback to the IETF LLC.
+
 6.  Editorial Stream
 
    This document creates the Editorial Stream as separate space for
@@ -895,16 +894,7 @@ Table of Contents
    future/issues/63), and ISSUE #73 (https://github.com/intarchboard/
    program-rfced-future/issues/73).
 
-7.  IANA Considerations
-
-   This document places responsibility for coordination of registry
-   value assignments with the RPC.  The IETF LLC facilitates management
-   of the relationship between the RPC and IANA.
-
-   This document does not create a new registry nor does it register any
-   values in existing registries, and no IANA action is required.
-
-8.  Security Considerations
+7.  Security Considerations
 
    The same security considerations as those in [RFC8729] apply.  The
    processes for the publication of documents must prevent the
@@ -920,11 +910,16 @@ Table of Contents
    The IETF LLC should take these security considerations into account
    during the implementation and enforcement of any relevant contracts.
 
-9.  IANA Considerations
+8.  IANA Considerations
 
-   This document has no actions for IANA.
+   This document places responsibility for coordination of registry
+   value assignments with the RPC.  The IETF LLC facilitates management
+   of the relationship between the RPC and IANA.
 
-10.  Informative References
+   This document does not create a new registry nor does it register any
+   values in existing registries, and no IANA action is required.
+
+9.  Informative References
 
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
