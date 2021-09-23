@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-09-21T00:14:12.678937+00:00",
+  "timestamp": "2021-09-23T00:16:12.433483+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -679,7 +679,7 @@
       "id": "MDU6SXNzdWU3MDk0Nzg5MDM=",
       "title": "Single contract for REP vs separate contracts for production (RPC) & publication.",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/17",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -689,8 +689,8 @@
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:34Z",
-      "updatedAt": "2021-09-11T15:21:23Z",
-      "closedAt": null,
+      "updatedAt": "2021-09-22T06:09:46Z",
+      "closedAt": "2021-09-22T06:09:46Z",
       "comments": []
     },
     {
@@ -703,11 +703,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "Propose to close",
         "In Discussion"
       ],
       "body": "",
       "createdAt": "2020-09-26T08:41:48Z",
-      "updatedAt": "2021-09-20T23:51:21Z",
+      "updatedAt": "2021-09-22T06:11:17Z",
       "closedAt": null,
       "comments": [
         {
@@ -1029,11 +1030,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "Propose to close",
         "In Discussion"
       ],
       "body": "From John:\r\n\r\nBCP 9/ RFC 2026\r\n\r\n   Summary: RFC 2026 Section 2.1 describes the RFC Series. It\r\n   is one of the places were \"archival\" appears (i.e., if we\r\n   intend to change that, further work will be required). If\r\n   we are doing a cleanup, the sentence explaining how to\r\n   obtain RFCs is probably in need of updating, probably to\r\n   point to an RFC Editor-maintained document. The sentence\r\n   \"RFC publication is the direct responsibility of the RFC\r\n   Editor, under the general direction of the IAB.\" will\r\n   almost certainly require modification depending on what we\r\n   decide to do. A number of references, including those to\r\n   what is now the style guide, the assertion that the ASCII\r\n   form is definitive for standards-track documents, and the\r\n   pointers to documents we are no longer maintaining\r\n   (\"Internet Official Protocol Standards\" was dealt with in\r\n   RFC 7100), are probably in need of explicit updating.\r\n\r\n   Action required: If things continue on their current path,\r\n   remove or update the comment about general direction by the\r\n   IAB.  As with 2028 above and several other documents\r\n   described below, some general cleaning-up should be\r\n   performed by someone.  See the \"Job Description\" comments\r\n   at the end.",
       "createdAt": "2021-01-26T07:39:29Z",
-      "updatedAt": "2021-09-20T08:34:42Z",
+      "updatedAt": "2021-09-22T07:05:45Z",
       "closedAt": null,
       "comments": [
         {
@@ -1124,12 +1126,10 @@
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [
-        "In Discussion"
-      ],
+      "labels": [],
       "body": "From John:\r\n\r\nCharter of the Internet Architecture Board (IAB) (RFC\r\n2850/BCP0039)\r\n\r\n  Summary: Mentions responsibility for the RFC Editor. It also\r\n  specifies that the RFC Editor is an liaison member of the\r\n  IAB. Depending on what other decisions we make, that may no\r\n  longer be appropriate and we may need to sort out whether\r\n  the RSE/A, RPC, or both, should have liaisons to the IESG.\r\n  It also occurs to me that having the RSE/A be an ex-officio\r\n  member of the LLC Board might improve communications,\r\n  facilitate discussion of tradeoffs about possibly courses of\r\n  action that would require money or other resources, and\r\n  provide a barrier against treating the RSE/A and/or the\r\n  entire RFC Editor Function as \"just contractors\".\r\n\r\n  Action required: If we continue on what I think is our\r\n  current path, the IAB responsibility for the RFC Editor\r\n  will need to come out.   And we need to sort the liaison\r\n  issues out.",
       "createdAt": "2021-01-26T07:42:21Z",
-      "updatedAt": "2021-09-18T10:23:47Z",
+      "updatedAt": "2021-09-22T06:26:40Z",
       "closedAt": null,
       "comments": [
         {
@@ -1145,6 +1145,13 @@
           "body": "There is now a draft that needs to be dispatched.\r\n",
           "createdAt": "2021-09-18T10:23:46Z",
           "updatedAt": "2021-09-18T10:23:46Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This issue will close as Brian's draft hits the IAB.",
+          "createdAt": "2021-09-22T06:26:40Z",
+          "updatedAt": "2021-09-22T06:26:40Z"
         }
       ]
     },
@@ -1158,11 +1165,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "Propose to close",
         "In Discussion"
       ],
       "body": "From John:\r\n\r\nThe RFC Series and RFC Editor (RFC 8729 and the earlier 4844)\r\n\r\n   Summary: Like RFC 2850, mentions a liaison from the RFC\r\n   Editor to the IAB, which we might want to review in the\r\n   context of whatever we figure out (see above). Section 2.d\r\n   discusses the RFC Editor function but in general enough\r\n   terms to probably be ok.\r\n\r\n   Action required: Probably none unless we conclude that the\r\n   new structure eliminates the need or desire for a liaison\r\n   from the RFC Editor to the IAB or that we need to move new\r\n\tliaison or ex-officio member role into this (see above).",
       "createdAt": "2021-01-26T07:43:02Z",
-      "updatedAt": "2021-09-08T13:50:49Z",
+      "updatedAt": "2021-09-22T07:06:50Z",
       "closedAt": null,
       "comments": [
         {
@@ -1217,11 +1225,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "In Discussion"
+        "Propose to close"
       ],
       "body": "Independent Submission Editor Model (RFC 8730 and the earlier\r\nRFC 5620 and 6548)\r\n\r\n  Summary: Mentions interactions with the RSE and appointment\r\n  by the IAB.  If we create a new oversight mechanism,\r\n  decouple the RSE/A function, and/or RSE/A appointment from\r\n  the IAB, we may want to review whether having the IAB\r\n  appoint the ISE is still appropriate.  The text does\r\n  mention the RSOC in section 2, so, if we are eliminating\r\n  that body (and possibly replacing it with something else),\r\n  that sentence would need adjustment.\r\n\r\n  Action: Probably remove comment about the RSE in Section 2.\r\n  Depending on what else we decide, possibly adjust text about\r\n  appointment by the IAB and/or being responsible to the IAB.\r\n",
       "createdAt": "2021-01-26T07:44:54Z",
-      "updatedAt": "2021-09-06T06:12:38Z",
+      "updatedAt": "2021-09-22T07:05:05Z",
       "closedAt": null,
       "comments": [
         {
@@ -2863,6 +2871,56 @@
           "updatedAt": "2021-09-11T11:30:56Z"
         }
       ]
+    },
+    {
+      "number": 82,
+      "id": "I_kwDODutrrM47yCut",
+      "title": "RSAB vacancies",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/82",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "In Discussion"
+      ],
+      "body": "From Peter:\r\n\r\n> It's possible that vacancies might occur on the RSAB. I propose the\r\nfollowing text to address this issue:\r\n\r\n>>   The RSAB shall continue to function in the case of any vacancies;\r\n  however, such vacancies should be filled with all due speed.\r\n\r\n> Strictly speaking this might not be necessary, but I think it would be\r\ngood to include such text for the avoidance of doubt.",
+      "createdAt": "2021-09-21T17:58:36Z",
+      "updatedAt": "2021-09-21T17:58:43Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 83,
+      "id": "I_kwDODutrrM47yxGf",
+      "title": "External Representation",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/83",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Pete wrote:\r\n> Section 2.1.2.2 of RFC 8728 reads as follows:\r\n\r\n>>   From time to time, individuals or organizations external to the IETF\r\n   need a contact person to talk to about the RFC Series.  The RSE, or\r\n   the RSE's designate, serves this role.\r\n\r\n>>   Over time, the RSE should determine what, if any, means should be\r\n   employed to increase end-user awareness of the series, to reinforce\r\n   the stature of the series, and to provide the contact point for\r\n   outside parties seeking information on the series or the Editor.\r\n\r\n> As far as I can see, we do not yet say anything about external\r\nrepresentation of the RFC Series in our document. Would individuals or\r\norganizations external to the IETF (and the broader RFC Series\r\ncommunity) reach out to the RSAB?",
+      "createdAt": "2021-09-21T19:49:50Z",
+      "updatedAt": "2021-09-21T20:23:07Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 84,
+      "id": "I_kwDODutrrM470p6r",
+      "title": "RSAB Quorum",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/84",
+      "state": "OPEN",
+      "author": "stpeter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From John Klensin:\r\n\r\n> the I-D does not appear to specify a quorum for doing\r\n> business.  Would it be worth specifying the minimum number of\r\n> members who must be present, voting, or agreeing to take an\r\n> action?",
+      "createdAt": "2021-09-22T01:57:48Z",
+      "updatedAt": "2021-09-22T01:57:48Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
