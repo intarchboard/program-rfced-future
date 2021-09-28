@@ -876,6 +876,13 @@ In practice, the relationships and lines of authority and responsibility
 between the IAB, RSOC, and RSE have proved unwieldy and somewhat opaque.
 To overcome some of these issues, this document dispenses with the RSOC.
 
+## RFC Series Advisory Group (RSAG)
+
+Version 1 of the RFC Editor Model {{RFC5620}} specified the existence of 
+the RFC Series Advisory Group (RSAG), which was no longer specified in 
+Version 2 of the Model. For the avoidance of doubt, this document affirms 
+that the RSAG is obsolete and its charter is no longer in force.
+
 # Updates to RFC 8729
 
 This document incorporates some text directly from {{RFC8729}} and also
