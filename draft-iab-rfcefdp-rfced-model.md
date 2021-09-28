@@ -170,10 +170,18 @@ the RFC series.
 
 ### RFC Series Working Group (RSWG)
 
-NOTE: There is discussion within the RFCED-Future Program 
-regarding the appropriate name for this entity; provisionally
-"RFC Series Working Group" (RSWG) is used here, but the name
-might change in future versions of this document.
+NOTE: This section is intended to address 
+[ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
+[ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14), 
+[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16), 
+[ISSUE #28](https://github.com/intarchboard/program-rfced-future/issues/28), 
+[ISSUE #29](https://github.com/intarchboard/program-rfced-future/issues/29), 
+[ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), 
+[ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44),
+[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55),
+[ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), 
+[ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72), and
+[ISSUE #80](https://github.com/intarchboard/program-rfced-future/issues/80).
 
 The RFC Series Working Group (RSWG) shall formulate proposals 
 regarding policies that govern the RFC series. The intent is 
@@ -227,20 +235,15 @@ Absent specific guidance in this document regarding the roles and
 responsibilities of the chairs, the general guidance provided in
 Section 6.1 of {{RFC2418}} should be considered appropriate.
 
+### RFC Series Approval Board (RSAB)
+
 NOTE: This section is intended to address 
 [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
-[ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14), 
-[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16), 
-[ISSUE #28](https://github.com/intarchboard/program-rfced-future/issues/28), 
-[ISSUE #29](https://github.com/intarchboard/program-rfced-future/issues/29), 
-[ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), 
-[ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44),
-[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55),
-[ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), 
-[ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72), and
-[ISSUE #80](https://github.com/intarchboard/program-rfced-future/issues/80).
-
-### RFC Series Approval Board (RSAB)
+[ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
+[ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), 
+[ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53),
+[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71), and
+[ISSUE #82](https://github.com/intarchboard/program-rfced-future/issues/82).
 
 The RFC Series Approval Board (RSAB) shall act as the approving body 
 for proposals generated within the RSWG. The only policy-making role 
@@ -302,14 +305,6 @@ the meeting shall be private to the RSAB, but must be noted on the
 agenda, and must be documented in the minutes with as much detail as 
 confidentiality requirements permit.
 
-NOTE: This section is intended to address 
-[ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
-[ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
-[ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), 
-[ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53),
-[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71), and
-[ISSUE #82](https://github.com/intarchboard/program-rfced-future/issues/82).
-
 ## Process
 
 ### Intent
@@ -338,6 +333,10 @@ be no surprises. Appointing bodies are expected to establish whatever
 processes they deem appropriate to facilitate this goal.
 
 ### Workflow
+
+NOTE: This section is intended to address 
+[ISSUE #45](https://github.com/intarchboard/program-rfced-future/issues/45) and
+[ISSUE #69](https://github.com/intarchboard/program-rfced-future/issues/69).
 
 The following process shall be used to formulate or modify processes 
 related to the RFC series:
@@ -425,11 +424,10 @@ to the RSWG.
     and the document enters the queue for publication as an RFC within
     the Editorial Stream.
 
-NOTE: This section is intended to address 
-[ISSUE #45](https://github.com/intarchboard/program-rfced-future/issues/45) and
-[ISSUE #69](https://github.com/intarchboard/program-rfced-future/issues/69).
-
 ### Community Calls for Comment
+
+NOTE: This section is intended to address 
+[ISSUE #67](https://github.com/intarchboard/program-rfced-future/issues/67).
 
 When a community call for comment is made, the RSAB sends a notice containing:
 
@@ -451,10 +449,11 @@ be established for notices (e.g., using an RSS feed or social media).
 A comment period will not last less than two weeks. Comments will be publicly 
 archived on the rfc-editor.org web site.
 
-NOTE: This section is intended to address 
-[ISSUE #67](https://github.com/intarchboard/program-rfced-future/issues/67).
-
 ### Appeals
+
+NOTE: This section is intended to address 
+[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16) and 
+[ISSUE #36](https://github.com/intarchboard/program-rfced-future/issues/36).
 
 Appeals of RSWG decisions shall be made to the RSAB. Decisions of the 
 RSWG can be appealed only on grounds of failure to follow the correct 
@@ -468,10 +467,6 @@ within thirty (30) days of public notice of the relevant RSAB decision
 (typically, when minutes are posted). The IAB shall decide whether a 
 process failure occurred and what if any corrective action should take 
 place.
-
-NOTE: This section is intended to address 
-[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16) and 
-[ISSUE #36](https://github.com/intarchboard/program-rfced-future/issues/36).
 
 ### Anti-Harassment Policy
 
@@ -613,6 +608,10 @@ RPC responsibilities include the following:
 
 ## Resolution of Disagreements between Authors and the RPC
 
+NOTE: This section is intended to address 
+[ISSUE #6](https://github.com/intarchboard/program-rfced-future/issues/6) and
+[ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59).
+
 During the process of editorial preparation and publication, disagreements 
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
 policy clearly applies, typically such disagreements are handled in a 
@@ -642,16 +641,7 @@ intended to provide more particular guidance.
   in the interest of time the disagreement may be resolved as the parties 
   best see fit while the RSWG formulates a more general policy.
 
-NOTE: This section is intended to address 
-[ISSUE #6](https://github.com/intarchboard/program-rfced-future/issues/6) and
-[ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59).
-
 ## Administrative Implementation
-
-The exact implementation of the administrative and contractual
-activities described here are a responsibility of the IETF LLC. This
-section provides general guidance regarding several aspects of such
-activities.
 
 NOTE: This section is intended to address
 [ISSUE #25](https://github.com/intarchboard/program-rfced-future/issues/25),
@@ -659,6 +649,11 @@ NOTE: This section is intended to address
 [ISSUE #61](https://github.com/intarchboard/program-rfced-future/issues/61), 
 [ISSUE #62](https://github.com/intarchboard/program-rfced-future/issues/62), and
 [ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63),
+
+The exact implementation of the administrative and contractual
+activities described here are a responsibility of the IETF LLC. This
+section provides general guidance regarding several aspects of such
+activities.
 
 ### Vendor Selection for the RFC Production Center
 
@@ -703,6 +698,11 @@ within the IETF LLC budgetary process.
 
 # RFC Series Consulting Editor (RSCE)
 
+NOTE: This section is intended to address 
+[ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12),
+[ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24), and
+[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55).
+
 NOTE: Discussion continues within the RFCED-Future Program regarding 
 the appropriate title for an expert in technical publication processes. 
 Reflecting provisional agreement, this document refers to the 
@@ -737,11 +737,6 @@ filling of any vacancy. Therefore, whether the RSCE role is structured
 as a contractual or employee relationship is a matter for the IETF LLC 
 to determine.
 
-NOTE: This section is intended to address 
-[ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12),
-[ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24), and
-[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55).
-
 ## RSCE Selection
 
 The IETF LLC will form a selection committee, including members 
@@ -762,6 +757,12 @@ the RSCE), which will provide feedback to the IETF LLC.
 
 # Editorial Stream
 
+NOTE: This section is intended to address
+[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22),
+[ISSUE #35](https://github.com/intarchboard/program-rfced-future/issues/35),
+[ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63), and
+[ISSUE #73](https://github.com/intarchboard/program-rfced-future/issues/73). 
+
 This document creates the Editorial Stream as separate space for
 publication of policies, procedures, guidelines, rules, and related 
 information regarding the RFC Series as a whole.
@@ -781,11 +782,33 @@ changed only by agreement of the IAB, IESG, and IETF LLC.
 The requirements and process for creating any additional RFC streams are
 outside the scope of this document.
 
-NOTE: This section is intended to address
-[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22),
-[ISSUE #35](https://github.com/intarchboard/program-rfced-future/issues/35),
-[ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63), and
-[ISSUE #73](https://github.com/intarchboard/program-rfced-future/issues/73). 
+## Editorial Stream Boilerplate
+
+This document specifies the following text for the "Status of This Memo"
+section of RFCs published in the Editorial Stream. Any changes to this
+boilerplate must be made through the RFC Series Policy Definition process
+specified in this document.
+
+### First Paragraph
+
+Because all Editorial Stream RFCs have a status of Informational, 
+the first paragraph of the "Status of This Memo" section shall be 
+as specified in Appendix A.2.1 of {{RFC7841}}.
+
+### Second Paragraph
+
+The second paragraph of the "Status of This Memo" section shall be 
+as follows:
+
+"This document is a product of the RFC Series Policy Definition process.
+It represents the consensus of the RFC Series Working Group approved by 
+the RFC Series Approval Board. Such documents are not candidates for any 
+level of Internet Standard; see Section 2 of RFC 7841.
+
+### Third Paragraph
+
+The third paragraph of the "Status of This Memo" section shall be 
+as specified in Section 3.5 of RFC 7841.
 
 # Security Considerations
 
@@ -814,54 +837,39 @@ values in existing registries, and no IANA action is required.
 
 --- back
 
-# Updates to RFC 7841
+# Changes from Version 2 of the RFC Editor Model
 
-NOTE TO RFC EDITOR: Because this document (if approved) will be the 
-first RFC in the Editorial Series, please apply the changes in this
-section to its boilerplate if directed to do so by the IAB.
+## RFC Editor Function
 
-This document specifies the following text for the "Status of This Memo"
-section of RFCs published in the Editorial Stream. Any changes to this
-boilerplate must be made through the RFC Series Policy Definition process
-specified in this document.
-
-## First Paragraph
-
-Because all Editorial Stream RFCs have a status of Informational, 
-the first paragraph of the "Status of This Memo" section shall be 
-as specified in Appendix A.2.1 of {{RFC7841}}.
-
-## Second Paragraph
-
-The second paragraph of the "Status of This Memo" section shall be 
-as follows:
-
-"This document is a product of the RFC Series Policy Definition process.
-It represents the consensus of the RFC Series Working Group approved by 
-the RFC Series Approval Board. Such documents are not candidates for any 
-level of Internet Standard; see Section 2 of RFC 7841.
-
-## Third Paragraph
-
-The third paragraph of the "Status of This Memo" section shall be 
-as specified in Section 3.5 of RFC 7841.
-
-# Changes from RFC 8728
+Several responsibilities previously assigned to the "RFC Editor"
+or, more precisely, the "RFC Editor function" are now performed 
+by the RSWG, RSAB, RPC, and IETF LLC (alone or in combination). 
+These include various aspects of strategic leadership (Section 
+2.1.1 of {{RFC8728}}), representation of the RFC Series (Section 
+2.1.2 of {{RFC8728}}), development of RFC production and 
+publication (Section 2.1.3 of {{RFC8728}}), development of the 
+RFC Series (Section 2.1.4 of {{RFC8728}}), operational oversight 
+(Section 3.3 of {{RFC8729}}), policy oversight (Section 3.4 of 
+{{RFC8729}}), the editing, processing, and publication of 
+documents (Section 4.2 of {{RFC8729}}), and development and 
+maintenance of series-wide guidelines and rules (Section 4.4 of 
+{{RFC8729}}). In addition, various details regarding these 
+responsibilities have been modified to accord with the new 
+framework defined in this document.
 
 ## RFC Series Editor
 
-The RSWG and RSAB together provide a public process by which 
-policies for the RFC Series can be defined. It is expected that 
-these bodies will therefore cover many of the responsibilities 
-of the RFC Series Editor (RSE) as defined by {{RFC8728}}. For 
-example, representation to the IETF (Section 2.1.2.1 of {{RFC8728}}
-is no longer necessary because IETF participants can get involved 
-in the RSWG, because the IETF has a delegate on the RSAB, and 
-because the RPC provides reports directly to the community. In
-general, references in existing documents to the RSE can be taken 
-as referring to the RSWG and RSAB or, more generally, the "RFC 
-Editor function" under version 3 of the RFC Editor Model as 
-described herein.
+Implied by the changes outlined in the previous section, the 
+responsibilities of the RFC Series Editor (RSE) as a person or 
+role (contrasted with the overall "RFC Editor function") are now
+split or shared amongst the RSWG, RSAB, RPC, and IETF LLC (alone 
+or in combination). More specifically, the responsibilities of
+the RFC Series Consulting Editor (RSCE) under version 3 of the RFC 
+Editor Model differ in many ways from the responsibilities of the 
+RFC Series Editor under version 2 of the Model. In general, 
+references in existing documents to the RSE can be taken as 
+referring to the "RFC Editor function" as described herein, but 
+should not be taken as referring to the RSCE.
 
 ## RFC Publisher
 
@@ -875,6 +883,8 @@ and refers only to the RPC.
 In practice, the relationships and lines of authority and responsibility
 between the IAB, RSOC, and RSE have proved unwieldy and somewhat opaque.
 To overcome some of these issues, this document dispenses with the RSOC.
+References to the RSOC in documents such as {{RFC8730}} are obsolete 
+because this document does away with the RSOC.
 
 ## RFC Series Advisory Group (RSAG)
 
@@ -883,36 +893,9 @@ the RFC Series Advisory Group (RSAG), which was no longer specified in
 Version 2 of the Model. For the avoidance of doubt, this document affirms 
 that the RSAG is obsolete and its charter is no longer in force.
 
-# Updates to RFC 8729
+## Editorial Stream
 
-This document incorporates some text directly from {{RFC8729}} and also
-makes the following updates:
-
-* This document creates the Editorial Stream.
-
-* Future changes to policies governing the RFC Series as a whole now 
-  occur through documents defined by the RSWG, approved by the RSAB,
-  and published in the Editorial Stream.
-
-* As described above, several responsibilities previously assigned to 
-  the "RFC Editor function" are now performed by the RSWG, RSAB, RPC, 
-  and IETF LLC (alone or in combination). These include aspects of 
-  operational oversight (Section 3.3 of {{RFC8729}}), policy oversight
-  (Section 3.4 of {{RFC8729}}), the editing, processing, and 
-  publication of documents (Section 4.2 of {{RFC8729}}), and 
-  series-wide guidelines and rules (Section 4.4 of {{RFC8729}}).  
-  In addition, some details regarding these responsibilities have been
-  modified to accord with the new framework defined in this document.
-
-# Updates to RFC 8730
-
-{{RFC8730}} refers several times to the RSE; these can be taken as 
-referring to the RSWG and RSAB or, more generally, the "RFC Editor 
-function" under version 3 of the RFC Editor Model as described herein.
-
-{{RFC8730}} refers to the RSOC; that reference is obsolete because 
-this document does away with the RSOC.
-
+This document creates the Editorial Stream.
 
 # Acknowledgments
 {:numbered="false"}
