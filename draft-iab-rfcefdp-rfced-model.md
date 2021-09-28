@@ -242,8 +242,9 @@ NOTE: This section is intended to address
 [ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
 [ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), 
 [ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53),
-[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71), and
-[ISSUE #82](https://github.com/intarchboard/program-rfced-future/issues/82).
+[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71),
+[ISSUE #82](https://github.com/intarchboard/program-rfced-future/issues/82), and 
+[ISSUE #84](https://github.com/intarchboard/program-rfced-future/issues/84).
 
 The RFC Series Approval Board (RSAB) shall act as the approving body 
 for proposals generated within the RSWG. The only policy-making role 
@@ -259,10 +260,6 @@ The voting members of the RSAB shall be as follows:
 * One delegate representing the IRTF stream, appointed by the IRTF Chair
 * The Independent Submissions Editor {{RFC8730}}
 * The RFC Series Consulting Editor
-
-For the avoidance of doubt, the RSAB shall continue to operate in the
-case of any vacancies; however, such vacancies should be filled with all
-due speed.
 
 The appointing bodies shall determine their own processes for appointing 
 delegates, such as provision for an open nominations period. If it becomes 
@@ -304,6 +301,14 @@ to discuss a confidential matter in executive session, that part of
 the meeting shall be private to the RSAB, but must be noted on the 
 agenda, and must be documented in the minutes with as much detail as 
 confidentiality requirements permit.
+
+In the case of vacancies, the RSAB shall operate as follows:
+
+* Voting on approval of policy definition documents produced by 
+  the RSWG shall be delayed until the vacancy or vacancies have 
+  been filled.
+* Activities related to implementation of policies already defined
+  shall continue as normal.
 
 ## Process
 
@@ -641,6 +646,17 @@ intended to provide more particular guidance.
   in the interest of time the disagreement may be resolved as the parties 
   best see fit while the RSWG formulates a more general policy.
 
+## External Representation
+
+NOTE: This section is intended to address 
+[ISSUE #83](https://github.com/intarchboard/program-rfced-future/issues/83).
+
+From time to time, individuals or organizations external to the IETF and 
+the broader RFC Series community may have questions about the RFC Series. 
+Such inquiries should be directed to the rfc-editor@rfc-editor.org email 
+alias and then handled by the appropriate bodies (e.g., RSAB, RPC) or 
+individuals (e.g., RSWG chairs, RSCE). 
+
 ## Administrative Implementation
 
 NOTE: This section is intended to address
@@ -887,6 +903,9 @@ References to the RSOC in documents such as {{RFC8730}} are obsolete
 because this document does away with the RSOC.
 
 ## RFC Series Advisory Group (RSAG)
+
+NOTE: This section is intended to address 
+[ISSUE #85](https://github.com/intarchboard/program-rfced-future/issues/85).
 
 Version 1 of the RFC Editor Model {{RFC5620}} specified the existence of 
 the RFC Series Advisory Group (RSAG), which was no longer specified in 
