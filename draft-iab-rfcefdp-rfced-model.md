@@ -4,7 +4,7 @@ abbrev: "RFC Series Policy"
 docname: draft-iab-rfcefdp-rfced-model-03
 category: info
 obsoletes: RFC8728
-updates: RFC7841, RFC8729
+updates: RFC7841, RFC8729, RFC8730
 ipr: trust200902
 area: Internet
 keyword: Internet-Draft
@@ -417,7 +417,7 @@ to the RSWG.
 
 12. If, after a suitable period of time, any CONCERN positions remain, 
     a formal vote of the RSAB is taken. If a majority of RSAB members 
-    vote to approve, the proposal is approved. Otherwise, it is 
+    vote YES, the proposal is approved. Otherwise, it is 
     returned to the RSWG. In the case of a tie, the proposal is 
     approved.
 
@@ -766,12 +766,11 @@ This document creates the Editorial Stream as separate space for
 publication of policies, procedures, guidelines, rules, and related 
 information regarding the RFC Series as a whole.
 
-Any and all future documents produced by the RSWG and approved by the 
-RSAB shall be published in the Editorial Stream. Documents pubished 
-in the Editorial Stream shall have a status of Informational. The 
-Editorial Stream is not authorized to publish RFCs that are Standards 
-Track or Best Current Practice, since such RFCs are reserved to the 
-IETF Stream {{RFC8729}}.
+All documents produced by the RSWG and approved by the RSAB shall be 
+published as RFCs in the Editorial Stream with a status of Informational. 
+(Note that the Editorial Stream is not authorized to publish RFCs that 
+are Standards Track or Best Current Practice, since such RFCs are 
+reserved to the IETF Stream {{RFC8729}}.)
 
 The Editorial Stream will be used only to specify and update policies, 
 procedures, guidelies, rules, and related information regarding the 
@@ -854,11 +853,15 @@ as specified in Section 3.5 of RFC 7841.
 The RSWG and RSAB together provide a public process by which 
 policies for the RFC Series can be defined. It is expected that 
 these bodies will therefore cover many of the responsibilities 
-of the RFC Series Editor function as defined by {{RFC8728}}. For 
+of the RFC Series Editor (RSE) as defined by {{RFC8728}}. For 
 example, representation to the IETF (Section 2.1.2.1 of {{RFC8728}}
 is no longer necessary because IETF participants can get involved 
 in the RSWG, because the IETF has a delegate on the RSAB, and 
-because the RPC provides reports directly to the community.
+because the RPC provides reports directly to the community. In
+general, references in existing documents to the RSE can be taken 
+as referring to the RSWG and RSAB or, more generally, the "RFC 
+Editor function" under version 3 of the RFC Editor Model as 
+described herein.
 
 ## RFC Publisher
 
@@ -894,15 +897,26 @@ makes the following updates:
   In addition, some details regarding these responsibilities have been
   modified to accord with the new framework defined in this document.
 
+# Updates to RFC 8730
+
+{{RFC8730}} refers several times to the RSE; these can be taken as 
+referring to the RSWG and RSAB or, more generally, the "RFC Editor 
+function" under version 3 of the RFC Editor Model as described herein.
+
+{{RFC8730}} refers to the RSOC; that reference is obsolete because 
+this document does away with the RSOC.
+
+
 # Acknowledgments
 {:numbered="false"}
 
 Portions of this document were borrowed from {{RFC5620}}, 
 {{RFC6635}}, {{RFC8728}}, {{RFC8729}}, and earlier proposals 
-submitted within the RFCED-Future Program by Martin Thomson, 
-Brian Carpenter, and Michael StJohns. Thanks to the chairs of 
-the Program, Eliot Lear and Brian Rosen, for their leadership 
-and assistance. Thanks also for feedback and proposed text to 
+submitted within the IAB's RFC Editor Future Development Program 
+by Martin Thomson, Brian Carpenter, and Michael StJohns. Thanks 
+to the chairs of the Program, Eliot Lear and Brian Rosen, for 
+their leadership and assistance. Thanks also for feedback and 
+proposed text to 
 Jari Arkko,
 Sarah Banks,
 Scott Bradner,
