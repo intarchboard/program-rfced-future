@@ -46,18 +46,18 @@ informative:
 --- abstract
 
 This document describes updated processes for defining and 
-implementing policies regarding the RFC Series as a whole and thus 
-specifies version 3 of RFC Editor Model. As specified here, 
-the model divides the responsibilities for the RFC Series into 
-two high-level tasks. Policy definition is the 
-responsibility of the RFC Series Working Group (RSWG), 
+implementing policies regarding the RFC Series as a whole and 
+thus specifies version 3 of RFC Editor Model. The model defines 
+two high-level tasks related to the RFC Series. Policy definition 
+is the responsibility of the RFC Series Working Group (RSWG), 
 which produces policy proposals that are subject to approval 
 by the RFC Series Approval Board (RSAB). Policy implementation 
 is primarily the responsibility of the RFC Production Center 
 (RPC), under the ultimate authority of the IETF Administration 
 Limited Liability Company (IETF LLC).
 
-This document obsoletes RFC 8728.
+This document obsoletes RFC 8728. This document updates RFC 7841,
+RFC 8729, and RFC 8730.
 
 
 --- middle
@@ -99,7 +99,8 @@ Series. This is primarily the responsibility of the RFC Production
 Center (RPC), under the ultimate authority of the IETF 
 Administration Limited Liability Company (LLC) {{RFC8711}}.  
 
-This document obsoletes RFC 8728. 
+This document obsoletes {{RFC8728}}. This document updates 
+{{RFC7841}}, {{RFC8279}}, and {{RFC8730}}.
 
 # Overview of the Model
 
