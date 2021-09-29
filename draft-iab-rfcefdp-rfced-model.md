@@ -59,7 +59,6 @@ Limited Liability Company (IETF LLC).
 This document obsoletes RFC 8728. This document updates RFC 7841,
 RFC 8729, and RFC 8730.
 
-
 --- middle
 
 # Introduction
@@ -495,8 +494,8 @@ respect to boilerplates:
 
 * Each stream to which the boilerplate applies, which approves that 
   the boilerplate meets its needs
-* The RSAB, which approves that the boilerplate is consistent with the 
-  boilerplate used in the other streams
+* The RSAB, which approves that the boilerplate is not in conflict with 
+  the boilerplate used in the other streams
 * The RPC, which approves that the language of the boilerplate conforms 
   to the RFC Style Guide
 * The IETF Trust, which approves that the boilerplate correctly states 
