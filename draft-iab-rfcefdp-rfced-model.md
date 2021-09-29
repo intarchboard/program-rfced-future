@@ -485,19 +485,21 @@ behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 ### RFC Boilerplates
 
-New or modified RFC boilerplates (see {{RFC7841}}) considered under
+As part of the RFC Style Guide (see {{RFC7322}} and
+[style guide web page](https://www.rfc-editor.org/styleguide/)),
+new or modified RFC boilerplates (see {{RFC7841}}) considered under
 version 3 of the RFC Editor Model must be approved by the following 
 parties, each of which has a separate area of responsibility with 
 respect to boilerplates:
 
-* The stream(s) to which the boilerplate applies, who approve that 
-  the boilerplate meets the needs of that stream(s)
-* The RSAB, who approve that the boilerplate is consistent with the 
+* Each stream to which the boilerplate applies, which approves that 
+  the boilerplate meets its needs
+* The RSAB, which approves that the boilerplate is consistent with the 
   boilerplate used in the other streams
-* The RPC, who approve that the language of the boilerplate conforms 
+* The RPC, which approves that the language of the boilerplate conforms 
   to the RFC Style Guide
-* The IETF Trust, who approve that the boilerplate correctly states the 
-  Trust's position regarding rights and ownership
+* The IETF Trust, which approves that the boilerplate correctly states 
+  the Trust's position regarding rights and ownership
 
 # Policy Implementation 
 
