@@ -311,6 +311,9 @@ In the case of vacancies, the RSAB shall operate as follows:
 * Activities related to implementation of policies already defined
   shall continue as normal.
 
+Because vacancies effectively prevent the RSAB from approving new
+policy changes, such vacancies should be filled with all due speed.
+
 ## Process
 
 ### Intent
