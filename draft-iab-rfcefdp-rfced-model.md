@@ -254,12 +254,10 @@ expected that the RSAB will respect the rough consensus of the
 RSWG wherever possible, without ceding its responsibility to provide
 appropriate review of RSWG proposals.
 
-The voting members of the RSAB shall be as follows:
-
-* One delegate representing the IETF stream, appointed by the IESG
-* One delegate representing the IAB stream, appointed by the IAB
-* One delegate representing the IRTF stream, appointed by the IRTF Chair
-* The Independent Submissions Editor {{RFC8730}}
+* The IETF chair or their delegate appointed by the IESG
+* The IAB chair or their delegate appointed by the IAB
+* The IRTF chair or their delegate appointed by the IRTF Chair
+* The Independent Submissions Editor {{RFC8730}} or their delegate
 * The RFC Series Consulting Editor
 
 The appointing bodies shall determine their own processes for appointing 
@@ -302,17 +300,6 @@ to discuss a confidential matter in executive session, that part of
 the meeting shall be private to the RSAB, but must be noted on the 
 agenda, and must be documented in the minutes with as much detail as 
 confidentiality requirements permit.
-
-In the case of vacancies, the RSAB shall operate as follows:
-
-* Voting on approval of policy definition documents produced by 
-  the RSWG shall be delayed until the vacancy or vacancies have 
-  been filled.
-* Activities related to implementation of policies already defined
-  shall continue as normal.
-
-Because vacancies effectively prevent the RSAB from approving new
-policy changes, such vacancies should be filled with all due speed.
 
 ## Process
 
