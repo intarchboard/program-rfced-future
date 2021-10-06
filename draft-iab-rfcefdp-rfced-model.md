@@ -533,15 +533,15 @@ Publication of RFCs is handled by the RFC Production Center (RPC).
 A few general considerations apply: 
 
 * The general roles and responsibilities of the RPC are defined by 
-RFCs published in the Editorial Stream (i.e., not directly by the 
-RSWG, RSAB, or RSCE).
+  RFCs published in the Editorial Stream (i.e., not directly by the 
+  RSWG, RSAB, or RSCE).
 
 * The RPC is advised by the RSCE and RSAB, and has a duty to 
-consult with them under specific circumstances, such as those 
-relating to disagreements between authors and the RPC.
+  consult with them under specific circumstances, such as those 
+  relating to disagreements between authors and the RPC.
 
 * The RPC is contractually overseen by the IETF LLC to ensure that 
-it performs in accordance with contracts in place.
+  it performs in accordance with contracts in place.
 
 All matters of budget, timetable, and impact on its performance 
 targets, are between the RPC and IETF LLC.
@@ -598,7 +598,12 @@ and final publication and dissemination of RFCs. Examples include:
 
 ## RPC Responsibilities
 
-RPC responsibilities include the following:
+The core responsibility of the RPC is continuous improvement regarding 
+the implementation of RFC policies (including the dimensions of document 
+quality, timeliness of production, and accessibility of results), while 
+taking into account issues raised by the community through the RSWG and
+by the stream managers. More specifically, the RPC's responsibilities 
+include the following:
 
 1. Editing inputs from all RFC streams to comply with the RFC Style Guide.
 
