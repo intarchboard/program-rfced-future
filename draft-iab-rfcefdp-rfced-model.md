@@ -23,6 +23,7 @@ normative:
 
 informative:
   RFC2418:
+  RFC2850:
   RFC3777:
   RFC5378:
   RFC5620:
@@ -79,8 +80,18 @@ modified slightly in 2020 by {{RFC8728}}.
 
 This document reflects experience gained with version 1 and 
 version 2 of the Model, and therefore describes version 3 of 
-the Model (see Section 7 for a summary of the changes) while
-remaining consistent with {{RFC8729}}.
+the Model while remaining consistent with {{RFC8729}}.
+
+In 2020, following up on meetings led by the RFC Series Editor
+in 2019, the IAB formed an open program to conduct a community 
+discussion and consensus process for the further evolution of 
+the RFC Editor model. Under the auspices of this program, the 
+community considered changes that would increase transparency 
+and community input regarding the definition of policies for 
+the RFC Series as a whole, while at the same time ensuring the
+continuity of the RFC Series, maintaining RFC quality, 
+maintaining timely processing, ensuring document accessibility,
+and clarifying lines of authority and responsibility.
 
 More specifically, in order to ensure sustainable maintenance 
 and support of the RFC series based on the principles of expert 
@@ -97,6 +108,16 @@ RFC Series Approval Board (RSAB).
 Series. This is primarily the responsibility of the RFC Production 
 Center (RPC), under the ultimate authority of the IETF 
 Administration Limited Liability Company (LLC) {{RFC8711}}.  
+
+In this model, documents are produced and approved through 
+multiple document streams. The stream manager for each stream 
+is responsible for the content of that stream. The RFC Editor 
+function is responsible for the packaging and distribution of 
+the documents. As such, documents from these streams are 
+edited and published by the Production Center.
+
+The four streams that now exist are described in {{RFC8729}}.
+This document adds a fifth stream, the Editorial Stream.
 
 This document obsoletes {{RFC8728}}. This document updates 
 {{RFC7841}}, {{RFC8279}}, and {{RFC8730}}.
@@ -254,17 +275,29 @@ expected that the RSAB will respect the rough consensus of the
 RSWG wherever possible, without ceding its responsibility to provide
 appropriate review of RSWG proposals.
 
+The voting members of the RSAB are as follows:
+
 * The IETF chair or their delegate appointed by the IESG
 * The IAB chair or their delegate appointed by the IAB
 * The IRTF chair or their delegate appointed by the IRTF Chair
-* The Independent Submissions Editor {{RFC8730}} or their delegate
+* The Independent Submissions Editor (ISE) {{RFC8730}} or their 
+  delegate appointed by the ISE
 * The RFC Series Consulting Editor
 
-The appointing bodies shall determine their own processes for appointing 
-delegates, such as provision for an open nominations period. If it becomes 
-necessary to replace such a delegate for any reason, then for the sake of 
-continuity the appointing body should name a new delegate to complete the 
-former delegate's term.
+The appointing bodies shall determine their own processes for 
+appointing delegates, such as provision for an open nominations 
+period. If it becomes necessary to replace such a delegate for 
+any reason, then for the sake of continuity the appointing body 
+should name a new delegate to complete the former delegate's term. 
+Appointing bodies should ensure that voting members are seated at 
+all times and should fill any vacancies with all due speed, if 
+necessary on a temporary basis. In the case that the IRTF chair or
+ISE is incapacitated or otherwise unable to appoint a delegate, 
+this responsibility shall fall to the IAB as the appointing body
+for the IRTF chair and ISE respectively. 
+
+The RSAB is considered quorate even if lacks one or more of its 
+voting members.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall 
 include the IETF Executive Director as a non-voting member since 
@@ -495,8 +528,7 @@ respect to boilerplates:
 
 ## Roles and Processes
 
-Publication of RFCs shall is handled by the RFC Production Center 
-(RPC).
+Publication of RFCs is handled by the RFC Production Center (RPC).
 
 A few general considerations apply: 
 
@@ -780,6 +812,13 @@ including a call for confidential input from the community. The IETF LLC
 will produce a draft performance evaluation for the RSAB (not including
 the RSCE), which will provide feedback to the IETF LLC.
 
+## Conflict of Interest
+
+The RSCE is expected to avoid even the appearance of conflict of
+interest or judgment in performing these roles.  To ensure this, the
+RSCE will be subject to a conflict of interest policy established by
+the IETF LLC.
+
 # Editorial Stream
 
 NOTE: This section is intended to address
@@ -896,6 +935,21 @@ In practice the RFC Production Center (RPC) and RFC Publisher roles
 have been performed by the same entity and this practice is expected 
 to continue; therefore this document dispenses with the distinction
 and refers only to the RPC.
+
+## IAB
+
+Under earlier versions of the RFC Editor Model, the IAB was 
+responsible for oversight of the RFC Series and acted as a body 
+for final conflict esolution regarding the Series. The IAB's 
+uthority in these matters is described in the IAB's charter 
+{{RFC2850}}. Under version 2 of the Model, the IAB delegated some 
+of its authority to the RFC Series Oversight Committee (see below). 
+Under version 3 of the Model, authority for policy definition 
+resides with the RSWG as an independent venue for work by members 
+of the community (with approval of policy proposals as the 
+responsibility of the RSAB, representing the streams and the RSCE), 
+whereas authority for policy implementation ultimately resides with 
+the IETF LLC.
 
 ## RFC Series Oversight Committee (RSOC)
 
