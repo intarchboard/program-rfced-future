@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model"
-docname: draft-iab-rfcefdp-rfced-model-03
+docname: draft-iab-rfcefdp-rfced-model-04
 category: info
 obsoletes: RFC8728
 updates: RFC7841, RFC8729, RFC8730
@@ -120,7 +120,7 @@ The four streams that now exist are described in {{RFC8729}}.
 This document adds a fifth stream, the Editorial Stream.
 
 This document obsoletes {{RFC8728}}. This document updates 
-{{RFC7841}}, {{RFC8279}}, and {{RFC8730}}.
+{{RFC7841}}, {{RFC8729}}, and {{RFC8730}}.
 
 # Overview of the Model
 
@@ -259,6 +259,11 @@ Section 6.1 of {{RFC2418}} should be considered appropriate.
 
 ### RFC Series Approval Board (RSAB)
 
+OPEN ISSUES: Discussion continues regarding (1) operation of the RSAB 
+in the case of vacancies (ISSUE 82) and (2) quorum requirements for 
+voting by the RSAB (ISSUE 84). The text regarding these issues is 
+provisional and is subject to change.
+
 NOTE: This section is intended to address 
 [ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
 [ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
@@ -296,9 +301,6 @@ necessary on a temporary basis. In the case that the IRTF chair or
 ISE is incapacitated or otherwise unable to appoint a delegate, 
 this responsibility shall fall to the IAB as the appointing body
 for the IRTF chair and ISE respectively. 
-
-The RSAB is considered quorate even if lacks one or more of its 
-voting members.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall 
 include the IETF Executive Director as a non-voting member since 
@@ -425,13 +427,13 @@ related to the RFC Series:
 Any RSAB member holding a "CONCERN" position must explain their concern 
 to the community in detail. The explanation might or might not be actionable.
 
-A CONCERN may be made for two reasons:
+A position of CONCERN may be filed for two reasons:
 
    * The proposal represents a serious problem for the stream or group 
      that a particular member represents.
    * The RSAB member believes that the proposal would cause serious harm 
-     to the overall series, including harm to the long term health and 
-     viability of the series.
+     to the overall Series, including harm to the long-term health and 
+     viability of the Series.
 
 Because RSAB members should have been participating in discussions
 within the RSWG, no position of CONCERN should ever come as a surprise 
@@ -445,10 +447,8 @@ to the RSWG.
     positions, an additional call for community input might be needed.
 
 12. If, after a suitable period of time, any CONCERN positions remain, 
-    a formal vote of the RSAB is taken. If a majority of RSAB members 
-    vote YES, the proposal is approved. Otherwise, it is 
-    returned to the RSWG. In the case of a tie, the proposal is 
-    approved.
+    a vote of the RSAB is taken. If a majority of RSAB members vote 
+    YES, the proposal is approved. Otherwise, it is returned to the RSWG.
 
 13. When a proposal is approved, a notification is sent to the community, 
     and the document enters the queue for publication as an RFC within
@@ -505,7 +505,8 @@ which strive to create and maintain an environment in which people
 of many different backgrounds are treated with dignity, decency, 
 and respect. Participants are expected to behave according to 
 professional standards and to demonstrate appropriate workplace 
-behavior. See also {{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
+behavior. For further information about these policies, see 
+{{RFC7154}}, {{RFC7776}}, and {{RFC8716}}.
 
 ### RFC Boilerplates
 
@@ -614,7 +615,8 @@ include the following:
    and seeking necessary clarification.
 
 4. Engaging in dialogue with authors, document shepherds, IANA, or
-   stream-specific contacts when clarification is needed.
+   stream-specific contacts (e.g., working group chairs and stream
+   managers) when clarification is needed.
 
 5. Creating and preserving records of dialogue with document authors.
 
@@ -911,7 +913,7 @@ RFC Series (Section 2.1.4 of {{RFC8728}}), operational oversight
 (Section 3.3 of {{RFC8729}}), policy oversight (Section 3.4 of 
 {{RFC8729}}), the editing, processing, and publication of 
 documents (Section 4.2 of {{RFC8729}}), and development and 
-maintenance of series-wide guidelines and rules (Section 4.4 of 
+maintenance of Series-wide guidelines and rules (Section 4.4 of 
 {{RFC8729}}). In addition, various details regarding these 
 responsibilities have been modified to accord with the new 
 framework defined in this document.
@@ -941,8 +943,8 @@ and refers only to the RPC.
 
 Under earlier versions of the RFC Editor Model, the IAB was 
 responsible for oversight of the RFC Series and acted as a body 
-for final conflict esolution regarding the Series. The IAB's 
-uthority in these matters is described in the IAB's charter 
+for final conflict resolution regarding the Series. The IAB's 
+authority in these matters is described in the IAB's charter 
 {{RFC2850}}. Under version 2 of the Model, the IAB delegated some 
 of its authority to the RFC Series Oversight Committee (see below). 
 Under version 3 of the Model, authority for policy definition 
