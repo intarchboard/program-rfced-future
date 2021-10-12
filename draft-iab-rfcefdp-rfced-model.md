@@ -283,24 +283,40 @@ appropriate review of RSWG proposals.
 
 The voting members of the RSAB are as follows:
 
-* The IETF chair or their delegate appointed by the IESG
-* The IAB chair or their delegate appointed by the IAB
-* The IRTF chair or their delegate appointed by the IRTF Chair
-* The Independent Submissions Editor (ISE) {{RFC8730}} or their 
+* As the stream representative for the IETF stream, the IETF chair 
+  or their delegate appointed by the IESG
+* As the stream representative for the IAB stream, the IAB chair 
+  or their delegate appointed by the IAB
+* As the stream representative for the IRTF stream, the IRTF chair 
+  or their delegate appointed by the IRTF Chair
+* As the stream representative for the Independent stream, the 
+  Independent Submissions Editor (ISE) {{RFC8730}} or their 
   delegate appointed by the ISE
 * The RFC Series Consulting Editor
 
 The appointing bodies shall determine their own processes for 
-appointing delegates, such as provision for an open nominations 
-period. If it becomes necessary to replace such a delegate for 
+appointing RSAB members, such as provision for an open nominations 
+period (note that appointment of the RSCE is described below). If 
+it becomes necessary to replace an RSAB member for 
 any reason, then for the sake of continuity the appointing body 
-should name a new delegate to complete the former delegate's term. 
-Appointing bodies should ensure that voting members are seated at 
-all times and should fill any vacancies with all due speed, if 
-necessary on a temporary basis. In the case that the IRTF chair or
-ISE is incapacitated or otherwise unable to appoint a delegate, 
-this responsibility shall fall to the IAB as the appointing body
-for the IRTF chair and ISE respectively. 
+should appoint a new member to complete the former member's term. 
+Appointing bodies should ensure that voting members are seated at all
+times and should fill any vacancies with all due speed, if necessary
+on a temporary basis. In the case that the IRTF chair or ISE is
+incapacitated or otherwise unable to appoint a delegate, the IAB (as
+the appointing body for the IRTF chair and ISE respectively) shall
+appoint a temporary member until the IRTF chair or ISE has been
+appointed by the IAB. 
+
+In the case of vacancies by voting members, the RSAB shall operate 
+as follows:
+
+* Activities related to implementation of policies already in force
+  shall continue as normal.
+* Voting on approval of policy documents produced by the RSWG shall
+  be delayed until the vacancy or vacancies have been filled, up to a
+  maximum of 3 months; this clause does not apply to a vacancy of the
+  RSCE role, only of the stream representatives enumerated above.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall 
 include the IETF Executive Director as a non-voting member since 
@@ -447,7 +463,7 @@ to the RSWG.
     positions, an additional call for community input might be needed.
 
 12. If, after a suitable period of time, any CONCERN positions remain, 
-    a vote of the RSAB is taken. If a majority of RSAB members vote 
+    a vote of the RSAB is taken. If a majority of voting members vote 
     YES, the proposal is approved. Otherwise, it is returned to the RSWG.
 
 13. When a proposal is approved, a notification is sent to the community, 
