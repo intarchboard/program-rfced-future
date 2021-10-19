@@ -240,13 +240,13 @@ appointed by the IESG shall serve for a term of one (1) year and
 the chair appointed by the IAB shall serve for a term of two (2) 
 years; thereafter, chairs shall serve for a term of two (2)
 years, with no term limits on renewal. The appointing bodies shall
-determine their own processes for making these appointments, such
-as provision for an open nominations period. Community members who 
-have concerns about the performance of an RSWG chair should direct
-their feedback to the relevant appointing body. Each appointing 
-body shall have the power to replace its appointed chair at its 
-discretion at any time, with the replacement serving the remainder
-of the original chair's term.
+determine their own processes for making these appointments. 
+Community members who have concerns about the performance of an 
+RSWG chair should direct their feedback to the relevant appointing 
+body. Each appointing body shall have the power to remove its 
+appointed chair at its discretion at any time, and to name a 
+replacement who shall serve the remainder of the original chair's 
+term.
 
 It is the responsibility of the chairs to encourage rough consensus 
 within the RSWG and to follow that consensus in their decision making,
@@ -283,10 +283,10 @@ appropriate review of RSWG proposals.
 
 The voting members of the RSAB are as follows:
 
-* As the stream representative for the IETF stream, the IETF chair 
-  or their delegate appointed by the IESG
-* As the stream representative for the IAB stream, the IAB chair 
-  or their delegate appointed by the IAB
+* As the stream representative for the IETF stream, an IESG member
+  or a member of the community selected by the IESG
+* As the stream representative for the IAB stream, an IAB member
+  or a member of the community selected by the IAB
 * As the stream representative for the IRTF stream, the IRTF chair 
   or their delegate appointed by the IRTF Chair
 * As the stream representative for the Independent stream, the 
@@ -295,18 +295,16 @@ The voting members of the RSAB are as follows:
 * The RFC Series Consulting Editor
 
 The appointing bodies shall determine their own processes for 
-appointing RSAB members, such as provision for an open nominations 
-period (note that appointment of the RSCE is described below). If 
-it becomes necessary to replace an RSAB member for 
-any reason, then for the sake of continuity the appointing body 
-should appoint a new member to complete the former member's term. 
-Appointing bodies should ensure that voting members are seated at all
-times and should fill any vacancies with all due speed, if necessary
-on a temporary basis. In the case that the IRTF chair or ISE is
-incapacitated or otherwise unable to appoint a delegate, the IAB (as
-the appointing body for the IRTF chair and ISE respectively) shall
-appoint a temporary member until the IRTF chair or ISE has been
-appointed by the IAB. 
+appointing RSAB members (note that processes related to the RSCE 
+are described below). Each appointing body shall have the power to 
+remove its appointed RSAB member at its discretion at any time. 
+Appointing bodies should ensure that voting members are seated at 
+all times and should fill any vacancies with all due speed, if 
+necessary on a temporary basis. In the case that the IRTF chair 
+or ISE is incapacitated or otherwise unable to appoint a delegate, 
+the IAB (as the appointing body for the IRTF chair and ISE 
+respectively) shall appoint a temporary member until the IRTF 
+chair or ISE has been appointed by the IAB. 
 
 In the case of vacancies by voting members, the RSAB shall operate 
 as follows:
@@ -463,8 +461,8 @@ to the RSWG.
     positions, an additional call for community input might be needed.
 
 12. If, after a suitable period of time, any CONCERN positions remain, 
-    a vote of the RSAB is taken. If a majority of voting members vote 
-    YES, the proposal is approved. Otherwise, it is returned to the RSWG.
+    a vote of the RSAB is taken. If at least three voting members vote 
+    YES, the proposal is approved.
 
 13. When a proposal is approved, a notification is sent to the community, 
     and the document enters the queue for publication as an RFC within
