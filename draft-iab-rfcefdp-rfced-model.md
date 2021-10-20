@@ -192,19 +192,6 @@ the RFC Series.
 
 ### RFC Series Working Group (RSWG)
 
-NOTE: This section is intended to address 
-[ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
-[ISSUE #14](https://github.com/intarchboard/program-rfced-future/issues/14), 
-[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16), 
-[ISSUE #28](https://github.com/intarchboard/program-rfced-future/issues/28), 
-[ISSUE #29](https://github.com/intarchboard/program-rfced-future/issues/29), 
-[ISSUE #41](https://github.com/intarchboard/program-rfced-future/issues/41), 
-[ISSUE #44](https://github.com/intarchboard/program-rfced-future/issues/44),
-[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55),
-[ISSUE #68](https://github.com/intarchboard/program-rfced-future/issues/68), 
-[ISSUE #72](https://github.com/intarchboard/program-rfced-future/issues/72), and
-[ISSUE #80](https://github.com/intarchboard/program-rfced-future/issues/80).
-
 The RFC Series Working Group (RSWG) shall formulate proposals 
 regarding policies that govern the RFC Series. The intent is 
 that the RSWG operate in a way similar to working groups in the 
@@ -258,20 +245,6 @@ responsibilities of the chairs, the general guidance provided in
 Section 6.1 of {{RFC2418}} should be considered appropriate.
 
 ### RFC Series Approval Board (RSAB)
-
-OPEN ISSUES: Discussion continues regarding (1) operation of the RSAB 
-in the case of vacancies (ISSUE 82) and (2) quorum requirements for 
-voting by the RSAB (ISSUE 84). The text regarding these issues is 
-provisional and is subject to change.
-
-NOTE: This section is intended to address 
-[ISSUE #9](https://github.com/intarchboard/program-rfced-future/issues/9), 
-[ISSUE #38](https://github.com/intarchboard/program-rfced-future/issues/38), 
-[ISSUE #50](https://github.com/intarchboard/program-rfced-future/issues/50), 
-[ISSUE #53](https://github.com/intarchboard/program-rfced-future/issues/53),
-[ISSUE #71](https://github.com/intarchboard/program-rfced-future/issues/71),
-[ISSUE #82](https://github.com/intarchboard/program-rfced-future/issues/82), and 
-[ISSUE #84](https://github.com/intarchboard/program-rfced-future/issues/84).
 
 The RFC Series Approval Board (RSAB) shall act as the approving body 
 for proposals generated within the RSWG. The only policy-making role 
@@ -380,10 +353,6 @@ processes they deem appropriate to facilitate this goal.
 
 ### Workflow
 
-NOTE: This section is intended to address 
-[ISSUE #45](https://github.com/intarchboard/program-rfced-future/issues/45) and
-[ISSUE #69](https://github.com/intarchboard/program-rfced-future/issues/69).
-
 The following process shall be used to formulate or modify processes 
 related to the RFC Series:
 
@@ -470,9 +439,6 @@ to the RSWG.
 
 ### Community Calls for Comment
 
-NOTE: This section is intended to address 
-[ISSUE #67](https://github.com/intarchboard/program-rfced-future/issues/67).
-
 When a community call for comment is made, the RSAB sends a notice containing:
 
 * A subject line beginning with 'Call for Comment:'
@@ -494,10 +460,6 @@ A comment period will not last less than two weeks. Comments will be publicly
 archived on the rfc-editor.org web site.
 
 ### Appeals
-
-NOTE: This section is intended to address 
-[ISSUE #16](https://github.com/intarchboard/program-rfced-future/issues/16) and 
-[ISSUE #36](https://github.com/intarchboard/program-rfced-future/issues/36).
 
 Appeals of RSWG decisions shall be made to the RSAB. Decisions of the 
 RSWG can be appealed only on grounds of failure to follow the correct 
@@ -676,10 +638,6 @@ include the following:
 
 ## Resolution of Disagreements between Authors and the RPC
 
-NOTE: This section is intended to address 
-[ISSUE #6](https://github.com/intarchboard/program-rfced-future/issues/6) and
-[ISSUE #59](https://github.com/intarchboard/program-rfced-future/issues/59).
-
 During the process of editorial preparation and publication, disagreements 
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
 policy clearly applies, typically such disagreements are handled in a 
@@ -711,9 +669,6 @@ intended to provide more particular guidance.
 
 ## External Representation
 
-NOTE: This section is intended to address 
-[ISSUE #83](https://github.com/intarchboard/program-rfced-future/issues/83).
-
 From time to time, individuals or organizations external to the IETF and 
 the broader RFC Series community may have questions about the RFC Series. 
 Such inquiries should be directed to the rfc-editor@rfc-editor.org email 
@@ -721,13 +676,6 @@ alias and then handled by the appropriate bodies (e.g., RSAB, RPC) or
 individuals (e.g., RSWG chairs, RSCE). 
 
 ## Administrative Implementation
-
-NOTE: This section is intended to address
-[ISSUE #25](https://github.com/intarchboard/program-rfced-future/issues/25),
-[ISSUE #57](https://github.com/intarchboard/program-rfced-future/issues/57),
-[ISSUE #61](https://github.com/intarchboard/program-rfced-future/issues/61), 
-[ISSUE #62](https://github.com/intarchboard/program-rfced-future/issues/62), and
-[ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63),
 
 The exact implementation of the administrative and contractual
 activities described here are a responsibility of the IETF LLC. This
@@ -776,11 +724,6 @@ budget (and the authority to deny it). All relevant parties must work
 within the IETF LLC budgetary process.
 
 # RFC Series Consulting Editor (RSCE)
-
-NOTE: This section is intended to address 
-[ISSUE #12](https://github.com/intarchboard/program-rfced-future/issues/12),
-[ISSUE #24](https://github.com/intarchboard/program-rfced-future/issues/24), and
-[ISSUE #55](https://github.com/intarchboard/program-rfced-future/issues/55).
 
 The RFC Series Consulting Editor (RSCE) is a senior technical 
 publishing professional who will apply their deep knowledge of 
@@ -837,12 +780,6 @@ RSCE will be subject to a conflict of interest policy established by
 the IETF LLC.
 
 # Editorial Stream
-
-NOTE: This section is intended to address
-[ISSUE #22](https://github.com/intarchboard/program-rfced-future/issues/22),
-[ISSUE #35](https://github.com/intarchboard/program-rfced-future/issues/35),
-[ISSUE #63](https://github.com/intarchboard/program-rfced-future/issues/63), and
-[ISSUE #73](https://github.com/intarchboard/program-rfced-future/issues/73). 
 
 This document creates the Editorial Stream as separate space for
 publication of policies, procedures, guidelines, rules, and related 
@@ -977,9 +914,6 @@ References to the RSOC in documents such as {{RFC8730}} are obsolete
 because this document does away with the RSOC.
 
 ## RFC Series Advisory Group (RSAG)
-
-NOTE: This section is intended to address 
-[ISSUE #85](https://github.com/intarchboard/program-rfced-future/issues/85).
 
 Version 1 of the RFC Editor Model {{RFC5620}} specified the existence of 
 the RFC Series Advisory Group (RSAG), which was no longer specified in 
