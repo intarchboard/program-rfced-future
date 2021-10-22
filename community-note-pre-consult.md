@@ -4,8 +4,8 @@ Dear colleagues,
 
 In March of 2020 the IAB kicked off the RFC Series Editorial Future Development Program, a program opened
 to the entire community, with an eye toward reviewing the RFC Editor model.[1]  We are now coming to the
-conclusion of our work, and the IAB will soon formally solicit community input, in accordance with
-Section 3 of RFC 4845.[2]
+conclusion of our work, and the IAB will soon begin its formal consideration, which is governed by 
+RFC 4845[2].  Part of that process includes solicitation of solicit community input.
 
 The program has developed an evolution of the RFC Editor Model and a small change to the charter of the IAB.
 You can find this evolution in draft-iab-rfcefdp-rfced-model-05.[3]  This draft brings together many different
@@ -41,7 +41,7 @@ Brian and Eliot
 
 [1] https://www.iab.org/activities/programs/rfc-editor-future-development-program/
 
-[2] https://www.rfc-editor.org/rfc/rfc4845.html#section-3
+[2] https://www.rfc-editor.org/rfc/rfc4845.html
 
 [3] https://datatracker.ietf.org/doc/html/draft-iab-rfcefdp-rfced-model-05
 
