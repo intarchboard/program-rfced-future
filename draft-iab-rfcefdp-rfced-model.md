@@ -141,7 +141,7 @@ RFC Series Approval Board (RSAB), after which such policies are
 formally established through publication in the Editorial Stream 
 within the RFC Series. The RSWG is an open working group (as described 
 below) that seeks input and participation through a public process 
-from a wide range of persons who have an interest in the RFC Series. 
+from a wide range of individuals who have an interest in the RFC Series. 
 The RSAB consists of appointed members who represent the various RFC 
 streams {{RFC8728}} as well as an expert in technical publishing, the 
 RFC Series Consulting Editor (RSCE). 
@@ -169,7 +169,7 @@ In short:
   brings those issues to the RSAB, which interprets the policies and provides 
   interim guidance to the RPC, informing the RSWG of those interpretations.
 
-This model is designed to ensure public processes and definition documents,
+This model is designed to ensure public processes and policy documents,
 clear responsibilities and mechanisms for updates and changes to policies
 governing the RFC Series as a whole, and operational implementation of the
 RFC Series, thus meeting the requirements specified in Section 4 of {{RFC8729}}.
@@ -211,7 +211,7 @@ consensus to also use additional tooling (e.g., GitHub as specified in
 meetings), and working methods (e.g., design teams) as long as they 
 are consistent with {{RFC2418}}.
 
-All interested persons are welcome to participate in the RSWG
+All interested individuals are welcome to participate in the RSWG
 (subject to anti-harassment policies as described below). This
 includes participants in the IETF and IRTF, IAB and IESG members, 
 individuals who use RFCs in procurement decisions, authors of RFCs 
@@ -360,7 +360,7 @@ related to the RFC Series:
    form of an Internet-Draft, which is submitted in full conformance 
    with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}}.
 
-2. If following procedures for rough consensus the chairs determine 
+2. If in following procedures for rough consensus the chairs determine 
    that there is sufficient interest in the proposal, the RSWG may 
    adopt the proposal as a draft proposal of the RSWG, in much the 
    same way a working group of the IETF or research group of the IRTF 
@@ -370,8 +370,8 @@ related to the RFC Series:
    RSAB are expected to participate in discussion relating to such 
    proposals so that they are fully aware of proposals early in the 
    policy definition process and so that any issues or concerns that 
-   they have will be raised during the development of the proposal
-   (not be left until the RSAB review period). The RSWG chairs 
+   they have will be raised during the development of the proposal,
+   not left until the RSAB review period. The RSWG chairs 
    are also expected to participate as individuals.
 
 4. At some point, if the RSWG chairs believe there may be rough 
@@ -524,8 +524,8 @@ A few general considerations apply:
 All matters of budget, timetable, and impact on its performance 
 targets, are between the RPC and IETF LLC.
 
-The RPC shall report regularly to the IETF LLC, RSAB, RSWG, and 
-broader community regarding its activities and any key risks or 
+The RPC shall regularly provide reports to the IETF LLC, RSAB, RSWG, 
+and broader community regarding its activities and any key risks or 
 issues affecting it. 
 
 In the event that the RPC is required to make a decision without 
@@ -759,8 +759,7 @@ to determine.
 The IETF LLC will form a selection committee, including members 
 from the community, that will be responsible for making a 
 recommendation to the IETF LLC for the RSCE role. The selection 
-committee will take into account the 
-[role definition](https://github.com/intarchboard/program-rfced-future/blob/master/Issue12-RSE-role.md) 
+committee will take into account the definition of the role
 as well as any other information that the committee deems 
 necessary or helpful in making its decision. The IETF LLC is 
 responsible for contracting or employment of the RSCE.
