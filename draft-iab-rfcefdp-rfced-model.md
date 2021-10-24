@@ -22,6 +22,7 @@ author:
 normative:
 
 informative:
+  I-D.draft-carpenter-rfced-iab-charter:
   RFC2418:
   RFC2850:
   RFC3777:
@@ -895,7 +896,8 @@ Under earlier versions of the RFC Editor Model, the IAB was
 responsible for oversight of the RFC Series and acted as a body 
 for final conflict resolution regarding the Series. The IAB's 
 authority in these matters is described in the IAB's charter 
-{{RFC2850}}. Under version 2 of the Model, the IAB delegated some 
+({{RFC2850}} as updated by {{I-D.draft-carpenter-rfced-iab-charter}}). 
+Under version 2 of the Model, the IAB delegated some 
 of its authority to the RFC Series Oversight Committee (see below). 
 Under version 3 of the Model, authority for policy definition 
 resides with the RSWG as an independent venue for work by members 
@@ -936,8 +938,8 @@ their leadership and assistance. Thanks also for feedback and
 proposed text to 
 Jari Arkko,
 Sarah Banks,
-Scott Bradner,
 Carsten Bormann,
+Scott Bradner,
 Nevil Brownlee,
 Ben Campbell,
 Jay Daley,
