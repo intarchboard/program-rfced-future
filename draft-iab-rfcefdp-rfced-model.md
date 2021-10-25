@@ -136,19 +136,19 @@ respects to the structure of technical work within the IETF or
 IRTF) that retains roles for specialized expertise in document
 editing and publication.
 
-Policy definition happens within the RFC Series Working Group (RSWG),
-which produces policy proposals that are subject to approval by the
-RFC Series Approval Board (RSAB), after which such policies are
-formally established through publication in the Editorial Stream
-within the RFC Series. The RSWG is an open working group (as described
-below) that seeks input and participation through a public process
-from a wide range of individuals who have an interest in the RFC Series.
-The RSAB consists of appointed members who represent the various RFC
-streams {{RFC8728}} as well as an expert in technical publishing, the
-RFC Series Consulting Editor (RSCE).
+Policy definition happens within the RFC Series Working Group (RSWG), 
+which produces policy proposals that are subject to approval by the 
+RFC Series Approval Board (RSAB), after which such policies are 
+formally established through publication in the Editorial Stream 
+within the RFC Series. The RSWG is an open working group (as described 
+in {{wg}}) that seeks input and participation through a public process 
+from a wide range of individuals who have an interest in the RFC Series. 
+The RSAB consists of appointed members who represent the various RFC 
+streams {{RFC8728}} as well as an expert in technical publishing, the 
+RFC Series Consulting Editor (RSCE). 
 
-Policy implementation is performed by the RFC Production Center (RPC),
-under the ultimate authority of the IETF Administration Limited Liability
+Policy implementation is performed by the RFC Production Center (RPC), 
+under the ultimate authority of the IETF Administration Limited Liability 
 Company (IETF LLC).
 
 In short:
@@ -191,7 +191,7 @@ the RFC Series.
 
 ## Structure and Roles
 
-### RFC Series Working Group (RSWG)
+### RFC Series Working Group (RSWG) {#wg}
 
 The RFC Series Working Group (RSWG) shall formulate proposals
 regarding policies that govern the RFC Series. The intent is
@@ -213,13 +213,13 @@ meetings), and working methods (e.g., design teams) as long as they
 are consistent with {{RFC2418}}.
 
 All interested individuals are welcome to participate in the RSWG
-(subject to anti-harassment policies as described below). This
-includes participants in the IETF and IRTF, IAB and IESG members,
-individuals who use RFCs in procurement decisions, authors of RFCs
-and Internet-Drafts, developers of tools used to authors RFCs, and
-the like. The IETF LLC Board members, staff, and the IETF Executive
-Director are invited to participate as community members in the RSWG
-to the extent permitted by any relevant IETF LLC policies. Members
+(subject to anti-harassment policies as described in {{coc}}). This
+includes participants in the IETF and IRTF, IAB and IESG members, 
+individuals who use RFCs in procurement decisions, authors of RFCs 
+and Internet-Drafts, developers of tools used to authors RFCs, and 
+the like. The IETF LLC Board members, staff, and the IETF Executive 
+Director are invited to participate as community members in the RSWG 
+to the extent permitted by any relevant IETF LLC policies. Members 
 of the RSAB are also expected to participate actively.
 
 The RSWG shall have two chairs, one appointed by the IESG and the
@@ -268,17 +268,17 @@ The voting members of the RSAB are as follows:
   delegate appointed by the ISE
 * The RFC Series Consulting Editor
 
-The appointing bodies shall determine their own processes for
-appointing RSAB members (note that processes related to the RSCE
-are described below). Each appointing body shall have the power to
-remove its appointed RSAB member at its discretion at any time.
-Appointing bodies should ensure that voting members are seated at
-all times and should fill any vacancies with all due speed, if
-necessary on a temporary basis. In the case that the IRTF chair
-or ISE is incapacitated or otherwise unable to appoint a delegate,
-the IAB (as the appointing body for the IRTF chair and ISE
-respectively) shall appoint a temporary member until the IRTF
-chair or ISE has been appointed by the IAB.
+The appointing bodies shall determine their own processes for 
+appointing RSAB members (note that processes related to the RSCE 
+are described in {{rsce}}). Each appointing body shall have the power to 
+remove its appointed RSAB member at its discretion at any time. 
+Appointing bodies should ensure that voting members are seated at 
+all times and should fill any vacancies with all due speed, if 
+necessary on a temporary basis. In the case that the IRTF chair 
+or ISE is incapacitated or otherwise unable to appoint a delegate, 
+the IAB (as the appointing body for the IRTF chair and ISE 
+respectively) shall appoint a temporary member until the IRTF 
+chair or ISE has been appointed by the IAB. 
 
 In the case of vacancies by voting members, the RSAB shall operate
 as follows:
@@ -333,7 +333,7 @@ The intent is to provide an open forum by which policies related to the
 RFC Series are defined and evolved. The general expectation is that all
 interested parties will participate in the RSWG, and that only under
 extreme circumstances should RSAB members need to hold "CONCERN"
-positions as described below.
+positions as described in {{workflow}}. 
 
 Because policy issues can be difficult and contentious, RSWG
 participants and RSAB members are strongly encouraged to work together
@@ -352,7 +352,7 @@ basis, so that when the time comes to consider a proposal, there should
 be no surprises. Appointing bodies are expected to establish whatever
 processes they deem appropriate to facilitate this goal.
 
-### Workflow
+### Workflow {#workflow}
 
 The following process shall be used to formulate or modify processes
 related to the RFC Series:
@@ -386,11 +386,11 @@ related to the RFC Series:
    substantial changes have been made, additional last calls may be
    necessary.
 
-6. Once consensus is established in the RSWG, the RSAB shall issue a
-   community call for comments as further described below. If
-   substantial comments have been received, the RSWG will again consider
-   those comments and make revisions as they see fit. At this same time,
-   the RSAB will also consider the proposal.
+6. Once consensus is established in the RSWG, the RSAB shall issue a 
+   community call for comments as further described in {{cfc}}. If 
+   substantial comments have been received, the RSWG will again consider 
+   those comments and make revisions as they see fit. At this same time, 
+   the RSAB will also consider the proposal. 
 
 7. If substantial changes have been made, additional community calls
    for comment should be issued by the RSAB, and again comments considered
@@ -438,7 +438,7 @@ to the RSWG.
     and the document enters the queue for publication as an RFC within
     the Editorial Stream.
 
-### Community Calls for Comment
+### Community Calls for Comment {#cfc}
 
 When a community call for comment is made, the RSAB sends a notice containing:
 
@@ -475,7 +475,7 @@ within thirty (30) days of public notice of the relevant RSAB decision
 process failure occurred and what if any corrective action should take
 place.
 
-### Anti-Harassment Policy
+### Anti-Harassment Policy {#coc}
 
 The [IETF anti-harassment policy](https://www.ietf.org/about/groups/iesg/statements/anti-harassment-policy/) also applies to the RSWG and RSAB,
 which strive to create and maintain an environment in which people
@@ -724,7 +724,7 @@ The IETF LLC has the responsibility to approve the total RFC Editor
 budget (and the authority to deny it). All relevant parties must work
 within the IETF LLC budgetary process.
 
-# RFC Series Consulting Editor (RSCE)
+# RFC Series Consulting Editor (RSCE) {#rsce}
 
 The RFC Series Consulting Editor (RSCE) is a senior technical
 publishing professional who will apply their deep knowledge of
@@ -892,21 +892,21 @@ and refers only to the RPC.
 
 ## IAB
 
-Under earlier versions of the RFC Editor Model, the IAB was
-responsible for oversight of the RFC Series and acted as a body
-for final conflict resolution regarding the Series. The IAB's
-authority in these matters is described in the IAB's charter
-({{RFC2850}} as updated by {{I-D.draft-carpenter-rfced-iab-charter}}).
-Under version 2 of the Model, the IAB delegated some
-of its authority to the RFC Series Oversight Committee (see below).
-Under version 3 of the Model, authority for policy definition
-resides with the RSWG as an independent venue for work by members
-of the community (with approval of policy proposals as the
-responsibility of the RSAB, representing the streams and the RSCE),
-whereas authority for policy implementation ultimately resides with
+Under earlier versions of the RFC Editor Model, the IAB was 
+responsible for oversight of the RFC Series and acted as a body 
+for final conflict resolution regarding the Series. The IAB's 
+authority in these matters is described in the IAB's charter 
+({{RFC2850}} as updated by {{I-D.draft-carpenter-rfced-iab-charter}}). 
+Under version 2 of the Model, the IAB delegated some 
+of its authority to the RFC Series Oversight Committee (see {{rsoc}}). 
+Under version 3 of the Model, authority for policy definition 
+resides with the RSWG as an independent venue for work by members 
+of the community (with approval of policy proposals as the 
+responsibility of the RSAB, representing the streams and the RSCE), 
+whereas authority for policy implementation ultimately resides with 
 the IETF LLC.
 
-## RFC Series Oversight Committee (RSOC)
+## RFC Series Oversight Committee (RSOC) {#rsoc}
 
 In practice, the relationships and lines of authority and responsibility
 between the IAB, RSOC, and RSE have proved unwieldy and somewhat opaque.
