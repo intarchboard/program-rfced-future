@@ -347,9 +347,9 @@ the RFC Series.
 
 This process is intended to be one of continuous consultation. RSAB
 members should consult with their constituent stakeholders (e.g.,
-authors, editors, tool developers, and consumers of RFCs) on an ongoing
-basis, so that when the time comes to consider a proposal, there should
-be no surprises. Appointing bodies are expected to establish whatever
+authors, editors, tool developers, and consumers of RFCs) on an ongoing 
+basis, so that when the time comes to consider the approval of a proposal, there should
+be no surprises. Appointing bodies are expected to establish whatever 
 processes they deem appropriate to facilitate this goal.
 
 ### Workflow {#workflow}
