@@ -173,7 +173,7 @@ In short:
 This model is designed to ensure public processes and policy documents,
 clear responsibilities and mechanisms for updates and changes to policies
 governing the RFC Series as a whole, and operational implementation of the
-RFC Series, thus meeting the requirements specified in Section 4 of {{RFC8729}}.
+RFC Series, thus meeting the requirements specified in {{Section 4 of RFC8729}}.
 
 The remainder of this document describes the model in greater detail.
 
@@ -243,7 +243,7 @@ proposals to the RSAB.
 
 Absent specific guidance in this document regarding the roles and
 responsibilities of the chairs, the general guidance provided in
-Section 6.1 of {{RFC2418}} should be considered appropriate.
+{{Section 6.1 of RFC2418}} should be considered appropriate.
 
 ### RFC Series Approval Board (RSAB)
 
@@ -739,7 +739,7 @@ The primary responsibilities of the RSCE are as follows:
 * If requested, provide expert advice to the RPC and IETF LLC
 
 Matters on which the RSCE might be consulted could include the
-following (see also Section 4 of {{RFC8729}}):
+following (see also {{Section 4 of RFC8729}}):
 
 * Editing, processing, and publication of RFCs
 * Publication formats for the RFC Series
@@ -820,7 +820,7 @@ the RFC Series Approval Board. Such documents are not candidates for any
 level of Internet Standard; see Section 2 of RFC 7841."
 
 The third paragraph of the "Status of This Memo" section shall be 
-as specified in Section 3.5 of RFC 7841.
+as specified in {{Section 3.5 of RFC7841}}.
 
 # Security Considerations
 
@@ -856,16 +856,16 @@ values in existing registries, and no IANA action is required.
 Several responsibilities previously assigned to the "RFC Editor"
 or, more precisely, the "RFC Editor function" are now performed 
 by the RSWG, RSAB, RPC, and IETF LLC (alone or in combination). 
-These include various aspects of strategic leadership (Section 
-2.1.1 of {{RFC8728}}), representation of the RFC Series (Section 
-2.1.2 of {{RFC8728}}), development of RFC production and 
-publication (Section 2.1.3 of {{RFC8728}}), development of the 
-RFC Series (Section 2.1.4 of {{RFC8728}}), operational oversight 
-(Section 3.3 of {{RFC8729}}), policy oversight (Section 3.4 of 
-{{RFC8729}}), the editing, processing, and publication of 
-documents (Section 4.2 of {{RFC8729}}), and development and 
-maintenance of Series-wide guidelines and rules (Section 4.4 of 
-{{RFC8729}}). In addition, various details regarding these 
+These include various aspects of strategic leadership ({{Section 
+2.1.1 of RFC8728}}), representation of the RFC Series ({{Section 
+2.1.2 of RFC8728}}), development of RFC production and 
+publication ({{Section 2.1.3 of RFC8728}}), development of the 
+RFC Series ({{Section 2.1.4 of RFC8728}}), operational oversight 
+({{Section 3.3 of RFC8729}}), policy oversight ({{Section 3.4 of 
+RFC8729}}), the editing, processing, and publication of 
+documents ({{Section 4.2 of RFC8729}}), and development and 
+maintenance of Series-wide guidelines and rules ({{Section 4.4 of 
+RFC8729}}). In addition, various details regarding these 
 responsibilities have been modified to accord with the new 
 framework defined in this document.
 
