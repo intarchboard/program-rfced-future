@@ -42,6 +42,12 @@ informative:
   RFC8729:
   RFC8730:
   RFC8874:
+  STYLEGUIDE:
+    title: Style Guide
+    date: 2021-10-26
+    target: https://www.rfc-editor.org/styleguide/
+    author:
+    - organization: RFC Editor
 
 
 --- abstract
@@ -453,11 +459,11 @@ Notices will always be sent to the rfc-interest mailing list. The RSAB and
 RSWG should also send notices to other communities that may be interested
 in or impacted by a proposal as they see fit, following policies for those
 communities as appropriate. Notices are also to be made available and archived
-on the rfc-editor.org website. In addition, other communication channels can
+on the RFC Editor website. In addition, other communication channels can
 be established for notices (e.g., using an RSS feed or social media).
 
 A comment period will not last less than two weeks. Comments will be publicly
-archived on the rfc-editor.org website.
+archived on the RFC Editor website.
 
 ### Appeals
 
@@ -486,8 +492,7 @@ behavior. For further information about these policies, see
 
 ### RFC Boilerplates
 
-As part of the RFC Style Guide (see {{RFC7322}} and
-[style guide web page](https://www.rfc-editor.org/styleguide/)),
+As part of the RFC Style Guide (see {{RFC7322}} and {{STYLEGUIDE}}),
 new or modified RFC boilerplates (see {{RFC7841}}) considered under
 version 3 of the RFC Editor Model must be approved by the following
 parties, each of which has a separate area of responsibility with
@@ -562,8 +567,7 @@ particular policies regarding matters related to the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
 * Maintenance of a style guide that defines editorial standards to which
-  RFCs must adhere (see {{RFC7322}} and the
-  [style guide web page](https://www.rfc-editor.org/styleguide/)).
+  RFCs must adhere (see {{RFC7322}} and {{STYLEGUIDE}}).
 
 * Policies regarding the file formats that are accepted as input to the
   editing and publication process.
@@ -671,7 +675,8 @@ intended to provide more particular guidance.
 
 From time to time, individuals or organizations external to the IETF and
 the broader RFC Series community may have questions about the RFC Series.
-Such inquiries should be directed to the rfc-editor@rfc-editor.org email
+Such inquiries should be directed to the
+[rfc-editor@rfc-editor.org](mailto:rfc-editor@rfc-editor.org) email
 alias and then handled by the appropriate bodies (e.g., RSAB, RPC) or
 individuals (e.g., RSWG chairs, RSCE).
 
