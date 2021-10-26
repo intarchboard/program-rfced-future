@@ -572,7 +572,7 @@ and final publication and dissemination of RFCs. Examples include:
 
 * Policies regarding the final structure and layout of published documents.
   In the context of the XML vocabulary ({{RFC7991}}), such policies could
-  include clarfications regarding XML elements and attributes used to
+  include clarifications regarding XML elements and attributes used to
   capture the semantic content of RFCs.
 
 ## RPC Responsibilities
