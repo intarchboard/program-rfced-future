@@ -8,8 +8,8 @@ conclusion of our work, and the IAB will soon begin its formal consideration, wh
 RFC 4845[2].  Part of that process includes solicitation of solicit community input.
 
 The program has developed an evolution of the RFC Editor Model and a small change to the charter of the IAB.
-You can find this evolution in draft-iab-rfcefdp-rfced-model-05.[3]  This draft brings together many different
-points of view, as you can see from the mailing list archive.[4]
+You can find this evolution in draft-iab-rfcefdp-rfced-model-05 as well as two companion drafts.[3,4,5]
+This draft brings together many different points of view, as you can see from the mailing list archive.[6]
 
 Here are some of the proposed changes that you may wish to know:
 
@@ -32,19 +32,17 @@ Of course, there's a lot more detail that is specified in the draft.
 
 This is what will soon be put forth for your comments.  In the meantime, even though the formal comment period is not
 yet open, we invite you to review the model now and bring whatever questions you might have to the program when we meet
-on Wednesday, November 10th, at 14.30 GMT at the IETF meeting.  Of course you can also join the mailing list [5] and
+on Wednesday, November 10th, at 14.30 GMT at the IETF meeting.  Of course you can also join the mailing list [7] and
 contribute your questions and comments there.
 
 On behalf of the program,
 
 Brian and Eliot
 
-[1] https://www.iab.org/activities/programs/rfc-editor-future-development-program/
-
-[2] https://www.rfc-editor.org/rfc/rfc4845.html
-
-[3] https://datatracker.ietf.org/doc/html/draft-iab-rfcefdp-rfced-model-05
-
-[4] https://mailarchive.ietf.org/arch/browse/rfced-future/
-
-[5] https://www.iab.org/mailman/listinfo/rfced-future
+[1] https://www.iab.org/activities/programs/rfc-editor-future-development-program/  
+[2] https://www.rfc-editor.org/rfc/rfc4845.html  
+[3] https://datatracker.ietf.org/doc/html/draft-iab-rfcefdp-rfced-model-05  
+[4] https://datatracker.ietf.org/doc/html/carpenter-rfced-iab-charter-03  
+[5] https://datatracker.ietf.org/doc/html/draft-rosen-rfcefdp-update-2026-01  
+[6] https://mailarchive.ietf.org/arch/browse/rfced-future/  
+[7] https://www.iab.org/mailman/listinfo/rfced-future
