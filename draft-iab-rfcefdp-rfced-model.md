@@ -555,25 +555,25 @@ the matter. Even if the IETF LLC opts to delegate this activity, concerns
 should be raised with the IETF LLC. The IETF LLC is ultimately responsible
 to the community via the mechanisms outlined in its charter.
 
-## Implementation-Specific Policies
+## Working Policies
 
-Under and consistent with the high-level policies defined for the RFC
-Series in general or particular streams, the RPC shall define more
-particular policies regarding matters related to the editorial preparation
+In the absence of a high-level policy documented in an RFC, or to specify the
+detail of its implementation, the RPC can 
+define working policies regarding the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
 * Maintenance of a style guide that defines editorial standards to which
-  RFCs must adhere (see {{RFC7322}} and the
-  [style guide web page](https://www.rfc-editor.org/styleguide/)).
+  RFCs must adhere (see the
+  [style guide web page](https://www.rfc-editor.org/styleguide/), which 
+  extends {{RFC7322}).
 
 * Policies regarding the file formats that are accepted as input to the
   editing and publication process.
 
 * Policies regarding the final structure and layout of published documents.
   In the context of the XML vocabulary ({{RFC7991}}), such policies could
-  include matters such as the exact XML elements and attributes used to
-  capture the semantic content of RFCs. More generally, such policies
-  could address the readability and presentation of information in RFCs.
+  include clarfications regarding XML elements and attributes used to
+  capture the semantic content of RFCs.
 
 ## RPC Responsibilities
 
