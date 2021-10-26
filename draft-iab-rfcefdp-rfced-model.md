@@ -357,8 +357,8 @@ processes they deem appropriate to facilitate this goal.
 The following process shall be used to formulate or modify processes
 related to the RFC Series:
 
-1. An individual participant in the RSWG generates a proposal in the
-   form of an Internet-Draft, which is submitted in full conformance
+1. An individual participant in the RSWG generates a proposal by
+   publishing an Internet-Draft, which is submitted in full conformance
    with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}}.
 
 2. If in following procedures for rough consensus the chairs determine
