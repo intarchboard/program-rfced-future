@@ -296,7 +296,7 @@ as follows:
   RSCE role, only of the stream representatives enumerated above.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall
-include the IETF Executive Director as a non-voting member since
+include the IETF Executive Director or their delegate as a non-voting member since
 the IETF LLC is ultimately responsible for implementation of policies
 governing the RFC Series. The RSAB may at its discretion include
 additional non-voting members, for instance a liaison from the RPC.
