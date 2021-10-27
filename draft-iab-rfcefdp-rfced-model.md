@@ -559,7 +559,7 @@ to the community via the mechanisms outlined in its charter.
 
 In the absence of a high-level policy documented in an RFC, or to specify the
 detail of its implementation, the RPC can 
-define working practices regarding the editorial preparation
+document working practices regarding the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
 * Maintenance of a style guide that defines editorial standards to which
