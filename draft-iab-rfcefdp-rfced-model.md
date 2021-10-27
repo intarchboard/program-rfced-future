@@ -555,7 +555,7 @@ the matter. Even if the IETF LLC opts to delegate this activity, concerns
 should be raised with the IETF LLC. The IETF LLC is ultimately responsible
 to the community via the mechanisms outlined in its charter.
 
-## Working Policies
+## Working Practices
 
 In the absence of a high-level policy documented in an RFC, or to specify the
 detail of its implementation, the RPC can 
