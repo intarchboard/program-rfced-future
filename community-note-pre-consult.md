@@ -1,4 +1,4 @@
-To: ietf@ietf.org, ietf-announce@ietf.org, gendispatch@ietf.org, rfc-interest@ietf.org, irtf-discuss@irtf.org
+To: ietf@ietf.org, ietf-announce@ietf.org, gendispatch@ietf.org, rfc-interest@ietf.org, irtf-discuss@irtf.org  
 Cc: rfced-future@iab.org
 
 Dear colleagues,
