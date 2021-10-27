@@ -1,21 +1,21 @@
 To: ietf@ietf.org, ietf-announce@ietf.org, gendispatch@ietf.org, rfc-interest@ietf.org, irtf-discuss@irtf.org
+Cc: rfced-future@iab.org
 
 Dear colleagues,
 
 In March of 2020 the IAB kicked off the RFC Series Editorial Future Development Program, a program opened
-to the entire community, with an eye toward reviewing the RFC Editor model.[1]  We are now coming to the
+to the entire community, with an eye toward reviewing the RFC Editor model[1].  We are now coming to the
 conclusion of our work, and the IAB will soon begin its formal consideration, which is governed by 
 RFC 4845[2].  Part of that process includes solicitation of solicit community input.
 
 The program has developed an evolution of the RFC Editor Model and a small change to the charter of the IAB.
-You can find this evolution in draft-iab-rfcefdp-rfced-model-05 as well as two companion drafts.[3,4,5]
-This draft brings together many different points of view, as you can see from the mailing list archive.[6]
+You can find this evolution in draft-iab-rfcefdp-rfced-model-05 as well as two companion drafts[3,4,5].
+This draft brings together many different points of view, as you can see from the mailing list archive[6].
 
 Here are some of the proposed changes that you may wish to know:
 
-
 1.  We propose that the community oversees the evolution of the series by means of an open working group.
-    Proposed changes that reach rough consensus will be reviweed by an RFC Series Approval Board (RSAB) that 
+    Proposed changes that reach rough consensus will be reviewed by an RFC Series Approval Board (RSAB) that 
     consists of the RSCE and people representing the various streams.
 
 2.  The RFC Editor role is changing to that of a consulting editor (RFC Series Consulting Editor or RSCE).  In
@@ -32,7 +32,7 @@ Of course, there's a lot more detail that is specified in the draft.
 
 This is what will soon be put forth for your comments.  In the meantime, even though the formal comment period is not
 yet open, we invite you to review the model now and bring whatever questions you might have to the program when we meet
-on Wednesday, November 10th, at 14.30 GMT at the IETF meeting.  Of course you can also join the mailing list [7] and
+on Wednesday, November 10th, at 14.30 GMT at the IETF meeting.  Of course you can also join the mailing list[7] and
 contribute your questions and comments there.
 
 On behalf of the program,
@@ -42,7 +42,7 @@ Brian and Eliot
 [1] https://www.iab.org/activities/programs/rfc-editor-future-development-program/  
 [2] https://www.rfc-editor.org/rfc/rfc4845.html  
 [3] https://datatracker.ietf.org/doc/html/draft-iab-rfcefdp-rfced-model-05  
-[4] https://datatracker.ietf.org/doc/html/carpenter-rfced-iab-charter-03  
+[4] https://datatracker.ietf.org/doc/html/draft-carpenter-rfced-iab-charter-03  
 [5] https://datatracker.ietf.org/doc/html/draft-rosen-rfcefdp-update-2026-01  
 [6] https://mailarchive.ietf.org/arch/browse/rfced-future/  
 [7] https://www.iab.org/mailman/listinfo/rfced-future
