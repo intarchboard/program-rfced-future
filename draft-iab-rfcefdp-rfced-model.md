@@ -703,7 +703,7 @@ and other RFC-related services is as follows:
 *  The IETF LLC establishes a selection committee, which will
    consist of the IETF Executive Director and other
    members selected by the IETF LLC in consultation with the
-   stream aproving bodies. The committee shall select a chair from
+   stream approving bodies. The committee shall select a chair from
    among its members.
 
 *  The selection committee selects the vendor, subject to the
