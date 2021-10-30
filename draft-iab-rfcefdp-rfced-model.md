@@ -572,7 +572,7 @@ and final publication and dissemination of RFCs. Examples include:
   [style guide web page](https://www.rfc-editor.org/styleguide/), which 
   extends {{RFC7322}).
 
-* Policies regarding the file formats that are accepted as input to the
+* Instructions regarding the file formats that are accepted as input to the
   editing and publication process.
 
 * Policies regarding the final structure and layout of published documents.
