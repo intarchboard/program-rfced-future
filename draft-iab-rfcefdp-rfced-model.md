@@ -575,8 +575,8 @@ and final publication and dissemination of RFCs. Examples include:
 * Instructions regarding the file formats that are accepted as input to the
   editing and publication process.
 
-* Policies regarding the final structure and layout of published documents.
-  In the context of the XML vocabulary ({{RFC7991}}), such policies could
+* Guidelines regarding the final structure and layout of published documents.
+  In the context of the XML vocabulary ({{RFC7991}}), such guidelines could
   include clarifications regarding XML elements and attributes used to
   capture the semantic content of RFCs.
 
