@@ -116,7 +116,7 @@ Center (RPC), under the ultimate authority of the IETF
 Administration Limited Liability Company (LLC) {{RFC8711}}.
 
 In this model, documents are produced and approved through
-multiple document streams. The stream manager for each stream
+multiple document streams. The stream approving body {{RFC8729}} for each stream
 is responsible for the content of that stream. The RFC Editor
 function is responsible for the packaging and distribution of
 the documents. As such, documents from these streams are
@@ -232,12 +232,12 @@ other appointed by the IAB. When the RSWG is formed, the chair
 appointed by the IESG shall serve for a term of one (1) year and
 the chair appointed by the IAB shall serve for a term of two (2)
 years; thereafter, chairs shall serve for a term of two (2)
-years, with no term limits on renewal. The appointing bodies shall
+years, with no term limits on renewal. The IESG and IAB shall
 determine their own processes for making these appointments.
 Community members who have concerns about the performance of an
-RSWG chair should direct their feedback to the relevant appointing
-body. Each appointing body shall have the power to remove its
-appointed chair at its discretion at any time, and to name a
+RSWG chair should direct their feedback to the group.
+The IESG and IAB shall have the power to remove their
+appointed chairs at their discretion at any time, and to name a
 replacement who shall serve the remainder of the original chair's
 term.
 
@@ -273,18 +273,17 @@ The voting members of the RSAB are as follows:
   of the community appointed by the ISE
 * The RFC Series Consulting Editor
 
-The appointing bodies shall determine their own processes for
-appointing RSAB members (note that processes related to the RSCE
-are described in {{rsce}}). Each appointing body shall have the power to
-remove its appointed RSAB member at its discretion at any time.
-Appointing bodies should ensure that voting members are seated at
-all times and should fill any vacancies with all due speed, if
-necessary on a temporary basis. In the case that the IRTF chair
-or ISE is incapacitated or otherwise unable to appoint a member 
-of the community to serve as a delegate,
-the IAB (as the appointing body for the IRTF chair and ISE
-respectively) shall appoint a temporary member until the IRTF
-chair or ISE has been appointed by the IAB.
+The appointing bodies, i.e., the stream approval bodies, shall determine their own processes for 
+appointing RSAB members (note that processes related to the RSCE 
+are described in {{rsce}}). Each appointing body shall have the power to 
+remove its appointed RSAB member at its discretion at any time. 
+Appointing bodies should ensure that voting members are seated at 
+all times and should fill any vacancies with all due speed, if 
+necessary on a temporary basis. In the case that the IRTF chair 
+or ISE is incapacitated or otherwise unable to appoint member of the community to serve as a delegate, 
+the IAB (as the appointing body for the IRTF chair and ISE 
+respectively) shall appoint a temporary member until the IRTF 
+chair or ISE has been appointed by the IAB. 
 
 In the case of vacancies by voting members, the RSAB shall operate
 as follows:
@@ -585,7 +584,7 @@ The core responsibility of the RPC is continuous improvement regarding
 the implementation of RFC policies (including the dimensions of document
 quality, timeliness of production, and accessibility of results), while
 taking into account issues raised by the community through the RSWG and
-by the stream managers. More specifically, the RPC's responsibilities
+by the stream approving bodies. More specifically, the RPC's responsibilities
 include the following:
 
 1. Editing inputs from all RFC streams to comply with the RFC Style Guide.
@@ -597,7 +596,7 @@ include the following:
 
 4. Engaging in dialogue with authors, document shepherds, IANA, or
    stream-specific contacts (e.g., working group chairs and stream
-   managers) when clarification is needed.
+   approving bodies) when clarification is needed.
 
 5. Creating and preserving records of dialogue with document authors.
 
@@ -626,7 +625,7 @@ include the following:
     communication with the authors, document shepherds, IANA, or
     stream-specific contacts, and, if needed, with the RSAB and RSCE.
 
-16. Liaising with stream managers and other representatives of the
+16. Liaising with stream approving bodies and other representatives of the
     streams as needed.
 
 17. Announcing and providing online access to RFCs.
@@ -654,11 +653,11 @@ Director.
 However, if it is unclear whether an existing policy applies, or if the
 interpretation of an existing policy is unclear, the parties may need to
 consult with additional individuals or bodies (e.g., RSAB, IESG, IRSG, or
-stream manager) to help achieve a resolution. The following points are
+stream approving bodies) to help achieve a resolution. The following points are
 intended to provide more particular guidance.
 
 * If there is a conflict with a policy for a particular stream, the
-  RPC should consult with the relevant stream manager to help achieve a
+  RPC should consult with the relevant stream approving body to help achieve a
   resolution, if needed also conferring with a per-stream body such as the
   IESG or IRSG.
 
@@ -696,7 +695,7 @@ under the final authority of the IETF LLC.
 The IETF LLC develops the work definition (the Statement of Work)
 for the RPC and manages the vendor selection process.  The work
 definition is created within the IETF LLC budget and takes into
-account the needs of stream managers as well as community input.
+account the needs of stream approving bodies as well as community input.
 
 The process to select and contract for an RFC Production Center
 and other RFC-related services is as follows:
@@ -708,7 +707,7 @@ and other RFC-related services is as follows:
 *  The IETF LLC establishes a selection committee, which will
    consist of the IETF Executive Director and other
    members selected by the IETF LLC in consultation with the
-   stream managers. The committee shall select a chair from
+   stream approving bodies. The committee shall select a chair from
    among its members.
 
 *  The selection committee selects the vendor, subject to the
