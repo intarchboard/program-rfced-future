@@ -748,10 +748,10 @@ The primary responsibilities of the RSCE are as follows:
 * Serve as a voting member on the RSAB
 * Identify problems with the RFC publication process and
   opportunities for improvement
-* Provide expert advice regarding policy proposals within the RSWG
-* If requested, provide expert advice to the RPC and IETF LLC
+* Provide expert advice within the RSWG regarding policy proposals
+* Provide expert advice to the RPC and IETF LLC
 
-Matters on which the RSCE might be consulted could include the
+Matters on which the RSCE might provide guidance could include the
 following (see also {{Section 4 of RFC8729}}):
 
 * Editing, processing, and publication of RFCs
