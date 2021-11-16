@@ -308,7 +308,7 @@ member representing the Editorial Stream.
 
 The RSAB shall annually choose a chair from among its members using
 a method of its choosing.  If the chair position is
-vacated during the chair's term, the RSAB should choose a new chair
+vacated during the chair's term, the RSAB chooses a new chair
 from among its members.
 
 The RSAB is expected to operate via email, in-person meetings,
