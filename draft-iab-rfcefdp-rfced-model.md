@@ -557,10 +557,12 @@ to appoint a manager or to convene a committee to complete these
 activities.
 
 If individuals or groups within the community have concerns about the
-performance of the RPC, they can request that the IETF LLC look into
-the matter. Even if the IETF LLC opts to delegate this activity, concerns
-should be raised with the IETF LLC. The IETF LLC is ultimately answerable
-to the community via the mechanisms outlined in its charter.
+performance of the RPC, they can request that the matter be investigated
+by the IETF LLC board, the IETF LLC Executive Director, or a point of 
+contact designated by the IETF LLC Board. Even if the IETF LLC opts to 
+delegate this activity, concerns should be raised with the IETF LLC. 
+The IETF LLC is ultimately answerable to the community via the mechanisms 
+outlined in its charter.
 
 ## Working Practices
 
