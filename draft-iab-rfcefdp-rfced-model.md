@@ -163,9 +163,9 @@ In short:
 
 * The RSWG proposes policies that govern the RFC Series as a whole, with
   input from the community, the RSAB, and the RSCE.
-* The RSAB considers those proposals and approves them, returns them to
-  the RSWG for further consideration, or declines to publish them, as
-  appropriate.
+* The RSAB considers those proposals and either approves them or returns 
+  them to the RSWG, which may make further changes or remove them from
+  further consideration.
 * If approved, such proposals are published as RFCs in the Editorial
   Stream and thus define the policies to be followed by the RSWG, RSAB,
   RSCE, and RPC.
