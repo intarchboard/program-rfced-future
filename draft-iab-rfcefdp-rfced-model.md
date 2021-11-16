@@ -518,7 +518,9 @@ A few general considerations apply:
 
 * The general roles and responsibilities of the RPC are defined by
   RFCs published in the Editorial Stream (i.e., not directly by the
-  RSWG, RSAB, or RSCE).
+  RSWG, RSAB, or RSCE), or by such legacy RFCs which apply to the 
+  RPC and which have not yet been superseded by Editorial Stream 
+  documents and the requisite contractual changes.
 
 * The RPC is advised by the RSCE and RSAB, and has a duty to
   consult with them under specific circumstances, such as those
