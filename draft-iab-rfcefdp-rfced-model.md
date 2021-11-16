@@ -549,9 +549,9 @@ A few general considerations apply:
 
 * The general roles and responsibilities of the RPC are defined by
   RFCs published in the Editorial Stream (i.e., not directly by the
-  RSWG, RSAB, or RSCE), or by such legacy RFCs which apply to the 
+  RSWG, RSAB, or RSCE), by legacy RFCs which apply to the 
   RPC and which have not yet been superseded by Editorial Stream 
-  documents and the requisite contractual changes.
+  RFCs, and by the requisite contracts.
 
 * The RPC is advised by the RSCE and RSAB, and has a duty to
   consult with them under specific circumstances, such as those
@@ -581,11 +581,16 @@ all aspects of such work. The exact relationship is a matter for
 the IETF LLC to determine.
 
 The IETF LLC is responsible for the method of and management of the
-engagement of the RPC.  Therefore, the IETF LLC has authority over
+engagement of the RPC. Therefore, the IETF LLC has authority over
 negotiating performance targets for the RPC and also has responsibility
-for ensuring that those targets are adhered to. The IETF LLC is empowered
-to appoint a manager or to convene a committee to complete these
-activities.
+for ensuring that those targets are met. Such performance targets 
+are set based on the RPC's publication load and additional efforts 
+required by policies specified in the Editorial Stream, in legacy RFCs 
+which apply to the RPC and which have not yet been superseded by 
+Editorial Stream RFCs, and in the requisite contracts. The IETF LLC may 
+consult with the community regarding these targets. The IETF LLC is 
+empowered to appoint a manager or to convene a committee to complete 
+these activities.
 
 If individuals or groups within the community have concerns about the
 performance of the RPC, they can request that the matter be investigated
