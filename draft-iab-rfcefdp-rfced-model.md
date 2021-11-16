@@ -128,8 +128,8 @@ by defining boilerplate text for the Editorial Stream. This
 document updates {{RFC8729}} by replacing the RFC Editor role
 with the RSWG, RSAB, and RSCE. This document updates {{RFC8730}}
 by removing the dependency on certain policies specified by the
-IAB and RSE. See {{changes}} for detailed information about the
-changes from version 2 of the Model.
+IAB and RSE. More detailed information can be found under
+under {{changes}}.
 
 # Overview of the Model
 
@@ -222,7 +222,7 @@ meetings), and working methods (e.g., design teams) as long as they
 are consistent with {{RFC2418}}.
 
 All interested individuals are welcome to participate in the RSWG
-(subject to anti-harassment policies as described in {{coc}}). This
+(subject to anti-harassment policies as described under {{coc}}). This
 includes participants in the IETF and IRTF, IAB and IESG members,
 individuals who use RFCs in procurement decisions, authors of RFCs
 and Internet-Drafts, developers of tools used to author RFCs, and
@@ -280,7 +280,7 @@ The voting members of the RSAB are as follows:
 The appointing bodies, i.e., the stream approval bodies (IESG, IAB, 
 IRTF chair, ISE), shall determine their own processes for 
 appointing RSAB members (note that processes related to the RSCE 
-are described in {{rsce}}). Each appointing body shall have the power 
+are described under {{rsce}}). Each appointing body shall have the power 
 to remove its appointed RSAB member at its discretion at any time. 
 Appointing bodies should ensure that voting members are seated at 
 all times and should fill any vacancies with all due speed, if 
@@ -349,7 +349,7 @@ The intent is to provide an open forum by which policies related to the
 RFC Series are defined and evolved. The general expectation is that all
 interested parties will participate in the RSWG, and that only under
 extreme circumstances should RSAB members need to hold "CONCERN"
-positions as described in {{workflow}}.
+positions (as described under {{workflow}}).
 
 Because policy issues can be difficult and contentious, RSWG
 participants and RSAB members are strongly encouraged to work together
@@ -407,7 +407,7 @@ related to the RFC Series:
    discussion list and forward the document to the RSAB.
 
 6. Once consensus is established in the RSWG, the RSAB shall issue a
-   community call for comments as further described in {{cfc}}. If 
+   community call for comments as further described under {{cfc}}. If 
    substantial comments are received in response to the community 
    call for comments, the RSAB may return the draft to the RSWG to 
    consider those comments and make revisions to address the feedback
@@ -503,7 +503,7 @@ the RSWG chairs as to what procedural actions are required.
 
 Decisions of the RSAB can be appealed on grounds of failure to follow 
 the correct process. Where the RSAB makes a decision in order to resolve 
-a disagreement between authors and the RPC {{disagreements}}, appeals can 
+a disagreement between authors and the RPC (as described under {{disagreements}}), appeals can 
 be filed on the basis that the RSAB misinterpreted an approved policy. 
 In other cases, disagreements about the conduct of the RSAB are not 
 subject to appeal. Appeals of RSAB decisions shall be made to the IAB 
@@ -739,8 +739,8 @@ under the final authority of the IETF LLC.
 The IETF LLC develops the work definition (the Statement of Work)
 for the RPC and manages the vendor selection process.  The work
 definition is created within the IETF LLC budget and takes into
-account the RPC responsibilities {{rpc}}, the needs of the streams,
-and community input.
+account the RPC responsibilities (as described under {{rpc}}), 
+the needs of the streams, and community input.
 
 The process to select and contract for an RFC Production Center
 and other RFC-related services is as follows:
