@@ -785,6 +785,14 @@ including a call for confidential input from the community. The IETF LLC
 will produce a draft performance evaluation for the RSAB (not including
 the RSCE), which will provide feedback to the IETF LLC.
 
+## Temporary RSCE Appointment
+
+In the case that the currently appointed RSCE is expected to be 
+unavailable for an extended period, the IETF LLC may appoint a 
+Temporary RSCE through whatever recruitment process it considers 
+appropriate. A Temporary RSCE acts as the RSCE in all aspects 
+during their term of appointment.
+
 ## Conflict of Interest
 
 The RSCE is expected to avoid even the appearance of conflict of
