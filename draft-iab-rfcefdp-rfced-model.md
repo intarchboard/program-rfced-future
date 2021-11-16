@@ -296,7 +296,9 @@ as follows:
 * Voting on approval of policy documents produced by the RSWG shall
   be delayed until the vacancy or vacancies have been filled, up to a
   maximum of 3 months; this clause does not apply to a vacancy of the
-  RSCE role, only of the stream representatives enumerated above.
+  RSCE role, only of the stream representatives enumerated above. If
+  during this 3-month period a further vacancy arises, the delay
+  should be extended by another 3 months.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall
 include the IETF Executive Director or their delegate as a non-voting member since
