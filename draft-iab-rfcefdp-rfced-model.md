@@ -122,8 +122,14 @@ edited and published by the Production Center.
 The four streams that now exist are described in {{RFC8729}}.
 This document adds a fifth stream, the Editorial Stream.
 
-This document obsoletes {{RFC8728}}. This document updates
-{{RFC7841}}, {{RFC8729}}, and {{RFC8730}}.
+This document obsoletes {{RFC8728}} by defining version 3 
+of the RFC Editor Model. This document updates {{RFC7841}} 
+by defining boilerplate text for the Editorial Stream. This 
+document updates {{RFC8729}} by replacing the RFC Editor role
+with the RSWG, RSAB, and RSCE. This document updates {{RFC8730}}
+by removing the dependency on certain policies specified by the
+IAB and RSE. See {{changes}} for detailed information about the
+changes from version 2 of the Model.
 
 # Overview of the Model
 
@@ -874,7 +880,7 @@ level of Internet Standard; see Section 2 of RFC 7841."
 The third paragraph of the "Status of This Memo" section shall be
 as specified in {{Section 3.5 of RFC7841}}.
 
-# Changes from Version 2 of the RFC Editor Model
+# Changes from Version 2 of the RFC Editor Model {#changes}
 
 ## RFC Editor Function
 
@@ -890,9 +896,12 @@ RFC Series ({{Section 2.1.4 of RFC8728}}), operational oversight
 RFC8729}}), the editing, processing, and publication of
 documents ({{Section 4.2 of RFC8729}}), and development and
 maintenance of Series-wide guidelines and rules ({{Section 4.4 of
-RFC8729}}). In addition, various details regarding these
-responsibilities have been modified to accord with the new
-framework defined in this document.
+RFC8729}}). Among other things this changes the dependency on
+the RSE included in {{Section 2.2 of RFC8730}} with regard to 
+"coordinating work and conforming to general RFC Series policies
+as specified by the IAB and RSE." In addition, various details 
+regarding these responsibilities have been modified to accord with 
+the new framework defined in this document.
 
 ## RFC Series Editor
 
