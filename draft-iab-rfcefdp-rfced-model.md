@@ -591,7 +591,7 @@ the implementation of RFC policies (including the dimensions of document
 quality, timeliness of production, and accessibility of results), while
 taking into account issues raised by the community through the RSWG and
 by the stream approving bodies. More specifically, the RPC's responsibilities
-include the following:
+at the time of writing include the following:
 
 1. Editing inputs from all RFC streams to comply with the RFC Style Guide.
 
