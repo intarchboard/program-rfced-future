@@ -493,11 +493,16 @@ the case of failure to act, of notice having been given to the RSWG.
 The RSAB will then decide if the process was followed and will direct
 the RSWG chairs as to what procedural actions are required.
 
-Appeals of RSAB decisions shall be made to the IAB and should be made
-within thirty (30) days of public notice of the relevant RSAB decision
-(typically, when minutes are posted). The IAB shall decide whether a
-process failure occurred and what if any corrective action should take
-place.
+Decisions of the RSAB can be appealed on grounds of failure to follow 
+the correct process. Where the RSAB makes a decision in order to resolve 
+a disagreement between authors and the RPC {{disagreements}}, appeals can 
+be filed on the basis that the RSAB misinterpreted an approved policy. 
+In other cases, disagreements about the conduct of the RSAB are not 
+subject to appeal. Appeals of RSAB decisions shall be made to the IAB 
+and should be made within thirty (30) days of public notice of the 
+relevant RSAB decision (typically, when minutes are posted). The IAB 
+shall decide whether a process failure occurred and what if any 
+corrective action should take place.
 
 ### Anti-Harassment Policy {#coc}
 
@@ -671,7 +676,7 @@ at the time of writing include the following:
 
 23. Authenticating RFCs for legal proceedings.
 
-## Resolution of Disagreements between Authors and the RPC
+## Resolution of Disagreements between Authors and the RPC {#disagreements}
 
 During the process of editorial preparation and publication, disagreements
 can arise between the authors of an RFC-to-be and the RPC. Where an existing
