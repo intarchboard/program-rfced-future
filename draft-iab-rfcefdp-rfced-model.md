@@ -580,7 +580,7 @@ and final publication and dissemination of RFCs. Examples include:
   include clarifications regarding XML elements and attributes used to
   capture the semantic content of RFCs.
 
-## RPC Responsibilities
+## RPC Responsibilities {#rpc}
 
 The core responsibility of the RPC is continuous improvement regarding
 the implementation of RFC policies (including the dimensions of document
@@ -704,7 +704,8 @@ under the final authority of the IETF LLC.
 The IETF LLC develops the work definition (the Statement of Work)
 for the RPC and manages the vendor selection process.  The work
 definition is created within the IETF LLC budget and takes into
-account the needs of stream approving bodies as well as community input.
+account the RPC responsibilities {{rpc}}, the needs of the streams,
+and community input.
 
 The process to select and contract for an RFC Production Center
 and other RFC-related services is as follows:
