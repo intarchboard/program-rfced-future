@@ -260,14 +260,14 @@ appropriate review of RSWG proposals.
 The voting members of the RSAB are as follows:
 
 * As the stream representative for the IETF stream, an IESG member
-  or a member of the community appointed by the IESG
+  or other person appointed by the IESG
 * As the stream representative for the IAB stream, an IAB member
-  or a member of the community appointed by the IAB
+  or other person appointed by the IAB
 * As the stream representative for the IRTF stream, the IRTF chair
-  or a member of the community appointed by the IRTF Chair
+  or other person appointed by the IRTF Chair
 * As the stream representative for the Independent stream, the
-  Independent Submissions Editor (ISE) {{RFC8730}} or a member
-  of the community appointed by the ISE
+  Independent Submissions Editor (ISE) {{RFC8730}} or other person
+  appointed by the ISE
 * The RFC Series Consulting Editor
 
 The appointing bodies, i.e., the stream approval bodies, shall determine their own processes for 
@@ -277,7 +277,7 @@ remove its appointed RSAB member at its discretion at any time.
 Appointing bodies should ensure that voting members are seated at 
 all times and should fill any vacancies with all due speed, if 
 necessary on a temporary basis. In the case that the IRTF chair 
-or ISE is incapacitated or otherwise unable to appoint member of the community to serve as a delegate, 
+or ISE is incapacitated or otherwise unable to appoint another person to serve as a delegate, 
 the IAB (as the appointing body for the IRTF chair and ISE 
 respectively) shall appoint a temporary member until the IRTF 
 chair or ISE has been appointed by the IAB. 
