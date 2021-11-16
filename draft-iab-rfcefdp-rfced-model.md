@@ -134,8 +134,8 @@ Committee (RSOC) on behalf of the Internet Architecture Board (IAB).
 
 By contrast, version 3 of the RFC Editor Model, specified here,
 provides a more consensus-oriented framework (similar in some
-respects to the structure of technical work within the IETF or
-IRTF) that retains roles for specialized expertise in document
+respects to the structure of technical work within the IETF)
+that retains roles for specialized expertise in document
 editing and publication.
 
 Policy definition happens within the RFC Series Working Group (RSWG),
@@ -181,8 +181,8 @@ The remainder of this document describes the model in greater detail.
 
 # Policy Definition
 
-Policies governing the RFC Series as a whole are defined in the open
-through proposals that are generated and discussed within the RFC
+Policies governing the RFC Series as a whole are defined via open and public 
+discussion through proposals that are adopted by and discussed within the RFC
 Series Working Group (RSWG), that pass a last call for comments in the
 working group and broader community, and that are then approved by the 
 RFC Series Approval Board (RSAB).
@@ -200,7 +200,7 @@ The RFC Series Working Group (RSWG) shall formulate proposals
 regarding policies that govern the RFC Series. The intent is
 that the RSWG operate in a way similar to working groups in the
 IETF and research groups in the IRTF. Therefore, all RSWG meetings
-shall be open to any participant, and all RSWG contributions
+shall be open to all interested individuals, and all RSWG contributions
 shall be subject to intellectual property policies, which must be
 consistent with those of the IETF as specified in BCP 78 {{RFC5378}}
 and BCP 79 {{RFC8179}}.
@@ -271,17 +271,22 @@ The voting members of the RSAB are as follows:
   appointed by the ISE
 * The RFC Series Consulting Editor
 
-The appointing bodies, i.e., the stream approval bodies, shall determine their own processes for 
+The appointing bodies, i.e., the stream approval bodies (IESG, IAB, 
+IRTF chair, ISE), shall determine their own processes for 
 appointing RSAB members (note that processes related to the RSCE 
-are described in {{rsce}}). Each appointing body shall have the power to 
-remove its appointed RSAB member at its discretion at any time. 
+are described in {{rsce}}). Each appointing body shall have the power 
+to remove its appointed RSAB member at its discretion at any time. 
 Appointing bodies should ensure that voting members are seated at 
 all times and should fill any vacancies with all due speed, if 
-necessary on a temporary basis. In the case that the IRTF chair 
-or ISE is incapacitated or otherwise unable to appoint another person to serve as a delegate, 
+necessary on a temporary basis. 
+
+In the case that the IRTF chair or ISE is incapacitated or otherwise 
+unable to appoint another person to serve as a delegate, 
 the IAB (as the appointing body for the IRTF chair and ISE 
-respectively) shall appoint a temporary member until the IRTF 
-chair or ISE has been appointed by the IAB. 
+respectively) shall act as the temporary appointing body for those 
+streams and shall appoint a temporary member of the RSAB until the 
+IAB has appointed an IRTF chair or ISE, who can then act as an 
+RSAB member or appoint a delegate through normal processes.
 
 In the case of vacancies by voting members, the RSAB shall operate
 as follows:
@@ -299,7 +304,7 @@ the IETF LLC is responsible for implementation of policies
 governing the RFC Series. The RSAB may at its discretion include
 additional non-voting members, for instance a liaison from the RPC.
 
-Whenever a new stream is created, the document that
+If and when a new stream is created, the document that
 creates the stream shall specify if a voting member representing
 that stream shall also be added to the RSAB, along with any rules
 and processes related to that representative (e.g., whether the
@@ -360,9 +365,10 @@ processes they deem appropriate to facilitate this goal.
 The following process shall be used to formulate or modify processes
 related to the RFC Series:
 
-1. An individual participant in the RSWG generates a proposal by
-   publishing an Internet-Draft, which is submitted in full conformance
-   with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}}.
+1. An individual or set of individuals generates a proposal in the form 
+   of an Internet-Draft (which must be submitted in full conformance
+   with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}})
+   and asks the RSWG to adopt the proposal as a working group item.
 
 2. If in following procedures for rough consensus the chairs determine
    that there is sufficient interest in the proposal, the RSWG may
@@ -370,13 +376,14 @@ related to the RFC Series:
    same way a working group of the IETF or research group of the IRTF
    would (see {{RFC2418}}).
 
-3. The RSWG shall then further develop the proposal. Members of the
-   RSAB are expected to participate in discussion relating to such
-   proposals so that they are fully aware of proposals early in the
-   policy definition process and so that any issues or concerns that
-   they have will be raised during the development of the proposal,
-   not left until the RSAB review period. The RSWG chairs
-   are also expected to participate as individuals.
+3. The RSWG shall then further discuss and develop the proposal. 
+   Members of the RSAB are expected to participate as individuals in 
+   all discussions relating to RSWG proposals so that they are fully 
+   aware of proposals early in the policy definition process, and so 
+   that any issues or concerns that they have will be raised during 
+   the development of the proposal, not left until the RSAB review 
+   period. The RSWG chairs are also expected to participate as 
+   individuals.
 
 4. At some point, if the RSWG chairs believe there may be rough
    consensus for the proposal to advance, they will issue a last call
@@ -387,20 +394,26 @@ related to the RFC Series:
    their own feedback as individuals into account along with feedback
    from other participants). If comments have been received and
    substantial changes have been made, additional last calls may be
-   necessary.
+   necessary. Once the chairs determine that consensus has been 
+   reached, they shall announce their determination on the RSWG
+   discussion list and forward the document to the RSAB.
 
 6. Once consensus is established in the RSWG, the RSAB shall issue a
-   community call for comments as further described in {{cfc}}. If
-   substantial comments have been received, the RSWG will again consider
-   those comments and make revisions as they see fit. At this same time,
-   the RSAB will also consider the proposal.
+   community call for comments as further described in {{cfc}}. If 
+   substantial comments are received in response to the community 
+   call for comments, the RSAB may return the draft to the RSWG to 
+   consider those comments and make revisions to address the feedback
+   received. In parallel with the community call for comment, the RSAB
+   shall also consider the proposal.
 
-7. If substantial changes have been made, additional community calls
-   for comment should be issued by the RSAB, and again comments considered
-   by the RSWG.
+7. If the scope of revisions made in the previous step is large, an 
+   additional community call for comment should be issued by the RSAB, 
+   and the feedback received should be considered by the RSWG.
 
-8. Once all comments have been addressed, the RSWG chairs will submit
-   the proposal to the RSAB for its consideration.
+8. Once the RSWG chairs confirm that concerns received during the
+   call(s) for community input have been addressed, they shall
+   inform the RSAB that the document is ready for balloting by the
+   RSAB.
 
 9. Within a reasonable period of time, the RSAB will then poll among
    its members regarding the proposal. Positions may be as follows:
@@ -416,22 +429,25 @@ to the community in detail. The explanation might or might not be actionable.
 
 A position of CONCERN may be filed for two reasons:
 
-   * The proposal represents a serious problem for the stream or group
-     that a particular member represents.
+   * The proposal represents a serious problem for one or more of 
+     the individual streams.
    * The RSAB member believes that the proposal would cause serious harm
      to the overall Series, including harm to the long-term health and
      viability of the Series.
 
-Because RSAB members should have been participating in discussions
-within the RSWG, no position of CONCERN should ever come as a surprise
-to the RSWG.
+Because RSAB members are expected to participate in the discussions 
+within the RSWG and to raise any concerns and issues during those 
+discussions, most CONCERN positions should not come as a surprise to 
+the RSWG. Notwithstanding, late CONCERN positions are always possible
+if issues are identified during RSAB review..
 
 10. If a CONCERN exists, discussion will take place within the RSWG.
-    Again, all RSAB members are expected to participate.
+    Again, all RSAB members are expected to participate. If substantial 
+    changes are made in order to address CONCERN positions, an additional 
+    call for community input might be needed.
 
-11. A proposal without any CONCERN positions is approved. If
-    substantial changes have been made in order to address CONCERN
-    positions, an additional call for community input might be needed.
+11. A proposal without any CONCERN positions is approved. 
+
 
 12. If, after a suitable period of time, any CONCERN positions remain,
     a vote of the RSAB is taken. If at least three voting members vote
@@ -457,10 +473,11 @@ When a community call for comment is made, the RSAB sends a notice containing:
 * Clear instructions on how to provide public comments
 * A deadline for comments
 
-Notices will always be sent to the rfc-interest mailing list or to its successor or future equivalent. The RSAB and
-RSWG chairs should also send notices to other communities that may be interested
-in or impacted by a proposal as they see fit, following policies for those
-communities as appropriate. Notices are also to be made available and archived
+Notices will always be sent to the rfc-interest mailing list or to its successor 
+or future equivalent. The RSAB and RSWG chairs should also send notices to other 
+communities that may be interested in or impacted by a proposal as they see fit.
+RSAB members should also distribute notice of the call for comments to the 
+communities they represent. Notices are also to be made available and archived
 on the RFC Editor website. In addition, other communication channels can
 be established for notices (e.g., using an RSS feed or social media).
 
@@ -661,7 +678,7 @@ can arise between the authors of an RFC-to-be and the RPC. Where an existing
 policy clearly applies, typically such disagreements are handled in a
 straightforward manner through direct consultation between the authors and
 the RPC, sometimes in collaboration with other individuals such as a document
-shepherd, IETF working group chair, IRSG research group chair, or IETF Area
+shepherd, IETF working group chair, IRTF research group chair, or IETF Area
 Director.
 
 However, if it is unclear whether an existing policy applies, or if the
@@ -786,10 +803,11 @@ responsible for contracting or employment of the RSCE.
 
 ## RSCE Performance Evaluation
 
-Periodically, the IETF LLC will evaluate the performance of the RSCE,
-including a call for confidential input from the community. The IETF LLC
-will produce a draft performance evaluation for the RSAB (not including
-the RSCE), which will provide feedback to the IETF LLC.
+Periodically, the IETF LLC will evaluate the performance of the 
+RSCE, including a call for confidential input from the community. 
+The IETF LLC will produce a draft evaluation of the RSCE's 
+performance for review by RSAB members other than the RSCE, 
+who will provide feedback to the IETF LLC.
 
 ## Temporary RSCE Appointment
 
@@ -848,33 +866,6 @@ level of Internet Standard; see Section 2 of RFC 7841."
 
 The third paragraph of the "Status of This Memo" section shall be
 as specified in {{Section 3.5 of RFC7841}}.
-
-# Security Considerations
-
-The same security considerations as those in {{RFC8729}} apply.
-The processes for the publication of documents must prevent the
-introduction of unapproved changes. Since the RFC Editor maintains
-the index of publications, sufficient security must be in place to
-prevent these published documents from being changed by external
-parties. The archive of RFC documents, any source documents needed
-to recreate the RFC documents, and any associated original documents
-(such as lists of errata, tools, and, for some early items, originals
-that are not machine-readable) need to be secured against any kind of
-data storage failure.
-
-The IETF LLC should take these security considerations into account
-during the implementation and enforcement of any relevant contracts.
-
-# IANA Considerations
-
-This document places responsibility for coordination of registry
-value assignments with the RPC. The IETF LLC facilitates management
-of the relationship between the RPC and IANA.
-
-This document does not create a new registry nor does it register any
-values in existing registries, and no IANA action is required.
-
---- back
 
 # Changes from Version 2 of the RFC Editor Model
 
@@ -952,6 +943,33 @@ that the RSAG has been disbanded.
 
 This document creates the Editorial Stream in addition to the streams
 already described in {{RFC8729}}.
+
+# Security Considerations
+
+The same security considerations as those in {{RFC8729}} apply.
+The processes for the publication of documents must prevent the
+introduction of unapproved changes. Since the RFC Editor maintains
+the index of publications, sufficient security must be in place to
+prevent these published documents from being changed by external
+parties. The archive of RFC documents, any source documents needed
+to recreate the RFC documents, and any associated original documents
+(such as lists of errata, tools, and, for some early items, originals
+that are not machine-readable) need to be secured against any kind of
+data storage failure.
+
+The IETF LLC should take these security considerations into account
+during the implementation and enforcement of any relevant contracts.
+
+# IANA Considerations
+
+This document places responsibility for coordination of registry
+value assignments with the RPC. The IETF LLC facilitates management
+of the relationship between the RPC and IANA.
+
+This document does not create a new registry nor does it register any
+values in existing registries, and no IANA action is required.
+
+--- back
 
 # Acknowledgments
 {:numbered="false"}
