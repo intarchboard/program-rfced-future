@@ -611,7 +611,7 @@ and final publication and dissemination of RFCs. Examples include:
 * Maintenance of a style guide that defines editorial standards to which
   RFCs must adhere (see the
   [style guide web page](https://www.rfc-editor.org/styleguide/), which 
-  extends {{RFC7322}).
+  extends {{RFC7322}}).
 
 * Instructions regarding the file formats that are accepted as input to the
   editing and publication process.
@@ -900,16 +900,16 @@ as specified in {{Section 3.5 of RFC7841}}.
 Several responsibilities previously assigned to the "RFC Editor"
 or, more precisely, the "RFC Editor function" are now performed
 by the RSWG, RSAB, RPC, and IETF LLC (alone or in combination).
-These include various aspects of strategic leadership ({{Section
-2.1.1 of RFC8728}}), representation of the RFC Series ({{Section
-2.1.2 of RFC8728}}), development of RFC production and
+These include various aspects of strategic leadership 
+({{Section 2.1.1 of RFC8728}}), representation of the RFC Series 
+({{Section 2.1.2 of RFC8728}}), development of RFC production and
 publication ({{Section 2.1.3 of RFC8728}}), development of the
 RFC Series ({{Section 2.1.4 of RFC8728}}), operational oversight
-({{Section 3.3 of RFC8729}}), policy oversight ({{Section 3.4 of
-RFC8729}}), the editing, processing, and publication of
+({{Section 3.3 of RFC8729}}), policy oversight 
+({{Section 3.4 of RFC8729}}), the editing, processing, and publication of
 documents ({{Section 4.2 of RFC8729}}), and development and
-maintenance of Series-wide guidelines and rules ({{Section 4.4 of
-RFC8729}}). Among other things this changes the dependency on
+maintenance of Series-wide guidelines and rules 
+({{Section 4.4 of RFC8729}}). Among other things this changes the dependency on
 the RSE included in {{Section 2.2 of RFC8730}} with regard to 
 "coordinating work and conforming to general RFC Series policies
 as specified by the IAB and RSE." In addition, various details 
