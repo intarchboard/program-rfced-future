@@ -842,6 +842,13 @@ interest or judgment in performing these roles.  To ensure this, the
 RSCE will be subject to a conflict of interest policy established by
 the IETF LLC.
 
+The RPC service provider may contract services from the RSCE service 
+provider, and vice versa, including for services provided to the IETF 
+LLC.  All contracts between the two must be disclosed to the IETF LLC.  
+Where those services are related to services provided to the IETF LLC, 
+IETF LLC policies shall apply, including publication of relevant parts 
+of the contract.
+
 # Editorial Stream
 
 This document creates the Editorial Stream as separate space for
