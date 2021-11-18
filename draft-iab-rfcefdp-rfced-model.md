@@ -1,4 +1,4 @@
-------
+---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model"
 docname: draft-iab-rfcefdp-rfced-model-latest
