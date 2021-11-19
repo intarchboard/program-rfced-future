@@ -76,6 +76,20 @@ in [RFC8700], RFCs have been published continually since 1969.
 The overall framework for the RFC Series and the RFC Editor
 function are described in {{RFC8729}} and updated here.
 
+The RFC Series is currently the publication venue for four
+streams - the IETF stream, the IAB stream, the IRTF stream, and
+the Independent Submission Editor (ISE) stream. This document
+establishes a fifth stream, the Editorial stream. Documents
+of these streams are intentionally published in the same
+publication series in order to foster exchange among these
+communities and support diversity in expression. The streams
+are responsible for the content of the published document and,
+respectively, also to organise a review process that ensures
+document quality as well as community consensus if desired.
+The RFC Production Center (RPC) is responsible for the
+publication and accessibility of RFCs, including technical
+challenges for the long-term archival of digital publications.
+
 The processes and organizational models for publication of RFCs
 have changed significantly over the years. Most recently, in 2009
 {{RFC5620}} defined the RFC Editor Model (Version 1) and in 2012
