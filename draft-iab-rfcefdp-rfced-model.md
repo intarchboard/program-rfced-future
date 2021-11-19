@@ -880,15 +880,15 @@ specified in this document.
 
 Because all Editorial Stream RFCs have a status of Informational,
 the first paragraph of the "Status of This Memo" section shall be
-as specified in Appendix A.2.1 of {{RFC7841}}.
+as specified in {{Appendix A.2.1 of RFC7841}}.
 
 The second paragraph of the "Status of This Memo" section shall be
 as follows:
 
-"This document is a product of the RFC Series Policy Definition process.
-It represents the consensus of the RFC Series Working Group approved by
-the RFC Series Approval Board. Such documents are not candidates for any
-level of Internet Standard; see Section 2 of RFC 7841."
+> This document is a product of the RFC Series Policy Definition process.
+> It represents the consensus of the RFC Series Working Group approved by
+> the RFC Series Approval Board. Such documents are not candidates for any
+> level of Internet Standard; see Section 2 of RFC 7841.
 
 The third paragraph of the "Status of This Memo" section shall be
 as specified in {{Section 3.5 of RFC7841}}.
