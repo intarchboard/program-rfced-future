@@ -448,7 +448,7 @@ Because RSAB members are expected to participate in the discussions
 within the RSWG and to raise any concerns and issues during those 
 discussions, most CONCERN positions should not come as a surprise to 
 the RSWG. Notwithstanding, late CONCERN positions are always possible
-if issues are identified during RSAB review..
+if issues are identified during RSAB review.
 
 10. If a CONCERN exists, discussion will take place within the RSWG.
     Again, all RSAB members are expected to participate. If substantial 
