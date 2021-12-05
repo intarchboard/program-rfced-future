@@ -51,7 +51,7 @@ informative:
 
 --- abstract
 
-This document specifies version 3 of RFC Editor Model. The model defines
+This document specifies version 3 of the RFC Editor Model. The model defines
 two high-level tasks related to the RFC Series. Policy definition
 is the joint responsibility of the RFC Series Working Group (RSWG),
 which produces policy proposals, and the RFC Series Approval Board (RSAB),
