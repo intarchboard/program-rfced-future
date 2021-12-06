@@ -893,6 +893,56 @@ as follows:
 The third paragraph of the "Status of This Memo" section shall be
 as specified in {{Section 3.5 of RFC7841}}.
 
+# Historical Properties of the RFC Series {#properties}
+
+This section lists some of the properties that have been 
+historically regarded as important to the RFC Series. Proposals 
+that affect these properties are possible within the processes 
+defined in this document. As described under {{workflow}} and {{cfc}},
+proposals that might have a detrimental affect on these properties
+should receive heightened scrutiny during RSWG discussion and RSAB 
+review. The purpose of this scrutinty is to ensure that all changes are 
+deliberate and that the consequences of a proposal, as far as they can be
+identified, have been carefully considered.
+
+## Availability
+
+Documents in the RFC Series have been available for more than 35 years, 
+with no fee for access.
+
+## Accessibility
+
+RFC Series documents have been published in a format that was intended 
+to be as accessible as possible to those with special needs, e.g., for 
+those with impaired sight.
+
+## Language
+
+All existing RFC Series documents have been published in English. 
+Documents have been licensed to explicitly permit translation into 
+other languages.
+
+## Diversity
+
+In addition to Internet standards, the RFC series has published procedural 
+and informational documents, thought experiments, speculative ideas, 
+research papers, histories, humor, and even eulogies.
+
+## Quality
+
+RFC Series documents have been reviewed for subject matter quality and 
+edited by professionals with a goal of ensuring that documents are clear, 
+consistent, and readable {{RFC7322}}.
+
+## Stability
+
+Once published, RFC Series documents have not changed.
+
+## Longevity
+
+RFC Series documents have been published in a form intended to be easily 
+legible to humans for decades or longer.
+
 # Changes from Version 2 of the RFC Editor Model {#changes}
 
 ## RFC Editor Function
