@@ -385,7 +385,11 @@ related to the RFC Series:
    same way a working group of the IETF or research group of the IRTF
    would (see {{RFC2418}}).
 
-3. The RSWG shall then further discuss and develop the proposal. 
+3. The RSWG shall then further discuss and develop the proposal. All
+   participants, but especially RSAB members, should pay special
+   attention to any aspects of the proposal that have the potential
+   to significantly modify policies of long standing or historical
+   characteristics of the Series as described under {properties}.
    Members of the RSAB are expected to participate as individuals in 
    all discussions relating to RSWG proposals so that they are fully 
    aware of proposals early in the policy definition process, and so 
@@ -472,26 +476,50 @@ if issues are identified during RSAB review.
 
 ### Community Calls for Comment {#cfc}
 
-When a community call for comment is made, the RSAB sends a notice containing:
+The RSAB is responsible for initiating and managing community calls
+for comment on proposals that have gained consensus within the RSWG.
+The RSAB should actively seek a wide range of input. The RSAB seeks
+such input by, at a minimum, sending a notice to the rfc-interest
+mailing list or to its successor or future equivalent. RSAB members
+should also send a notice to the communities they directly represent
+(e.g., the IETF and IRTF). Notices are also to be made available and
+archived on the RFC Editor website. In addition, other communication
+channels can be established for notices (e.g., via an RSS feed or by
+posting to social media venues).
 
-* A subject line beginning with 'Call for Comment:'
-* A clear, concise summary of the proposal
-* A URL to the Internet-Draft that defines the proposal
-* Any commentary or questions for the community that the RSAB deems necessary
-  (using their usual decision-making procedures)
-* Clear instructions on how to provide public comments
-* A deadline for comments
+In cases where a proposal has the potential to significantly modify
+policies of long standing or historical characteristics of the
+Series, the RSAB should take extra care to reach out to even broader
+communities that make use of RFCs, such as scholarly researchers,
+procurement managers, and standards development organizations. The
+RSAB should work with the stream representatives and the IETF LLC
+to identify and establish contacts in such communities, assisted 
+in particular by the RSCE.
 
-Notices will always be sent to the rfc-interest mailing list or to its successor 
-or future equivalent. The RSAB and RSWG chairs should also send notices to other 
-communities that may be interested in or impacted by a proposal as they see fit.
-RSAB members should also distribute notice of the call for comments to the 
-communities they represent. Notices are also to be made available and archived
-on the RFC Editor website. In addition, other communication channels can
-be established for notices (e.g., using an RSS feed or social media).
+A notice of a community call for comment contains the following:
 
-A comment period will not last less than two weeks. Comments will be publicly
+*  A subject line beginning with 'Call for Comment:'
+
+*  A clear, concise summary of the proposal
+
+*  A URL to the Internet-Draft that defines the proposal
+
+*  Any commentary or questions for the community that the RSAB deems
+   necessary (using their usual decision-making procedures)
+
+*  Clear instructions on how to provide public comments
+
+*  A deadline for comments
+
+A comment period will last not less than two weeks and should be
+longer if wide outreach is required. Comments will be publicly
 archived on the RFC Editor website.
+
+The RSAB is responsible for considering comments received during 
+a community call for comment. If RSAB members conclude that such
+comments raise important issues that should be addressed, they 
+should do so by discussing those issues within the RSWG or lodging 
+a position of "CONCERN" during RSAB balloting.
 
 ### Appeals
 
