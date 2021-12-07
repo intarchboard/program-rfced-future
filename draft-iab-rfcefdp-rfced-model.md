@@ -907,7 +907,7 @@ identified, have been carefully considered.
 
 ## Availability
 
-Documents in the RFC Series have been available for more than 35 years, 
+Documents in the RFC Series have been available for many decades, 
 with no fee for access.
 
 ## Accessibility
