@@ -919,8 +919,9 @@ those with impaired sight.
 ## Language
 
 All existing RFC Series documents have been published in English. 
-Documents have been made available under terms that allow anyone
-to translate them into other languages without asking for permission.
+However, since the beginning of the RFC series, translation into a 
+language other than English has been allowed and encouraged. The IETF 
+Trust and the RFC Editor place no restrictions on this. 
 
 ## Diversity
 
