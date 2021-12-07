@@ -941,7 +941,7 @@ Once published, RFC Series documents have not changed.
 ## Longevity
 
 RFC Series documents have been published in a form intended to be easily 
-legible to humans for decades or longer.
+accessible and usable to humans for decades or longer.
 
 # Changes from Version 2 of the RFC Editor Model {#changes}
 
