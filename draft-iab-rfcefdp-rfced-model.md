@@ -924,9 +924,9 @@ other languages.
 
 ## Diversity
 
-In addition to Internet standards, the RFC series has published procedural 
-and informational documents, thought experiments, speculative ideas, 
-research papers, histories, humor, and even eulogies.
+The RFC series has included many types of documents including standards for
+the Internet, procedural and informational documents, thought experiments,
+speculative ideas, research papers, histories, humor, and even eulogies.
 
 ## Quality
 
