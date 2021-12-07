@@ -389,7 +389,7 @@ related to the RFC Series:
    participants, but especially RSAB members, should pay special
    attention to any aspects of the proposal that have the potential
    to significantly modify policies of long standing or historical
-   characteristics of the Series as described under {properties}.
+   characteristics of the Series as described under {{properties}}.
    Members of the RSAB are expected to participate as individuals in 
    all discussions relating to RSWG proposals so that they are fully 
    aware of proposals early in the policy definition process, and so 
