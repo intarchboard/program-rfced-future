@@ -899,7 +899,7 @@ This section lists some of the properties that have been
 historically regarded as important to the RFC Series. Proposals 
 that affect these properties are possible within the processes 
 defined in this document. As described under {{workflow}} and {{cfc}},
-proposals that might have a detrimental affect on these properties
+proposals that might have a detrimental effect on these properties
 should receive heightened scrutiny during RSWG discussion and RSAB 
 review. The purpose of this scrutinty is to ensure that all changes are 
 deliberate and that the consequences of a proposal, as far as they can be
