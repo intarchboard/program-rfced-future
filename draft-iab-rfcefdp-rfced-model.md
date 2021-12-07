@@ -919,8 +919,8 @@ those with impaired sight.
 ## Language
 
 All existing RFC Series documents have been published in English. 
-Documents have been licensed to explicitly permit translation into 
-other languages.
+Documents have been made available under terms that allow anyone
+to translate them into other languages without asking for permission.
 
 ## Diversity
 
