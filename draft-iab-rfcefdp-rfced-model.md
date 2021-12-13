@@ -53,10 +53,10 @@ informative:
 --- abstract
 
 This document specifies version 3 of the RFC Editor Model. The model defines
-two high-level tasks related to the RFC Series. Policy definition
+two high-level tasks related to the RFC Series. First, policy definition
 is the joint responsibility of the RFC Series Working Group (RSWG),
 which produces policy proposals, and the RFC Series Approval Board (RSAB),
-which approves such proposals. Policy implementation
+which approves such proposals. Second, policy implementation
 is primarily the responsibility of the RFC Production Center
 (RPC) as contractually overseen by the IETF Administration
 Limited Liability Company (IETF LLC).
@@ -130,8 +130,8 @@ by defining boilerplate text for the Editorial Stream. This
 document updates {{RFC8729}} by replacing the RFC Editor role
 with the RSWG, RSAB, and RSCE. This document updates {{RFC8730}}
 by removing the dependency on certain policies specified by the
-IAB and RSE. More detailed information can be found under
-under {{changes}}.
+IAB and RSE. More detailed information about changes from 
+version 2 of the Model can be found under under {{changes}}.
 
 # Overview of the Model
 
@@ -182,8 +182,8 @@ In short:
 
 This model is designed to ensure public processes and policy documents,
 clear responsibilities and mechanisms for updates and changes to policies
-governing the RFC Series as a whole, and operational implementation of the
-RFC Series, thus meeting the requirements specified in {{Section 4 of RFC8729}}.
+governing the RFC Series as a whole, and effective operational implementation of the
+RFC Series, thus meeting the requirements specified in Section 4 of {{RFC8729}}.
 
 The remainder of this document describes the model in greater detail.
 
@@ -206,7 +206,7 @@ the RFC Series.
 
 The RFC Series Working Group (RSWG) shall formulate proposals
 regarding policies that govern the RFC Series. The intent is
-that the RSWG operate in a way similar to working groups in the
+that the RSWG shall operate in a way similar to working groups in the
 IETF and research groups in the IRTF. Therefore, all RSWG meetings
 shall be open to all interested individuals, and all RSWG contributions
 shall be subject to intellectual property policies, which must be
@@ -217,7 +217,7 @@ The RSWG shall operate by rough consensus, a mode of operation
 informally described in {{RFC2418}}.
 
 When the RSWG is formed, all discussions shall take place on an
-open email discussion list. Subsequently, the RSWG may decide by rough
+open email discussion list, which shall be publicly archived. Subsequently, the RSWG may decide by rough
 consensus to also use additional tooling (e.g., GitHub as specified in
 {{RFC8874}}), forms of communication (e.g., in-person or online
 meetings), and working methods (e.g., design teams) as long as they
@@ -227,8 +227,8 @@ All interested individuals are welcome to participate in the RSWG
 (subject to anti-harassment policies as described under {{coc}}). This
 includes participants in the IETF and IRTF, IAB and IESG members,
 individuals who use RFCs in procurement decisions, authors of RFCs
-and Internet-Drafts, developers of tools used to author RFCs, and
-the like. The IETF LLC Board members, staff, and the IETF Executive
+and Internet-Drafts, developers of tools used to author RFCs, scholarly researchers, and
+so on. The IETF LLC Board members, staff, and the IETF Executive
 Director are invited to participate as community members in the RSWG
 to the extent permitted by any relevant IETF LLC policies. Members
 of the RSAB are also expected to participate actively.
@@ -241,20 +241,20 @@ years; thereafter, chairs shall serve for a term of two (2)
 years, with no term limits on renewal. The IESG and IAB shall
 determine their own processes for making these appointments.
 Community members who have concerns about the performance of an
-RSWG chair should direct their feedback to the group.
+RSWG chair should direct their feedback to appointing body.
 The IESG and IAB shall have the power to remove their
 appointed chairs at their discretion at any time, and to name a
 replacement who shall serve the remainder of the original chair's
 term.
 
 It is the responsibility of the chairs to encourage rough consensus
-within the RSWG and to follow that consensus in their decision-making,
+within the RSWG and to follow that consensus in their decision making,
 for instance regarding acceptance of new proposals and advancement of
 proposals to the RSAB.
 
 Absent specific guidance in this document regarding the functioning
 of the working group, the general guidance provided in
-{{Section 6 of RFC2418}} should be considered appropriate.
+Section 6 of {{RFC2418}} should be considered appropriate.
 
 ### RFC Series Approval Board (RSAB)
 
@@ -306,10 +306,10 @@ as follows:
   maximum of 3 months; this clause does not apply to a vacancy of the
   RSCE role, only of the stream representatives enumerated above. If
   during this 3-month period a further vacancy arises, the delay
-  should be extended by another 3 months.
+  should be extended by up to another 3 months.
 
 To ensure the smooth operation of the RFC Series, the RSAB shall
-include the IETF Executive Director or their delegate as a non-voting member since
+include the IETF Executive Director or their delegate as a non-voting member, because 
 the IETF LLC is responsible for implementation of policies
 governing the RFC Series. The RSAB may at its discretion include
 additional non-voting members, for instance a liaison from the RPC.
@@ -380,7 +380,7 @@ related to the RFC Series:
    with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}})
    and asks the RSWG to adopt the proposal as a working group item.
 
-2. If in following procedures for rough consensus the chairs determine
+2. If by following working group procedures for rough consensus the chairs determine
    that there is sufficient interest in the proposal, the RSWG may
    adopt the proposal as a draft proposal of the RSWG, in much the
    same way a working group of the IETF or research group of the IRTF
@@ -425,7 +425,7 @@ related to the RFC Series:
    and the feedback received should be considered by the RSWG.
 
 8. Once the RSWG chairs confirm that concerns received during the
-   call(s) for community input have been addressed, they shall
+   community call(s) for comment have been addressed, they shall
    inform the RSAB that the document is ready for balloting by the
    RSAB.
 
@@ -455,12 +455,12 @@ Because RSAB members are expected to participate in the discussions
 within the RSWG and to raise any concerns and issues during those 
 discussions, most CONCERN positions should not come as a surprise to 
 the RSWG. Notwithstanding, late CONCERN positions are always possible
-if issues are identified during RSAB review.
+if issues are identified during RSAB review or the community call for comment.
 
 10. If a CONCERN exists, discussion will take place within the RSWG.
     Again, all RSAB members are expected to participate. If substantial 
     changes are made in order to address CONCERN positions, an additional 
-    call for community input might be needed.
+    community call for comment might be needed.
 
 11. A proposal without any CONCERN positions is approved. 
 
@@ -491,7 +491,7 @@ posting to social media venues).
 
 In cases where a proposal has the potential to significantly modify
 policies of long standing or historical characteristics of the
-Series, the RSAB should take extra care to reach out to even broader
+Series as described under {{properties}}, the RSAB should take extra care to reach out to even broader
 communities that make use of RFCs, such as scholarly researchers,
 procurement managers, and standards development organizations. The
 RSAB should work with the stream representatives and the IETF LLC
@@ -527,7 +527,7 @@ a position of "CONCERN" during RSAB balloting.
 
 Appeals of RSWG decisions shall be made to the RSAB. Decisions of the
 RSWG can be appealed only on grounds of failure to follow the correct
-process. Appeals should be made within 30 days of any action, or in
+process. Appeals should be made within thirty (30) days of any action, or in
 the case of failure to act, of notice having been given to the RSWG.
 The RSAB will then decide if the process was followed and will direct
 the RSWG chairs as to what procedural actions are required.
@@ -648,7 +648,7 @@ and final publication and dissemination of RFCs. Examples include:
 
 * Guidelines regarding the final structure and layout of published documents.
   In the context of the XML vocabulary ({{RFC7991}}), such guidelines could
-  include clarifications regarding XML elements and attributes used to
+  include clarifications regarding the preferred XML elements and attributes used to
   capture the semantic content of RFCs.
 
 ## RPC Responsibilities {#rpc}
@@ -677,7 +677,7 @@ at the time of writing include the following:
 
 7. Providing suggestions to the RSAB and RSCE as needed.
 
-8. Participating in the creation of new Editorial Stream RFCs that
+8. Participating within the RSWG in the creation of new Editorial Stream RFCs that
    impact the RPC, at least in an advisory capacity.
 
 9. Providing reports to the community on its performance and plans.
@@ -730,11 +730,11 @@ the RPC, sometimes in collaboration with other individuals such as a document
 shepherd, IETF working group chair, IRTF research group chair, or IETF Area
 Director.
 
-However, if it is unclear whether an existing policy applies, or if the
-interpretation of an existing policy is unclear, the parties may need to
+However, if it is unclear whether an existing policy applies, or if it is 
+unclear how to interprete an existing policy, the parties may need to
 consult with additional individuals or bodies (e.g., RSAB, IESG, IRSG, or
 stream approving bodies) to help achieve a resolution. The following points are
-intended to provide more particular guidance.
+intended to provide more specific guidance.
 
 * If there is a conflict with a policy for a particular stream, the
   RPC should consult with the relevant stream approving body to help achieve a
@@ -757,8 +757,8 @@ From time to time, individuals or organizations external to the IETF and
 the broader RFC Series community may have questions about the RFC Series.
 Such inquiries should be directed to the
 [rfc-editor@rfc-editor.org](mailto:rfc-editor@rfc-editor.org) email
-alias and then handled by the appropriate bodies (e.g., RSAB, RPC) or
-individuals (e.g., RSWG chairs, RSCE).
+alias or to its successor or future equivalent and then handled by the 
+appropriate bodies (e.g., RSAB, RPC) or individuals (e.g., RSWG chairs, RSCE).
 
 ## Administrative Implementation
 
@@ -793,7 +793,7 @@ and other RFC-related services is as follows:
 
 *  The selection committee selects the vendor, subject to the
    successful negotiation of a contract approved by the IETF LLC.  In
-   the event that a contract cannot be reached, the matter shall be
+   the event that a contract cannot be signed, the matter shall be
    referred to the selection committee for further action.
 
 ### Budget
@@ -824,7 +824,7 @@ The primary responsibilities of the RSCE are as follows:
 * Provide expert advice to the RPC and IETF LLC
 
 Matters on which the RSCE might provide guidance could include the
-following (see also {{Section 4 of RFC8729}}):
+following (see also Section 4 of {{RFC8729}}):
 
 * Editing, processing, and publication of RFCs
 * Publication formats for the RFC Series
@@ -869,7 +869,7 @@ during their term of appointment.
 ## Conflict of Interest
 
 The RSCE is expected to avoid even the appearance of conflict of
-interest or judgment in performing these roles.  To ensure this, the
+interest or judgment in performing their role.  To ensure this, the
 RSCE will be subject to a conflict of interest policy established by
 the IETF LLC.
 
@@ -886,17 +886,17 @@ This document creates the Editorial Stream as separate space for
 publication of policies, procedures, guidelines, rules, and related
 information regarding the RFC Series as a whole.
 
+The Editorial Stream will be used only to specify and update policies,
+procedures, guidelines, rules, and related information regarding the
+RFC Series as a whole; no other use of the Editorial Stream is authorized
+by this memo and no other streams are so authorized. This policy may be
+changed only by agreement of the IAB, IESG, and IETF LLC.
+
 All documents produced by the RSWG and approved by the RSAB shall be
 published as RFCs in the Editorial Stream with a status of Informational.
 (Note that the Editorial Stream is not authorized to publish RFCs that
 are Standards Track or Best Current Practice, since such RFCs are
 reserved to the IETF Stream {{RFC8729}}.)
-
-The Editorial Stream will be used only to specify and update policies,
-procedures, guidelies, rules, and related information regarding the
-RFC Series as a whole; no other use of the Editorial Stream is authorized
-by this memo and no other streams are so authorized. This policy may be
-changed only by agreement of the IAB, IESG, and IETF LLC.
 
 The requirements and process for creating any additional RFC streams are
 outside the scope of this document.
@@ -931,7 +931,7 @@ Disclosure of license terms for patents is also requested, as
 specified in the most recent version of BCP 79.  The version of BCP
 79 at the time of this writing was {{RFC8179}}. The Editorial Stream 
 has chosen to use the IETF's IPR disclosure mechanism,
-https://www.ietf.org/ipr/, for this purpose.  The IAB would prefer 
+https://www.ietf.org/ipr/, for this purpose.  The IAB would prefer that
 the most liberal terms possible be made available for Editorial Stream 
 documents. Terms that do not require fees or licensing are preferable.  
 Non-discriminatory terms are strongly preferred over those that
@@ -950,7 +950,7 @@ specified in this document.
 
 Because all Editorial Stream RFCs have a status of Informational,
 the first paragraph of the "Status of This Memo" section shall be
-as specified in {{Appendix A.2.1 of RFC7841}}.
+as specified in Appendix A.2.1 of {{RFC7841}}.
 
 The second paragraph of the "Status of This Memo" section shall be
 as follows:
@@ -961,7 +961,7 @@ as follows:
 > level of Internet Standard; see Section 2 of RFC 7841.
 
 The third paragraph of the "Status of This Memo" section shall be
-as specified in {{Section 3.5 of RFC7841}}.
+as specified in Section 3.5 of {{RFC7841}}.
 
 # Historical Properties of the RFC Series {#properties}
 
@@ -978,7 +978,7 @@ identified, have been carefully considered.
 ## Availability
 
 Documents in the RFC Series have been available for many decades, 
-with no constraints on access or distribution.
+with no restrictions on access or distribution.
 
 ## Accessibility
 
@@ -989,8 +989,9 @@ those with impaired sight.
 ## Language
 
 All existing RFC Series documents have been published in English. 
-However, since the beginning of the RFC series, translation into a 
-language other than English has been allowed and encouraged.
+However, since the beginning of the RFC series, documents have been
+published under terms that explicitly allow translation into 
+languages other than English without asking for permission.
 
 ## Diversity
 
@@ -1010,7 +1011,7 @@ Once published, RFC Series documents have not changed.
 
 ## Longevity
 
-RFC Series documents have been published in a form intended to be easily 
+RFC Series documents have been published in a form intended to be 
 comprehensible to humans for decades or longer.
 
 # Changes from Version 2 of the RFC Editor Model {#changes}
@@ -1021,16 +1022,16 @@ Several responsibilities previously assigned to the "RFC Editor"
 or, more precisely, the "RFC Editor function" are now performed
 by the RSWG, RSAB, RPC, and IETF LLC (alone or in combination).
 These include various aspects of strategic leadership 
-({{Section 2.1.1 of RFC8728}}), representation of the RFC Series 
-({{Section 2.1.2 of RFC8728}}), development of RFC production and
-publication ({{Section 2.1.3 of RFC8728}}), development of the
-RFC Series ({{Section 2.1.4 of RFC8728}}), operational oversight
-({{Section 3.3 of RFC8729}}), policy oversight 
-({{Section 3.4 of RFC8729}}), the editing, processing, and publication of
-documents ({{Section 4.2 of RFC8729}}), and development and
+(Section 2.1.1 of {{RFC8728}}), representation of the RFC Series 
+(Section 2.1.2 of {{RFC8728}}), development of RFC production and
+publication (Section 2.1.3 of {{RFC8728}}), development of the
+RFC Series (Section 2.1.4 of {{RFC8728}}), operational oversight
+(Section 3.3 of {{RFC8729}}), policy oversight 
+(Section 3.4 of {{RFC8729}}), the editing, processing, and publication of
+documents (Section 4.2 of {{RFC8729}}), and development and
 maintenance of Series-wide guidelines and rules 
-({{Section 4.4 of RFC8729}}). Among other things this changes the dependency on
-the RSE included in {{Section 2.2 of RFC8730}} with regard to 
+(Section 4.4 of {{RFC8729}}). Among other things this changes the dependency on
+the RSE included in Section 2.2 of {{RFC8730}} with regard to 
 "coordinating work and conforming to general RFC Series policies
 as specified by the IAB and RSE." In addition, various details 
 regarding these responsibilities have been modified to accord with 
@@ -1055,7 +1056,7 @@ should not be taken as referring to the RSCE.
 In practice the RFC Production Center (RPC) and RFC Publisher roles
 have been performed by the same entity and this practice is expected
 to continue; therefore this document dispenses with the distinction
-and refers only to the RPC.
+between these roles and refers only to the RPC.
 
 ## IAB
 
@@ -1069,8 +1070,8 @@ of its authority to the RFC Series Oversight Committee (see {{rsoc}}).
 Under version 3 of the Model, authority for policy definition
 resides with the RSWG as an independent venue for work by members
 of the community (with approval of policy proposals as the
-responsibility of the RSAB, representing the streams and the RSCE),
-whereas authority for policy implementation resides with
+responsibility of the RSAB, representing the streams and including 
+the RSCE), whereas authority for policy implementation resides with
 the IETF LLC.
 
 ## RFC Series Oversight Committee (RSOC) {#rsoc}
@@ -1124,11 +1125,12 @@ values in existing registries, and no IANA action is required.
 {:numbered="false"}
 
 Portions of this document were borrowed from {{RFC5620}},
-{{RFC6635}}, {{RFC8728}}, {{RFC8729}}, and earlier proposals
+{{RFC6635}}, {{RFC8728}}, {{RFC8729}}, the Frequently Asked 
+Questions of the IETF Trust, and earlier proposals
 submitted within the IAB's RFC Editor Future Development Program
 by Martin Thomson, Brian Carpenter, and Michael StJohns. Thanks
-to the chairs of the Program, Eliot Lear and Brian Rosen, for
-their leadership and assistance. Thanks also for feedback and
+to Eliot Lear and Brian Rosen in their role as chairs of the Program
+for their leadership and assistance. Thanks also for feedback and
 proposed text to
 Jari Arkko,
 Sarah Banks,
