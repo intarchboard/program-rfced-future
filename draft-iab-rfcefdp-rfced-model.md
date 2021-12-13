@@ -441,13 +441,15 @@ related to the RFC Series:
 Any RSAB member holding a "CONCERN" position must explain their concern
 to the community in detail. The explanation might or might not be actionable.
 
-A position of CONCERN may be filed for two reasons:
+A position of CONCERN may be filed for several reasons:
 
    * The proposal represents a serious problem for one or more of 
      the individual streams.
    * The RSAB member believes that the proposal would cause serious harm
      to the overall Series, including harm to the long-term health and
      viability of the Series.
+   * Comments received during a community call for comment need
+     to be addressed, as described under {{cfc}}.
 
 Because RSAB members are expected to participate in the discussions 
 within the RSWG and to raise any concerns and issues during those 
@@ -461,7 +463,6 @@ if issues are identified during RSAB review.
     call for community input might be needed.
 
 11. A proposal without any CONCERN positions is approved. 
-
 
 12. If, after a suitable period of time, any CONCERN positions remain,
     a vote of the RSAB is taken. If at least three voting members vote
