@@ -934,6 +934,56 @@ as follows:
 The third paragraph of the "Status of This Memo" section shall be
 as specified in {{Section 3.5 of RFC7841}}.
 
+# Historical Properties of the RFC Series {#properties}
+
+This section lists some of the properties that have been 
+historically regarded as important to the RFC Series. Proposals 
+that affect these properties are possible within the processes 
+defined in this document. As described under {{workflow}} and {{cfc}},
+proposals that might have a detrimental effect on these properties
+should receive heightened scrutiny during RSWG discussion and RSAB 
+review. The purpose of this scrutiny is to ensure that all changes are 
+deliberate and that the consequences of a proposal, as far as they can be
+identified, have been carefully considered.
+
+## Availability
+
+Documents in the RFC Series have been available for many decades, 
+with no constraints on access or distribution.
+
+## Accessibility
+
+RFC Series documents have been published in a format that was intended 
+to be as accessible as possible to those with special needs, e.g., for 
+those with impaired sight.
+
+## Language
+
+All existing RFC Series documents have been published in English. 
+However, since the beginning of the RFC series, translation into a 
+language other than English has been allowed and encouraged.
+
+## Diversity
+
+The RFC series has included many types of documents including standards for
+the Internet, procedural and informational documents, thought experiments,
+speculative ideas, research papers, histories, humor, and even eulogies.
+
+## Quality
+
+RFC Series documents have been reviewed for subject matter quality and 
+edited by professionals with a goal of ensuring that documents are clear, 
+consistent, and readable {{RFC7322}}.
+
+## Stability
+
+Once published, RFC Series documents have not changed.
+
+## Longevity
+
+RFC Series documents have been published in a form intended to be easily 
+comprehensible to humans for decades or longer.
+
 # Changes from Version 2 of the RFC Editor Model {#changes}
 
 ## RFC Editor Function
