@@ -23,6 +23,7 @@ normative:
 
 informative:
   I-D.draft-carpenter-rfced-iab-charter:
+  RFC2026:
   RFC2418:
   RFC2850:
   RFC5378:
@@ -870,6 +871,46 @@ changed only by agreement of the IAB, IESG, and IETF LLC.
 
 The requirements and process for creating any additional RFC streams are
 outside the scope of this document.
+
+## Procedures Request of the IETF Trust
+
+The IAB requests that the IETF Trust and its Trustees assist in
+meeting the goals and procedures set forth in this document.
+
+The Trustees are requested to publicly confirm their willingness and
+ability to accept responsibility for the Intellectual Property Rights
+for the Editorial Stream.
+
+Specifically, the Trustees are asked to develop the necessary
+boilerplate to enable the suitable marking of documents so that the
+IETF Trust receives the rights as specified in {{RFC5378}}.  These
+procedures need to also allow authors to indicate either no rights to
+make derivative works, or preferentially, the right to make unlimited
+derivative works from the documents.  It is left to the Trust to
+specify exactly how this shall be clearly indicated in each document.
+
+## Patent and Trademark Rules for the Editorial Stream
+
+As specified above, contributors of documents for the Editorial Stream 
+are expected to use the IETF Internet-Draft process, complying therein
+with the rules specified in the latest version of BCP 9, whose
+version at the time of writing was {{RFC2026}}.  This includes the
+disclosure of Patent and Trademark issues that are known, or can be
+reasonably expected to be known, to the contributor.
+
+Disclosure of license terms for patents is also requested, as
+specified in the most recent version of BCP 79.  The version of BCP
+79 at the time of this writing was {{RFC8179}}. The Editorial Stream 
+has chosen to use the IETF's IPR disclosure mechanism,
+https://www.ietf.org/ipr/, for this purpose.  The IAB would prefer 
+the most liberal terms possible be made available for Editorial Stream 
+documents. Terms that do not require fees or licensing are preferable.  
+Non-discriminatory terms are strongly preferred over those that
+discriminate among users.  However, although disclosure is required
+and the RSWG and the RSAB may consider disclosures and terms in making 
+a decision as to whether to submit a document for publication, there 
+are no specific requirements on the licensing terms for intellectual
+property related to Editorial Stream publication.
 
 ## Editorial Stream Boilerplate
 
