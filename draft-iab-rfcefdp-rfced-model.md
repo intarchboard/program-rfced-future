@@ -228,7 +228,7 @@ All interested individuals are welcome to participate in the RSWG
 includes participants in the IETF and IRTF, IAB and IESG members,
 individuals who use RFCs in procurement decisions, authors of RFCs
 and Internet-Drafts, developers of tools used to author RFCs, scholarly researchers, and
-so on. The IETF LLC Board members, staff, and the IETF Executive
+so on. The IETF LLC Board members, staff, contractors, and the IETF Executive
 Director are invited to participate as community members in the RSWG
 to the extent permitted by any relevant IETF LLC policies. Members
 of the RSAB are also expected to participate actively.
