@@ -1125,7 +1125,8 @@ because this document disbands the RSOC.
 Version 1 of the RFC Editor Model {{RFC5620}} specified the existence of
 the RFC Series Advisory Group (RSAG), which was no longer specified in
 version 2 of the Model. For the avoidance of doubt, this document affirms
-that the RSAG has been disbanded.
+that the RSAG has been disbanded.  (This is not to be confused with the
+RFC Series Approval Board (RSA>B<), which this document establishes.)
 
 ## Editorial Stream
 
