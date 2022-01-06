@@ -4,7 +4,7 @@ Welcome to the RFC Editor Future Development Program of the IAB
 
 ## Personnel:
 
-- Program Chair: Eliot Lear
+- Program Chairs: Eliot Lear, Brian Rosen
 - IAB Liaisons: Wes Hardaker, Jared Mauch
 
 ## Important links
