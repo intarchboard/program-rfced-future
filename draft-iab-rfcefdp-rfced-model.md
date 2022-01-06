@@ -204,24 +204,13 @@ the RFC Series.
 
 ### RFC Series Working Group (RSWG) {#wg}
 
-The RFC Series Working Group (RSWG) shall formulate proposals
-regarding policies that govern the RFC Series. The intent is
-that the RSWG shall operate in a way similar to working groups in the
-IETF and research groups in the IRTF. Therefore, all RSWG meetings
-shall be open to all interested individuals, and all RSWG contributions
-shall be subject to intellectual property policies, which must be
-consistent with those of the IETF as specified in BCP 78 {{RFC5378}}
-and BCP 79 {{RFC8179}}.
+#### Purpose
 
-The RSWG shall operate by rough consensus, a mode of operation
-informally described in {{RFC2418}}.
+The RFC Series Working Group (RSWG) is the primary venue in which 
+members of the community collaborate regarding the policies that 
+govern the RFC Series. 
 
-When the RSWG is formed, all discussions shall take place on an
-open email discussion list, which shall be publicly archived. Subsequently, the RSWG may decide by rough
-consensus to also use additional tooling (e.g., GitHub as specified in
-{{RFC8874}}), forms of communication (e.g., in-person or online
-meetings), and working methods (e.g., design teams) as long as they
-are consistent with {{RFC2418}}.
+#### Participation
 
 All interested individuals are welcome to participate in the RSWG
 (subject to anti-harassment policies as described under {{coc}}). This
@@ -232,6 +221,8 @@ so on. The IETF LLC Board members, staff, contractors, and the IETF Executive
 Director are invited to participate as community members in the RSWG
 to the extent permitted by any relevant IETF LLC policies. Members
 of the RSAB are also expected to participate actively.
+
+#### Chairs
 
 The RSWG shall have two chairs, one appointed by the IESG and the
 other appointed by the IAB. When the RSWG is formed, the chair
@@ -252,11 +243,33 @@ within the RSWG and to follow that consensus in their decision making,
 for instance regarding acceptance of new proposals and advancement of
 proposals to the RSAB.
 
-Absent specific guidance in this document regarding the functioning
-of the working group, the general guidance provided in
-Section 6 of {{RFC2418}} should be considered appropriate.
+#### Mode of Operation
+
+The intent is that the RSWG shall operate in a way similar to working 
+groups in the IETF and research groups in the IRTF. Therefore, all 
+RSWG meetings and discussion venues shall be open to all interested 
+individuals, and all RSWG contributions shall be subject to intellectual 
+property policies, which must be consistent with those of the IETF as 
+specified in {{BCP78}} and {{BCP79}}.
+
+The RSWG shall operate by rough consensus, a mode of operation
+informally described in {{RFC2418}}.
+
+When the RSWG is formed, all discussions shall take place on an
+open email discussion list, which shall be publicly archived. The 
+RSWG is also empowered to hold in-person or online meetings. The RSWG 
+may also decide by rough consensus to use additional tooling (e.g., 
+GitHub as specified in {{RFC8874}}), forms of communication,
+and working methods (e.g., design teams) as long as they are 
+consistent with {{RFC2418}}.
+
+Absent specific guidance in this document regarding the operation
+of the RSWG, the general guidance provided in Section 6 of {{RFC2418}} 
+should be considered appropriate.
 
 ### RFC Series Approval Board (RSAB)
+
+#### Purpose
 
 The RFC Series Approval Board (RSAB) shall act as the approving body
 for proposals generated within the RSWG. The only policy-making role
@@ -265,6 +278,11 @@ have no independent authority to formulate policy on its own. It is
 expected that the RSAB will respect the rough consensus of the
 RSWG wherever possible, without ceding its responsibility to provide
 appropriate review of RSWG proposals.
+
+#### Members
+
+The RSAB consists primarily of certain voting members. As specified 
+herein, the RSAB also includes certain non-voting members.
 
 The voting members of the RSAB are as follows:
 
@@ -277,7 +295,32 @@ The voting members of the RSAB are as follows:
 * As the stream representative for the Independent stream, the
   Independent Submissions Editor (ISE) {{RFC8730}} or other person
   appointed by the ISE
-* The RFC Series Consulting Editor
+* The RFC Series Consulting Editor, in effect representing the 
+  Editorial Stream
+
+If and when a new stream is created, the document that
+creates the stream shall specify if a voting member representing
+that stream shall also be added to the RSAB, along with any rules
+and processes related to that representative (e.g., whether the
+representative is a member of the body responsible for the stream
+or an appointed delegate thereof). 
+
+To ensure the smooth operation of the RFC Series, the RSAB shall
+include the following non-voting, ex-officio members:
+
+* The IETF Executive Director or their delegate as an ex-officio 
+  member; the rationale is that the IETF LLC is accountable for 
+  implementation of policies governing the RFC Series
+* A representative of the RPC, named by the RPC; the rationale
+  is that the RPC is responsible for implementation of policies
+  governing the RFC Series
+
+In addition to the foregoing, the RSAB may at its discretion include
+other non-voting members, whether ex-officio members or liaisons from
+groups or organizations with which the RSAB deems it necessary to
+formally collaborate or coordinate.
+
+#### Appointment and Removal of Voting Members
 
 The appointing bodies, i.e., the stream approval bodies (IESG, IAB, 
 IRTF chair, ISE), shall determine their own processes for 
@@ -296,6 +339,8 @@ streams and shall appoint a temporary member of the RSAB until the
 IAB has appointed an IRTF chair or ISE, who can then act as an 
 RSAB member or appoint a delegate through normal processes.
 
+#### Vacancies
+
 In the case of vacancies by voting members, the RSAB shall operate
 as follows:
 
@@ -308,24 +353,14 @@ as follows:
   during this 3-month period a further vacancy arises, the delay
   should be extended by up to another 3 months.
 
-To ensure the smooth operation of the RFC Series, the RSAB shall
-include the IETF Executive Director or their delegate as a non-voting member, because 
-the IETF LLC is responsible for implementation of policies
-governing the RFC Series. The RSAB may at its discretion include
-additional non-voting members, for instance a liaison from the RPC.
-
-If and when a new stream is created, the document that
-creates the stream shall specify if a voting member representing
-that stream shall also be added to the RSAB, along with any rules
-and processes related to that representative (e.g., whether the
-representative is a member of the body responsible for the stream
-or an appointed delegate thereof). In effect, the RSCE is the voting
-member representing the Editorial Stream.
+#### Chair
 
 The RSAB shall annually choose a chair from among its members using
 a method of its choosing.  If the chair position is
 vacated during the chair's term, the RSAB chooses a new chair
 from among its members.
+
+#### Mode of Operation
 
 The RSAB is expected to operate via email, in-person meetings,
 teleconferencing systems, and any additional tooling it deems
@@ -377,7 +412,7 @@ related to the RFC Series:
 
 1. An individual or set of individuals generates a proposal in the form 
    of an Internet-Draft (which must be submitted in full conformance
-   with the provisions of BCP 78 {{RFC5378}} and BCP 79 {{RFC8179}})
+   with the provisions of {{BCP78}} and {{BCP79}}
    and asks the RSWG to adopt the proposal as a working group item.
 
 2. If by following working group procedures for rough consensus the chairs determine
@@ -468,11 +503,14 @@ if issues are identified during RSAB review or the community call for comment.
     a vote of the RSAB is taken. If at least three voting members vote
     YES, the proposal is approved.
 
-13. When a proposal is approved, a notification is sent to the community,
+13. If the proposal is not approved, it is returned to the RSWG. The RSWG 
+    can then consider making further changes.
+
+14. If the proposal is approved, a notification is sent to the community,
     and the document enters the queue for publication as an RFC within
     the Editorial Stream.
 
-14. Policies may take effect immediately upon approval by the RSAB and 
+15. Policies may take effect immediately upon approval by the RSAB and 
     before publication of the relevant RFC, unless the IETF LLC objects 
     pending resolution of resource or contract issues.
 
@@ -653,8 +691,8 @@ and final publication and dissemination of RFCs. Examples include:
 
 ## RPC Responsibilities {#rpc}
 
-The core responsibility of the RPC is continuous improvement regarding
-the implementation of RFC policies (including the dimensions of document
+The core responsibility of the RPC is the implementation of RFC Series 
+policies through publication of RFCs (including the dimensions of document
 quality, timeliness of production, and accessibility of results), while
 taking into account issues raised by the community through the RSWG and
 by the stream approving bodies. More specifically, the RPC's responsibilities
@@ -922,15 +960,13 @@ specify exactly how this shall be clearly indicated in each document.
 
 As specified above, contributors of documents for the Editorial Stream 
 are expected to use the IETF Internet-Draft process, complying therein
-with the rules specified in the latest version of BCP 9, whose
-version at the time of writing was {{RFC2026}}.  This includes the
-disclosure of Patent and Trademark issues that are known, or can be
+with the rules specified in the latest version of {{BCP9}}. This includes 
+the disclosure of Patent and Trademark issues that are known, or can be
 reasonably expected to be known, to the contributor.
 
 Disclosure of license terms for patents is also requested, as
-specified in the most recent version of BCP 79.  The version of BCP
-79 at the time of this writing was {{RFC8179}}. The Editorial Stream 
-has chosen to use the IETF's IPR disclosure mechanism,
+specified in the most recent version of {{BCP79}}. The Editorial 
+Stream has chosen to use the IETF's IPR disclosure mechanism,
 https://www.ietf.org/ipr/, for this purpose.  The IAB would prefer that
 the most liberal terms possible be made available for Editorial Stream 
 documents. Terms that do not require fees or licensing are preferable.  
