@@ -73,7 +73,7 @@ dedicated to documenting Internet technical specifications,
 including general contributions from the Internet research and
 engineering community as well as standards documents. RFCs are 
 available free of charge to anyone via the Internet. As described
-in [RFC8700], RFCs have been published continually since 1969.
+in {{RFC8700}}, RFCs have been published continually since 1969.
 The overall framework for the RFC Series and the RFC Editor
 function is described in {{RFC8729}} and is updated
 by this document.
