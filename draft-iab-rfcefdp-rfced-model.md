@@ -257,7 +257,9 @@ informally described in {{RFC2418}}.
 
 When the RSWG is formed, all discussions shall take place on an
 open email discussion list, which shall be publicly archived. The 
-RSWG is also empowered to hold in-person or online meetings. The RSWG 
+RSWG is also empowered to hold in-person or online meetings, which
+shall be announced at least four weeks in advance for in-person meetings
+and at least two weeks in advance for online meetings. The RSWG 
 may also decide by rough consensus to use additional tooling (e.g., 
 GitHub as specified in {{RFC8874}}), forms of communication,
 and working methods (e.g., design teams) as long as they are 
@@ -566,9 +568,9 @@ a position of "CONCERN" during RSAB balloting.
 ### Appeals
 
 Appeals of RSWG chair decisions shall be made to the RSAB. Decisions of the
-RSWG charis can be appealed only on grounds of failure to follow the correct
+RSWG chairs can be appealed only on grounds of failure to follow the correct
 process. Appeals should be made within thirty (30) days of any action, or in
-the case of failure to act, of notice having been given to the RSWG.
+the case of failure to act, of notice having been given to the RSWG chairs.
 The RSAB will then decide if the process was followed and will direct
 the RSWG chairs as to what procedural actions are required.
 
@@ -717,8 +719,10 @@ at the time of writing include the following:
 
 7. Providing suggestions to the RSAB and RSCE as needed.
 
-8. Participating within the RSWG in the creation of new Editorial Stream RFCs that
-   impact the RPC, at least in an advisory capacity.
+8. Participating within the RSWG in the creation of new Editorial 
+   Stream RFCs that impact the RPC, specifically with respect to any 
+   challenges the RPC might forsee with regard to implementation of 
+   proposed policies. 
 
 9. Providing reports to the community on its performance and plans.
 
@@ -838,7 +842,7 @@ and other RFC-related services is as follows:
 
 ### Budget
 
-The expenses discussed in this document are not new expenses. They
+Most expenses discussed in this document are not new expenses. They
 have been and remain part of the IETF LLC budget.
 
 The RFC Series portion of the IETF LLC budget shall include funding
@@ -926,7 +930,7 @@ This document creates the Editorial Stream as separate space for
 publication of policies, procedures, guidelines, rules, and related
 information regarding the RFC Series as a whole.
 
-The Editorial Stream will be used only to specify and update policies,
+The Editorial Stream shall be used only to specify and update policies,
 procedures, guidelines, rules, and related information regarding the
 RFC Series as a whole; no other use of the Editorial Stream is authorized
 by this memo and no other streams are so authorized. This policy may be
@@ -1125,8 +1129,8 @@ because this document disbands the RSOC.
 Version 1 of the RFC Editor Model {{RFC5620}} specified the existence of
 the RFC Series Advisory Group (RSAG), which was no longer specified in
 version 2 of the Model. For the avoidance of doubt, this document affirms
-that the RSAG has been disbanded.  (This is not to be confused with the
-RFC Series Approval Board (RSA>B<), which this document establishes.)
+that the RSAG has been disbanded. (The RSAG is not to be confused with the
+RFC Series Approval Board (RSAB), which this document establishes.)
 
 ## Editorial Stream
 
