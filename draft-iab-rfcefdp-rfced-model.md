@@ -75,7 +75,8 @@ engineering community as well as standards documents. RFCs are
 available free of charge to anyone via the Internet. As described
 in [RFC8700], RFCs have been published continually since 1969.
 The overall framework for the RFC Series and the RFC Editor
-function are described in {{RFC8729}} and updated here.
+function is described in {{RFC8729}} and is updated
+by this document.
 
 The processes and organizational models for publication of RFCs
 have changed significantly over the years. Most recently, in 2009
@@ -87,7 +88,7 @@ This document reflects experience gained with version 1 and
 version 2 of the Model, and therefore describes version 3 of
 the Model while remaining consistent with {{RFC8729}}.
 
-In 2020, following up on meetings led by the RFC Series Editor
+In 2020, following meetings led by the RFC Series Editor
 in 2019, the IAB formed an open program to conduct a community
 discussion and consensus process for the further evolution of
 the RFC Editor model. Under the auspices of this program, the
@@ -114,7 +115,7 @@ Series. This is primarily the responsibility of the RFC Production
 Center (RPC) as contractually overseen by the IETF
 Administration Limited Liability Company (LLC) {{RFC8711}}.
 
-In this model, RFCs are produced and approved through
+In this model, RFCs are produced and approved by
 multiple document streams. The stream approving body {{RFC8729}} for each stream
 is responsible for the content of that stream. The RFC Editor
 function is responsible for the packaging and distribution of
@@ -195,10 +196,9 @@ Series Working Group (RSWG), that pass a last call for comments in the
 working group and broader community, and that are then approved by the 
 RFC Series Approval Board (RSAB).
 
-Policies under the purview of the RSWG and RSAB might include but
-are not necessarily limited to document formats, processes for
-publication and dissemination of RFCs, and overall management of
-the RFC Series.
+Policies under the purview of the RSWG and RSAB might include, but are
+not limited to, document formats, processes for publication and
+dissemination of RFCs, and overall management of the RFC Series.
 
 ## Structure and Roles
 
@@ -351,7 +351,9 @@ as follows:
   maximum of 3 months; this clause does not apply to a vacancy of the
   RSCE role, only of the stream representatives enumerated above. If
   during this 3-month period a further vacancy arises, the delay
-  should be extended by up to another 3 months.
+  should be extended by up to another 3 months. After the delay
+  period expires, the RSAB should continue to process
+  documents as described below.
 
 #### Chair
 
@@ -563,8 +565,8 @@ a position of "CONCERN" during RSAB balloting.
 
 ### Appeals
 
-Appeals of RSWG decisions shall be made to the RSAB. Decisions of the
-RSWG can be appealed only on grounds of failure to follow the correct
+Appeals of RSWG chair decisions shall be made to the RSAB. Decisions of the
+RSWG charis can be appealed only on grounds of failure to follow the correct
 process. Appeals should be made within thirty (30) days of any action, or in
 the case of failure to act, of notice having been given to the RSWG.
 The RSAB will then decide if the process was followed and will direct
@@ -744,7 +746,7 @@ at the time of writing include the following:
     * depositing copies on the RFC Editor site both individually and in collections
     * depositing copies with external archives
     * creating catalogs and catalog entries
-    * announcing the publication to all interested parties
+    * announcing the publication to interested parties
 
 18. Providing online access to RFCs.
 
@@ -1140,7 +1142,7 @@ prevent these published documents from being changed by external
 parties. The archive of RFC documents, any source documents needed
 to recreate the RFC documents, and any associated original documents
 (such as lists of errata, tools, and, for some early items, originals
-that are not machine-readable) need to be secured against any kind of
+that are not machine-readable) need to be secured against
 data storage failure.
 
 The IETF LLC should take these security considerations into account
