@@ -366,12 +366,18 @@ from among its members.
 
 #### Mode of Operation
 
-The RSAB is expected to operate via email, in-person meetings,
-teleconferencing systems, and any additional tooling it deems
-necessary.
+The RSAB is expected to operate via an email discussion list, 
+in-person meetings, teleconferencing systems, and any additional 
+tooling it deems necessary.
 
 The RSAB shall keep a public record of its proceedings, including
-minutes of all meetings and a record of all decisions.
+minutes of all meetings and a record of all decisions. Email messages
+sent to the RSAB email discussion list or exchanged among all members
+of the RSAB shall be publicly archived, with the exception of topics 
+that require confidentiality (e.g., personnel matters). Similarly, 
+meeting minutes may exclude detailed information about topics 
+discussed under executive session, but should note that such topics
+were discussed.
 
 The RSAB shall announce plans and agendas for their meetings on the
 RFC Editor website and by email to the RSWG at least a week before
