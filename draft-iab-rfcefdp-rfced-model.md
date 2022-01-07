@@ -256,14 +256,15 @@ The RSWG shall operate by rough consensus, a mode of operation
 informally described in {{RFC2418}}.
 
 When the RSWG is formed, all discussions shall take place on an
-open email discussion list, which shall be publicly archived. The 
-RSWG is also empowered to hold in-person or online meetings, which
-shall be announced at least four weeks in advance for in-person meetings
-and at least two weeks in advance for online meetings. The RSWG 
-may also decide by rough consensus to use additional tooling (e.g., 
-GitHub as specified in {{RFC8874}}), forms of communication,
-and working methods (e.g., design teams) as long as they are 
-consistent with {{RFC2418}}.
+open email discussion list, which shall be publicly archived. 
+The RSWG is also empowered to hold in-person or online meetings,
+which should be announced with sufficient notice to enable broad
+participation; the [IESG Guidance on Face-to-Face and Virtual Interim
+Meetings](https://www.ietf.org/about/groups/iesg/statements/interim-meetings-guidance-2016-01-16/) 
+provides a reasonable baseline. The RSWG may also decide by rough 
+consensus to use additional tooling (e.g., GitHub as specified in 
+{{RFC8874}}), forms of communication, and working methods (e.g., 
+design teams) as long as they are consistent with {{RFC2418}}.
 
 Absent specific guidance in this document regarding the operation
 of the RSWG, the general guidance provided in Section 6 of {{RFC2418}} 
