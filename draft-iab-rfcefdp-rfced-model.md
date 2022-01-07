@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model"
-docname: draft-iab-rfcefdp-rfced-model-latest
+docname: draft-iab-rfcefdp-rfced-model-08
 category: info
 obsoletes: RFC8728
 updates: RFC7841, RFC8729, RFC8730
@@ -23,10 +23,11 @@ normative:
 
 informative:
   I-D.draft-carpenter-rfced-iab-charter:
-  RFC2026:
+  BCP9:
+  BCP78:
+  BCP79:
   RFC2418:
   RFC2850:
-  RFC5378:
   RFC5620:
   RFC6635:
   RFC7154:
@@ -34,7 +35,6 @@ informative:
   RFC7776:
   RFC7841:
   RFC7991:
-  RFC8179:
   RFC8700:
   RFC8711:
   RFC8716:
@@ -974,7 +974,7 @@ for the Editorial Stream.
 
 Specifically, the Trustees are asked to develop the necessary
 boilerplate to enable the suitable marking of documents so that the
-IETF Trust receives the rights as specified in {{RFC5378}}.  These
+IETF Trust receives the rights as specified in {{BCP78}}.  These
 procedures need to also allow authors to indicate either no rights to
 make derivative works, or preferentially, the right to make unlimited
 derivative works from the documents.  It is left to the Trust to
