@@ -356,12 +356,12 @@ as follows:
   shall continue as normal.
 * Voting on approval of policy documents produced by the RSWG shall
   be delayed until the vacancy or vacancies have been filled, up to a
-  maximum of 3 months; this clause does not apply to a vacancy of the
-  RSCE role, only of the stream representatives enumerated above. If
-  during this 3-month period a further vacancy arises, the delay
-  should be extended by up to another 3 months. After the delay
-  period expires, the RSAB should continue to process
-  documents as described below.
+  maximum of 3 months. If during this 3-month period a further vacancy 
+  arises, the delay should be extended by up to another 3 months. 
+  After the delay period expires, the RSAB should continue to process
+  documents as described below. Note: this method of handling vacancies 
+  does not apply to a vacancy of the RSCE role, only of the stream 
+  representatives enumerated above. 
 
 #### Chair
 
@@ -595,7 +595,7 @@ Decisions of the RSAB can be appealed on grounds of failure to follow
 the correct process. Where the RSAB makes a decision in order to resolve 
 a disagreement between authors and the RPC (as described under {{disagreements}}), appeals can 
 be filed on the basis that the RSAB misinterpreted an approved policy. 
-In other cases, disagreements about the conduct of the RSAB are not 
+Aside from these two cases, disagreements about the conduct of the RSAB are not 
 subject to appeal. Appeals of RSAB decisions shall be made to the IAB 
 and should be made within thirty (30) days of public notice of the 
 relevant RSAB decision (typically, when minutes are posted). The IAB 
