@@ -257,14 +257,19 @@ informally described in {{RFC2418}}.
 
 When the RSWG is formed, all discussions shall take place on an
 open email discussion list, which shall be publicly archived. 
-The RSWG is also empowered to hold in-person or online meetings,
+
+The RSWG is empowered to hold in-person or online-only meetings,
 which should be announced with sufficient notice to enable broad
 participation; the [IESG Guidance on Face-to-Face and Virtual Interim
 Meetings](https://www.ietf.org/about/groups/iesg/statements/interim-meetings-guidance-2016-01-16/) 
-provides a reasonable baseline. The RSWG may also decide by rough 
-consensus to use additional tooling (e.g., GitHub as specified in 
-{{RFC8874}}), forms of communication, and working methods (e.g., 
-design teams) as long as they are consistent with {{RFC2418}}.
+provides a reasonable baseline. In-person meetings should include
+provision for effective online participation for those unable to
+to attend in person.
+
+The RSWG may decide by rough consensus to use additional tooling 
+(e.g., GitHub as specified in {{RFC8874}}), forms of communication, 
+and working methods (e.g., design teams) as long as they are consistent 
+with {{RFC2418}}.
 
 Absent specific guidance in this document regarding the operation
 of the RSWG, the general guidance provided in Section 6 of {{RFC2418}} 
@@ -325,7 +330,7 @@ formally collaborate or coordinate.
 
 #### Appointment and Removal of Voting Members
 
-The appointing bodies, i.e., the stream approval bodies (IESG, IAB, 
+The appointing bodies, i.e., the stream approving bodies (IESG, IAB, 
 IRTF chair, ISE), shall determine their own processes for 
 appointing RSAB members (note that processes related to the RSCE 
 are described under {{rsce}}). Each appointing body shall have the power 
@@ -546,6 +551,9 @@ procurement managers, and standards development organizations. The
 RSAB should work with the stream representatives and the IETF LLC
 to identify and establish contacts in such communities, assisted 
 in particular by the RSCE.
+
+The RSAB should maintain a public list of communities that are
+contacted during calls for comment.
 
 A notice of a community call for comment contains the following:
 
@@ -788,7 +796,8 @@ stream approving bodies) to help achieve a resolution. The following points are
 intended to provide more specific guidance.
 
 * If there is a conflict with a policy for a particular stream, the
-  RPC should consult with the relevant stream approving body to help achieve a
+  RPC should consult with the relevant stream approving body and other 
+  representatives of the relevant streams to help achieve a
   resolution, if needed also conferring with a per-stream body such as the
   IESG or IRSG.
 
