@@ -1143,6 +1143,14 @@ RFC Series Approval Board (RSAB), which this document establishes.)
 This document creates the Editorial Stream in addition to the streams
 already described in {{RFC8729}}.
 
+# Updates to This Document
+
+Updates, amendments, and refinements to this document can be produced 
+using the process documented herein, but shall be operative only after 
+(a) obtaining the agreement of the IAB and the IESG, and (b) ensuring
+that the IETF LLC has no objections regarding its ability to implement 
+any proposed changes.  
+
 # Security Considerations
 
 The same security considerations as those in {{RFC8729}} apply.
