@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model"
-docname: draft-iab-rfcefdp-rfced-model-08
+docname: draft-iab-rfcefdp-rfced-model-latest
 category: info
 obsoletes: RFC8728
 updates: RFC7841, RFC8729, RFC8730
@@ -500,8 +500,8 @@ There are three reasons why an RSAB member may file a position of CONCERN:
      to the overall Series, including harm to the long-term health and
      viability of the Series.
    * The RSAB member believes, based on the results of the community 
-     call(s) for comment {{cfc}}, that there is no consensus to advance
-     the proposal.
+     call(s) for comment {{cfc}}, that rough consensus to advance
+     the proposal is lacking.
 
 Because RSAB members are expected to participate in the discussions 
 within the RSWG and to raise any concerns and issues during those 
