@@ -379,7 +379,7 @@ tooling it deems necessary.
 The RSAB shall keep a public record of its proceedings, including
 minutes of all meetings and a record of all decisions. The primary
 email discussion list used by the RSAB shall be publicly archived, 
-although topics that that require confidentiality (e.g., personnel 
+although topics that require confidentiality (e.g., personnel 
 matters) may be elided from such archives or discussed in private. 
 Similarly, meeting minutes may exclude detailed information about 
 topics discussed under executive session, but should note that such 
