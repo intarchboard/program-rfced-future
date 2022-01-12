@@ -905,9 +905,9 @@ to determine.
 ## RSCE Selection
 
 Responsibility for making a recommendation to the IETF LLC regarding
-the RSCE role will lie with a selection committee.  The IETF LLC will
+the RSCE role will lie with a selection committee.  The IETF LLC should
 propose an initial slate of members for this committee, making sure
-to include members from the community, and consult with the stream
+to include community members with diverse perspectives, and consult with the stream
 representatives regarding the final membership of the committee.  In
 making its recommendation for the role of RSCE, the selection
 committee will take into account the definition of the role as well
