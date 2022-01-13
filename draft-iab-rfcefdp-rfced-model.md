@@ -289,10 +289,7 @@ appropriate review of RSWG proposals.
 
 #### Members
 
-The RSAB consists primarily of certain voting members. As specified 
-herein, the RSAB also includes certain non-voting members.
-
-The voting members of the RSAB are as follows:
+The RSAB consists primarily of the following voting members: 
 
 * As the stream representative for the IETF stream, an IESG member
   or other person appointed by the IESG
@@ -303,8 +300,7 @@ The voting members of the RSAB are as follows:
 * As the stream representative for the Independent stream, the
   Independent Submissions Editor (ISE) {{RFC8730}} or other person
   appointed by the ISE
-* The RFC Series Consulting Editor, in effect representing the 
-  Editorial Stream
+* The RFC Series Consulting Editor
 
 If and when a new stream is created, the document that
 creates the stream shall specify if a voting member representing
@@ -549,7 +545,7 @@ policies of long standing or historical characteristics of the
 Series as described under {{properties}}, the RSAB should take extra care to reach out to even broader
 communities that make use of RFCs, such as scholarly researchers,
 procurement managers, and standards development organizations. The
-RSAB should work with the stream representatives and the IETF LLC
+RSAB should work with the stream approving bodies and the IETF LLC
 to identify and establish contacts in such communities, assisted 
 in particular by the RSCE.
 
