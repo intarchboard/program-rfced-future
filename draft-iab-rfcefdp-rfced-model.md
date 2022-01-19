@@ -210,17 +210,22 @@ The RFC Series Working Group (RSWG) is the primary venue in which
 members of the community collaborate regarding the policies that 
 govern the RFC Series. 
 
-#### Participation
+#### Participation {#participation}
 
 All interested individuals are welcome to participate in the RSWG
-(subject to anti-harassment policies as described under {{coc}}). This
-includes participants in the IETF and IRTF, IAB and IESG members,
-individuals who use RFCs in procurement decisions, authors of RFCs
-and Internet-Drafts, developers of tools used to author RFCs, scholarly researchers, and
-so on. The IETF LLC Board members, staff, contractors, and the IETF Executive
-Director are invited to participate as community members in the RSWG
-to the extent permitted by any relevant IETF LLC policies. Members
-of the RSAB are also expected to participate actively.
+(subject to anti-harassment policies as described under {{coc}}). 
+This includes but is not limited to participants in the IETF and 
+IRTF, members of the IAB and IESG, developers of software or hardware 
+systems that implement RFCs, authors of RFCs and Internet-Drafts, 
+developers of tools used to author or edit RFCs, individuals who 
+use RFCs in procurement decisions, scholarly researchers, and 
+representatives of standards development organizations other than 
+the IETF and IRTF. The IETF LLC Board members, staff and contractors
+(especially representatives of the RFC Production Center), and the 
+IETF Executive Director are invited to participate as community 
+members in the RSWG to the extent permitted by any relevant IETF LLC 
+policies. Members of the RSAB are also expected to participate 
+actively.
 
 #### Chairs
 
@@ -424,7 +429,7 @@ related to the RFC Series:
 
 1. An individual or set of individuals generates a proposal in the form 
    of an Internet-Draft (which must be submitted in full conformance
-   with the provisions of {{BCP78}} and {{BCP79}}
+   with the provisions of {{BCP78}} and {{BCP79}})
    and asks the RSWG to adopt the proposal as a working group item.
 
 2. If by following working group procedures for rough consensus the chairs determine
@@ -486,7 +491,7 @@ related to the RFC Series:
      interest
 
 Any RSAB member holding a "CONCERN" position must explain their concern
-to the community in detail. The explanation might or might not be actionable.
+to the community in detail.
 
 There are three reasons why an RSAB member may file a position of CONCERN:
 
@@ -542,12 +547,13 @@ posting to social media venues).
 
 In cases where a proposal has the potential to significantly modify
 policies of long standing or historical characteristics of the
-Series as described under {{properties}}, the RSAB should take extra care to reach out to even broader
-communities that make use of RFCs, such as scholarly researchers,
-procurement managers, and standards development organizations. The
-RSAB should work with the stream approving bodies and the IETF LLC
-to identify and establish contacts in such communities, assisted 
-in particular by the RSCE.
+Series as described under {{properties}}, the RSAB should take extra 
+care to reach out to a very wide range of communities that make use of 
+RFCs (as described under {{participation}}) since such communities
+might not be actively engaged in the RSWG directly. The RSAB should 
+work with the stream approving bodies and the IETF LLC to identify and 
+establish contacts in such communities, assisted in particular by the 
+RSCE.
 
 The RSAB should maintain a public list of communities that are
 contacted during calls for comment.
@@ -788,7 +794,7 @@ shepherd, IETF working group chair, IRTF research group chair, or IETF Area
 Director.
 
 However, if it is unclear whether an existing policy applies, or if it is 
-unclear how to interprete an existing policy, the parties may need to
+unclear how to interpret an existing policy, the parties may need to
 consult with additional individuals or bodies (e.g., RSAB, IESG, IRSG, or
 stream approving bodies) to help achieve a resolution. The following points are
 intended to provide more specific guidance.
