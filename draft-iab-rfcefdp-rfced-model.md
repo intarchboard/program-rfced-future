@@ -490,10 +490,12 @@ related to the RFC Series:
    * "RECUSE": the person holding the position has a conflict of
      interest
 
-Any RSAB member holding a "CONCERN" position must explain their concern
-to the community in detail.
+   Any RSAB member holding a "CONCERN" position must explain their concern
+   to the community in detail. Nevertheless, the RSWG might not be able to 
+   come to consensus on modifications that will address the RSAB member's 
+   concern. 
 
-There are three reasons why an RSAB member may file a position of CONCERN:
+   There are three reasons why an RSAB member may file a position of CONCERN:
 
    * The RSAB member believes that the proposal represents a serious 
      problem for one or more of the individual streams.
@@ -504,11 +506,11 @@ There are three reasons why an RSAB member may file a position of CONCERN:
      call(s) for comment {{cfc}}, that rough consensus to advance
      the proposal is lacking.
 
-Because RSAB members are expected to participate in the discussions 
-within the RSWG and to raise any concerns and issues during those 
-discussions, most CONCERN positions should not come as a surprise to 
-the RSWG. Notwithstanding, late CONCERN positions are always possible
-if issues are identified during RSAB review or the community call for comment.
+   Because RSAB members are expected to participate in the discussions 
+   within the RSWG and to raise any concerns and issues during those 
+   discussions, most CONCERN positions should not come as a surprise to 
+   the RSWG. Notwithstanding, late CONCERN positions are always possible
+   if issues are identified during RSAB review or the community call for comment.
 
 10. If a CONCERN exists, discussion will take place within the RSWG.
     Again, all RSAB members are expected to participate. If substantial 
