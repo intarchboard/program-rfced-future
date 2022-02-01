@@ -95,8 +95,8 @@ the RFC Editor model. Under the auspices of this program, the
 community considered changes that would increase transparency
 and community input regarding the definition of policies for
 the RFC Series as a whole, while at the same time ensuring the
-continuity of the RFC Series, maintaining RFC quality,
-maintaining timely processing, ensuring document accessibility,
+continuity of the RFC Series, maintaining the quality and timely
+publication of RFCs, ensuring document accessibility,
 and clarifying lines of authority and responsibility.
 
 More specifically, in order to ensure sustainable maintenance
@@ -107,13 +107,16 @@ responsibilities for the RFC Series into two high-level tasks:
 
 1. Policy definition governing the Series as a whole. This is
 the joint responsibility of the RFC Series Working Group (RSWG),
-which produces policy proposals, and the RFC Series Approval Board (RSAB),
-which approves such proposals for publication in the Editorial Stream.
+an open working group that produces policy proposals, and the 
+RFC Series Approval Board (RSAB), an appointed body that approves 
+such proposals for publication in the Editorial Stream.  The RSAB 
+includes representatives of the streams as well as an expert
+in technical publishing, the RFC Series Consulting Editor (RSCE).
 
 2. Policy implementation through publication of RFCs in all of the streams that form the
 Series. This is primarily the responsibility of the RFC Production
 Center (RPC) as contractually overseen by the IETF
-Administration Limited Liability Company (LLC) {{RFC8711}}.
+Administration Limited Liability Company (IETF LLC) {{RFC8711}}.
 
 In this model, RFCs are produced and approved by
 multiple document streams. The stream approving body {{RFC8729}} for each stream
@@ -150,7 +153,7 @@ editing and publication.
 Policy definition happens within the RFC Series Working Group (RSWG),
 which produces policy proposals that are subject to approval by the
 RFC Series Approval Board (RSAB), after which such policies are
-formally established through publication in the Editorial Stream
+formally established through publication of RFCs in the Editorial Stream
 within the RFC Series. The RSWG is an open working group (as described
 in {{wg}}) that seeks input and participation through a public process
 from a wide range of individuals who have an interest in the RFC Series.
@@ -160,7 +163,7 @@ RFC Series Consulting Editor (RSCE).
 
 Policy implementation is performed by the RFC Production Center (RPC),
 as contractually overseen by the IETF Administration Limited Liability
-Company (IETF LLC).
+Company (IETF LLC) {{RFC8711}}.
 
 In short:
 
@@ -176,7 +179,7 @@ In short:
   established policies on an ongoing and operational basis, which can include
   raising issues or initiating proposed policy changes within the RSWG.
 * The RPC implements the policies defined by the Editorial Stream in its
-  day-to-day editing and publication of RFCs from other streams.
+  day-to-day editing and publication of RFCs from all of the streams.
 * If issues arise with the implementation of particular policies, the RPC
   brings those issues to the RSAB, which interprets the policies and provides
   interim guidance to the RPC, informing the RSWG of those interpretations.
@@ -237,8 +240,8 @@ years; thereafter, chairs shall serve for a term of two (2)
 years, with no term limits on renewal. The IESG and IAB shall
 determine their own processes for making these appointments.
 Community members who have concerns about the performance of an
-RSWG chair should direct their feedback to appointing body.
-The IESG and IAB shall have the power to remove their
+RSWG chair should direct their feedback to the appropriate appointing 
+body. The IESG and IAB shall have the power to remove their
 appointed chairs at their discretion at any time, and to name a
 replacement who shall serve the remainder of the original chair's
 term.
@@ -317,9 +320,9 @@ or an appointed delegate thereof).
 To ensure the smooth operation of the RFC Series, the RSAB shall
 include the following non-voting, ex-officio members:
 
-* The IETF Executive Director or their delegate as an ex-officio 
-  member; the rationale is that the IETF LLC is accountable for 
-  implementation of policies governing the RFC Series
+* The IETF Executive Director or their delegate; the rationale is 
+  that the IETF LLC is accountable for implementation of policies 
+  governing the RFC Series
 * A representative of the RPC, named by the RPC; the rationale
   is that the RPC is responsible for implementation of policies
   governing the RFC Series
@@ -424,7 +427,7 @@ processes they deem appropriate to facilitate this goal.
 
 ### Workflow {#workflow}
 
-The following process shall be used to formulate or modify processes
+The following process shall be used to formulate or modify policies
 related to the RFC Series:
 
 1. An individual or set of individuals generates a proposal in the form 
@@ -472,7 +475,7 @@ related to the RFC Series:
    received. In parallel with the community call for comment, the RSAB
    shall also consider the proposal.
 
-7. If the scope of revisions made in the previous step is large, an 
+7. If the scope of the revisions made in the previous step is large, an 
    additional community call for comment should be issued by the RSAB, 
    and the feedback received should be considered by the RSWG.
 
@@ -696,8 +699,8 @@ outlined in its charter.
 
 ## Working Practices
 
-In the absence of a high-level policy documented in an RFC, or to specify the
-detail of its implementation, the RPC can 
+In the absence of a high-level policy documented in an RFC, or in the 
+interest of specifying the detail of its implementation of such policies, the RPC can 
 document working practices regarding the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
@@ -718,7 +721,7 @@ and final publication and dissemination of RFCs. Examples include:
 
 The core responsibility of the RPC is the implementation of RFC Series 
 policies through publication of RFCs (including the dimensions of document
-quality, timeliness of production, and accessibility of results), while
+quality, timeliness of publication, and accessibility of results), while
 taking into account issues raised by the community through the RSWG and
 by the stream approving bodies. More specifically, the RPC's responsibilities
 at the time of writing include the following:
@@ -759,7 +762,7 @@ at the time of writing include the following:
 
 14. Assigning RFC numbers.
 
-15. Establishing publication readiness of each document through
+15. Establishing the publication readiness of each document through
     communication with the authors, document shepherds, IANA, or
     stream-specific contacts, and, if needed, with the RSAB and RSCE.
 
@@ -814,8 +817,9 @@ intended to provide more specific guidance.
   policy or that cannot be resolved through consultation between the RPC and
   other relevant individuals and bodies, as described above. In this case,
   the RSAB is responsible for (a) resolving the disagreement in a timely manner
-  if necessary before a new policy is defined and (b) bringing the issue to
-  the RSWG so that a new policy can be defined.
+  if necessary so that the relevant stream document(s) can be published before a 
+  new policy is defined and (b) bringing the issue to the RSWG so that a new policy 
+  can be defined.
 
 ## Point of Contact
 
@@ -894,7 +898,7 @@ following (see also Section 4 of {{RFC8729}}):
 
 * Editing, processing, and publication of RFCs
 * Publication formats for the RFC Series
-* Changes to the RFC style guide
+* Changes to the RFC Style Guide
 * Series-wide guidelines regarding document content and quality
 * Web presence for the RFC Series
 * Copyright matters related to the RFC Series
@@ -943,7 +947,7 @@ RSCE will be subject to a conflict of interest policy established by
 the IETF LLC.
 
 The RPC service provider may contract services from the RSCE service 
-provider, and vice versa, including for services provided to the IETF 
+provider, and vice versa including for services provided to the IETF 
 LLC.  All contracts between the two must be disclosed to the IETF LLC.  
 Where those services are related to services provided to the IETF LLC, 
 IETF LLC policies shall apply, including publication of relevant parts 
@@ -951,7 +955,7 @@ of the contract.
 
 # Editorial Stream
 
-This document creates the Editorial Stream as separate space for
+This document creates the Editorial Stream as a separate space for
 publication of policies, procedures, guidelines, rules, and related
 information regarding the RFC Series as a whole.
 
@@ -977,7 +981,7 @@ meeting the goals and procedures set forth in this document.
 
 The Trustees are requested to publicly confirm their willingness and
 ability to accept responsibility for the Intellectual Property Rights
-for the Editorial Stream.
+(IPR) for the Editorial Stream.
 
 Specifically, the Trustees are asked to develop the necessary
 boilerplate to enable the suitable marking of documents so that the
