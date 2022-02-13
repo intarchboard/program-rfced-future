@@ -16,7 +16,6 @@ author:
     role: editor
     ins: P. Saint-Andre
     name: Peter Saint-Andre
-    organization: Mozilla
     email: stpeter@stpeter.im
 
 normative:
