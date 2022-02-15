@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-02-03T00:19:20.758163+00:00",
+  "timestamp": "2022-02-15T00:20:00.404847+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -5008,6 +5008,38 @@
           "updatedAt": "2022-01-10T05:47:07Z"
         }
       ]
+    },
+    {
+      "number": 154,
+      "id": "I_kwDODutrrM5DtQQj",
+      "title": "Paul Hoffman Comments",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/154",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Greetings again. The structures proposed in this document seem like a very good way forward. The level of detail about the expectations on each group is a good balance in prescriptiveness.\r\n\r\nTwo small thoughts on the current draft:\r\n\r\nThe future status of the rfc-interest mailing list is unclear; see Section 3.2.3. Given it s current contents, I could see that it would easily become a parallel track for discussions that should be on the RSWG mailing list. It might be good to close (and certainly archive!) rfc-interest unless it becomes more moderated by someone pointing discussions to the RSWG.\r\n\r\nSomeone is going to have to tool the tracking for RSWG documents after they leave the RSWG, given that this is a new process. That might be informal (but public) tracking, but I suspect that formally tracking the various rfc799*-bis documents will prevent later issues from arising based on missed cross-dependencies. Maybe adding a sentence or two about this to the current draft will keep it in our minds as we move forward.\r\n\r\n--Paul Hoffman\r\n\r\n\r\n-- \r\nRfced-future mailing list\r\n[Rfced-future@iab.org](mailto:Rfced-future@iab.org)\r\nhttps://www.iab.org/mailman/listinfo/rfced-future",
+      "createdAt": "2022-02-13T14:31:43Z",
+      "updatedAt": "2022-02-13T14:31:43Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 155,
+      "id": "I_kwDODutrrM5DtQbZ",
+      "title": "Colin Perkins Comments",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/155",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "On re-reading this draft, I noticed the following two points:\r\n\r\n\u00a73.1.1.4: \"The intent is that the RSWG shall operate in a way similar to working groups in the IETF and research groups in the IRTF.\"\r\n\r\n\u00a73.2.2: \"the RSWG may adopt the proposal as a draft proposal of the RSWG, in much the same way a working group of the IETF or research group of the IRTF would\"\r\n\r\nThere are some significant differences in the way IRTF and IETF groups are permitted to operate. To avoid confusion, these sections might be better phrased by omitting the references to IRTF.\r\n\r\nApologies that I didn\u2019t catch these earlier.\r\n\r\nColin",
+      "createdAt": "2022-02-13T14:32:16Z",
+      "updatedAt": "2022-02-13T14:32:16Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
