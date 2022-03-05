@@ -674,7 +674,7 @@ delegate this activity, concerns should be raised with the IETF LLC.
 The IETF LLC is ultimately answerable to the community via the mechanisms 
 outlined in its charter.
 
-## Working Practices (#practices}
+## Working Practices {#practices}
 
 In the absence of a high-level policy documented in an RFC, or in the 
 interest of specifying the detail of its implementation of such policies, the RPC can 
