@@ -19,26 +19,26 @@ author:
     email: stpeter@stpeter.im
 
 normative:
-
-informative:
-  I-D.draft-carpenter-rfced-iab-charter:
   BCP9:
   BCP78:
   BCP79:
   RFC2418:
-  RFC2850:
-  RFC5620:
-  RFC6635:
   RFC7154:
   RFC7322:
   RFC7776:
   RFC7841:
+  RFC8716:
+  RFC8729:
+
+informative:
+  I-D.draft-carpenter-rfced-iab-charter:
+  RFC2850:
+  RFC5620:
+  RFC6635:
   RFC7991:
   RFC8700:
   RFC8711:
-  RFC8716:
   RFC8728:
-  RFC8729:
   RFC8730:
   RFC8874:
   STYLEGUIDE:
@@ -51,19 +51,19 @@ informative:
 
 --- abstract
 
-This document specifies version 3 of the RFC Editor Model. The model defines
-two high-level tasks related to the RFC Series. First, policy definition
-is the joint responsibility of the RFC Series Working Group (RSWG),
-which produces policy proposals, and the RFC Series Approval Board (RSAB),
-which approves such proposals. Second, policy implementation
-is primarily the responsibility of the RFC Production Center
-(RPC) as contractually overseen by the IETF Administration
+This document specifies version 3 of the RFC Editor Model. The Model 
+defines two high-level tasks related to the RFC Series. First, policy 
+definition is the joint responsibility of the RFC Series Working Group 
+(RSWG), which produces policy proposals, and the RFC Series Approval 
+Board (RSAB), which approves such proposals. Second, policy 
+implementation is primarily the responsibility of the RFC Production 
+Center (RPC) as contractually overseen by the IETF Administration
 Limited Liability Company (IETF LLC).  In addition, various 
 responsibilities of the "RFC Editor Function" are now performed alone
 or in combination by the RSWG, RSAB, RPC, RFC Series Consulting Editor 
-(RSCE), and IETF LLC. Finally, this document establishes the Editorial Stream 
-for publication of future policy definition documents produced through 
-the processes defined herein.
+(RSCE), and IETF LLC. Finally, this document establishes the Editorial 
+Stream for publication of future policy definition documents produced 
+through the processes defined herein.
 
 This document obsoletes RFC 8728. This document updates RFC 7841,
 RFC 8729, and RFC 8730.
@@ -79,6 +79,14 @@ engineering community as well as standards documents. RFCs are
 available free of charge to anyone via the Internet. As described
 in {{RFC8700}}, RFCs have been published continually since 1969.
 
+RFCs are generated and approved by multiple document streams. 
+Whereas stream approving body {{RFC8729}} for each stream is 
+responsible for the content of that stream, the RFC Editor Function 
+is responsible for the production and distribution of all RFCs. 
+The four existing streams are described in {{RFC8729}}. This 
+document adds a fifth stream, the Editorial Stream, for publication
+of policies governing the RFC Series as a whole.
+
 The overall framework for the RFC Series and the RFC Editor
 Function is described in {{RFC8729}} and is updated by this 
 document, which defines version 3 of the RFC Editor Model. 
@@ -89,14 +97,6 @@ which collectively comprise the RFC Editor Function. The intent
 is to ensure sustainable maintenance and support of the RFC Series 
 based on the principles of expert implementation, clear management 
 and direction, and appropriate community input {{RFC8729}}. 
-
-RFCs are generated and approved by multiple document streams. 
-The stream approving body {{RFC8729}} for each stream is responsible 
-for the content of that stream. The RFC Editor Function 
-is responsible for the production and distribution of all RFCs. 
-The four existing streams are described in {{RFC8729}}. This 
-document adds a fifth stream, the Editorial Stream, for publication
-of policies governing the RFC Series as a whole.
 
 This document obsoletes {{RFC8728}} by defining version 3 
 of the RFC Editor Model. This document updates {{RFC7841}} 
@@ -113,9 +113,9 @@ This document divides the responsibilities for the RFC Series
 into two high-level tasks:
 
 1. Policy definition governing the Series as a whole. This is
-the joint responsibility of two entities. The RFC Series Working 
+the joint responsibility of two entities. First, the RFC Series Working 
 Group (RSWG) is an open working group independent of the IETF that 
-generates policy proposals. The RFC Series Approval Board (RSAB) 
+generates policy proposals. Second, the RFC Series Approval Board (RSAB) 
 is an appointed body that approves such proposals for publication 
 in the Editorial Stream. The RSAB includes representatives of the 
 streams {{RFC8728}} as well as an expert in technical publishing, 
@@ -681,15 +681,15 @@ interest of specifying the detail of its implementation of such policies, the RP
 document working practices regarding the editorial preparation
 and final publication and dissemination of RFCs. Examples include:
 
-* Maintenance of a style guide that defines editorial standards to which
-  RFCs must adhere; the RFC Style Guide consists of {{RFC7322}} and
-  associated documents and resources listed at {{STYLEGUIDE}}.
+* Maintenance of a style guide that defines editorial standards for 
+  RFCs; specifically, the RFC Style Guide consists of {{RFC7322}} and
+  the other documents and resources listed at {{STYLEGUIDE}}.
 
 * Instructions regarding the file formats that are accepted as input to the
   editing and publication process.
 
 * Guidelines regarding the final structure and layout of published documents.
-  In the context of the XML vocabulary ({{RFC7991}}), such guidelines could
+  In the context of the XML vocabulary {{RFC7991}}, such guidelines could
   include clarifications regarding the preferred XML elements and attributes used to
   capture the semantic content of RFCs.
 
@@ -703,7 +703,8 @@ by the stream approving bodies. More specifically, the RPC's responsibilities
 at the time of writing include the following:
 
 1. Editing documents originating from all RFC streams to ensure that
-   they adhere to editorial standards specified in the RFC Style Guide.
+   they are consistent with the editorial standards specified in the 
+   RFC Style Guide.
 
 2. Creating and preserving records of edits performed on documents.
 
