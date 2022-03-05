@@ -1,7 +1,7 @@
 ---
 title: "RFC Editor Model (Version 3)"
 abbrev: "RFC Editor Model"
-docname: draft-iab-rfcefdp-rfced-model-latest
+docname: draft-iab-rfcefdp-rfced-model-12
 category: info
 obsoletes: 8728
 updates: 7841, 8729, 8730
