@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-02-15T00:20:00.404847+00:00",
+  "timestamp": "2022-03-06T00:24:38.393087+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -5117,7 +5117,7 @@
       "labels": [],
       "body": "I might need to create a separate pull request for the gh-pages branch after doing this.  I generally do this when I have push access and I don't know how CI will react if we don't have that branch at all.  I will provide instructions to set that branch up.",
       "createdAt": "2021-05-25T10:50:37Z",
-      "updatedAt": "2021-07-06T18:56:18Z",
+      "updatedAt": "2022-03-03T22:13:59Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
       "baseRefOid": "c7044b2f25141274fea28940f617550a49a22be0",
@@ -6338,6 +6338,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 156,
+      "id": "PR_kwDODutrrM4z-8t_",
+      "title": "testing CI",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/156",
+      "state": "MERGED",
+      "author": "stpeter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-03-05T02:54:07Z",
+      "updatedAt": "2022-03-05T03:00:22Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "771fe61a95b20e03cc99494b94f52310a04f5c00",
+      "headRepository": "intarchboard/program-rfced-future",
+      "headRefName": "dash12",
+      "headRefOid": "688bd3448e6a43289db6a16f11a891186a3e7ac8",
+      "closedAt": "2022-03-05T03:00:14Z",
+      "mergedAt": "2022-03-05T03:00:14Z",
+      "mergedBy": "stpeter",
+      "mergeCommit": {
+        "oid": "4dc24921be03419e40152f4c8a1ecd629daa2203"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
