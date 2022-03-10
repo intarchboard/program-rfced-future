@@ -80,7 +80,7 @@ available free of charge to anyone via the Internet. As described
 in {{RFC8700}}, RFCs have been published continually since 1969.
 
 RFCs are generated and approved by multiple document streams. 
-Whereas stream approving body {{RFC8729}} for each stream is 
+Whereas the stream approving body {{RFC8729}} for each stream is 
 responsible for the content of that stream, the RFC Editor Function 
 is responsible for the production and distribution of all RFCs. 
 The four existing streams are described in {{RFC8729}}. This 
@@ -105,7 +105,7 @@ document updates {{RFC8729}} by replacing the RFC Editor role
 with the RSWG, RSAB, and RSCE. This document updates {{RFC8730}}
 by removing the dependency on certain policies specified by the
 IAB and RSE. More detailed information about changes from 
-version 2 of the Model can be found under under {{changes}}.
+version 2 of the Model can be found under {{changes}}.
 
 # Overview of the Model
 
@@ -147,7 +147,7 @@ activities and responsibilities are as follows:
   interim guidance to the RPC, informing the RSWG of those interpretations.
 
 This model is designed to ensure public processes and policy documents,
-clear responsibilities and mechanisms for updates and changes to policies
+clear definitions of responsibilities and mechanisms for updates and changes to policies
 governing the RFC Series as a whole, and effective operational implementation of the
 RFC Series, thus meeting the requirements specified in Section 4 of {{RFC8729}}.
 
@@ -511,7 +511,7 @@ related to the RFC Series:
     the Editorial Stream.
 
 15. Policies may take effect immediately upon approval by the RSAB and 
-    before publication of the relevant RFC, unless unless they are delayed 
+    before publication of the relevant RFC, unless they are delayed 
     while the IETF LLC resolves pending resource or contract issues.
 
 ### Community Calls for Comment {#cfc}
