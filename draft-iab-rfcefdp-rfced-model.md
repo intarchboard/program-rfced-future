@@ -232,7 +232,7 @@ specified in {{BCP78}} and {{BCP79}}.
 When the RSWG is formed, all discussions shall take place on an
 open email discussion list, which shall be publicly archived. 
 
-The RSWG is empowered to hold in-person or online-only meetings,
+The RSWG is empowered to hold in-person, online-only, or hybrid meetings,
 which should be announced with sufficient notice to enable broad
 participation; the [IESG Guidance on Face-to-Face and Virtual Interim
 Meetings](https://www.ietf.org/about/groups/iesg/statements/interim-meetings-guidance-2016-01-16/) 
