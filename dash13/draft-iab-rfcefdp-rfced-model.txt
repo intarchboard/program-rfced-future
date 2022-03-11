@@ -3,11 +3,11 @@
 
 
 Network Working Group                                P. Saint-Andre, Ed.
-Internet-Draft                                             10 March 2022
+Internet-Draft                                             11 March 2022
 Obsoletes: 8728 (if approved)                                           
 Updates: 7841, 8729, 8730 (if approved)                                 
 Intended status: Informational                                          
-Expires: 11 September 2022
+Expires: 12 September 2022
 
 
                       RFC Editor Model (Version 3)
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 September 2022.
+   This Internet-Draft will expire on 12 September 2022.
 
 Copyright Notice
 
@@ -306,13 +306,13 @@ Table of Contents
    When the RSWG is formed, all discussions shall take place on an open
    email discussion list, which shall be publicly archived.
 
-   The RSWG is empowered to hold in-person or online-only meetings,
-   which should be announced with sufficient notice to enable broad
-   participation; the IESG Guidance on Face-to-Face and Virtual Interim
-   Meetings (https://www.ietf.org/about/groups/iesg/statements/interim-
-   meetings-guidance-2016-01-16/) provides a reasonable baseline.  In-
-   person meetings should include provision for effective online
-   participation for those unable to attend in person.
+   The RSWG is empowered to hold in-person, online-only, or hybrid
+   meetings, which should be announced with sufficient notice to enable
+   broad participation; the IESG Guidance on Face-to-Face and Virtual
+   Interim Meetings (https://www.ietf.org/about/groups/iesg/statements/
+   interim-meetings-guidance-2016-01-16/) provides a reasonable
+   baseline.  In-person meetings should include provision for effective
+   online participation for those unable to attend in person.
 
    The RSWG shall operate by rough consensus, a mode of operation
    informally described in [RFC2418].
