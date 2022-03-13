@@ -3,11 +3,11 @@
 
 
 Network Working Group                                P. Saint-Andre, Ed.
-Internet-Draft                                             11 March 2022
+Internet-Draft                                             13 March 2022
 Obsoletes: 8728 (if approved)                                           
 Updates: 7841, 8729, 8730 (if approved)                                 
 Intended status: Informational                                          
-Expires: 12 September 2022
+Expires: 14 September 2022
 
 
                       RFC Editor Model (Version 3)
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 September 2022.
+   This Internet-Draft will expire on 14 September 2022.
 
 Copyright Notice
 
@@ -329,7 +329,7 @@ Table of Contents
    The IETF LLC is requested to provide necessary tooling to support
    RSWG communication, decision processes, and policies.
 
-   The IAB is requested to convene the RSAB when it is first formed in
+   The IAB is requested to convene the RSWG when it is first formed in
    order to formalize the IAB's transfer of authority over the RFC
    Editor Model.
 
