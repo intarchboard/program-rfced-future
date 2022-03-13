@@ -255,7 +255,7 @@ should be considered appropriate.
 The IETF LLC is requested to provide necessary tooling to support 
 RSWG communication, decision processes, and policies.
 
-The IAB is requested to convene the RSAB when it is first formed in
+The IAB is requested to convene the RSWG when it is first formed in
 order to formalize the IAB's transfer of authority over the RFC Editor 
 Model.
 
