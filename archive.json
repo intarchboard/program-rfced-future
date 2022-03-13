@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-03-06T00:24:38.393087+00:00",
+  "timestamp": "2022-03-13T00:24:27.742547+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -6364,6 +6364,101 @@
       "mergeCommit": {
         "oid": "4dc24921be03419e40152f4c8a1ecd629daa2203"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 157,
+      "id": "PR_kwDODutrrM40Nvfb",
+      "title": "Editorial suggestions from Benjamin Kaduk's IESG review",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/157",
+      "state": "OPEN",
+      "author": "kaduk",
+      "authorAssociation": "NONE",
+      "assignees": [
+        "stpeter"
+      ],
+      "labels": [],
+      "body": "\"IESG Review\" in that I was reading the document because the IESG has a management item to approve it, not that it's formally undergoing IESG review.",
+      "createdAt": "2022-03-10T05:31:22Z",
+      "updatedAt": "2022-03-10T21:04:52Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "4dc24921be03419e40152f4c8a1ecd629daa2203",
+      "headRepository": "kaduk/program-rfced-future",
+      "headRefName": "nits",
+      "headRefOid": "50ad608d6953825215379ca2d64a0d8c57b752c5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODutrrM419lL9",
+          "commit": {
+            "abbreviatedOid": "50ad608"
+          },
+          "author": "kaduk",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-03-10T05:32:29Z",
+          "updatedAt": "2022-03-10T05:32:29Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "While I recognize that the existing text is more closely aligned with RFC 8729, the list structure is not parallel with \"to ensure\" for each of the three list items.  This is the best fix I came up with, though there may be others.",
+              "createdAt": "2022-03-10T05:32:29Z",
+              "updatedAt": "2022-03-10T05:32:29Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM42B3Wo",
+          "commit": {
+            "abbreviatedOid": "50ad608"
+          },
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-03-10T21:04:43Z",
+          "updatedAt": "2022-03-10T21:04:43Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "I would suggest:\r\n\r\n> clear lines of responsibility and authority, transparent mechanisms for updates and changes to policies\r\n\r\nI'll include this and other changes in a separate PR.",
+              "createdAt": "2022-03-10T21:04:43Z",
+              "updatedAt": "2022-03-10T21:04:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 158,
+      "id": "PR_kwDODutrrM40RHlV",
+      "title": "changes from IESG review",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/158",
+      "state": "OPEN",
+      "author": "stpeter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is a work in progress and not yet ready for submission as -13.",
+      "createdAt": "2022-03-10T22:29:41Z",
+      "updatedAt": "2022-03-11T16:33:09Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "4dc24921be03419e40152f4c8a1ecd629daa2203",
+      "headRepository": "intarchboard/program-rfced-future",
+      "headRefName": "dash13",
+      "headRefOid": "610f2f55aa6378ace6a12320f3bc206c1816b3d5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
