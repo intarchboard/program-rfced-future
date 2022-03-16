@@ -3,11 +3,11 @@
 
 
 Network Working Group                                P. Saint-Andre, Ed.
-Internet-Draft                                             13 March 2022
+Internet-Draft                                             16 March 2022
 Obsoletes: 8728 (if approved)                                           
 Updates: 7841, 8729, 8730 (if approved)                                 
 Intended status: Informational                                          
-Expires: 14 September 2022
+Expires: 17 September 2022
 
 
                       RFC Editor Model (Version 3)
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 September 2022.
+   This Internet-Draft will expire on 17 September 2022.
 
 Copyright Notice
 
@@ -153,8 +153,10 @@ Table of Contents
    is described in [RFC8729] and is updated by this document, which
    defines version 3 of the RFC Editor Model.  Under this version,
    various responsibilities of the RFC Editor Function are performed
-   alone or in combination by the RSWG, RSAB, RPC, RFC Series Consulting
-   Editor (RSCE), and IETF LLC, which collectively comprise the RFC
+   alone or in combination by the RFC Series Working Group (RSWG), RFC
+   Series Advisory Board (RSAB), RFC Production Center (RPC), RFC Series
+   Consulting Editor (RSCE), and IETF Administration Limited Liability
+   Company (IETF LLC) [RFC8711], which collectively comprise the RFC
    Editor Function.  The intent is to ensure sustainable maintenance and
    support of the RFC Series based on the principles of expert
    implementation, clear management and direction, and appropriate
@@ -165,9 +167,9 @@ Table of Contents
    boilerplate text for the Editorial Stream.  This document updates
    [RFC8729] by replacing the RFC Editor role with the RSWG, RSAB, and
    RSCE.  This document updates [RFC8730] by removing the dependency on
-   certain policies specified by the IAB and RSE.  More detailed
-   information about changes from version 2 of the Model can be found
-   under Section 9.
+   certain policies specified by the IAB and RFC Series Editor (RSE).
+   More detailed information about changes from version 2 of the Model
+   can be found under Section 9.
 
 2.  Overview of the Model
 
@@ -180,7 +182,7 @@ Table of Contents
        IETF that generates policy proposals.  Second, the RFC Series
        Approval Board (RSAB) is an appointed body that approves such
        proposals for publication in the Editorial Stream.  The RSAB
-       includes representatives of the streams [RFC8728] as well as an
+       includes representatives of the streams [RFC8729] as well as an
        expert in technical publishing, the RFC Series Consulting Editor
        (RSCE).
 
@@ -233,7 +235,7 @@ Table of Contents
    following high-level process:
 
    1.  Proposals must be submitted to, adopted by, and discussed within
-       the RFC Series Working Group (RSWG),
+       the RFC Series Working Group (RSWG).
 
    2.  Proposals must pass a last call for comments in the working group
        and a community call for comments (see Section 3.2.3).
@@ -296,12 +298,12 @@ Table of Contents
 
 3.1.1.4.  Mode of Operation
 
-   The intent is that the RSWG shall operate in a way similar to working
-   groups in the IETF.  Therefore, all RSWG meetings and discussion
-   venues shall be open to all interested individuals, and all RSWG
-   contributions shall be subject to intellectual property policies,
-   which must be consistent with those of the IETF as specified in
-   [BCP78] and [BCP79].
+   The intent is that the RSWG shall operate in a way similar to that of
+   working groups in the IETF.  Therefore, all RSWG meetings and
+   discussion venues shall be open to all interested individuals, and
+   all RSWG contributions shall be subject to intellectual property
+   policies, which must be consistent with those of the IETF as
+   specified in [BCP78] and [BCP79].
 
    When the RSWG is formed, all discussions shall take place on an open
    email discussion list, which shall be publicly archived.
@@ -345,8 +347,8 @@ Table of Contents
    the RSWG; it shall have no independent authority to formulate policy
    on its own.  It is expected that the RSAB will respect the rough
    consensus of the RSWG wherever possible, without ceding its
-   responsibility to provide their review of RSWG proposals as further
-   described under Section 3.2.2.
+   responsibility to review RSWG proposals as further described under
+   Section 3.2.2.
 
 3.1.2.2.  Members
 
@@ -396,20 +398,20 @@ Table of Contents
 3.1.2.3.  Appointment and Removal of Voting Members
 
    The appointing bodies, i.e., the stream approving bodies (IESG, IAB,
-   IRTF chair, ISE), shall determine their own processes for appointing
-   RSAB members (note that processes related to the RSCE are described
-   under Section 5).  Each appointing body shall have the power to
-   remove its appointed RSAB member at its discretion at any time.
-   Appointing bodies should ensure that voting members are seated at all
-   times and should fill any vacancies with all due speed, if necessary
-   on a temporary basis.
+   IRTF chair, and ISE), shall determine their own processes for
+   appointing RSAB members (note that processes related to the RSCE are
+   described under Section 5).  Each appointing body shall have the
+   power to remove its appointed RSAB member at its discretion at any
+   time.  Appointing bodies should ensure that voting members are seated
+   at all times and should fill any vacancies with all due speed, if
+   necessary on a temporary basis.
 
    In the case that the IRTF chair or ISE is incapacitated or otherwise
    unable to appoint another person to serve as a delegate, the IAB (as
-   the appointing body for the IRTF chair and ISE respectively) shall
-   act as the temporary appointing body for those streams and shall
-   appoint a temporary member of the RSAB until the IAB has appointed an
-   IRTF chair or ISE, who can then act as an RSAB member or appoint a
+   the appointing body for the IRTF chair and ISE) shall act as the
+   temporary appointing body for those streams and shall appoint a
+   temporary member of the RSAB until the IAB has appointed an IRTF
+   chair or ISE, who can then act as an RSAB member or appoint a
    delegate through normal processes.
 
 3.1.2.4.  Vacancies
@@ -526,7 +528,7 @@ Table of Contents
 
    4.   At some point, if the RSWG chairs believe there may be rough
         consensus for the proposal to advance, they will issue a last
-        call for comment within the working group.
+        call for comments within the working group.
 
    5.   After a comment period of suitable length, the RSWG chairs will
         determine whether rough consensus for the proposal exists
@@ -544,8 +546,8 @@ Table of Contents
         to the community call for comments, the RSAB may return the
         draft to the RSWG to consider those comments and make revisions
         to address the feedback received.  In parallel with the
-        community call for comments, the RSAB shall also consider the
-        proposal.
+        community call for comments, the RSAB itself shall also consider
+        the proposal.
 
    7.   If the scope of the revisions made in the previous step is
         substantial, an additional community call for comments should be
@@ -553,7 +555,7 @@ Table of Contents
         considered by the RSWG.
 
    8.   Once the RSWG chairs confirm that concerns received during the
-        community call(s) for comment have been addressed, they shall
+        community call(s) for comments have been addressed, they shall
         inform the RSAB that the document is ready for balloting by the
         RSAB.
 
@@ -585,7 +587,7 @@ Table of Contents
            long-term health and viability of the Series.
 
         *  The RSAB member believes, based on the results of the
-           community call(s) for comment Section 3.2.3, that rough
+           community call(s) for comments Section 3.2.3, that rough
            consensus to advance the proposal is lacking.
 
         Because RSAB members are expected to participate in the
@@ -593,7 +595,7 @@ Table of Contents
         during those discussions, most CONCERN positions should not come
         as a surprise to the RSWG.  Notwithstanding, late CONCERN
         positions are always possible if issues are identified during
-        RSAB review or the community call for comments.
+        RSAB review or the community call(s) for comments.
 
    10.  If a CONCERN exists, discussion will take place within the RSWG.
         Again, all RSAB members are expected to participate.  If
@@ -622,7 +624,7 @@ Table of Contents
 3.2.3.  Community Calls for Comment
 
    The RSAB is responsible for initiating and managing community calls
-   for comment on proposals that have gained consensus within the RSWG.
+   for comments on proposals that have gained consensus within the RSWG.
    The RSAB should actively seek a wide range of input.  The RSAB seeks
    such input by, at a minimum, sending a notice to the "rfc-interest"
    email list or to its successor or future equivalent.  RSAB members
@@ -643,11 +645,11 @@ Table of Contents
    RSCE.
 
    The RSAB should maintain a public list of communities that are
-   contacted during calls for comment.
+   contacted during calls for comments.
 
    A notice of a community call for comments contains the following:
 
-   *  A subject line beginning with 'Call for Comment:'
+   *  A subject line beginning with 'Call for Comments:'
 
    *  A clear, concise summary of the proposal
 
@@ -719,8 +721,8 @@ Table of Contents
    *  The RSAB, which approves that the boilerplate is not in conflict
       with the boilerplate used in the other streams
 
-   *  The RPC, which approves that the language of the boilerplate
-      conforms to the RFC Style Guide
+   *  The RPC, which approves that the language of the boilerplate is
+      consistent with the RFC Style Guide
 
    *  The IETF Trust, which approves that the boilerplate correctly
       states the Trust's position regarding rights and ownership
@@ -741,7 +743,8 @@ Table of Contents
 
    *  The RPC is advised by the RSCE and RSAB, and has a duty to consult
       with them under specific circumstances, such as those relating to
-      disagreements between authors and the RPC.
+      disagreements between authors and the RPC as described under
+      Section 4.4.
 
    *  The RPC is overseen by the IETF LLC to ensure that it performs in
       accordance with contracts in place.
@@ -771,20 +774,20 @@ Table of Contents
    negotiating performance targets for the RPC and also has
    responsibility for ensuring that those targets are met.  Such
    performance targets are set based on the RPC's publication load and
-   additional efforts required by policies specified in the Editorial
-   Stream, in existing RFCs which apply to the RPC and which have not
-   yet been superseded by Editorial Stream RFCs, and in the requisite
-   contracts.  The IETF LLC may consult with the community regarding
-   these targets.  The IETF LLC is empowered to appoint a manager or to
-   convene a committee to complete these activities.
+   additional efforts required to implement policies specified in the
+   Editorial Stream, in existing RFCs which apply to the RPC and which
+   have not yet been superseded by Editorial Stream RFCs, and in the
+   requisite contracts.  The IETF LLC may consult with the community
+   regarding these targets.  The IETF LLC is empowered to appoint a
+   manager or to convene a committee to complete these activities.
 
    If individuals or groups within the community have concerns about the
    performance of the RPC, they can request that the matter be
-   investigated by the IETF LLC board, the IETF LLC Executive Director,
+   investigated by the IETF LLC Board, the IETF LLC Executive Director,
    or a point of contact designated by the IETF LLC Board.  Even if the
    IETF LLC opts to delegate this activity, concerns should be raised
    with the IETF LLC.  The IETF LLC is ultimately answerable to the
-   community via the mechanisms outlined in its charter.
+   community via the mechanisms outlined in its charter [RFC8711].
 
 4.2.  Working Practices
 
@@ -844,7 +847,7 @@ Table of Contents
 
    9.   Identifying topics and issues that they encounter while
         processing documents or carrying out other responsibilities on
-        this list for which they lack sufficient expertise and
+        this list for which they lack sufficient expertise, and
         identifying and conferring with relevant experts as needed.
 
    10.  Providing reports to the community on its performance and plans.
@@ -947,7 +950,7 @@ Table of Contents
    account the RPC responsibilities (as described under Section 4.3),
    the needs of the streams, and community input.
 
-   The process to select and contract for an RFC Production Center and
+   The process to select and contract for the RFC Production Center and
    other RFC-related services is as follows:
 
    *  The IETF LLC establishes the contract process, including the steps
@@ -1252,11 +1255,11 @@ Table of Contents
    processing, and publication of documents (Section 4.2 of [RFC8729]),
    and development and maintenance of Series-wide guidelines and rules
    (Section 4.4 of [RFC8729]).  Among other things this changes the
-   dependency on the RSE included in Section 2.2 of [RFC8730] with
-   regard to "coordinating work and conforming to general RFC Series
-   policies as specified by the IAB and RSE."  In addition, various
-   details regarding these responsibilities have been modified to accord
-   with the new framework defined in this document.
+   dependency on the RFC Series Editor (RSE) included in Section 2.2 of
+   [RFC8730] with regard to "coordinating work and conforming to general
+   RFC Series policies as specified by the IAB and RSE."  In addition,
+   various details regarding these responsibilities have been modified
+   to accord with the framework defined in this document.
 
 9.2.  RFC Series Editor
 
@@ -1429,9 +1432,9 @@ Table of Contents
    [I-D.draft-carpenter-rfced-iab-charter]
               Carpenter, B. E., "IAB Charter Update for RFC Editor
               Model", Work in Progress, Internet-Draft, draft-carpenter-
-              rfced-iab-charter-07, 10 March 2022,
+              rfced-iab-charter-08, 15 March 2022,
               <https://datatracker.ietf.org/doc/html/draft-carpenter-
-              rfced-iab-charter-07>.
+              rfced-iab-charter-08>.
 
    [RFC2850]  Internet Architecture Board and B. Carpenter, Ed.,
               "Charter of the Internet Architecture Board (IAB)",
@@ -1486,11 +1489,12 @@ Acknowledgments
    publication), Wesley Eddy, Lars Eggert, Adrian Farrel, Stephen
    Farrell, Sandy Ginoza, Bron Gondwana, Joel Halpern, Wes Hardaker, Bob
    Hinden, Russ Housley, Christian Huitema, Ole Jacobsen, Sheng Jiang,
-   John Klensin, Mirja Kuehlewind, Ted Lemon, John Levine, Lucy Lynch,
-   Andrew Malis, Larry Masinter, S.  Moonesamy, Russ Mundy, Mark
-   Nottingham, Tommy Pauly, Colin Perkins, Julian Reschke, Eric
-   Rescorla, Adam Roach, Dan Romascanu, Alice Russo, Doug Royer, Rich
-   Salz, Stig Venaas, Tim Wicinski, and Nico Williams.
+   Benjamin Kaduk, John Klensin, Murray Kucherawy, Mirja Kuehlewind, Ted
+   Lemon, John Levine, Lucy Lynch, Jean Mahoney, Andrew Malis, Larry
+   Masinter, S.  Moonesamy, Russ Mundy, Mark Nottingham, Tommy Pauly,
+   Colin Perkins, Julian Reschke, Eric Rescorla, Alvaro Retana, Adam
+   Roach, Dan Romascanu, Alice Russo, Doug Royer, Rich Salz, John
+   Scudder, Stig Venaas, Tim Wicinski, and Nico Williams.
 
 Author's Address
 
