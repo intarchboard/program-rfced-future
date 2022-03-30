@@ -3,11 +3,11 @@
 
 
 Network Working Group                                P. Saint-Andre, Ed.
-Internet-Draft                                             16 March 2022
+Internet-Draft                                             30 March 2022
 Obsoletes: 8728 (if approved)                                           
 Updates: 7841, 8729, 8730 (if approved)                                 
 Intended status: Informational                                          
-Expires: 17 September 2022
+Expires: 1 October 2022
 
 
                       RFC Editor Model (Version 3)
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 September 2022.
+   This Internet-Draft will expire on 1 October 2022.
 
 Copyright Notice
 
@@ -1480,8 +1480,8 @@ Acknowledgments
    Portions of this document were borrowed from [RFC5620], [RFC6635],
    [RFC8728], [RFC8729], the Frequently Asked Questions of the IETF
    Trust, and earlier proposals submitted within the IAB's RFC Editor
-   Future Development Program by Martin Thomson, Brian Carpenter, and
-   Michael StJohns.  Thanks to Eliot Lear and Brian Rosen in their role
+   Future Development Program by Brian Carpenter, Michael StJohns, and
+   Martin Thomson.  Thanks to Eliot Lear and Brian Rosen in their role
    as chairs of the Program for their leadership and assistance.  Thanks
    also for feedback and proposed text to Jari Arkko, Sarah Banks,
    Carsten Bormann, Scott Bradner, Nevil Brownlee, Ben Campbell, Jay
@@ -1491,7 +1491,7 @@ Acknowledgments
    Hinden, Russ Housley, Christian Huitema, Ole Jacobsen, Sheng Jiang,
    Benjamin Kaduk, John Klensin, Murray Kucherawy, Mirja Kuehlewind, Ted
    Lemon, John Levine, Lucy Lynch, Jean Mahoney, Andrew Malis, Larry
-   Masinter, S.  Moonesamy, Russ Mundy, Mark Nottingham, Tommy Pauly,
+   Masinter, S.  Moonesamy, Mark Nottingham, Russ Mundy, Tommy Pauly,
    Colin Perkins, Julian Reschke, Eric Rescorla, Alvaro Retana, Adam
    Roach, Dan Romascanu, Alice Russo, Doug Royer, Rich Salz, John
    Scudder, Stig Venaas, Tim Wicinski, and Nico Williams.
