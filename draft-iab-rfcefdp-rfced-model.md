@@ -1235,7 +1235,7 @@ Portions of this document were borrowed from {{RFC5620}},
 {{RFC6635}}, {{RFC8728}}, {{RFC8729}}, the Frequently Asked 
 Questions of the IETF Trust, and earlier proposals
 submitted within the IAB's RFC Editor Future Development Program
-by Martin Thomson, Brian Carpenter, and Michael StJohns. Thanks
+by Brian Carpenter, Michael StJohns, and Martin Thomson. Thanks
 to Eliot Lear and Brian Rosen in their role as chairs of the Program
 for their leadership and assistance. Thanks also for feedback and
 proposed text to
@@ -1271,8 +1271,8 @@ Jean Mahoney,
 Andrew Malis,
 Larry Masinter,
 S. Moonesamy,
-Russ Mundy,
 Mark Nottingham,
+Russ Mundy,
 Tommy Pauly,
 Colin Perkins,
 Julian Reschke,
