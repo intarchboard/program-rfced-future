@@ -1493,7 +1493,7 @@ Acknowledgments
    Lemon, John Levine, Lucy Lynch, Jean Mahoney, Andrew Malis, Larry
    Masinter, S.  Moonesamy, Mark Nottingham, Russ Mundy, Tommy Pauly,
    Colin Perkins, Julian Reschke, Eric Rescorla, Alvaro Retana, Adam
-   Roach, Dan Romascanu, Alice Russo, Doug Royer, Rich Salz, John
+   Roach, Dan Romascanu, Doug Royer, Alice Russo, Rich Salz, John
    Scudder, Stig Venaas, Tim Wicinski, and Nico Williams.
 
 Author's Address
